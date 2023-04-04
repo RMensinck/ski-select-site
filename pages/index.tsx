@@ -47,7 +47,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Ski Selector</h1>
         <p className={styles.description}>
-          Find the ski that fits you!
+          Find the best skis for you!
         </p>
         <div className={styles.grid}>
           {inputFields.map((input, index) => (
@@ -75,7 +75,7 @@ export default function Home() {
             <h2>Your Top Ski Choices</h2>
             {scores.slice(0, 5).map((ski, index) => (
               <p key={index}>
-                {ski.score} {ski.name}
+                {ski["score"]} {ski["name"]}
               </p>
             ))}
           </div>
