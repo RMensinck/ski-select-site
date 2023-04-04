@@ -11,12 +11,13 @@ export default function Home() {
   const [park, setPark] = useState(start_value)
   const [powder, setPowder] = useState(start_value)
   const [freeride, setFreeride] = useState(start_value)
+  const [touring, setTouring] = useState(start_value)
   const [scores, setScores] = useState([])
   const [loading, setLoading] = useState(false)
 
   const getScores = async () => {
     setLoading(true)
-    const result = await (await fetch(`https://ski-selector-rhsyf3ay4q-ez.a.run.app/?level=${level}&playfull=${playfull}&piste=${piste}&powder=${powder}&freeride=${freeride}&park=${park}`)).text()
+    const result = await (await fetch(`https://ski-selector-rhsyf3ay4q-ez.a.run.app/?level=${level}&playfull=${playfull}&piste=${piste}&powder=${powder}&freeride=${freeride}&park=${park}&touring=${touring}`)).text()
     const json_result = JSON.parse(result)
     const ski_names = Object.keys(json_result)
     const result_array = []
@@ -35,6 +36,7 @@ export default function Home() {
     { "name": "Park", "id": "park", "setFunction": setPark },
     { "name": "Powder", "id": "powder", "setFunction": setPowder },
     { "name": "Freeride", "id": "freeride", "setFunction": setFreeride },
+    { "name": "Touring", "id": "touring", "setFunction": setTouring },
     { "name": "User level", "id": "level", "setFunction": setLevel },
     { "name": "Playfullness", "id": "playfull", "setFunction": setPlayfull },
   ]
