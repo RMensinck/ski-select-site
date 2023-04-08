@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react';
+import SideBar from './sidebar';
+import { isBrowser } from 'react-device-detect';
 
 const info_texts = {
   "level": {
@@ -153,47 +155,57 @@ export default function Home() {
       <Head>
         <title>Ski Selector</title>
       </Head>
-      <main className="p-6">
-        <div className="grid place-items-center rounded-xl py-4 bg-slate-100">
-          <h1 className="text-4xl font-bold mb-4">Ski Selector</h1>
-          <p className="text-gray-600 mb-6">
-            Find the best skis for you!
-          </p>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
-            {inputFields.map((input, index) => (
-              <div key={index}>
-                <label htmlFor={input.id} className="text-gray-600 block mb-2">
-                  {`"${input.info}"`}
-                </label>
-                <input
-                  type="range"
-                  id={input.id}
-                  name={input.id}
-                  defaultValue={input.default_val.toString()}
-                  min="1"
-                  max="10"
-                  onChange={(val) => {
-                    input.setFunction(Number(val.target.value))
-                    input.setInfo(info_texts[input.id][val.target.value])
-                  }
-                  }
-                  className="w-60"
-                />
+      <main className="">
+        <div className="flex">
+          <SideBar />
+          <div className="bg-[url('../public/layered-peaks-haikei.svg')] bg-cover w-screen h-[150vh] absolute">
+            <div className="rounded-xl py-4 bg-opacity-50 bg-slate-100 max-w-3xl mx-auto lg:my-10 shadow-lg">
+              <div className="grid place-items-center ">
+                <h1 className="text-4xl font-bold mb-4">Ski Selector</h1>
+                <p className="text-gray-600 mb-6">
+                  Find the best skis for you!
+                </p>
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
+                  {inputFields.map((input, index) => (
+                    <div key={index}>
+                      <label htmlFor={input.id} className="text-gray-600 block mb-2">
+                        {`"${input.info}"`}
+                      </label>
+                      <input
+                        type="range"
+                        id={input.id}
+                        name={input.id}
+                        defaultValue={input.default_val.toString()}
+                        min="1"
+                        max="10"
+                        onChange={(val) => {
+                          input.setFunction(Number(val.target.value))
+                          input.setInfo(info_texts[input.id][val.target.value])
+                        }
+                        }
+                        className="w-60 accent-blue-500"
+                      />
+                    </div>
+                  ))}
+                </div>
+                <button onClick={() => getScores()} className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg">
+                  {loading ? 'Loading...' : 'Submit'}
+                </button>
+                <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
+                  <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
+                  {scores.slice(0, 5).map((ski, index) => (
+                    <p key={index} className="text-gray-600">
+                      {ski["score"]} {ski["name"]}
+                    </p>
+                  ))}
+                </div>
               </div>
-            ))}
-          </div>
-          <button onClick={() => getScores()} className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-300">
-            {loading ? 'Loading...' : 'Submit'}
-          </button>
-          <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
-            <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
-            {scores.slice(0, 5).map((ski, index) => (
-              <p key={index} className="text-gray-600">
-                {ski["score"]} {ski["name"]}
-              </p>
-            ))}
+            </div>
+
           </div>
         </div>
+
+
       </main>
     </>
   )
