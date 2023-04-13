@@ -19,10 +19,10 @@ const info_texts = {
   "piste": {
     1: "I never ski on piste.",
     2: "I never ski on piste.",
-    3: "I don't care about piste.",
-    4: "I don't care about piste.",
-    5: "I ski piste occasionally.",
-    6: "I ski piste occasionally.",
+    3: "I wont use this ski on piste.",
+    4: "I wont use this ski on piste.",
+    5: "I want it to be decent on piste.",
+    6: "I want it to be decent on piste.",
     7: "I spend most days on piste.",
     8: "I spend most days on piste.",
     9: "Skiing slopes is my life!",
@@ -163,7 +163,7 @@ export default function Home() {
               <div className="grid place-items-center ">
                 <h1 className="text-4xl font-bold mb-4">Ski Selector</h1>
                 <p className="text-gray-600 mb-6">
-                  Find the best skis for you!
+                  Move the sliders around to find the right ski!
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
                   {inputFields.map((input, index) => (
@@ -189,7 +189,7 @@ export default function Home() {
                   ))}
                 </div>
                 <button onClick={() => getScores()} className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg">
-                  {loading ? 'Loading...' : 'Submit'}
+                  {loading ? 'Loading...' : 'Find skis!'}
                 </button>
                 <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
                   <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
