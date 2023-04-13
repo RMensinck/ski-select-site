@@ -114,7 +114,7 @@ export default function Home() {
   const [touringInfo, setTouringInfo] = useState(info_texts.touring[touring_default])
   const [levelInfo, setLevelInfo] = useState(info_texts.level[level_default])
   const [playfullInfo, setPlayfullInfo] = useState(info_texts.playfull[playfull_default])
-
+  const [buttonVisable, setButtonVisable] = useState(true)
   interface InputField {
     name: string;
     id: string;
@@ -123,13 +123,14 @@ export default function Home() {
     info: string;
     setInfo: (value: any) => void;
   }
-
+  var timeout
   const getScores = async () => {
     setLoading(true)
     const result = await (await fetch(`https://ski-selector-rhsyf3ay4q-ez.a.run.app/?level=${level}&playfull=${playfull}&piste=${piste}&powder=${powder}&freeride=${freeride}&park=${park}&touring=${touring}`)).text()
     const json_result = JSON.parse(result)
     const ski_names = Object.keys(json_result)
     const result_array = []
+    
     for (const ski of ski_names) {
       result_array.push({ "name": ski, "score": json_result[ski] })
     }
@@ -179,19 +180,28 @@ export default function Home() {
                         defaultValue={input.default_val.toString()}
                         min="1"
                         max="10"
-                        onChange={(val) => {
+                        onChange={(val) => {                         
                           input.setFunction(Number(val.target.value))
-                          input.setInfo(info_texts[input.id][val.target.value])
+                          input.setInfo(info_texts[input.id][val.target.value])                         
+                          setButtonVisable(false)
                         }
                         }
+                        onMouseUp={() => getScores()}
+                        onTouchEnd={() => getScores()}
                         className="w-60 accent-blue-500"
                       />
                     </div>
                   ))}
                 </div>
-                <button onClick={() => getScores()} className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg">
+                {buttonVisable && <button 
+                  onClick={() => {
+                    getScores()
+                    setButtonVisable(false)
+                  }} 
+                  className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg"
+                  >
                   {loading ? 'Loading...' : 'Find skis!'}
-                </button>
+                </button>}
                 <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
                   <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
                   {scores.slice(0, 5).map((ski, index) => (
