@@ -155,6 +155,7 @@ export default function Home() {
       <Head>
         <title>Ski Selector</title>
       </Head>
+      
       <main className="">
         <div className="flex">
           <SideBar />
