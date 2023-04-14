@@ -115,7 +115,8 @@ export default function Home() {
   const [playfullInfo, setPlayfullInfo] = useState(info_texts.playfull[playfull_default])
   const [buttonVisable, setButtonVisable] = useState(true)
   const [testText, setTestText] = useState("test text 1")
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrestuvwxyz"
+  const alphabet: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrestuvwxyz"
+  const numbers: string ="0123456789"
   const [result1, setResult1] = useState("")
   const [result2, setResult2] = useState("")
   const [result3, setResult3] = useState("")
@@ -150,12 +151,16 @@ export default function Home() {
     let iterations: number = 0 
     const interval = setInterval(() => {
       setFunction(text.split("").map((letter: string, index: number) => {
-        if (letter == " " || letter == "|") {
-          return letter
-        }
         if(index + 15 < iterations ) {
           return letter
+        }        
+        if (letter == " " || letter == "|" || letter == ".") {
+          return letter
         }
+        if (parseInt(letter)) {
+          return numbers[(Math.floor((Math.random()) * 10))]
+        }
+
         return alphabet[(Math.floor((Math.random()) * 52))]
       }).join("")
       )
