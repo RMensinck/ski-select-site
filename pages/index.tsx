@@ -153,14 +153,14 @@ export default function Home() {
         if (letter == " " || letter == "|") {
           return letter
         }
-        if(index < iterations) {
+        if(index + 15 < iterations ) {
           return letter
         }
         return alphabet[(Math.floor((Math.random()) * 52))]
       }).join("")
       )
       
-      if(iterations >= 40) clearInterval(interval)
+      if(iterations >= 60) clearInterval(interval)
       iterations += 1
       
     }, 25)
