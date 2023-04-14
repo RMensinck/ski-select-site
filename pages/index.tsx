@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import SideBar from './sidebar';
-import { isBrowser } from 'react-device-detect';
 
 const info_texts = {
   "level": {
@@ -115,15 +114,15 @@ export default function Home() {
   const [levelInfo, setLevelInfo] = useState(info_texts.level[level_default])
   const [playfullInfo, setPlayfullInfo] = useState(info_texts.playfull[playfull_default])
   const [buttonVisable, setButtonVisable] = useState(true)
-  interface InputField {
-    name: string;
-    id: string;
-    setFunction: (value: any) => void;
-    default_val: number;
-    info: string;
-    setInfo: (value: any) => void;
-  }
-  var timeout
+  const [testText, setTestText] = useState("test text 1")
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrestuvwxyz"
+  const [result1, setResult1] = useState("")
+  const [result2, setResult2] = useState("")
+  const [result3, setResult3] = useState("")
+  const [result4, setResult4] = useState("")
+  const [result5, setResult5] = useState("")
+
+
   const getScores = async () => {
     setLoading(true)
     const result = await (await fetch(`https://ski-selector-rhsyf3ay4q-ez.a.run.app/?level=${level}&playfull=${playfull}&piste=${piste}&powder=${powder}&freeride=${freeride}&park=${park}&touring=${touring}`)).text()
@@ -132,16 +131,43 @@ export default function Home() {
     const result_array = []
     
     for (const ski of ski_names) {
-      result_array.push({ "name": ski, "score": json_result[ski] })
+      result_array.push({ "name": ski, "score": json_result[ski].toFixed(1) })
     }
+    // CAREFULL, toFixed turns scores into strings
     const sorted_results: any = result_array.sort(
-      (ski1, ski2) => (ski1.score < ski2.score) ? 1 : (ski1.score > ski2.score) ? -1 : 0
+      (ski1, ski2) => (ski1.score.parseInt < ski2.score) ? 1 : (ski1.score > ski2.score) ? -1 : 0
     )
     setScores(sorted_results)
     setLoading(false)
+    setTextWithAnimation(sorted_results[0].score + " | " + sorted_results[0].name, setResult1)
+    setTextWithAnimation(sorted_results[1].score + " | " + sorted_results[1].name, setResult2)
+    setTextWithAnimation(sorted_results[2].score + " | " + sorted_results[2].name, setResult3)
+    setTextWithAnimation(sorted_results[3].score + " | " + sorted_results[3].name, setResult4)
+    setTextWithAnimation(sorted_results[4].score + " | " + sorted_results[4].name, setResult5)
+  }
+  
+  const setTextWithAnimation = (text: string, setFunction) => {
+    let iterations: number = 0 
+    const interval = setInterval(() => {
+      setFunction(text.split("").map((letter: string, index: number) => {
+        if (letter == " " || letter == "|") {
+          return letter
+        }
+        if(index < iterations) {
+          return letter
+        }
+        return alphabet[(Math.floor((Math.random()) * 52))]
+      }).join("")
+      )
+      
+      if(iterations >= 40) clearInterval(interval)
+      iterations += 1
+      
+    }, 25)
   }
 
-  const inputFields: InputField[] = [
+
+  const inputFields = [
     { "name": "Piste", "id": "piste", "setFunction": setPiste, "default_val": piste_default, "info": pisteInfo, "setInfo": setPisteInfo },
     { "name": "Park", "id": "park", "setFunction": setPark, "default_val": park_default, "info": parkInfo, "setInfo": setParkInfo },
     { "name": "Powder", "id": "powder", "setFunction": setPowder, "default_val": powder_default, "info": powderInfo, "setInfo": setPowderInfo },
@@ -184,8 +210,7 @@ export default function Home() {
                           input.setFunction(Number(val.target.value))
                           input.setInfo(info_texts[input.id][val.target.value])                         
                           setButtonVisable(false)
-                        }
-                        }
+                        }}
                         onMouseUp={() => getScores()}
                         onTouchEnd={() => getScores()}
                         className="w-60 accent-blue-500"
@@ -202,13 +227,14 @@ export default function Home() {
                   >
                   {loading ? 'Loading...' : 'Find skis!'}
                 </button>}
+                
                 <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
                   <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
-                  {scores.slice(0, 5).map((ski, index) => (
-                    <p key={index} className="text-gray-600">
-                      {ski["score"]} {ski["name"]}
-                    </p>
-                  ))}
+                  <p className="text-gray-600 font-mono">{result1}</p>
+                  <p className="text-gray-600 font-mono">{result2}</p>
+                  <p className="text-gray-600 font-mono">{result3}</p>
+                  <p className="text-gray-600 font-mono">{result4}</p>
+                  <p className="text-gray-600 font-mono">{result5}</p>
                 </div>
               </div>
             </div>
