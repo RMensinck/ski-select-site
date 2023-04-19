@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react';
 import SideBar from './sidebar';
 
+
 const info_texts = {
   "level": {
     1: "I never skied before.",
@@ -191,17 +192,17 @@ export default function Home() {
       <main className="">
         <div className="flex">
           <SideBar />
-          <div className="bg-[url('../public/layered-peaks-haikei.svg')] bg-cover w-screen h-[150vh] absolute">
-            <div className="rounded-xl py-4 bg-opacity-50 bg-slate-100 max-w-3xl mx-auto lg:my-10 shadow-lg">
+          <div className="bg-[url('../public/background.svg')] bg-cover w-screen lg:h-screen h-[130vh] absolute flex items-center">
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
-                <h1 className="text-4xl font-bold mb-4">Ski Selector</h1>
-                <p className="text-gray-600 mb-6">
+                <h1 className="text-4xl font-bold text-dark-blue mb-4">Ski Selector</h1>
+                <p className="text-gray-600 mb-6 text-dark-blue">
                   Move the sliders around to find the right ski!
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
                   {inputFields.map((input, index) => (
                     <div key={index}>
-                      <label htmlFor={input.id} className="text-gray-600 block mb-2">
+                      <label htmlFor={input.id} className="text-dark-blue block mb-2">
                         {`"${input.info}"`}
                       </label>
                       <input
@@ -218,7 +219,7 @@ export default function Home() {
                         }}
                         onMouseUp={() => getScores()}
                         onTouchEnd={() => getScores()}
-                        className="w-60 accent-blue-500"
+                        className="w-60 accent-dark-blue "
                       />
                     </div>
                   ))}
@@ -228,18 +229,18 @@ export default function Home() {
                     getScores()
                     setButtonVisable(false)
                   }} 
-                  className="bg-blue-500 text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg"
+                  className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg"
                   >
                   {loading ? 'Loading...' : 'Find skis!'}
                 </button>}
                 
-                <div className={`mt-6 bg-slate-200 rounded-xl  transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
-                  <h2 className="text-2xl font-bold mb-2">Your Top Ski Choices</h2>
-                  <p className="text-gray-600 font-mono">{result1}</p>
-                  <p className="text-gray-600 font-mono">{result2}</p>
-                  <p className="text-gray-600 font-mono">{result3}</p>
-                  <p className="text-gray-600 font-mono">{result4}</p>
-                  <p className="text-gray-600 font-mono">{result5}</p>
+                <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
+                  <h2 className="text-2xl text-dark-blue font-bold mb-2">Your Top Ski Choices</h2>
+                  <p className="text-dark-blue font-mono">{result1}</p>
+                  <p className="text-dark-blue font-mono">{result2}</p>
+                  <p className="text-dark-blue font-mono">{result3}</p>
+                  <p className="text-dark-blue font-mono">{result4}</p>
+                  <p className="text-dark-blue font-mono">{result5}</p>
                 </div>
               </div>
             </div>

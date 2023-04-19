@@ -6,6 +6,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      "white": "#e7ecef",
+      "dark-blue": "#274c77",
+      "mid-blue": "#6096ba",
+      "light-blue": "#a3cef1",
+      "brown": "#8b8c89",
+      "grey": "#f1f5f9",
+      "green": "#8fb0ad",
+    },
     extend: {
       fontFamily: {
         sans: ['"PT Sans"', 'sans-serif']

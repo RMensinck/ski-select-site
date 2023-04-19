@@ -5,13 +5,13 @@
 @layer components {
     .sidebar-icon {
         @apply relative flex items-center justify-center 
-        h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-blue-500 text-blue-700 hover:bg-slate-100 
+        h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-green text-white hover:bg-mid-blue 
         rounded-3xl hover:rounded-xl cursor-pointer transition-all duration-500;
     }
 
     .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max left-14
-        rounded-md shadow-md text-white bg-gray-900
+        rounded-md shadow-md text-white bg-brown
         text-xs font-bold 
         transition-all duration-100 origin-left;
     }
