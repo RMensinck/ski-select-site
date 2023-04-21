@@ -24,7 +24,7 @@ const textsHome = {
     "nl": "Onze ski suggesties.",
   },
   welcomeMessage: {
-    "en": "Hi there!🙋‍♂️ This tool is brand new, i hope you enjoy it, and would love to hear your oppinion!", 
+    "en": "Hi there!🙋‍♂️ This tool is brand new, i hope you enjoy it, and would love to hear your opinion!", 
     "nl": "Hey daar!🙋‍♂️ De tool is net nieuw, hopelijk ervaar je het als nuttig, ik ben erg benieuwd naar je mening!",
   },
   welcomeMessage2: {
