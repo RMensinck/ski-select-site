@@ -1,96 +1,12 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react';
-import SideBar from './sidebar';
-
-
-const info_texts = {
-  "level": {
-    1: "I never skied before.",
-    2: "I never skied before.",
-    3: "I've skied a couple of weeks.",
-    4: "I've skied a couple of weeks.",
-    5: "I ski 1-10 days a year.",
-    6: "I ski 1-10 days a year.",
-    7: "I ski multiple weeks every year.",
-    8: "I ski multiple weeks every year.",
-    9: "I live in the mountains!",
-    10: "I live in the mountains!",
-  },
-  "piste": {
-    1: "I never ski on piste.",
-    2: "I never ski on piste.",
-    3: "I wont use this ski on piste.",
-    4: "I wont use this ski on piste.",
-    5: "I want it to be decent on piste.",
-    6: "I want it to be decent on piste.",
-    7: "I spend most days on piste.",
-    8: "I spend most days on piste.",
-    9: "Skiing slopes is my life!",
-    10: "Skiing slopes is my life!",
-  },
-  "powder": {
-    1: "I never ski powder.",
-    2: "I never ski powder.",
-    3: "I like fresh snow on the slopes.",
-    4: "I like fresh snow on the slopes.",
-    5: "I like to ski between slopes",
-    6: "I like to ski between slopes",
-    7: "I like long powder runs",
-    8: "I like long powder runs",
-    9: "I travel for deep powder!",
-    10: "I travel for deep powder!",
-  },
-  "freeride": {
-    1: "I dont care about freeride.",
-    2: "I dont care about freeride.",
-    3: "I like to ski trails in the forrest",
-    4: "I like to ski trails in the forrest",
-    5: "I occasionally go off-piste",
-    6: "I occasionally go off-piste",
-    7: "I'm often looking cool lines",
-    8: "I'm often looking cool lines",
-    9: "I ride freeride competitions!",
-    10: "I ride freeride competitions!",
-  },
-  "touring": {
-    1: "I never go skitouring.",
-    2: "I never go skitouring.",
-    3: "I might try skitouring once.",
-    4: "I might try skitouring once.",
-    5: "I go touring once or twice",
-    6: "I go touring once or twice",
-    7: "I like skitouring regularly",
-    8: "I like skitouring regularly",
-    9: "Skitouring is all i do!",
-    10: "Skitouring is all i do!",
-  },
-  "park": {
-    1: "I never ski in the funpark.",
-    2: "I never ski in the funpark.",
-    3: "I might try a funpark lap.",
-    4: "I might try a funpark lap.",
-    5: "I occasionally ride park.",
-    6: "I occasionally ride park.",
-    7: "I regularly ride park",
-    8: "I regularly ride park",
-    9: "I spend most time in the park!",
-    10: "I spend most time in the park!",
-  },
-  "playfull": {
-    1: "I like high-performance ski's!",
-    2: "I like high-performance ski's!",
-    3: "I'm a strong, fast skier.",
-    4: "I'm a strong, fast skier.",
-    5: "I like a stable, forgiving ski.",
-    6: "I like a stable, forgiving ski.",
-    7: "I like a playfull ski.",
-    8: "I like a playfull ski.",
-    9: "I just butter and jump around!",
-    10: "I just butter and jump around!",
-  }
-}
+import { useState } from 'react';
+import SideBar from '../components/sidebar';
+import texts from '../components/textsHome'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter()
+  const { locale } = router 
   const playfull_default = 5
   const level_default = 1
   const piste_default = 7
@@ -107,15 +23,14 @@ export default function Home() {
   const [touring, setTouring] = useState(touring_default)
   const [scores, setScores] = useState([])
   const [loading, setLoading] = useState(false)
-  const [pisteInfo, setPisteInfo] = useState(info_texts.piste[piste_default])
-  const [powderInfo, setPowderInfo] = useState(info_texts.powder[powder_default])
-  const [freerideInfo, setFreerideInfo] = useState(info_texts.freeride[freeride_default])
-  const [parkInfo, setParkInfo] = useState(info_texts.park[park_default])
-  const [touringInfo, setTouringInfo] = useState(info_texts.touring[touring_default])
-  const [levelInfo, setLevelInfo] = useState(info_texts.level[level_default])
-  const [playfullInfo, setPlayfullInfo] = useState(info_texts.playfull[playfull_default])
+  const [pisteInfo, setPisteInfo] = useState(texts.sliders.piste[locale][piste_default])
+  const [powderInfo, setPowderInfo] = useState(texts.sliders.powder[locale][powder_default])
+  const [freerideInfo, setFreerideInfo] = useState(texts.sliders.freeride[locale][freeride_default])
+  const [parkInfo, setParkInfo] = useState(texts.sliders.park[locale][park_default])
+  const [touringInfo, setTouringInfo] = useState(texts.sliders.touring[locale][touring_default])
+  const [levelInfo, setLevelInfo] = useState(texts.sliders.level[locale][level_default])
+  const [playfullInfo, setPlayfullInfo] = useState(texts.sliders.playfull[locale][playfull_default])
   const [buttonVisable, setButtonVisable] = useState(true)
-  const [testText, setTestText] = useState("test text 1")
   const alphabet: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrestuvwxyz"
   const numbers: string ="0123456789"
   const [result1, setResult1] = useState("")
@@ -123,6 +38,7 @@ export default function Home() {
   const [result3, setResult3] = useState("")
   const [result4, setResult4] = useState("")
   const [result5, setResult5] = useState("")
+
 
 
   const getScores = async () => {
@@ -137,7 +53,7 @@ export default function Home() {
     }
     // CAREFULL, toFixed turns scores into strings
     const sorted_results: any = result_array.sort(
-      (ski1, ski2) => (ski1.score.parseInt < ski2.score) ? 1 : (ski1.score > ski2.score) ? -1 : 0
+      (ski1, ski2) => (parseFloat(ski1.score) < parseFloat(ski2.score)) ? 1 : (parseFloat(ski1.score) > parseFloat(ski2.score)) ? -1 : 0
     )
     setScores(sorted_results)
     setLoading(false)
@@ -186,18 +102,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ski Selector</title>
+        <title>{texts.header[locale]}</title>
       </Head>
       
       <main className="">
         <div className="flex">
           <SideBar />
-          <div className="bg-[url('../public/background.svg')] bg-cover w-screen lg:h-screen h-[130vh] absolute flex items-center">
+          <div className="bg-[url('../public/background.svg')] bg-cover w-screen lg:h-screen h-[130vh] absolute flex flex-col items-center justify-center">
             <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
-                <h1 className="text-4xl font-bold text-dark-blue mb-4">Ski Selector</h1>
-                <p className="text-gray-600 mb-6 text-dark-blue">
-                  Move the sliders around to find the right ski!
+                <h1 className="text-4xl font-bold text-dark-blue my-4">
+                  {texts.title[locale]}
+                </h1>
+                <p className="mb-6 text-dark-blue">
+                {texts.info[locale]}
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
                   {inputFields.map((input, index) => (
@@ -214,7 +132,7 @@ export default function Home() {
                         max="10"
                         onChange={(val) => {                         
                           input.setFunction(Number(val.target.value))
-                          input.setInfo(info_texts[input.id][val.target.value])                         
+                          input.setInfo(texts.sliders[input.id][locale][val.target.value])                         
                           setButtonVisable(false)
                         }}
                         onMouseUp={() => getScores()}
@@ -231,11 +149,11 @@ export default function Home() {
                   }} 
                   className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg"
                   >
-                  {loading ? 'Loading...' : 'Find skis!'}
+                  {loading ? texts.buttonLoading[locale] : texts.button[locale]}
                 </button>}
                 
                 <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
-                  <h2 className="text-2xl text-dark-blue font-bold mb-2">Your Top Ski Choices</h2>
+                  <h2 className="text-2xl text-dark-blue font-bold mb-2">{texts.choicesTitle[locale]}</h2>
                   <p className="text-dark-blue font-mono">{result1}</p>
                   <p className="text-dark-blue font-mono">{result2}</p>
                   <p className="text-dark-blue font-mono">{result3}</p>
@@ -244,7 +162,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[48rem]">
+              <p className="mb-6 mt-6 text-dark-blue font-bold text-center">
+                {texts.welcomeMessage[locale]}
+              </p>
+              <p className="mb-6 text-dark-blue font-bold text-center">
+                {texts.welcomeMessage2[locale]}
+              </p>
+            </div>
           </div>
         </div>
 
