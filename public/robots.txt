@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pick-a-ski.com
+
+# Sitemaps
+Sitemap: https://pick-a-ski.com/sitemap.xml
