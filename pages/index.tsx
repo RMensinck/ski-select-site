@@ -7,13 +7,13 @@ import { useRouter } from 'next/router'
 export default function Home() {
   const router = useRouter()
   const { locale } = router 
-  const playfull_default = 5
-  const level_default = 1
-  const piste_default = 7
-  const powder_default = 1
-  const freeride_default = 1
-  const park_default = 1
-  const touring_default = 1
+  const playfull_default: number = 5
+  const level_default: number = 1
+  const piste_default: number = 7
+  const powder_default: number = 1
+  const freeride_default: number = 1
+  const park_default: number = 1
+  const touring_default: number = 1
   const [level, setLevel] = useState(level_default)
   const [playfull, setPlayfull] = useState(playfull_default)
   const [piste, setPiste] = useState(piste_default)
@@ -108,8 +108,8 @@ export default function Home() {
       <main className="">
         <div className="flex">
           <SideBar />
-          <div className="bg-[url('../public/background.svg')] bg-cover w-screen lg:h-screen h-[130vh] absolute flex flex-col items-center justify-center">
-            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[48rem]">
+          <div className="bg-[url('../public/background.svg')] bg-cover w-screen min-h-screen absolute flex flex-col justify-center items-center bg-fixed">
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
                 <h1 className="text-4xl font-bold text-dark-blue my-4">
                   {texts.title[locale]}
@@ -162,8 +162,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[48rem]">
-              <p className="mb-6 mt-6 text-dark-blue font-bold text-center">
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mb-10 mx-3 shadow-lg lg:min-w-[48rem]">
+              <p className="mb-6 mt-6 text-dark-blue font-bold text-center mx-3">
                 {texts.welcomeMessage[locale]}
               </p>
               <p className="mb-6 text-dark-blue font-bold text-center">

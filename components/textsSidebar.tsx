@@ -12,8 +12,8 @@ const textsSidebar = {
     "nl": "Contact",
   }, 
   reviews: {
-    "en": "Reviews, coming soon!",
-    "nl": "Reviews; in de maak!",
+    "en": "Reviews",
+    "nl": "Reviews",
   },
 }
 

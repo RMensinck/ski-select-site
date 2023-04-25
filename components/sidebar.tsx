@@ -13,13 +13,12 @@ const SideBar = () => {
     return (
         <div className="w-16 h-16 group z-10">
             <SideBarIcon icon={<FaBars size="28" />} text=" "/>
-            <div className="fixed top-0 left-0 h-screen  w-16 m-0 flex flex-col 
-                            bg-slate-100 text-white shadow-lg group:hover:z-20 bg-opacity-50
+            <div className="fixed top-0 left-0 h-screen  w-16 m-0 flex flex-col bg-white text-white shadow-lg group:hover:z-20 lg:bg-opacity-50
                             scale-0 group-hover:scale-100 transition-all duration-200" >
                 <Link href="/"><SideBarIcon icon={<FaHome size="28"/>} text={texts.home[locale]}/></Link>
                 <Link href="/mission"><SideBarIcon icon={<FaRoute size="28"/>} text={texts.mission[locale]}/></Link>
                 <Link href="/contact"><SideBarIcon icon={<FaPaperPlane size="28"/>} text={texts.contact[locale]}/></Link>
-                <SideBarIcon icon={<FaMicroscope size="28"/>} text={texts.reviews[locale]}/>
+                <Link href="/reviews"><SideBarIcon icon={<FaMicroscope size="28"/>} text={texts.reviews[locale]}/></Link>
             </div>
         </div>
     )
