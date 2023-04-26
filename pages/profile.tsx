@@ -38,7 +38,5 @@ export default function Home() {
         </main>
       </>
     )
-    else return (
-      notLoggedIn()
-    )
+    else return notLoggedIn()
   }
