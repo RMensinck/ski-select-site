@@ -34,7 +34,7 @@ export default function Home() {
                 </p>
                 {reviews.map((review, index) => (
                   <Link href={review.href} key={index}>
-                    <p className="mb-6 text-dark-blue mx-6 text-center hover:font-semibold">
+                    <p className="mb-6 text-dark-blue mx-6 text-center underline hover:font-semibold">
                       {review.fullName + " " + texts.by[locale] + " " + review.author}
                     </p>
                   </Link>

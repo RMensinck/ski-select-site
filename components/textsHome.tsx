@@ -9,7 +9,7 @@ const textsHome = {
   },
   info: {
     "en": "Move the sliders around to find the right ski!",
-    "nl": "Verplaats de sliders om de juiste skis te vinden!",
+    "nl": "Gebruik de sliders om de juiste skis te vinden!",
   },
   button: {
     "en": "Find skis!",

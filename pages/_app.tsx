@@ -1,8 +1,10 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Script from 'next/script'
+import { initFirebase } from '../firebaseConfig'
 
 export default function App({ Component, pageProps }: AppProps) {
+  initFirebase()
   return (
   <>
     <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SFCQQ8FEPR"/>

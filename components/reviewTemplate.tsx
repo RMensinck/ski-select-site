@@ -5,18 +5,17 @@ import reviews from './reviews.json'
 import titles from './textsSingleReview'
 
 export default function Review(skiName: string) {
+ 
   const router = useRouter()
   const { locale } = router 
   const review = reviews.find(x => x.fullName===skiName)
   const texts = review["review"]
 
-
   return (
     <>
       <Head>
         <title>{texts.title[locale]}</title>
-      </Head>
-      
+      </Head>    
       <main className="">
         <div className="flex">
           <SideBar />
@@ -53,7 +52,7 @@ export default function Review(skiName: string) {
               </div>
             </div>
             { review.picture != "" &&
-              <div className="rounded-xl py-4 bg-opacity-90 bg-grey max-w-3xl mx-auto lg:my-10 shadow-lg lg:min-w-[12rem]">
+              <div className="rounded-xl py-4 bg-opacity-90 bg-grey max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[12rem]">
               <img src={review.picture} alt={review.fullName} className="max-h-[80vh]" />
             </div>}
           </div>

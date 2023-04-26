@@ -1,14 +1,22 @@
-import { FaPaperPlane, FaRoute, FaHome, FaBars, FaMicroscope } from 'react-icons/fa'
+import { FaPaperPlane, FaRoute, FaHome, FaBars, FaMicroscope, FaUser } from 'react-icons/fa'
 import texts from '../components/textsSidebar'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-
-
+import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth"
+import { useAuthState } from "react-firebase-hooks/auth"
+import Image from 'next/image'
 
 const SideBar = () => {
-
+    const provider = new GoogleAuthProvider();
+    const auth = getAuth()
+    const [user, loading] = useAuthState(auth)
+    
     const router = useRouter()
     const { locale } = router
+
+    const signIn = async () => {
+        const result = await signInWithPopup(auth, provider)
+    }
 
     return (
         <div className="w-16 h-16 group z-10">
@@ -18,7 +26,16 @@ const SideBar = () => {
                 <Link href="/"><SideBarIcon icon={<FaHome size="28"/>} text={texts.home[locale]}/></Link>
                 <Link href="/mission"><SideBarIcon icon={<FaRoute size="28"/>} text={texts.mission[locale]}/></Link>
                 <Link href="/contact"><SideBarIcon icon={<FaPaperPlane size="28"/>} text={texts.contact[locale]}/></Link>
-                <Link href="/reviews"><SideBarIcon icon={<FaMicroscope size="28"/>} text={texts.reviews[locale]}/></Link>
+                <Link href="/reviews"><SideBarIcon icon={<FaMicroscope size="28"/>} text={texts.reviews[locale]}/></Link> 
+                {user === null &&  
+                    <button onClick={() => signIn()}><SideBarIcon icon={<FaUser size="28"/>} text={texts.login[locale]} /></button>}
+                {user && 
+                    <>
+                        <button onClick={() => signOut(auth)}><SideBarIcon icon={ <FaUser size="28"/> } text={texts.logout[locale]} /></button>
+                        <Link href="/profile"><SideBarIcon icon={ <img src={user.photoURL} alt="user profile picture" className="sidebar-icon" />  } text={texts.profile[locale]}/></Link>
+                    </>
+                    }
+
             </div>
         </div>
     )

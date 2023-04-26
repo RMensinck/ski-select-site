@@ -109,7 +109,7 @@ export default function Home() {
         <div className="flex">
           <SideBar />
           <div className="bg-[url('../public/background.svg')] bg-cover w-screen min-h-screen absolute flex flex-col justify-center items-center bg-fixed">
-            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[48rem]">
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey min-w-[340px] max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
                 <h1 className="text-4xl font-bold text-dark-blue my-4">
                   {texts.title[locale]}
@@ -119,8 +119,8 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
                   {inputFields.map((input, index) => (
-                    <div key={index}>
-                      <label htmlFor={input.id} className="text-dark-blue block mb-2">
+                    <div key={index} className="">
+                      <label htmlFor={input.id} className="text-dark-blue block mb-2 w-auto  text-center">
                         {`"${input.info}"`}
                       </label>
                       <input
@@ -137,7 +137,7 @@ export default function Home() {
                         }}
                         onMouseUp={() => getScores()}
                         onTouchEnd={() => getScores()}
-                        className="w-60 accent-dark-blue "
+                        className="accent-dark-blue w-72 lg:w-60"
                       />
                     </div>
                   ))}
@@ -154,11 +154,11 @@ export default function Home() {
                 
                 <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
                   <h2 className="text-2xl text-dark-blue font-bold mb-2">{texts.choicesTitle[locale]}</h2>
-                  <p className="text-dark-blue font-mono">{result1}</p>
-                  <p className="text-dark-blue font-mono">{result2}</p>
-                  <p className="text-dark-blue font-mono">{result3}</p>
-                  <p className="text-dark-blue font-mono">{result4}</p>
-                  <p className="text-dark-blue font-mono">{result5}</p>
+                  <p className="text-dark-blue font-mono text-sm">{result1}</p>
+                  <p className="text-dark-blue font-mono text-sm">{result2}</p>
+                  <p className="text-dark-blue font-mono text-sm">{result3}</p>
+                  <p className="text-dark-blue font-mono text-sm">{result4}</p>
+                  <p className="text-dark-blue font-mono text-sm">{result5}</p>
                 </div>
               </div>
             </div>

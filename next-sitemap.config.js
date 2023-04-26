@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://pick-a-ski.com',
+    siteUrl: 'https://www.pick-a-ski.com',
     generateRobotsTxt: true, // (optional)
     // ...other options
   }
