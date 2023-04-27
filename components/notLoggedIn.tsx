@@ -4,7 +4,7 @@ import Head from 'next/head'
 import SideBar from './sidebar'
 
 
-export default function notLoggedIn() {
+export default function NotLoggedIn() {
 
   const router = useRouter()
   const { locale } = router
