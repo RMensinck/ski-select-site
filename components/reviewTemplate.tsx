@@ -15,7 +15,7 @@ export default function Review(skiName: string) {
     <>
       <Head>
         <title>{texts.title[locale]}</title>
-      </Head>    
+      </Head>   
       <main className="">
         <div className="flex">
           <SideBar />
@@ -56,7 +56,7 @@ export default function Review(skiName: string) {
               <img src={review.picture} alt={review.fullName} className="max-h-[80vh]" />
             </div>}
           </div>
-        </div>
+        </div> 
       </main>
     </>
   )  

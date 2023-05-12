@@ -1,4 +1,8 @@
 const texts = {
+  title: {
+    "en": "title",
+    "nl": "titel",
+  },
   intro: {
     "en": "Intro",
     "nl": "Intro",

@@ -22,6 +22,22 @@ const textsProfile = {
     soon: {
         "en": "Under construction. Soon you will be able to create your profile and submit reviews for skis", 
         "nl": "Binnenkort kan je hier je profiel maken en reviews submitten."
+    },
+    name: {
+        "en": "Name",
+        "nl": "Naam",
+    },
+    level: {
+        "en": "Level",
+        "nl": "Niveau",
+    },
+    description: {
+        "en": "Description",
+        "nl": "Omschrijving",
+    },
+    submitReview: {
+        "en": "Submit review",
+        "nl": "Review Insturen"
     }
 }
   

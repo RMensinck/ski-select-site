@@ -15,4 +15,12 @@
         text-xs font-bold 
         transition-all duration-100 origin-left;
     }
+
+    .review-submit-input {
+        @apply bg-grey text-center bg-opacity-0 text-dark-blue mb-6 w-full mx-6 px-8
+    }
+
+    .standard-button {
+        @apply bg-dark-blue text-white py-2 px-4 rounded-full mt-6 transition max-w-[100px] duration-500 shadow-lg mx-auto
+    }
 }

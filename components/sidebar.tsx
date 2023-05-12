@@ -29,7 +29,7 @@ const SideBar = () => {
                 <Link href="/reviews"><SideBarIcon icon={<FaMicroscope size="28"/>} text={texts.reviews[locale]}/></Link> 
                 {user === null &&  
                     <button onClick={() => signIn()}><SideBarIcon icon={<FaUser size="28"/>} text={texts.login[locale]} /></button>}
-                {user && 
+                {user && user.photoURL && 
                     <>
                         <button onClick={() => signOut(auth)}><SideBarIcon icon={ <FaUser size="28"/> } text={texts.logout[locale]} /></button>
                         <Link href="/profile"><SideBarIcon icon={ <img src={user.photoURL} alt="user profile picture" className="sidebar-icon" />  } text={texts.profile[locale]}/></Link>
