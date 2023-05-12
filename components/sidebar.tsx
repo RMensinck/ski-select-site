@@ -2,7 +2,7 @@ import { FaPaperPlane, FaRoute, FaHome, FaBars, FaMicroscope, FaUser } from 'rea
 import texts from '../components/textsSidebar'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth"
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut } from "firebase/auth"
 import { useAuthState } from "react-firebase-hooks/auth"
 import Image from 'next/image'
 
@@ -15,7 +15,7 @@ const SideBar = () => {
     const { locale } = router
 
     const signIn = async () => {
-        const result = await signInWithPopup(auth, provider)
+        const result = await signInWithRedirect(auth, provider)
     }
 
     return (
