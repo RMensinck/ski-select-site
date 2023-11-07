@@ -14,6 +14,8 @@ module.exports = {
       "brown": "#8b8c89",
       "grey": "#f1f5f9",
       "green": "#8fb0ad",
+      "red": "#ff3333",
+      "dark-red": "#ff1a1a",
     },
     extend: {
       fontFamily: {

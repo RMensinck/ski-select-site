@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://pick-a-ski.com
+Host: https://www.pick-a-ski.com
 
 # Sitemaps
-Sitemap: https://pick-a-ski.com/sitemap.xml
+Sitemap: https://www.pick-a-ski.com/sitemap.xml

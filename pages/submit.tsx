@@ -74,7 +74,7 @@ export default function Home() {
         <main className="">
           <div className="flex">
             <SideBar />
-            <div className="bg-[url('../public/background.svg')] bg-cover w-screen min-h-screen absolute flex flex-col items-center bg-fixed">
+            <div className="standard-background">
               <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 lg:mx-auto my-10 shadow-lg lg:min-w-[48rem]">
                 <div className="grid place-items-center ">
                   <h1 className="text-4xl font-bold text-dark-blue mx-3 mb-6 mt-7">
@@ -95,7 +95,7 @@ export default function Home() {
                   <textarea 
                     onChange={handleIntroHeight} 
                     className="review-submit-input" 
-                    placeholder={`[${titles.intro[locale]}]`} 
+                    placeholder={`[${texts.submitPrefix[locale] + titles.intro[locale]}]`} 
                     id="Intro input"
                     ref={introAreaRef}
                     rows={1}
@@ -105,8 +105,8 @@ export default function Home() {
                   <textarea 
                     onChange={handleProsHeight} 
                     className="review-submit-input" 
-                    placeholder={`[${titles.pros[locale]}]`}
-                    id="XXXX input"
+                    placeholder={`[${texts.submitPrefix[locale] + titles.pros[locale]}]`}
+                    id="Pros input"
                     ref={prosAreaRef}
                     rows={1}
                     value={pros}
@@ -115,8 +115,8 @@ export default function Home() {
                   <textarea 
                     onChange={handleConsHeight} 
                     className="review-submit-input" 
-                    placeholder={`[${titles.cons[locale]}]`}
-                    id="XXXX input"
+                    placeholder={`[${texts.submitPrefix[locale] + titles.cons[locale]}]`}
+                    id="Cons input"
                     ref={consAreaRef}
                     rows={1}
                     value={cons}
@@ -125,8 +125,8 @@ export default function Home() {
                   <textarea 
                     onChange={handleConclusionHeight} 
                     className="review-submit-input" 
-                    placeholder={`[${titles.conclusion[locale]}]`}
-                    id="XXXX input"
+                    placeholder={`[${texts.submitPrefix[locale] + titles.conclusion[locale]}]`}
+                    id="Conclusion input"
                     ref={conclusionAreaRef}
                     rows={1}
                     value={conclusion}

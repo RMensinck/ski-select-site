@@ -108,7 +108,7 @@ export default function Home() {
       <main className="">
         <div className="flex">
           <SideBar />
-          <div className="bg-[url('../public/background.svg')] bg-cover w-screen min-h-screen absolute flex flex-col justify-center items-center bg-fixed">
+          <div className="standard-background">
             <div className="rounded-xl py-4 bg-opacity-50 bg-grey min-w-[340px] max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
                 <h1 className="text-4xl font-bold text-dark-blue my-4">

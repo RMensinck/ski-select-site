@@ -26,7 +26,11 @@ const texts = {
   submitButton: {
     "nl": "Opsturen",
     "en": "Submit"
-  }
+  },
+  submitPrefix: {
+    "nl": "Typ hier de ",
+    "en": "Inser the following paragraph here: ",
+  },
 }
 
 export default texts

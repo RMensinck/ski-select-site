@@ -5,8 +5,9 @@
 @layer components {
     .sidebar-icon {
         @apply relative flex items-center justify-center 
-        h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-green text-white hover:bg-mid-blue 
-        rounded-3xl hover:rounded-xl cursor-pointer transition-all duration-500;
+        h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-green text-white 
+        hover:bg-mid-blue rounded-3xl hover:rounded-xl cursor-pointer 
+        transition-all duration-500;
     }
 
     .sidebar-tooltip {
@@ -17,10 +18,18 @@
     }
 
     .review-submit-input {
-        @apply bg-grey text-center bg-opacity-0 text-dark-blue mb-6 w-full mx-6 px-8
+        @apply bg-grey text-center bg-opacity-0 text-dark-blue 
+        mb-6 w-full mx-6 px-8
     }
 
     .standard-button {
-        @apply bg-dark-blue text-white py-2 px-4 rounded-full mt-6 transition max-w-[100px] duration-500 shadow-lg mx-auto
+        @apply bg-dark-blue text-white py-2 px-4 rounded-full 
+        mt-6 transition max-w-[100px] duration-500 shadow-lg mx-auto
+    }
+
+    .standard-background {
+        @apply bg-[url('../public/background.svg')] bg-cover w-screen 
+        min-h-screen absolute flex flex-col justify-center items-center 
+        bg-fixed 
     }
 }

@@ -19,9 +19,9 @@ export default function Review(skiName: string) {
       <main className="">
         <div className="flex">
           <SideBar />
-          <div className="bg-[url('../public/background.svg')] bg-cover w-screen min-h-screen absolute flex flex-col lg:flex-row items-center bg-fixed">
+          <div className="standard-background">
             <div className="rounded-xl py-4 bg-opacity-90 bg-grey max-w-3xl lg:mx-auto mx-3 my-10 shadow-lg lg:min-w-[48rem]">
-              <div className="grid place-items-center ">
+              <article className="grid place-items-center ">
                 <h1 className="text-4xl font-bold text-dark-blue mb-4 text-center">
                   {texts.title[locale]}
                 </h1>       
@@ -49,7 +49,7 @@ export default function Review(skiName: string) {
                   ))}
                   </>
                 )}
-              </div>
+              </article>
             </div>
             { review.picture != "" &&
               <div className="rounded-xl py-4 bg-opacity-90 bg-grey max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[12rem]">
