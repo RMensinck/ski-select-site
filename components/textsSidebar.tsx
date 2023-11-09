@@ -26,7 +26,11 @@ const textsSidebar = {
   profile: {
     "en": "Profile",
     "nl": "Profiel",
-  }
+  },
+  opinions: {
+    "en": "Opinions",
+    "nl": "Meningen",
+  },
 }
 
 export default textsSidebar

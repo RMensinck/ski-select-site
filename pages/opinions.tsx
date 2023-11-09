@@ -18,8 +18,8 @@ export default function Home() {
             <SideBar />
             <div className="standard-background">
               <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 my-10 shadow-lg lg:min-w-[48rem]">
-                <div className="grid place-items-center ">
-                  <h1 className="text-4xl font-bold text-dark-blue mx-3 mb-6 mt-7">
+                <div className="grid place-items-left ">
+                  <h1 className="text-4xl font-bold text-dark-blue mx-3 mb-6 mt-7 text-center">
                     {texts.title[locale]}
                   </h1>
                   <p className="mb-6 text-dark-blue mx-3 lg:mx-6 text-center">
@@ -27,7 +27,7 @@ export default function Home() {
                   </p>
                   {skis.map((ski, index) => (
                   <Link href={ski.href} key={index}>
-                    <p className="mb-6 text-dark-blue mx-6 text-center underline hover:font-semibold">
+                    <p className="mb-2 w-48 text-dark-blue mx-6 underline hover:font-semibold">
                       {ski.name}
                     </p>
                   </Link>

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import SideBar from '../components/sidebar';
 import texts from '../components/textsHome'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function Home() {
   const router = useRouter()
@@ -109,6 +110,17 @@ export default function Home() {
         <div className="flex">
           <SideBar />
           <div className="standard-background">
+            
+            <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 shadow-lg lg:min-w-[48rem]">
+              <p className="mb-6 mt-6 text-dark-blue font-bold text-center mx-3">
+                {texts.upperAlert1[locale]}
+              </p>
+              <p className="mb-6 text-dark-blue font-bold text-center">
+                {texts.upperAlert2[locale]}
+              </p>
+              <Link href="/opinions"><p className="mb-6 underline text-dark-blue font-bold text-center">{texts.upperAlert3[locale]}</p></Link>
+            </div>
+
             <div className="rounded-xl py-4 bg-opacity-50 bg-grey min-w-[340px] max-w-3xl mx-auto my-10 shadow-lg lg:min-w-[48rem]">
               <div className="grid place-items-center ">
                 <h1 className="text-4xl font-bold text-dark-blue my-4">
