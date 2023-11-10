@@ -36,7 +36,7 @@ const SideBar = () => {
                         <button onClick={() => signOut(auth)}><SideBarIcon icon={ <FaUser size="28"/> } text={texts.logout[locale]} /></button>
                         <Link href="/profile"><SideBarIcon icon={ <img src={user.photoURL} alt="user profile picture" className="sidebar-icon" />  } text={texts.profile[locale]}/></Link>
                     </>
-                    }
+                }
             </div>
         </div>
     )
