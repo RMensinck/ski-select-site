@@ -1,7 +1,7 @@
 import SideBar from '../components/sidebar';
 import Head from 'next/head'
 import Link from 'next/link'
-import texts from '../components/textsProfile' 
+import texts from '../texts/textsProfile' 
 import { useRouter } from 'next/router'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth } from 'firebase/auth'

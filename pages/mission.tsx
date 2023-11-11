@@ -1,6 +1,6 @@
 import SideBar from '../components/sidebar';
 import Head from 'next/head'
-import texts from '../components/textsMission'
+import texts from '../texts/textsMission'
 import { useRouter } from 'next/router'
 
 

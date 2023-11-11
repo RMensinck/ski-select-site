@@ -43,6 +43,18 @@ const textsHome = {
     "en": "click here to visit the opinions page.",
     "nl": "klik hier om naar de meningen pagina te gaan.",
   },
+  selectStandard: {
+    "en": "Standard",
+    "nl": "Standaard",
+  },
+  selectBeginner: {
+    "en": "Beginner",
+    "nl": "Beginner",
+  },
+  selectRace: {
+    "en": "Race",
+    "nl": "Race",
+  },
   sliders: {
     "level": {
       "en": {

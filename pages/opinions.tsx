@@ -1,7 +1,7 @@
 import SideBar from '../components/sidebar';
 import Head from 'next/head'
 import Link from 'next/link'
-import texts from '../components/textsOpinions' 
+import texts from '../texts/textsOpinions' 
 import { useRouter } from 'next/router'
 import skis from '../components/allSkisFrontend.json'
 

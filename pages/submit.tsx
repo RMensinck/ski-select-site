@@ -1,8 +1,8 @@
 import SideBar from '../components/sidebar';
 import Head from 'next/head'
-import texts from '../components/textsSubmit' 
+import texts from '../texts/textsSubmit' 
 import { useRouter } from 'next/router'
-import titles from '../components/textsSingleReview'
+import titles from '../texts/textsSingleReview'
 import { useRef, useState } from 'react';
 import useAutosizeTextArea from '@/components/AutosizeTextArea';
 import { setDoc, getDoc, doc } from "firebase/firestore"

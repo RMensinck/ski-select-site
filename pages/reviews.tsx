@@ -1,6 +1,6 @@
 import SideBar from '../components/sidebar';
 import Head from 'next/head'
-import texts from '../components/textsReviews'
+import texts from '../texts/textsReviews'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import reviews from '../components/reviews.json'

@@ -1,5 +1,5 @@
 import { FaPaperPlane, FaComment, FaRoute, FaHome, FaBars, FaMicroscope, FaUser } from 'react-icons/fa'
-import texts from '../components/textsSidebar'
+import texts from '../texts/textsSidebar'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, signOut } from "firebase/auth"

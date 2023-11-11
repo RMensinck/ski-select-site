@@ -2,7 +2,7 @@ import SideBar from './sidebar';
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import reviews from './reviews.json'
-import titles from './textsSingleReview'
+import titles from '../texts/textsSingleReview'
 
 export default function Review(skiName: string) {
  
