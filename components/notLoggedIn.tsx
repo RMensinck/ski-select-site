@@ -1,4 +1,4 @@
-import texts from './textsNotLoggedIn'
+import texts from '../texts/textsNotLoggedIn'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import SideBar from './sidebar'
