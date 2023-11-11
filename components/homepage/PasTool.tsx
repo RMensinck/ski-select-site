@@ -110,11 +110,6 @@ const PasTool: React.FC = ({ }) => {
         {texts.info[locale]}
         </p>
 
-        <select className="bg-white text-dark-blue outline outline-1 rounded-sm mb-6" name="test" id="1">
-          <option value="standard">{texts.selectStandard[locale]}</option>
-          <option value="beginner">{texts.selectBeginner[locale]}</option>
-          <option value="race">{texts.selectRace[locale]}</option>
-        </select>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 max-w-lg ">
           {inputFields.map((input, index) => (
