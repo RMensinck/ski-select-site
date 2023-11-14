@@ -32,6 +32,7 @@ export default function Review(skiName: string) {
   const auth = getAuth();
   const [user, loading] = useAuthState(auth)
   const router = useRouter()
+  const [loggedIn, setLoggedIn] = useState(false)
   const { locale } = router 
   const [opinions, setOpinions] = useState([]);
   const [newOpinion, setNewOpinion] = useState('');
@@ -40,6 +41,12 @@ export default function Review(skiName: string) {
   const signIn = async () => {
     const result = await signInWithPopup(auth, provider)
   }
+
+  useEffect(() => {
+    if (user) {
+      setLoggedIn(true)
+    }
+  }, [user])
 
   useEffect(() => {
     async function fetchOpinions() {
@@ -147,7 +154,7 @@ export default function Review(skiName: string) {
               
               
 
-              {user ? ( 
+              {loggedIn ? ( 
                   <form className='flex flex-col py-4 px-2 lg:px-4' onSubmit={handleSubmit}>
                   <textarea
                     className='rounded-lg shadow-md'
