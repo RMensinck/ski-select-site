@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '@/firebaseConfig';
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore'
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { getAuth, GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
+import { getAuth, GoogleAuthProvider, signInWithRedirect, signInWithPopup } from 'firebase/auth'
 
 
 
@@ -38,7 +38,7 @@ export default function Review(skiName: string) {
   const provider = new GoogleAuthProvider();
 
   const signIn = async () => {
-    const result = await signInWithRedirect(auth, provider)
+    const result = await signInWithPopup(auth, provider)
   }
 
   useEffect(() => {

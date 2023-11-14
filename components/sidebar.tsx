@@ -15,7 +15,7 @@ const SideBar = () => {
     const { locale } = router
 
     const signIn = async () => {
-        const result = await signInWithRedirect(auth, provider)
+        const result = await signInWithPopup(auth, provider)
     }
 
     return (
