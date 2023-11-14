@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import FeedbackForm from './feedbackForm';
 
 interface LinkItem {
   href: string;
@@ -9,9 +10,10 @@ interface LinkItem {
 interface TextInputs {
   texts: string[];
   links: LinkItem[];
+  feedbackBox?: boolean;
 }
 
-const TextField: React.FC<TextInputs> = ({ texts, links }) => {
+const TextField: React.FC<TextInputs> = ({ texts, links, feedbackBox=false }) => {
   return (
     <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 shadow-lg lg:min-w-[48rem]">
       {texts.map((text, index) => (
@@ -24,7 +26,11 @@ const TextField: React.FC<TextInputs> = ({ texts, links }) => {
           <p className="mb-6 underline text-dark-blue font-bold text-center">{link.text}</p>
         </Link>
       ))}
+    {feedbackBox === true && 
+      <FeedbackForm />
+    }
     </div>
+
   ) 
 }
 

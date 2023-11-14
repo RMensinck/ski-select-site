@@ -27,10 +27,6 @@ const textsHome = {
     "en": "Hi there!🙋‍♂️ This tool is brand new, i hope you enjoy it, and would love to hear your opinion!", 
     "nl": "Hey daar!🙋‍♂️ De tool is net nieuw, hopelijk ervaar je het als nuttig, ik ben erg benieuwd naar je mening!",
   },
-  welcomeMessage2: {
-    "en": "remco@pick-a-ski.com",
-    "nl": "remco@pick-a-ski.com"
-  },
   upperAlert1: {
     "en": "Welcome! The opinions page just launched, its a place where everybody can share their opinion about specific skis.🎊🎉",
     "nl": "Welkom! De meningen pagina is net gelanceerd, hier kan iedereen zijn of haar mening geven over een specifieke ski.🎊🎉",

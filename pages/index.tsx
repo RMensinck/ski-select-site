@@ -30,8 +30,9 @@ export default function Home() {
             <PasTool />
 
             <TextField
-              texts={[texts.welcomeMessage[locale], texts.welcomeMessage2[locale]]}
+              texts={[texts.welcomeMessage[locale]]}
               links={[]}
+              feedbackBox={true}
             />
 
           </div>
