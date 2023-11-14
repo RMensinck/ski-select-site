@@ -33,7 +33,7 @@ function FeedbackForm() {
 
     <form className="space-y-4 flex flex-col items-center" onSubmit={handleSubmit}>
       <textarea
-        className="min-w-[300px] lg:min-w-[400px]"
+        className="min-w-[300px] lg:min-w-[400px] rounded-lg"
         placeholder={standardTexts.feedbackPlaceholder[locale]}
         value={feedback}
         onChange={(e) => setFeedback(e.target.value)}
