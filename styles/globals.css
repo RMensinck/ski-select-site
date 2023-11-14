@@ -32,4 +32,8 @@
         min-h-screen absolute flex flex-col justify-center items-center 
         bg-fixed 
     }
+
+    .standard-text {
+        @apply text-center text-dark-blue mx-6
+    }
 }
