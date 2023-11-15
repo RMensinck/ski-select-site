@@ -33,7 +33,7 @@ const textsHome = {
   },
   upperAlert2: {
     "en": "Check to see if the ski you're intrested in is already on the list, if not send us a email and we will add it!",
-    "nl": "Kijk of jou favoriete ski al in de lijst staat, zo niet stuur ons een email en we voegen hem toe!",
+    "nl": "Kijk of jouw favoriete ski al in de lijst staat, zo niet stuur ons een email en we voegen hem toe!",
   },
   upperAlert3: {
     "en": "click here to visit the opinions page.",

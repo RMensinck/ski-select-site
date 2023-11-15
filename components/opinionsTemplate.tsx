@@ -138,7 +138,7 @@ export default function Review(skiName: string, skiPhoto: string="") {
                     <div key={index} className=" bg-white mx-2 lg:mx-4 rounded-lg p-4 shadow-md">
                       <h3 className="font-semibold">{opinion.user}</h3>
                       <p>{opinion.text}</p>
-                      {user.uid === opinion.uid && ( 
+                      { user?.uid === opinion.uid && ( 
                         <button
                           onClick={() => deleteOpinion(index)} 
                           className="text-red hover:text-dark-red"
