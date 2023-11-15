@@ -116,8 +116,8 @@
         "href": "/opinions/BlizzardRustler9"
     },
     {
-        "name": "Blizzard Tunderbird SP 7.2",
-        "href": "/opinions/BlizzardTunderbirdSP72"
+        "name": "Blizzard Thunderbird SP 7.2",
+        "href": "/opinions/BlizzardThunderbirdSP72"
     },
     {
         "name": "Elan Ripstick 106",
@@ -280,10 +280,6 @@
         "href": "/opinions/SalomonSFORCETI80"
     },
     {
-        "name": "Salomon S/FORCE TI.80 pro",
-        "href": "/opinions/SalomonSFORCETI80pro"
-    },
-    {
         "name": "Salomon S/MAX 10",
         "href": "/opinions/SalomonSMAX10"
     },
@@ -316,7 +312,7 @@
         "href": "/opinions/VolklRevolt121"
     },
     {
-        "name": "Volkl Revolt 86 ",
+        "name": "Volkl Revolt 86",
         "href": "/opinions/VolklRevolt86"
     }
 ]

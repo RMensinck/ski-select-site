@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
-    export default function Opinions() {
-        return opinionsTemplate("Elan Ripstick 106")
-    }
+            export default function Opinions() {
+                return opinionsTemplate("Elan Ripstick 106")
+            }

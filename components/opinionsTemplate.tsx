@@ -6,15 +6,14 @@ import { db } from '@/firebaseConfig';
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth, GoogleAuthProvider, signInWithRedirect, signInWithPopup } from 'firebase/auth'
-
+import Image from 'next/image';
 
 
 async function getSkiOpinionsOrAddSki(skiName: string) {
-  const skiRef = doc(db, 'skis', skiName);
+  const skiRef = doc(db, 'skis', skiName.replace("/",""));
 
   try {
     const docSnap = await getDoc(skiRef);
-
     if (docSnap.exists()) {
       console.log('Ski exists, retrieving opinions...');
       return docSnap.data().opinions;
@@ -28,7 +27,7 @@ async function getSkiOpinionsOrAddSki(skiName: string) {
   }
 }
 
-export default function Review(skiName: string) {
+export default function Review(skiName: string, skiPhoto: string="") {
   const auth = getAuth();
   const [user, loading] = useAuthState(auth)
   const router = useRouter()
@@ -181,6 +180,12 @@ export default function Review(skiName: string) {
 
 
 
+            </div>
+
+            <div className="rounded-xl py-4 px-4 bg-opacity-90 bg-grey max-w-3xl mx-4 my-4 shadow-lg lg:min-w-[12rem]">
+              <Image 
+                src={"/skis/"+skiName.replace("/","")+".png"} alt={skiName + " photo"} width={800} height={400}
+              />
             </div>
           </div>
         </div> 

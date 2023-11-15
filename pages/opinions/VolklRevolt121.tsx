@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
-    export default function Opinions() {
-        return opinionsTemplate("Volkl Revolt 121")
-    }
+            export default function Opinions() {
+                return opinionsTemplate("Volkl Revolt 121")
+            }

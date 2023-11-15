@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
-    export default function Opinions() {
-        return opinionsTemplate("Black crows Navis Freebird")
-    }
+            export default function Opinions() {
+                return opinionsTemplate("Black crows Navis Freebird")
+            }

@@ -5,12 +5,23 @@ const skis = require('./components/allSkisFrontend.json')
 fs.emptyDirSync('./pages/opinions')
 
 skis.map((ski, index) => {
-    const opinionsPage = 
-    `import opinionsTemplate from '../../components/opinionsTemplate'
+    let opinionsPage = ''
+    if (ski.photo) {
+        opinionsPage = 
+            `import opinionsTemplate from '../../components/opinionsTemplate'
 
-    export default function Opinions() {
-        return opinionsTemplate("${ski.name}")
-    }`
+            export default function Opinions() {
+                return opinionsTemplate("${ski.name}", "${ski.photo}")
+            }`
+    } else {
+        opinionsPage = 
+            `import opinionsTemplate from '../../components/opinionsTemplate'
+
+            export default function Opinions() {
+                return opinionsTemplate("${ski.name}")
+            }`
+    }
+
     
 
     fs.writeFile(`./pages${ski.href}.tsx`, opinionsPage, function(error) {

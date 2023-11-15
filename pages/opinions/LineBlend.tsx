@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
-    export default function Opinions() {
-        return opinionsTemplate("Line Blend")
-    }
+            export default function Opinions() {
+                return opinionsTemplate("Line Blend")
+            }
