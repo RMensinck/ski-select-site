@@ -32,12 +32,12 @@ const textsHome = {
     "nl": "Welkom! De meningen pagina is net gelanceerd, hier kan iedereen zijn of haar mening geven over een specifieke ski.🎊🎉",
   },
   upperAlert2: {
-    "en": "Check to see if the ski you're intrested in is already on the list, if not send us a email and we will add it!",
-    "nl": "Kijk of jouw favoriete ski al in de lijst staat, zo niet stuur ons een email en we voegen hem toe!",
+    "en": "Help build a noise free ski platform by sharing your oppinion on the page linked below!",
+    "nl": "Help mee en deel je mening over een ski. Samen creeren we een reclame-ruis vrije ski keuze tool!",
   },
   upperAlert3: {
-    "en": "click here to visit the opinions page.",
-    "nl": "klik hier om naar de meningen pagina te gaan.",
+    "en": "Opinions page",
+    "nl": "Meningen pagina",
   },
   selectStandard: {
     "en": "Standard",
