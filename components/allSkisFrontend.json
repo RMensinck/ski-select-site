@@ -96,6 +96,10 @@
         "href": "/opinions/BlackcrowsAtrisbirdie"
     },
     {
+        "name": "Black crows Camox",
+        "href": "/opinions/BlackcrowsCamox"
+    },
+    {
         "name": "Black crows Corvus",
         "href": "/opinions/BlackcrowsCorvus"
     },
@@ -112,12 +116,20 @@
         "href": "/opinions/BlackcrowsNocta"
     },
     {
+        "name": "Black crows Vertis",
+        "href": "/opinions/BlackcrowsVertis"
+    },
+    {
         "name": "Blizzard Rustler 9",
         "href": "/opinions/BlizzardRustler9"
     },
     {
         "name": "Blizzard Thunderbird SP 7.2",
         "href": "/opinions/BlizzardThunderbirdSP72"
+    },
+    {
+        "name": "Dynastar M-Free 99",
+        "href": "/opinions/DynastarMFree99"
     },
     {
         "name": "Elan Ripstick 106",
@@ -174,6 +186,26 @@
     {
         "name": "K2 Poacher",
         "href": "/opinions/K2Poacher"
+    },
+    {
+        "name": "K2 Reckoner 102",
+        "href": "/opinions/K2Reckoner102"
+    },
+    {
+        "name": "K2 Reckoner 112",
+        "href": "/opinions/K2Reckoner112"
+    },
+    {
+        "name": "K2 Reckoner 122",
+        "href": "/opinions/K2Reckoner122"
+    },
+    {
+        "name": "K2 Reckoner 92 men",
+        "href": "/opinions/K2Reckoner92men"
+    },
+    {
+        "name": "K2 Reckoner 92 women",
+        "href": "/opinions/K2Reckoner92women"
     },
     {
         "name": "Line Blend",
