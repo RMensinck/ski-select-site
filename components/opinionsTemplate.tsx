@@ -136,16 +136,22 @@ export default function Review(skiName: string, skiPhoto: string="") {
                 <div className="space-y-4 ">
                   {opinions.map((opinion, index) => (
                     <div key={index} className=" bg-white mx-2 lg:mx-4 rounded-lg p-4 shadow-md">
-                      <h3 className="font-semibold">{opinion.user}</h3>
-                      <p>{opinion.text}</p>
-                      { user?.uid === opinion.uid && ( 
-                        <button
-                          onClick={() => deleteOpinion(index)} 
-                          className="text-red hover:text-dark-red"
-                        >
-                          Delete
-                        </button>
-                      )}
+                      <article>
+                        <header>
+                          <h3 className="font-semibold">{opinion.user}</h3>
+                        </header>
+                        <section>
+                          <p>{opinion.text}</p>
+                        </section>
+                        { user?.uid === opinion.uid && ( 
+                          <button
+                            onClick={() => deleteOpinion(index)} 
+                            className="text-red hover:text-dark-red"
+                          >
+                            Delete
+                          </button>
+                        )}
+                      </article>
                     </div>
                   ))}
                 </div>
