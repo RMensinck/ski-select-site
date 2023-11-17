@@ -10,36 +10,57 @@ const StandardTool: React.FC = ({ }) => {
   
   const router = useRouter()
   const { locale } = router
-  const playfull_default: number = 5
-  const level_default: number = 1
-  const piste_default: number = 7
-  const powder_default: number = 1
-  const freeride_default: number = 1
-  const park_default: number = 1
-  const touring_default: number = 1
-  const [level, setLevel] = useState(level_default)
-  const [playfull, setPlayfull] = useState(playfull_default)
-  const [piste, setPiste] = useState(piste_default)
-  const [park, setPark] = useState(park_default)
-  const [powder, setPowder] = useState(powder_default)
-  const [freeride, setFreeride] = useState(freeride_default)
-  const [touring, setTouring] = useState(touring_default)
+  const [level, setLevel] = useState(1)
+  const [playfull, setPlayfull] = useState(5)
+  const [piste, setPiste] = useState(7)
+  const [park, setPark] = useState(1)
+  const [powder, setPowder] = useState(1)
+  const [freeride, setFreeride] = useState(1)
+  const [touring, setTouring] = useState(1)
   const [scores, setScores] = useState([])
   const [loading, setLoading] = useState(false)
-  const [pisteInfo, setPisteInfo] = useState(texts.sliders.piste[locale][piste_default])
-  const [powderInfo, setPowderInfo] = useState(texts.sliders.powder[locale][powder_default])
-  const [freerideInfo, setFreerideInfo] = useState(texts.sliders.freeride[locale][freeride_default])
-  const [parkInfo, setParkInfo] = useState(texts.sliders.park[locale][park_default])
-  const [touringInfo, setTouringInfo] = useState(texts.sliders.touring[locale][touring_default])
-  const [levelInfo, setLevelInfo] = useState(texts.sliders.level[locale][level_default])
-  const [playfullInfo, setPlayfullInfo] = useState(texts.sliders.playfull[locale][playfull_default])
+  const [pisteInfo, setPisteInfo] = useState(texts.sliders.piste[locale][piste])
+  const [powderInfo, setPowderInfo] = useState(texts.sliders.powder[locale][powder])
+  const [freerideInfo, setFreerideInfo] = useState(texts.sliders.freeride[locale][freeride])
+  const [parkInfo, setParkInfo] = useState(texts.sliders.park[locale][park])
+  const [touringInfo, setTouringInfo] = useState(texts.sliders.touring[locale][touring])
+  const [levelInfo, setLevelInfo] = useState(texts.sliders.level[locale][level])
+  const [playfullInfo, setPlayfullInfo] = useState(texts.sliders.playfull[locale][playfull])
   const [buttonVisable, setButtonVisable] = useState(true)
   const [result1, setResult1] = useState("")
   const [result2, setResult2] = useState("")
   const [result3, setResult3] = useState("")
   const [result4, setResult4] = useState("")
   const [result5, setResult5] = useState("")
+
+  useEffect(() => {
+    const savedPlayfullValue = localStorage.getItem('playfull')
+    const savedParkValue = localStorage.getItem('park')
+    const savedPisteValue = localStorage.getItem('piste')
+    const savedPowderValue = localStorage.getItem('powder')
+    const savedFreerideValue = localStorage.getItem('freeride')
+    const savedTouringValue = localStorage.getItem('touring')
+    const savedLevelValue = localStorage.getItem('level')
+
+    if (savedPlayfullValue) {setPlayfull(parseInt(savedPlayfullValue, 10))}
+    if (savedParkValue) {setPark(parseInt(savedParkValue, 10))}
+    if (savedPisteValue) {setPiste(parseInt(savedPisteValue, 10))}
+    if (savedPowderValue) {setPowder(parseInt(savedPowderValue, 10))}
+    if (savedFreerideValue) {setFreeride(parseInt(savedFreerideValue, 10))}
+    if (savedTouringValue) {setTouring(parseInt(savedTouringValue, 10))}
+    if (savedLevelValue) {setLevel(parseInt(savedLevelValue, 10))}
+  }, [])
   
+  useEffect(() => {
+    setPlayfullInfo(texts.sliders.playfull[locale][playfull])
+    setParkInfo(texts.sliders.park[locale][park])
+    setPisteInfo(texts.sliders.piste[locale][piste])
+    setPowderInfo(texts.sliders.powder[locale][powder])
+    setFreerideInfo(texts.sliders.freeride[locale][freeride])
+    setTouringInfo(texts.sliders.touring[locale][touring])
+    setLevelInfo(texts.sliders.level[locale][level])
+  }, [playfull, park, piste, powder, freeride, touring, level]);
+
   const showScores = async () => {
     await getScores(setLoading, level, playfull, piste, powder, freeride, park, touring).then((result) => {
     setScores(result)
@@ -49,18 +70,22 @@ const StandardTool: React.FC = ({ }) => {
     setTextWithAnimation(result[3].score + " | " + result[3].name, setResult4)
     setTextWithAnimation(result[4].score + " | " + result[4].name, setResult5)
   })}
+
+  const handleChange = (val, inputField) => {
+    inputField.setFunction(Number(val.target.value))
+    localStorage.setItem(inputField.id, val.target.value)
+    setButtonVisable(false)
+  }
   
   const inputFields = [
-    { "name": "Piste", "id": "piste", "setFunction": setPiste, "default_val": piste_default, "info": pisteInfo, "setInfo": setPisteInfo },
-    { "name": "Park", "id": "park", "setFunction": setPark, "default_val": park_default, "info": parkInfo, "setInfo": setParkInfo },
-    { "name": "Powder", "id": "powder", "setFunction": setPowder, "default_val": powder_default, "info": powderInfo, "setInfo": setPowderInfo },
-    { "name": "Freeride", "id": "freeride", "setFunction": setFreeride, "default_val": freeride_default, "info": freerideInfo, "setInfo": setFreerideInfo },
-    { "name": "Touring", "id": "touring", "setFunction": setTouring, "default_val": touring_default, "info": touringInfo, "setInfo": setTouringInfo },
-    { "name": "User level", "id": "level", "setFunction": setLevel, "default_val": level_default, "info": levelInfo, "setInfo": setLevelInfo },
-    { "name": "Playfullness", "id": "playfull", "setFunction": setPlayfull, "default_val": playfull_default, "info": playfullInfo, "setInfo": setPlayfullInfo },
+    { "name": "Piste", "id": "piste", "setFunction": setPiste, "default_val": piste, "info": pisteInfo, "setInfo": setPisteInfo },
+    { "name": "Park", "id": "park", "setFunction": setPark, "default_val": park, "info": parkInfo, "setInfo": setParkInfo },
+    { "name": "Powder", "id": "powder", "setFunction": setPowder, "default_val": powder, "info": powderInfo, "setInfo": setPowderInfo },
+    { "name": "Freeride", "id": "freeride", "setFunction": setFreeride, "default_val": freeride, "info": freerideInfo, "setInfo": setFreerideInfo },
+    { "name": "Touring", "id": "touring", "setFunction": setTouring, "default_val": touring, "info": touringInfo, "setInfo": setTouringInfo },
+    { "name": "User level", "id": "level", "setFunction": setLevel, "default_val": level, "info": levelInfo, "setInfo": setLevelInfo },
+    { "name": "Playfullness", "id": "playfull", "setFunction": setPlayfull, "default_val": playfull, "info": playfullInfo, "setInfo": setPlayfullInfo },
   ]
-
-
 
   return (
     <div className='grid place-items-center'>
@@ -74,14 +99,10 @@ const StandardTool: React.FC = ({ }) => {
               type="range"
               id={input.id}
               name={input.id}
-              defaultValue={input.default_val.toString()}
+              value={input.default_val.toString()}
               min="1"
               max="10"
-              onChange={(val) => {                         
-                input.setFunction(Number(val.target.value))
-                input.setInfo(texts.sliders[input.id][locale][val.target.value])                         
-                setButtonVisable(false)
-              }}
+              onChange={(val) => {handleChange(val, input)}}
               onMouseUp={() => showScores()}
               onTouchEnd={() => showScores()}
               className="accent-dark-blue w-72 lg:w-60"
