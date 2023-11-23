@@ -6,6 +6,7 @@ import ToolResults from '@/components/homepage/toolResults';
 import getScores from '@/components/getScores';
 import setTextWithAnimation from '@/components/setTextWithAnimation';
 
+
 const StandardTool: React.FC = ({ }) => {
   
   const router = useRouter()
@@ -75,6 +76,7 @@ const StandardTool: React.FC = ({ }) => {
     inputField.setFunction(Number(val.target.value))
     localStorage.setItem(inputField.id, val.target.value)
     setButtonVisable(false)
+
   }
   
   const inputFields = [

@@ -15,16 +15,12 @@ async function getSkiOpinionsOrAddSki(skiName: string) {
   try {
     const docSnap = await getDoc(skiRef);
     if (docSnap.exists()) {
-      console.log('Ski exists, retrieving opinions...');
       return docSnap.data().opinions;
     } else {
-      console.log('Ski does not exist, adding to Firestore...');
       await setDoc(skiRef, { opinions: [] });
       return [];
     }
-  } catch (error) {
-    console.error("Error getting document:", error);
-  }
+  } catch (error) {}
 }
 
 export default function Review(skiName: string, skiPhoto: string="") {
@@ -52,9 +48,7 @@ export default function Review(skiName: string, skiPhoto: string="") {
       try {
         const opinions = await getSkiOpinionsOrAddSki(skiName);
         setOpinions(opinions); 
-      } catch (error){
-        console.error(error)
-      } 
+      } catch (error){} 
       }
       fetchOpinions() 
     }, [skiName])
@@ -141,7 +135,9 @@ export default function Review(skiName: string, skiPhoto: string="") {
                           <h3 className="font-semibold">{opinion.user}</h3>
                         </header>
                         <section>
-                          <p>{opinion.text}</p>
+                          
+                          <p>{locale === opinion.locale ? opinion.text : opinion.englishText ? opinion.englishText : opinion.text}</p>
+                          {opinion.englishText && opinion.locale != locale && <p>This text is translated</p>}
                         </section>
                         { user?.uid === opinion.uid && ( 
                           <button
