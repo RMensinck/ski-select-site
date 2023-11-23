@@ -137,7 +137,9 @@ export default function Review(skiName: string, skiPhoto: string="") {
                         <section>
                           
                           <p>{locale === opinion.locale ? opinion.text : opinion.englishText ? opinion.englishText : opinion.text}</p>
-                          {opinion.englishText && opinion.locale != locale && <p>This text is translated</p>}
+                          {opinion.englishText && opinion.locale != locale && 
+                          <p className="text-xs mt-4">This text is translated from the original opinion.</p>
+                          }
                         </section>
                         { user?.uid === opinion.uid && ( 
                           <button
