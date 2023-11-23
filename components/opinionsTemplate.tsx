@@ -7,6 +7,7 @@ import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebas
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth, GoogleAuthProvider, signInWithRedirect, signInWithPopup } from 'firebase/auth'
 import Image from 'next/image';
+import texts from '../texts/textsOpinionTemplates'
 
 
 async function getSkiOpinionsOrAddSki(skiName: string) {
@@ -109,21 +110,17 @@ export default function Review(skiName: string, skiPhoto: string="") {
           <SideBar />
           <div className="standard-background">
             <div className="rounded-xl py-4 bg-opacity-90 bg-grey max-w-3xl lg:mx-auto mx-3 my-10 shadow-lg lg:min-w-[48rem]">
-              
               <h1 className="text-4xl text-center font-bold text-dark-blue mx-3 mb-6 mt-7">
                     {skiName}
               </h1>
-
-
-
               {opinions.length === 0 ? (
                 user ? (
                   <div className=' text-center'>
-                    No opinions yet, write the first one!
+                    {texts.noOpinionsYet[locale]}
                   </div>
                 ) : (
                   <div className=' text-center'>
-                  No opinions yet, log in with your google account write the first one!
+                    {texts.noOpinionsYetLogin[locale]}
                   </div>
                 )
               ) : (
@@ -138,7 +135,7 @@ export default function Review(skiName: string, skiPhoto: string="") {
                           
                           <p>{locale === opinion.locale ? opinion.text : opinion.englishText ? opinion.englishText : opinion.text}</p>
                           {opinion.englishText && opinion.locale != locale && 
-                          <p className="text-xs mt-4">This text is translated from the original opinion.</p>
+                          <p className="text-xs mt-4">{texts.translatedTextNote[locale]}</p>
                           }
                         </section>
                         { user?.uid === opinion.uid && ( 
@@ -146,7 +143,7 @@ export default function Review(skiName: string, skiPhoto: string="") {
                             onClick={() => deleteOpinion(index)} 
                             className="text-red hover:text-dark-red"
                           >
-                            Delete
+                            {texts.deleteButton[locale]}
                           </button>
                         )}
                       </article>
@@ -154,38 +151,31 @@ export default function Review(skiName: string, skiPhoto: string="") {
                   ))}
                 </div>
               )}
-              
-              
-
               {loggedIn ? ( 
                   <form className='flex flex-col py-4 px-2 lg:px-4' onSubmit={handleSubmit}>
                   <textarea
                     className='rounded-lg shadow-md'
                     value={newOpinion}
                     onChange={(e) => setNewOpinion(e.target.value)}
-                    placeholder="Write your opinion here..."
+                    placeholder={texts.writeOpinionPlaceholder[locale]}
                     rows={4}
                     required
                   />
-                  <button className='bg-dark-blue text-white mx-auto my-4 min-w-[200px] rounded-lg shadow-md' type="submit">Submit Opinion</button>
+                  <button className='bg-dark-blue text-white mx-auto my-4 min-w-[200px] rounded-lg shadow-md' type="submit">
+                    {texts.submitOpinionButton[locale]}
+                  </button>
                 </form>
               ) : (
                 <div className='flex justify-center'>
                   <button 
-                    className=' text-white text-center bg-dark-blue mx-auto my-4 min-w-[200px] rounded-lg shadow-md'
+                    className=' text-white text-center bg-dark-blue mx-auto my-4 min-w-[200px] p-3 rounded-lg shadow-md'
                     onClick={() => signIn()}
                     >
-                      Log in to submit!
+                      {texts.loginToSubmitButton[locale]}
                   </button>
                 </div>
-
               )}
-
-
-
-
             </div>
-
             <div className="rounded-xl py-4 px-4 bg-opacity-90 bg-grey max-w-3xl mx-4 my-4 shadow-lg lg:min-w-[12rem]">
               <Image 
                 src={"/skis/"+skiName.replace("/","")+".png"} alt={skiName + " photo"} width={800} height={400}
