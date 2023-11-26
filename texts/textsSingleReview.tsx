@@ -1,48 +1,12 @@
 const texts = {
-  title: {
-    "en": "Title",
-    "nl": "Titel",
-    "ja": "タイトル",
-    "es": "Título",
-    "de": "Titel",
-    "pl": "Tytuł",
-    "fr": "Titre"
-  },
-  intro: {
-    "en": "Intro",
-    "nl": "Intro",
-    "ja": "イントロ",
-    "es": "Introducción",
-    "de": "Einleitung",
-    "pl": "Wstęp",
-    "fr": "Introduction"
-  },
-  pros: {
-    "en": "Pros",
-    "nl": "Pluspunten",
-    "ja": "長所",
-    "es": "Pros",
-    "de": "Vorteile",
-    "pl": "Zalety",
-    "fr": "Points forts"
-  },
-  cons: {
-    "en": "Cons",
-    "nl": "Nadelen",
-    "ja": "短所",
-    "es": "Contras",
-    "de": "Nachteile",
-    "pl": "Wady",
-    "fr": "Points faibles"
-  },
-  conclusion: {
-    "en": "Conclusion",
-    "nl": "Conclusie",
-    "ja": "結論",
-    "es": "Conclusión",
-    "de": "Fazit",
-    "pl": "Podsumowanie",
-    "fr": "Conclusion"
+  by: {
+    "en": "By",
+    "nl": "Door",
+    "ja": "によって",
+    "es": "Por",
+    "de": "Von",
+    "pl": "Przez",
+    "fr": "Par"
   },
   disclaimer: {
     "en": "Disclaimer",
@@ -52,6 +16,33 @@ const texts = {
     "de": "Haftungsausschluss",
     "pl": "Zrzeczenie się",
     "fr": "Avertissement"
+  },
+  review: {
+    "en": "review",
+    "nl": "review",
+    "ja": "レビュー",
+    "pl": "recenzja",
+    "es": "reseña",
+    "fr": "revue",
+    "de": "rezension"
+  },
+  originalLanguage1: {
+    "en": "This review was originally written in",
+    "nl": "Deze review is oorspronkelijk geschreven in het",
+    "ja": "このレビューは元々",
+    "es": "Esta reseña fue escrita originalmente en",
+    "de": "Diese Bewertung wurde ursprünglich geschrieben in",
+    "pl": "Ta recenzja została pierwotnie napisana w",
+    "fr": "Cette critique a été initialement rédigée en"
+  },
+  english: {
+    "en": "english",
+    "nl": "engels",
+    "ja": "英語",
+    "es": "inglés",
+    "de": "englisch",
+    "pl": "angielski",
+    "fr": "anglais"
   }
 }
 

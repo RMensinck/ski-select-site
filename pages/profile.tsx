@@ -75,11 +75,6 @@ export default function Home() {
                     <button className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg mx-3" onClick={() => setEnableEdit(true)}>
                       {texts.edit[locale]}
                     </button>
-                    <Link href="/submit">
-                      <button className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg mx-3">
-                        {texts.submitReview[locale]}
-                      </button>
-                    </Link>
                   </div>
 
                 </> 
