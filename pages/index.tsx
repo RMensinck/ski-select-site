@@ -24,8 +24,8 @@ export default function Home() {
           <div className="standard-background">
             
             <TextField
-              texts={[texts.upperAlert1[locale], texts.upperAlert2[locale]]}
-              links={[{text: texts.upperAlert3[locale], href: "/opinions"}]}
+              texts={[texts.upperAlert1[locale]]}
+              links={[{text: texts.upperAlert2[locale], href: "/opinions"}]}
             />
 
             <PasTool />

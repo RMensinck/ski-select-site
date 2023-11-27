@@ -72,24 +72,15 @@ const textsHome = {
     "fr": "Bonjour !🙋‍♂️ Cet outil est tout nouveau, j'espère que vous l'apprécierez et j'aimerais beaucoup entendre votre avis !"
   },
   upperAlert1: {
-    "en": "Welcome! The opinions page just launched, it's a place where everybody can share their opinion about specific skis.🎊🎉",
-    "nl": "Welkom! De meningen pagina is net gelanceerd, hier kan iedereen zijn of haar mening geven over een specifieke ski.🎊🎉",
-    "ja": "ようこそ！意見ページが立ち上がりました。ここでは、特定のスキーについて誰でも意見を共有できます。🎊🎉",
-    "es": "¡Bienvenido! La página de opiniones acaba de lanzarse, es un lugar donde todos pueden compartir su opinión sobre esquís específicos.🎊🎉",
-    "de": "Willkommen! Die Meinungsseite wurde gerade gestartet, ein Ort, an dem jeder seine Meinung zu bestimmten Skiern teilen kann.🎊🎉",
-    "pl": "Witamy! Strona z opiniami właśnie została uruchomiona, to miejsce, gdzie każdy może podzielić się swoją opinią na temat konkretnych nart.🎊🎉",
-    "fr": "Bienvenue ! La page d'opinions vient d'être lancée, c'est un endroit où tout le monde peut partager son avis sur des skis spécifiques.🎊🎉"
+    "en": "Own a pair of skis? Share your experience on our new Opinions page! 👊🏼",
+    "nl": "Bezit u een paar ski's? Deel uw ervaring op onze nieuwe Meningenpagina! 👊🏼",
+    "de": "Besitzen Sie ein Paar Ski? Teilen Sie Ihre Erfahrungen auf unserer neuen Meinungsseite! 👊🏼",
+    "ja": "スキーをお持ちですか？新しいご意見ページで経験を共有しましょう！👊🏼",
+    "fr": "Vous possédez des skis ? Partagez votre expérience sur notre nouvelle page d'Avis ! 👊🏼",
+    "es": "¿Tienes unos esquíes? ¡Comparte tu experiencia en nuestra nueva página de Opiniones! 👊🏼",
+    "pl": "Masz narty? Podziel się swoimi doświadczeniami na naszej nowej stronie Opinii! 👊🏼"
   },
   upperAlert2: {
-    "en": "Help build a noise free ski platform by sharing your opinion on the page linked below!",
-    "nl": "Help mee en deel je mening over een ski. Samen creëren we een reclame-ruis vrije ski keuze tool!",
-    "ja": "以下のリンクからあなたの意見を共有して、ノイズのないスキープラットフォームの構築に役立ててください！",
-    "es": "¡Ayuda a construir una plataforma de esquí libre de ruidos compartiendo tu opinión en la página enlazada a continuación!",
-    "de": "Helfen Sie mit, eine rauschfreie Ski-Plattform aufzubauen, indem Sie Ihre Meinung auf der unten verlinkten Seite teilen!",
-    "pl": "Pomóż zbudować platformę narciarską wolną od hałasu, udostępniając swoją opinię na poniższej stronie!",
-    "fr": "Aidez à construire une plateforme de ski sans bruit en partageant votre avis sur la page liée ci-dessous !"
-  },
-  upperAlert3: {
     "en": "Opinions page",
     "nl": "Meningen pagina",
     "ja": "意見ページ",
