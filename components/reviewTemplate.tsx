@@ -24,6 +24,7 @@ export default function Review(skiName: string) {
     <>
       <Head>
         <title>{skiName + " " + text.review[locale]}</title>
+        <meta name="description" content={text.metaDescription[locale]}/>
       </Head>   
       <main className="">
         <div className="flex">

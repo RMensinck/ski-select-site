@@ -1,4 +1,13 @@
 const textsMission = {
+  metaDescription: {
+    "en": "Learn about our mission to guide you in finding the perfect skis. We're committed to unbiased advice, free from the influence of major ski brands, ensuring you make informed decisions for your skiing needs.",
+    "nl": "Lees meer over onze missie om u te helpen bij het vinden van de perfecte ski's. Wij zijn toegewijd aan onbevooroordeeld advies, vrij van de invloed van grote skimerken, zodat u weloverwogen beslissingen kunt nemen voor uw ski-behoeften.",
+    "de": "Erfahren Sie mehr über unsere Mission, Ihnen dabei zu helfen, die perfekten Skier zu finden. Wir verpflichten uns zu unvoreingenommener Beratung, frei von dem Einfluss großer Skimarken, um Ihnen eine informierte Entscheidung für Ihre Ski-Bedürfnisse zu ermöglichen.",
+    "ja": "パーフェクトなスキーを見つけるための私たちのミッションについて学びましょう。大手スキーブランドの影響を受けず、偏りのないアドバイスを提供し、あなたのスキーのニーズに合った情報に基づいた決定をすることを約束します。",
+    "fr": "Découvrez notre mission pour vous guider dans la recherche de vos skis parfaits. Nous nous engageons à fournir des conseils impartiaux, libres de l'influence des grandes marques de ski, pour vous assurer de prendre des décisions éclairées pour vos besoins en ski.",
+    "es": "Conozca nuestra misión de guiarle en la búsqueda de los esquís perfectos. Estamos comprometidos a brindar asesoramiento imparcial, libre de la influencia de las grandes marcas de esquí, asegurando que tome decisiones informadas para sus necesidades de esquí.",
+    "pl": "Dowiedz się więcej o naszej misji, aby pomóc Ci znaleźć idealne narty. Jesteśmy zobowiązani do bezstronnego doradztwa, wolnego od wpływu dużych marek narciarskich, zapewniając, że podejmujesz świadome decyzje dotyczące Twoich potrzeb narciarskich."
+  },
   header: {
     "en": "Pick a ski",
     "nl": "Pick a ski",

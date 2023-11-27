@@ -1,4 +1,13 @@
 const textsSkiOpinions = {
+    metaDescription: {
+      "en": "Join the conversation and share your thoughts on this specific ski model. Your opinions and experiences help others make informed decisions and find the right ski for their needs.",
+      "nl": "Doe mee aan de discussie en deel uw mening over dit specifieke ski-model. Uw meningen en ervaringen helpen anderen om geïnformeerde beslissingen te nemen en de juiste ski voor hun behoeften te vinden.",
+      "de": "Beteiligen Sie sich an der Konversation und teilen Sie Ihre Gedanken zu diesem speziellen Skimodell. Ihre Meinungen und Erfahrungen helfen anderen, informierte Entscheidungen zu treffen und den richtigen Ski für ihre Bedürfnisse zu finden.",
+      "ja": "この特定のスキーモデルについての会話に参加し、あなたの考えを共有しましょう。あなたの意見と経験は、他の人が情報に基づいた決定をし、自分のニーズに合ったスキーを見つけるのに役立ちます。",
+      "fr": "Participez à la conversation et partagez vos avis sur ce modèle de ski spécifique. Vos opinions et expériences aident les autres à prendre des décisions éclairées et à trouver le ski adapté à leurs besoins.",
+      "es": "Participe en la conversación y comparte tu opinión sobre este modelo de esquí específico. Tus opiniones y experiencias ayudan a otros a tomar decisiones informadas y encontrar el esquí adecuado para sus necesidades.",
+      "pl": "Dołącz do rozmowy i podziel się swoimi przemyśleniami na temat tego konkretnego modelu nart. Twoje opinie i doświadczenia pomagają innym w podejmowaniu świadomych decyzji i znalezieniu odpowiednich nart dla ich potrzeb."
+    },
     noOpinionsYet: {
       "en": "No opinions yet, write the first one!",
       "nl": "Nog geen meningen, schrijf de eerste!",

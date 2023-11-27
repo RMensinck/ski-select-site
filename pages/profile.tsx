@@ -52,6 +52,7 @@ export default function Home() {
       <>
         <Head>
           <title>{texts.header[locale]}</title>
+          <meta name="description" content={texts.metaDescription[locale]}/>
         </Head>
         <main className="">
           <div className="flex">

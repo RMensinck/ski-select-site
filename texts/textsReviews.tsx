@@ -1,4 +1,13 @@
 const textsReviews = {
+  metaDescription: {
+    "en": "Explore comprehensive reviews of ski equipment on our reviews page. Find in-depth analysis and user opinions on a wide range of skis to make informed choices for your skiing adventures.",
+    "nl": "Ontdek uitgebreide beoordelingen van ski-uitrusting op onze recensiepagina. Vind diepgaande analyses en gebruikersmeningen over een breed scala aan ski's om geïnformeerde keuzes te maken voor uw ski-avonturen.",
+    "de": "Erkunden Sie umfassende Bewertungen von Skiausrüstung auf unserer Bewertungsseite. Finden Sie detaillierte Analysen und Nutzermeinungen zu einer Vielzahl von Skiern, um informierte Entscheidungen für Ihre Skiabenteuer zu treffen.",
+    "ja": "レビューページでスキー用品の包括的なレビューを探索しましょう。多種多様なスキーに関する詳細な分析とユーザーの意見を見つけて、スキー冒険のための情報に基づいた選択を行いましょう。",
+    "fr": "Explorez des critiques complètes d'équipement de ski sur notre page de critiques. Trouvez des analyses approfondies et des opinions d'utilisateurs sur une large gamme de skis pour faire des choix éclairés pour vos aventures de ski.",
+    "es": "Explore reseñas completas de equipos de esquí en nuestra página de reseñas. Encuentre análisis detallados y opiniones de usuarios sobre una amplia gama de esquís para tomar decisiones informadas para sus aventuras de esquí.",
+    "pl": "Przeglądaj kompleksowe recenzje sprzętu narciarskiego na naszej stronie z recenzjami. Znajdź dogłębne analizy i opinie użytkowników na temat szerokiej gamy nart, aby podejmować świadome wybory dla swoich narciarskich przygód."
+  },
   header: {
     "en": "Pick a ski",
     "nl": "Pick a ski",

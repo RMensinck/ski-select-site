@@ -1,4 +1,13 @@
 const textsProfile = {
+    metaDescription: {
+        "en": "Access your personal profile on our platform to manage your preferences, view your ski equipment history, and customize your ski experience. Your personal hub for all things skiing!",
+        "nl": "Ga naar uw persoonlijk profiel op ons platform om uw voorkeuren te beheren, uw skihistorie te bekijken en uw ski-ervaring aan te passen. Uw persoonlijke hub voor alles wat met skiën te maken heeft!",
+        "de": "Zugriff auf Ihr persönliches Profil auf unserer Plattform, um Ihre Vorlieben zu verwalten, Ihre Skiausrüstungshistorie zu sehen und Ihr Ski-Erlebnis anzupassen. Ihr persönlicher Dreh- und Angelpunkt für alles rund ums Skifahren!",
+        "ja": "当プラットフォームであなたの個人プロファイルにアクセスし、好みを管理し、スキー装備の履歴を閲覧し、スキー体験をカスタマイズしましょう。スキーに関するすべてのことのためのあなたの個人的なハブ！",
+        "fr": "Accédez à votre profil personnel sur notre plateforme pour gérer vos préférences, consulter votre historique d'équipement de ski et personnaliser votre expérience de ski. Votre hub personnel pour tout ce qui concerne le ski !",
+        "es": "Acceda a su perfil personal en nuestra plataforma para gestionar sus preferencias, ver su historial de equipos de esquí y personalizar su experiencia de esquí. ¡Su centro personal para todo lo relacionado con el esquí!",
+        "pl": "Dostęp do swojego osobistego profilu na naszej platformie, aby zarządzać swoimi preferencjami, przeglądać historię swojego sprzętu narciarskiego i dostosować swoje doświadczenia narciarskie. Twoje osobiste centrum dla wszystkiego, co związane z narciarstwem!"
+    },
     header: {
         "en": "Pick-a-ski Profile",
         "nl": "Pick-a-ski Profiel",
