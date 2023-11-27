@@ -9,13 +9,13 @@ const textsContact = {
     "pl": "Skontaktuj się z nami! Odwiedź naszą stronę kontaktową, aby uzyskać wszystkie informacje potrzebne do nawiązania kontaktu z naszym zespołem. Czy masz pytania, chcesz przekazać opinię, czy potrzebujesz wsparcia, jesteśmy tutaj, aby Ci pomóc na każdym kroku."
   },
   header: {
-    "en": "Pick a ski",
-    "nl": "Pick a ski",
-    "ja": "スキーを選ぶ",
-    "es": "Elige unos esquís",
-    "de": "Wähle einen Ski",
-    "pl": "Wybierz narty",
-    "fr": "Choisissez un ski"
+    "en": "Contact Us – Reach Out for Skiing Inquiries and Support",
+    "nl": "Contacteer Ons – Bereik ons voor vragen en ondersteuning over skiën",
+    "de": "Kontaktieren Sie uns – Wir sind da für Ski-Anfragen und Unterstützung",
+    "ja": "お問い合わせ – スキーに関するお問い合わせやサポート",
+    "fr": "Contactez-nous – Pour vos questions et soutien en ski",
+    "es": "Contáctenos – Consultas y soporte sobre esquí",
+    "pl": "Skontaktuj się z nami – Zapytania i wsparcie narciarskie"
   },
   title: {
     "en": "Contact info",

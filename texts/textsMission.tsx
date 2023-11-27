@@ -9,13 +9,13 @@ const textsMission = {
     "pl": "Dowiedz się więcej o naszej misji, aby pomóc Ci znaleźć idealne narty. Jesteśmy zobowiązani do bezstronnego doradztwa, wolnego od wpływu dużych marek narciarskich, zapewniając, że podejmujesz świadome decyzje dotyczące Twoich potrzeb narciarskich."
   },
   header: {
-    "en": "Pick a ski",
-    "nl": "Pick a ski",
-    "ja": "スキーを選ぶ",
-    "es": "Elige unos esquís",
-    "de": "Wähle einen Ski",
-    "pl": "Wybierz narty",
-    "fr": "Choisissez un ski"
+    "en": "Our Mission – Empowering Your Ski Selection with Unbiased Advice",
+    "nl": "Onze Missie – Uw Skikeuze Versterken met Onpartijdig Advies",
+    "de": "Unsere Mission – Unterstützung Ihrer Skiauswahl mit Unvoreingenommenen Ratschlägen",
+    "ja": "私たちのミッション – 公平なアドバイスでスキー選択をサポート",
+    "fr": "Notre Mission – Faciliter Votre Choix de Skis avec des Conseils Impartiaux",
+    "es": "Nuestra Misión – Potenciar la Elección de sus Esquís con Asesoramiento Imparcial",
+    "pl": "Nasza Misja – Wspieranie Wyboru Nart Niezależną Poradą"
   },
   title: {
     "en": "The goal",

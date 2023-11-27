@@ -9,13 +9,13 @@ const textsOpinions = {
     "pl": "Odkryj naszą stronę z opiniami, aby zobaczyć, co inni myślą o szerokiej gamie nart i podziel się swoimi doświadczeniami. To Twoja platforma do dyskusji, oceniania i uczenia się z opinii prawdziwych użytkowników na temat każdego dostępnego modelu nart."
   },
   header: {
-    "en": "Opinions",
-    "nl": "Meningen",
-    "ja": "意見",
-    "es": "Opiniones",
-    "de": "Meinungen",
-    "pl": "Opinie",
-    "fr": "Avis"
+    "en": "Ski Reviews – Explore User Opinions on Various Ski Models",
+    "nl": "Ski Beoordelingen – Ontdek Gebruikersmeningen over Verschillende Skimodellen",
+    "de": "Ski-Bewertungen – Benutzermeinungen zu verschiedenen Skimodellen erkunden",
+    "ja": "スキーレビューハブ – 様々なスキーモデルに対するユーザーの意見を探る",
+    "fr": "Centre de Critiques de Skis – Explorez les Avis des Utilisateurs sur Différents Modèles de Skis",
+    "es": "Centro de Reseñas de Esquís – Explora las Opiniones de Usuarios sobre Diversos Modelos de Esquí",
+    "pl": "Centrum Opinii o Nartach – Odkrywaj Opinie Użytkowników na Temat Różnych Modeli Nart"
   },
   title: {
     "en": "Share your opinions here!",
