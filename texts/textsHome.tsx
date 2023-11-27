@@ -1,4 +1,13 @@
 const textsHome = {
+  metaDescription: {
+    "en": "Discover the best skis for your winter adventures with our unbiased comparison tool. Free from big brand influence, we offer honest reviews and detailed comparisons to help you find the perfect pair of skis tailored to your style and skill level. Start comparing now and hit the slopes with confidence!",
+    "nl": "Ontdek de beste ski's voor uw winteravonturen met onze onbevooroordeelde vergelijkingstool. Vrij van grote merkinvloed bieden wij eerlijke beoordelingen en gedetailleerde vergelijkingen om u te helpen het perfecte paar ski's te vinden, aangepast aan uw stijl en vaardigheidsniveau. Begin nu met vergelijken en ga vol vertrouwen de pistes op!",
+    "de": "Entdecken Sie die besten Ski für Ihre Winterabenteuer mit unserem unvoreingenommenen Vergleichstool. Frei von großen Markeneinflüssen bieten wir ehrliche Bewertungen und detaillierte Vergleiche, um Ihnen zu helfen, das perfekte Paar Ski zu finden, das auf Ihren Stil und Ihr Können zugeschnitten ist. Beginnen Sie jetzt mit dem Vergleich und stürzen Sie sich voller Vertrauen in die Pisten!",
+    "ja": "私たちの偏りのない比較ツールで冬の冒険に最適なスキーを見つけましょう。大手ブランドの影響を受けずに、正直なレビューと詳細な比較を提供し、あなたのスタイルとスキルレベルに合った完璧なスキーペアを見つけるお手伝いをします。今すぐ比較を始めて、自信を持って斜面を滑りましょう！",
+    "fr": "Découvrez les meilleurs skis pour vos aventures hivernales avec notre outil de comparaison impartial. Libres de l'influence des grandes marques, nous offrons des avis honnêtes et des comparaisons détaillées pour vous aider à trouver la paire de skis parfaite, adaptée à votre style et à votre niveau de compétence. Commencez à comparer maintenant et attaquez les pistes en toute confiance !",
+    "es": "Descubra los mejores esquís para sus aventuras de invierno con nuestra herramienta de comparación imparcial. Libres de la influencia de grandes marcas, ofrecemos reseñas honestas y comparaciones detalladas para ayudarle a encontrar el par de esquís perfecto, adaptado a su estilo y nivel de habilidad. ¡Comience a comparar ahora y lance a las pistas con confianza!",
+    "pl": "Odkryj najlepsze narty na swoje zimowe przygody z naszym bezstronnym narzędziem do porównań. Wolni od wpływu dużych marek oferujemy szczere recenzje i szczegółowe porównania, aby pomóc Ci znaleźć idealną parę nart dostosowaną do Twojego stylu i poziomu umiejętności. Zacznij porównywać teraz i z ufnością wybierz się na stoki!"
+  },
   header: {
     "en": "Pick a ski",
     "nl": "Pick a ski",
