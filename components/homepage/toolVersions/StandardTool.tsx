@@ -33,8 +33,20 @@ const StandardTool: React.FC = ({ }) => {
   const [result3, setResult3] = useState("")
   const [result4, setResult4] = useState("")
   const [result5, setResult5] = useState("")
+  const [shareURL, setShareURL] = useState("")
 
   useEffect(() => {
+    const query = router.query;
+    if (Object.keys(query).length > 0) {
+      // Process query parameters
+      Object.entries(query).forEach(([key, value]) => {
+        localStorage.setItem(key, value.toString());
+      });
+    }
+  }, [router.query]);
+
+  useEffect(() => {
+
     const savedPlayfullValue = localStorage.getItem('playfull')
     const savedParkValue = localStorage.getItem('park')
     const savedPisteValue = localStorage.getItem('piste')
@@ -50,7 +62,17 @@ const StandardTool: React.FC = ({ }) => {
     if (savedFreerideValue) {setFreeride(parseInt(savedFreerideValue, 10))}
     if (savedTouringValue) {setTouring(parseInt(savedTouringValue, 10))}
     if (savedLevelValue) {setLevel(parseInt(savedLevelValue, 10))}
+
+    setShareURL(createShareURL())
   }, [])
+
+  useEffect(() => {
+    if (Object.keys(router.query).length > 0) {
+      router.replace(router.pathname, undefined, { shallow: true });
+      showScores()
+    }
+  }, [router]);
+
   
   useEffect(() => {
     setPlayfullInfo(texts.sliders.playfull[locale][playfull])
@@ -60,6 +82,8 @@ const StandardTool: React.FC = ({ }) => {
     setFreerideInfo(texts.sliders.freeride[locale][freeride])
     setTouringInfo(texts.sliders.touring[locale][touring])
     setLevelInfo(texts.sliders.level[locale][level])
+
+    setShareURL(createShareURL())
   }, [playfull, park, piste, powder, freeride, touring, level]);
 
   const showScores = async () => {
@@ -76,7 +100,19 @@ const StandardTool: React.FC = ({ }) => {
     inputField.setFunction(Number(val.target.value))
     localStorage.setItem(inputField.id, val.target.value)
     setButtonVisable(false)
+    setShareURL(createShareURL())  
+  }
 
+  const createShareURL = () => {
+    const params = new URLSearchParams()
+    params.append("level", level.toString())
+    params.append("playfull", playfull.toString())
+    params.append("piste", piste.toString())
+    params.append("powder", powder.toString())
+    params.append("freeride", freeride.toString())
+    params.append("park", park.toString())
+    params.append("touring", touring.toString())
+    return `${window.location.origin}${window.location.pathname}?${params.toString()}`
   }
   
   const inputFields = [
@@ -130,6 +166,7 @@ const StandardTool: React.FC = ({ }) => {
       result4={result4}
       result5={result5}
       scores={scores}
+      shareURL={shareURL}
       />
 
     </div>

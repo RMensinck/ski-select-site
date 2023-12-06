@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import ShareBox from '@/components/shareBox'
 
 interface ToolResultsProps {
     result1: string;
@@ -11,10 +12,11 @@ interface ToolResultsProps {
     result4: string;
     result5: string;
     scores: any[]; 
+    shareURL: string;
 }
 
 
-const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, result4, result5, scores }) => {
+const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, result4, result5, scores, shareURL }) => {
   const router = useRouter()
   const { locale } = router
   const [link1, setLink1] = useState("")
@@ -36,19 +38,30 @@ const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, re
   }, [scores])
 
   return (
-        <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
-            <h2 className="text-2xl text-dark-blue font-bold mb-2">{texts.choicesTitle[locale]}</h2>
-            <Link href={link1}>
-              <p className="text-dark-blue font-mono text-sm">{result1}</p></Link>
-            <Link href={link2}>
-              <p className="text-dark-blue font-mono text-sm">{result2}</p></Link>
-            <Link href={link3}>
-              <p className="text-dark-blue font-mono text-sm">{result3}</p></Link>
-            <Link href={link4}>
-              <p className="text-dark-blue font-mono text-sm">{result4}</p></Link>
-            <Link href={link5}>
-              <p className="text-dark-blue font-mono text-sm">{result5}</p></Link>
-        </div>
+    <div>
+      <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
+      <h2 className="text-2xl text-dark-blue font-bold mb-2">{texts.choicesTitle[locale]}</h2>
+      <Link href={link1}>
+        <p className="text-dark-blue font-mono text-sm">{result1}</p></Link>
+      <Link href={link2}>
+        <p className="text-dark-blue font-mono text-sm">{result2}</p></Link>
+      <Link href={link3}>
+        <p className="text-dark-blue font-mono text-sm">{result3}</p></Link>
+      <Link href={link4}>
+        <p className="text-dark-blue font-mono text-sm">{result4}</p></Link>
+      <Link href={link5}>
+        <p className="text-dark-blue font-mono text-sm">{result5}</p></Link>
+      </div>
+      <div className={`mt-6 rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'hidden'}`}>
+        <ShareBox
+          url={shareURL}
+        />        
+      </div>
+
+    </div>
+
+
+
   ) 
 }
 
