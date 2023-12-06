@@ -12,11 +12,11 @@ interface ToolResultsProps {
     result4: string;
     result5: string;
     scores: any[]; 
-    shareURL: string;
+    shareURL?: string;
 }
 
 
-const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, result4, result5, scores, shareURL }) => {
+const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, result4, result5, scores, shareURL="" }) => {
   const router = useRouter()
   const { locale } = router
   const [link1, setLink1] = useState("")
@@ -52,12 +52,13 @@ const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, re
       <Link href={link5}>
         <p className="text-dark-blue font-mono text-sm">{result5}</p></Link>
       </div>
-      <div className={`mt-6 rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'hidden'}`}>
+      {shareURL && 
+      <div className={`mt-2 rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'hidden'}`}>
         <ShareBox
           url={shareURL}
         />        
       </div>
-
+      }
     </div>
 
 
