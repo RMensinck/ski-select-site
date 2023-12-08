@@ -9,13 +9,13 @@ const textsHome = {
     "pl": "Odkryj najlepsze narty na swoje zimowe przygody z naszym bezstronnym narzędziem do porównań. Wolni od wpływu dużych marek oferujemy szczere recenzje i szczegółowe porównania, aby pomóc Ci znaleźć idealną parę nart dostosowaną do Twojego stylu i poziomu umiejętności. Zacznij porównywać teraz i z ufnością wybierz się na stoki!"
   },
   header: {
-    "en": "Find Your Perfect Skis – Expert Guidance and Tools at Your Fingertips",
-    "nl": "Vind Uw Perfecte Ski’s – Onafhankelijk advies binnen Handbereik",
-    "de": "Finden Sie Ihre Perfekten Ski – Fachkundige Beratung und Werkzeuge für Sie",
-    "ja": "あなたにぴったりのスキーを見つけよう – 専門家のガイダンスとツールがすぐに使えます",
-    "fr": "Trouvez vos Skis Parfaits – Conseils d'Experts et Outils à votre Portée",
-    "es": "Encuentre sus Esquís Perfectos – Orientación Experta y Herramientas al Alcance",
-    "pl": "Znajdź Idealne Narty – Ekspercka Pomoc i Narzędzia na Wyciągnięcie Ręki"
+    "en": "Pick a ski",
+    "nl": "Pick a ski",
+    "ja": "スキーを選ぶ",
+    "es": "Elige unos esquís",
+    "de": "Wähle einen Ski",
+    "pl": "Wybierz narty",
+    "fr": "Choisissez un ski"
   },
   title: {
     "en": "Ski Selector",
