@@ -14,7 +14,7 @@ interface ToolResultsProps {
     scores: any[]; 
     shareURL?: string;
 }
-
+declare function gtag(...args: any[]): void;
 
 const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, result4, result5, scores, shareURL="" }) => {
   const router = useRouter()
@@ -24,6 +24,14 @@ const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, re
   const [link3, setLink3] = useState("")
   const [link4, setLink4] = useState("")
   const [link5, setLink5] = useState("")
+  
+  const logClick = (result: string, rank: number) => {
+    gtag('event', 'results_click', {
+      'event_category': 'Ski results',
+      'event_label': result.replace(/[ /._-]/g, ''),
+      'value': rank
+    });
+  }
 
   useEffect(() => {
     try {
@@ -41,15 +49,15 @@ const ToolResults: React.FC<ToolResultsProps> = ({ result1, result2, result3, re
     <div>
       <div className={`mt-6 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700 ${scores.length > 0 ? 'opacity-100 px-4 py-4' : 'opacity-0'}`}>
       <h2 className="text-2xl text-dark-blue font-bold mb-2">{texts.choicesTitle[locale]}</h2>
-      <Link href={link1}>
+      <Link href={link1} onClick={() => logClick(result1, 1)}>
         <p className="text-dark-blue font-mono text-sm">{result1}</p></Link>
-      <Link href={link2}>
+      <Link href={link2} onClick={() => logClick(result2, 2)}>
         <p className="text-dark-blue font-mono text-sm">{result2}</p></Link>
-      <Link href={link3}>
+      <Link href={link3} onClick={() => logClick(result3, 3)}>
         <p className="text-dark-blue font-mono text-sm">{result3}</p></Link>
-      <Link href={link4}>
+      <Link href={link4} onClick={() => logClick(result4, 4)}>
         <p className="text-dark-blue font-mono text-sm">{result4}</p></Link>
-      <Link href={link5}>
+      <Link href={link5} onClick={() => logClick(result5, 5)}>
         <p className="text-dark-blue font-mono text-sm">{result5}</p></Link>
       </div>
       {shareURL && 

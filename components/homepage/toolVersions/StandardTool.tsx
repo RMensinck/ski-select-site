@@ -6,6 +6,7 @@ import ToolResults from '@/components/homepage/toolResults';
 import getScores from '@/components/getScores';
 import setTextWithAnimation from '@/components/setTextWithAnimation';
 
+declare function gtag(...args: any[]): void;
 
 const StandardTool: React.FC = ({ }) => {
   
@@ -101,6 +102,11 @@ const StandardTool: React.FC = ({ }) => {
     localStorage.setItem(inputField.id, val.target.value)
     setButtonVisable(false)
     setShareURL(createShareURL())  
+    gtag('event', 'slider_change', {
+      'event_category': 'Standard_tool_slider',
+      'event_label': inputField.id,
+      'value': val.target.value
+    })
   }
 
   const createShareURL = () => {

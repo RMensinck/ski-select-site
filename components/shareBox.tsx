@@ -9,6 +9,8 @@ interface ToolResultsProps {
     url: string;
 }
 
+declare function gtag(...args: any[]): void;
+
 
 const ToolResults: React.FC<ToolResultsProps> = ({ url }) => {
   const router = useRouter()
@@ -34,6 +36,12 @@ const ToolResults: React.FC<ToolResultsProps> = ({ url }) => {
       });
     } catch (error) {
     }
+
+    gtag('event', 'share_button_clicked', {
+      'event_category': 'Share',
+      'event_label': channel,
+      'value': 1
+      })
   };
 
   return (
