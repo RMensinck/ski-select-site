@@ -15,20 +15,28 @@ export default function App({ Component, pageProps, router }: AppProps) {
   const generateHreflangTags = () => {
     const currentPath = router.asPath;
     const alternateUrls = {
-      en: `https://pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`,
-      nl: `https://pick-a-ski.com/nl${currentPath === "/" ? "" : currentPath}`,
-      ja: `https://pick-a-ski.com/ja${currentPath === "/" ? "" : currentPath}`,
-      pl: `https://pick-a-ski.com/pl${currentPath === "/" ? "" : currentPath}`,
-      es: `https://pick-a-ski.com/es${currentPath === "/" ? "" : currentPath}`,
-      de: `https://pick-a-ski.com/de${currentPath === "/" ? "" : currentPath}`,
-      fr: `https://pick-a-ski.com/fr${currentPath === "/" ? "" : currentPath}`,
-      "x-default": `https://pick-a-ski.com${currentPath === "/" ? "" : currentPath}`,
+      en: `https://www.pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`,
+      nl: `https://www.pick-a-ski.com/nl${currentPath === "/" ? "" : currentPath}`,
+      ja: `https://www.pick-a-ski.com/ja${currentPath === "/" ? "" : currentPath}`,
+      pl: `https://www.pick-a-ski.com/pl${currentPath === "/" ? "" : currentPath}`,
+      es: `https://www.pick-a-ski.com/es${currentPath === "/" ? "" : currentPath}`,
+      de: `https://www.pick-a-ski.com/de${currentPath === "/" ? "" : currentPath}`,
+      fr: `https://www.pick-a-ski.com/fr${currentPath === "/" ? "" : currentPath}`,
+      "x-default": `https://www.pick-a-ski.com${currentPath === "/" ? "" : currentPath}`,
     };
-
-    return Object.entries(alternateUrls).map(([lang, url]) => (
-      <link key={lang} rel="alternate" hrefLang={lang} href={url} />
-    ));
+  
+    const canonicalUrl = `https://www.pick-a-ski.com${currentPath === "/" ? "" : currentPath}`; 
+  
+    return (
+      <>
+        <link key="canonical" rel="canonical" href={canonicalUrl} />
+        {Object.entries(alternateUrls).map(([lang, url]) => (
+          <link key={lang} rel="alternate" hrefLang={lang} href={url} />
+        ))}
+      </>
+    );
   };
+  
 
   return (
   <>
