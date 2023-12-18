@@ -20,7 +20,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"PT Sans"', 'sans-serif']
-      }
+      },
+
     },
   },
   plugins: [],

@@ -11,6 +11,7 @@ export default function Home() {
   const router = useRouter()
   const { locale } = router 
 
+
   return (
     <>
       <Head>
@@ -23,18 +24,24 @@ export default function Home() {
           <SideBar />
           <div className="standard-background">
             
-            <TextField
-              texts={[texts.upperAlert1[locale]]}
-              links={[{text: texts.upperAlert2[locale], href: "/opinions"}]}
-            />
 
-            <PasTool />
+              <TextField
+                texts={[texts.upperAlert1[locale]]}
+                links={[{text: texts.upperAlert2[locale], href: "/opinions"}]}
+              />
 
-            <TextField
-              texts={[texts.welcomeMessage[locale]]}
-              links={[]}
-              feedbackBox={true}
-            />
+
+
+              <PasTool />
+  
+            
+
+              <TextField
+                texts={[texts.welcomeMessage[locale]]}
+                links={[]}
+                feedbackBox={true}
+              />
+
 
           </div>
         </div>

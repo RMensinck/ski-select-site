@@ -41,13 +41,16 @@ export default function Home() {
                 <p className="text-dark-blue font-bold text-center">
                   {texts.availableReviews[locale]}
                 </p>
-                {skiNames.map((ski, index) => (
+                <div className="">
+                  {skiNames.map((ski, index) => (
                   <Link href={reviews[ski].href} key={index}>
-                    <p className="mb-2 text-dark-blue text-center underline hover:font-semibold">
-                      {cutStringWithEllipsis(ski, 22) + " " + texts.by[locale] + " " + reviews[ski].author}
+                    <p className="mb-2 text-dark-blue underline hover:font-semibold">
+                      {cutStringWithEllipsis(ski, 25) + " " + texts.by[locale] + " " + reviews[ski].author}
                     </p>
                   </Link>
                 ))}
+                </div>
+
               </div>
             </div>
           </div>
