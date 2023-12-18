@@ -52,6 +52,15 @@ const texts = {
     "de": "englisch",
     "pl": "angielski",
     "fr": "anglais"
+  },
+  dutch: {
+    "en": "dutch",
+    "nl": "nederlands",
+    "ja": "オランダ語",
+    "es": "holandés",
+    "de": "niederländisch",
+    "pl": "holenderski",
+    "fr": "néerlandais"
   }
 }
 
