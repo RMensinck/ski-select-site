@@ -40,7 +40,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
 
   return (
   <>
-    <Script type="text/javascript" src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=77ba43c3f4764d912e7aebfab3666be7d138c057"></Script>
     <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SFCQQ8FEPR"/>
     <Script
       id='google-analytics'
