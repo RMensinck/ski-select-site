@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>{texts.header[locale]}</title>
         <meta name="description" content={texts.metaDescription[locale]}/>
-        <script type="text/javascript" src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=77ba43c3f4764d912e7aebfab3666be7d138c057"></script>
+        <script async type="text/javascript" src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=77ba43c3f4764d912e7aebfab3666be7d138c057"></script>
       </Head>
       
       <main className="">
