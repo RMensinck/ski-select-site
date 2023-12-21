@@ -22,10 +22,10 @@ export default function App({ Component, pageProps, router }: AppProps) {
       es: `https://www.pick-a-ski.com/es${currentPath === "/" ? "" : currentPath}`,
       de: `https://www.pick-a-ski.com/de${currentPath === "/" ? "" : currentPath}`,
       fr: `https://www.pick-a-ski.com/fr${currentPath === "/" ? "" : currentPath}`,
-      "x-default": `https://www.pick-a-ski.com${currentPath === "/" ? "" : currentPath}`,
+      "x-default": `https://www.pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`,
     };
   
-    const canonicalUrl = `https://www.pick-a-ski.com${currentPath === "/" ? "" : currentPath}`; 
+    const canonicalUrl = `https://www.pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`; 
   
     return (
       <>
