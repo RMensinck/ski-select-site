@@ -29,7 +29,7 @@ export default function Example() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0 2xl:py-96">
+            <div className="relative px-6 py-12 sm:py-40 lg:py-56 lg:px-8  lg:pr-0 2xl:py-96 ">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="mb-10 flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

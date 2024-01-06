@@ -190,35 +190,42 @@ export default function Example() {
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
-                href="/"
-                className="block border-l-4 border-accent-color bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-accent-color sm:pl-5 sm:pr-6"
+                href={`/${locale}`}
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
+              >
+                {texts.home[locale]}
+              </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href={`/${locale}/pick-a-ski`}
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 Pick-a-ski
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/opinions"
+                href={`/${locale}/opinions`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.opinions[locale]}
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/reviews"
+                href={`/${locale}/reviews`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.reviews[locale]}
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/mission"
+                href={`/${locale}/mission`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.mission[locale]}
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/contact"
+                href={`/${locale}/contact`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.contact[locale]}

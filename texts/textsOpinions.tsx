@@ -18,7 +18,7 @@ const textsOpinions = {
     "pl": "Centrum Opinii o Nartach – Odkrywaj Opinie Użytkowników na Temat Różnych Modeli Nart"
   },
   title: {
-    "en": "Find and share honnest opinions",
+    "en": "Find and share honest opinions",
     "nl": "Vind en deel eerlijke meningen",
     "ja": "正直な意見を見つけて共有する",
     "es": "Encuentra y comparte opiniones honestas",
@@ -27,7 +27,7 @@ const textsOpinions = {
     "fr": "Trouvez et partagez des avis honnêtes"
   },
   body: {
-    "en": "Finding honnest information about a ski can be hard, therefore we created this platform to help you find the right ski for your needs. We believe that the best information comes from the people who have actually used the ski. That's why we encourage you to share your opinion about the ski you have used. This way we can help each other find the right ski.",
+    "en": "Finding honest information about a ski can be hard, therefore we created this platform to help you find the right ski for your needs. We believe that the best information comes from the people who have actually used the ski. That's why we encourage you to share your opinion about the ski you have used. This way we can help each other find the right ski.",
     "nl": "Eerlijke informatie over een ski vinden kan moeilijk zijn, daarom hebben we dit platform gemaakt om je te helpen de juiste ski voor jouw behoeften te vinden. Wij geloven dat de beste informatie komt van de mensen die de ski daadwerkelijk hebben gebruikt. Daarom moedigen we je aan om je mening over de ski die je hebt gebruikt te delen. Op deze manier kunnen we elkaar helpen de juiste ski te vinden.",
     "ja": "スキーに関する正直な情報を見つけるのは難しいことがあります。そのため、このプラットフォームを作成しました。あなたのニーズに合ったスキーを見つけるのをお手伝いします。私たちは、最高の情報は、実際にスキーを使用した人々から得られると考えています。だからこそ、あなたが使用したスキーについて意見を共有することをお勧めします。このようにして、お互いに適切なスキーを見つけるのを助け合うことができます。",
     "es": "Encontrar información honesta sobre un esquí puede ser difícil, por eso creamos esta plataforma para ayudarte a encontrar el esquí adecuado para tus necesidades. Creemos que la mejor información proviene de las personas que realmente han usado el esquí. Por eso te animamos a compartir tu opinión sobre el esquí que has usado. De esta manera podemos ayudarnos mutuamente a encontrar el esquí adecuado.",
