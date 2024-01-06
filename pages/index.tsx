@@ -32,7 +32,7 @@ export default function Example() {
             <div className="relative px-6 py-12 sm:py-40 lg:py-56 lg:px-8  lg:pr-0 2xl:py-96 ">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="mb-10 flex">
-                  <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                  <div className="relative rounded-lg sm:rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                     {texts.upperTextbox[locale]}{' '}
                     <Link href="/opinions" className="whitespace-nowrap font-semibold text-accent-color">
                       <span className="absolute inset-0" aria-hidden="true" />
