@@ -40,7 +40,7 @@ function FeedbackForm() {
       />
       <button
         type="submit"
-        className="bg-dark-blue text-white py-2 px-4 rounded-full max-w-[200px] shadow-lg"
+        className="bg-dark-blue text-custom-white py-2 px-4 rounded-full max-w-[200px] shadow-lg"
       >
         {standardTexts.submitFeedback[locale]}
       </button>

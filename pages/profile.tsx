@@ -1,112 +1,83 @@
-import SideBar from '../components/sidebar';
-import Head from 'next/head'
-import Link from 'next/link'
-import texts from '../texts/textsProfile' 
+import { Fragment, useState, useEffect } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { CheckIcon } from '@heroicons/react/24/outline'
+import texts from '../texts/textsProfile'
 import { useRouter } from 'next/router'
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { getAuth } from 'firebase/auth'
-import notLoggedIn from '@/components/notLoggedIn';
-import { useState, useEffect } from 'react';
-import { setDoc, getDoc, doc } from "firebase/firestore"
-import { db } from '@/firebaseConfig';
-
-export default function Home() {
-    const router = useRouter()
-    const { locale } = router
-    const auth = getAuth();
-    const [user, loading] = useAuthState(auth)
-    const [enableEdit, setEnableEdit] = useState(false)
-    const [name, setName] = useState("Loading..")
-    const [level, setLevel] = useState("Loading..")
-    const [description, setDescription] = useState("Loading..")
-    
-    
-    
-    useEffect(() => {
-      const readData = async () => {
-        const docSnap = await getDoc(doc(db, "users" , user.uid))
-        if (docSnap.exists()) {
-          setName(docSnap.data().name)
-          setLevel(docSnap.data().level)
-          setDescription(docSnap.data().description)
-          console.log(docSnap.data().description)
-        }
-      }
-      if (user) {readData()}
-    }, [user])
 
 
-    const writeToFirebase = async (input:{
-      name: string,
-      level: string,
-      description: string
-    }) => {
-      try {
-        const docRef = await setDoc(doc(db, "users", user.uid), input, { merge: true})
-      } catch(e) {
-        console.error(e)
-      }
-    }
+declare function gtag(...args: any[]): void;
 
-    if (user) return (
-      <>
-        <Head>
-          <title>{texts.header[locale]}</title>
-          <meta name="description" content={texts.metaDescription[locale]}/>
-        </Head>
-        <main className="">
-          <div className="flex">
-            <SideBar />
-            <div className="standard-background">
-              <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 lg:mx-auto my-10 shadow-lg lg:min-w-[48rem] flex flex-col">
-                <h1 className="text-4xl font-bold text-dark-blue mx-3 mb-6 mt-7 text-center">
-                  {texts.welcome[locale] + ", " + user.displayName}
-                </h1>
-                {enableEdit === false && 
-                <> 
-                  <div className="grid place-items-center grid-cols-2">
-                    <label>{texts.name[locale]}</label>
-                    <p>{name}</p>
-                    <label>{texts.level[locale]}</label>
-                    <p>{level}</p>
-                    <label>{texts.description[locale]}</label>
-                    <p>{description}</p>
-                  </div>
-                  <div className="mx-auto">
-                    <button className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition duration-500 shadow-lg mx-3" onClick={() => setEnableEdit(true)}>
-                      {texts.edit[locale]}
-                    </button>
-                  </div>
+export default function Example() {
+  const [open, setOpen] = useState(true)
+  const router = useRouter()
+  const { locale } = router
 
-                </> 
-                }
-                {enableEdit && 
-                <> 
-                  <div className="grid place-items-center grid-cols-2">
-                    <label htmlFor='name'>{texts.name[locale]}</label>
-                    <input type="text" id="name" className="mb-3" onChange={(x) => setName(x.target.value)} placeholder={name}/>
-                    <label htmlFor='level'>{texts.level[locale]}</label>
-                    <input type="text" id="level" className="mb-3" onChange={(x) => setLevel(x.target.value)} placeholder={level}/>
-                    <label htmlFor='description'>{texts.description[locale]}</label>
-                    <input type="text" id="description" className="mb-3" onChange={(x) => setDescription(x.target.value)} placeholder={description}/>
-                  </div>
-                  <button className="bg-dark-blue text-white py-2 px-4 rounded-full mt-6 hover:bg-blue-700 transition max-w-[100px] duration-500 shadow-lg mx-auto" onClick={() => {
-                    setEnableEdit(false)
-                    writeToFirebase({
-                      name: name,
-                      level: level,
-                      description: description,
-                    })
-                    }}>
-                      {texts.save[locale]}
-                  </button>
-                </> 
-                }
-              </div>        
+  useEffect(() => {
+    gtag('event', 'Profile loaded')
+  }, [])
+
+  return (
+    <>
+      <main className="relative isolate min-h-full h-screen">
+        <img
+          src="/404background.jpg"
+          alt=""
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-top"
+        />
+        <Transition.Root show={open} as={Fragment}>
+          <Dialog as="div" className="relative z-10" onClose={setOpen}>
+            <Transition.Child
+              as={Fragment}
+              enter="ease-out duration-300"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="ease-in duration-200"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+            </Transition.Child>
+
+            <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+              <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                  enterTo="opacity-100 translate-y-0 sm:scale-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100 translate-y-0 sm:scale-100"
+                  leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                >
+                  <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+                    <div>
+                      <div className="mt-3 text-center sm:mt-5">
+                        <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
+                          {texts.title[locale]}
+                        </Dialog.Title>
+                        <div className="mt-2">
+                          <p className="text-sm text-gray-500">
+                            {texts.body[locale]}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-5 sm:mt-6">
+                      <button
+                        type="button"
+                        className="inline-flex w-full justify-center rounded-md bg-accent-color px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        onClick={() => setOpen(false)}
+                      >
+                        {texts.goHome[locale]}
+                      </button>
+                    </div>
+                  </Dialog.Panel>
+                </Transition.Child>
+              </div>
             </div>
-          </div>
-        </main>
-      </>
-    )
-    else return notLoggedIn()
-  }
+          </Dialog>
+        </Transition.Root>
+      </main>
+    </>
+  )
+}

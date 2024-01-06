@@ -15,7 +15,7 @@ interface TextInputs {
 
 const TextField: React.FC<TextInputs> = ({ texts, links, feedbackBox=false }) => {
   return (
-    <div className="rounded-xl py-4 bg-opacity-50 bg-grey max-w-3xl mx-3 shadow-lg lg:min-w-[48rem]">
+    <div className="rounded-xl py-4 bg-opacity-50 bg-custom-grey max-w-3xl mx-3 shadow-lg lg:min-w-[48rem]">
       {texts.map((text, index) => (
         <p key={index} className="mb-6 mt-6 text-dark-blue font-bold text-center px-3">
           {text}

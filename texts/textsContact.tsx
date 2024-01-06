@@ -9,31 +9,40 @@ const textsContact = {
     "pl": "Skontaktuj się z nami! Odwiedź naszą stronę kontaktową, aby uzyskać wszystkie informacje potrzebne do nawiązania kontaktu z naszym zespołem. Czy masz pytania, chcesz przekazać opinię, czy potrzebujesz wsparcia, jesteśmy tutaj, aby Ci pomóc na każdym kroku."
   },
   header: {
-    "en": "Contact Us – Reach Out for Skiing Inquiries and Support",
-    "nl": "Contacteer Ons – Bereik ons voor vragen en ondersteuning over skiën",
-    "de": "Kontaktieren Sie uns – Wir sind da für Ski-Anfragen und Unterstützung",
-    "ja": "お問い合わせ – スキーに関するお問い合わせやサポート",
-    "fr": "Contactez-nous – Pour vos questions et soutien en ski",
-    "es": "Contáctenos – Consultas y soporte sobre esquí",
-    "pl": "Skontaktuj się z nami – Zapytania i wsparcie narciarskie"
+    "en": "Contact Us – Reach Out for help or collaboration.",
+    "nl": "Neem contact met ons op – Beschikbaar voor hulp en samenwerking.",
+    "ja": "お問い合わせ – ヘルプやコラボレーションのために連絡してください。",
+    "es": "Contáctenos – Póngase en contacto para obtener ayuda o colaboración.",
+    "de": "Kontaktieren Sie uns – Wenden Sie sich für Hilfe oder Zusammenarbeit an uns.",
+    "pl": "Skontaktuj się z nami – Skontaktuj się w sprawie pomocy lub współpracy.",
+    "fr": "Contactez-nous – Contactez-nous pour obtenir de l'aide ou collaborer."
   },
   title: {
-    "en": "Contact info",
-    "nl": "Contact informatie",
-    "ja": "連絡先情報",
-    "es": "Información de contacto",
-    "de": "Kontaktinformation",
-    "pl": "Informacje kontaktowe",
-    "fr": "Informations de contact"
+    "en": "Get in touch",
+    "nl": "Neem contact op",
+    "ja": "お問い合わせ",
+    "es": "Póngase en contacto",
+    "de": "Kontakt aufnehmen",
+    "pl": "Skontaktuj się",
+    "fr": "Contactez-nous"
   },
   body: {
-    "en": "Questions or feedback? Feel free to send an e-mail!",
-    "nl": "Vragen of feedback? Stuur gerust een e-mail!",
-    "ja": "質問やフィードバックがあれば、お気軽にメールを送ってください！",
-    "es": "¿Preguntas o comentarios? ¡Siéntete libre de enviar un correo electrónico!",
-    "de": "Fragen oder Feedback? Schicken Sie gerne eine E-Mail!",
-    "pl": "Pytania lub uwagi? Śmiało, wyślij e-mail!",
-    "fr": "Des questions ou des commentaires ? N'hésitez pas à envoyer un e-mail !"
+    "en": "If you have any questions about our tool, the website or anything else, please don't hesitate to contact us. We will get back to you as soon as possible.",
+    "nl": "Als u vragen heeft over onze tool, de website of iets anders, neem dan gerust contact met ons op. We zullen zo snel mogelijk contact met u opnemen.",
+    "ja": "ツール、ウェブサイト、その他何かご質問がある場合は、お気軽にお問い合わせください。できるだけ早くご連絡いたします。",
+    "es": "Si tiene alguna pregunta sobre nuestra herramienta, el sitio web o cualquier otra cosa, no dude en ponerse en contacto con nosotros. Nos pondremos en contacto con usted lo antes posible.",
+    "de": "Wenn Sie Fragen zu unserem Tool, der Website oder zu etwas anderem haben, zögern Sie bitte nicht, uns zu kontaktieren. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "pl": "Jeśli masz jakieś pytania dotyczące naszego narzędzia, strony internetowej lub czegokolwiek innego, nie wahaj się z nami skontaktować. Odpowiemy tak szybko, jak to możliwe.",
+    "fr": "Si vous avez des questions sur notre outil, le site Web ou autre chose, n'hésitez pas à nous contacter. Nous vous répondrons dès que possible."
+  },
+  adres: {
+    "nl": "Nijmegen, Nederland",
+    "en": "Nijmegen, The Netherlands",
+    "ja": "オランダ、ナイメーヘン",
+    "es": "Nijmegen, Países Bajos",
+    "de": "Nijmegen, Niederlande",
+    "pl": "Nijmegen, Holandia",
+    "fr": "Nijmegen, Pays-Bas"
   },
   email: {
     "en": "e-mail: remco@pick-a-ski.com",
@@ -43,6 +52,60 @@ const textsContact = {
     "de": "E-Mail: remco@pick-a-ski.com",
     "pl": "e-mail: remco@pick-a-ski.com",
     "fr": "e-mail : remco@pick-a-ski.com"
+  },
+  firstName: {
+    "en": "First name",
+    "nl": "Voornaam",
+    "ja": "名",
+    "es": "Nombre",
+    "de": "Vorname",
+    "pl": "Imię",
+    "fr": "Prénom"
+  },
+  lastName: {
+    "en": "Last name",
+    "nl": "Achternaam",
+    "ja": "姓",
+    "es": "Apellido",
+    "de": "Nachname",
+    "pl": "Nazwisko",
+    "fr": "Nom de famille"
+  },
+  emailSender: {
+    "en": "Email",
+    "nl": "E-mail",
+    "ja": "メール",
+    "es": "Correo electrónico",
+    "de": "E-Mail",
+    "pl": "E-mail",
+    "fr": "Email"
+  },
+  message: {
+    "en": "Message",
+    "nl": "Bericht",
+    "ja": "メッセージ",
+    "es": "Mensaje",
+    "de": "Nachricht",
+    "pl": "Wiadomość",
+    "fr": "Message"
+  },
+  phone: {
+    "en": "Phone number",
+    "nl": "Telefoonnummer",
+    "ja": "電話番号",
+    "es": "Número de teléfono",
+    "de": "Telefonnummer",
+    "pl": "Numer telefonu",
+    "fr": "Numéro de téléphone"
+  },
+  send: {
+    "en": "Send",
+    "nl": "Verzenden",
+    "ja": "送信",
+    "es": "Enviar",
+    "de": "Senden",
+    "pl": "Wyślij",
+    "fr": "Envoyer"
   },
 }
 

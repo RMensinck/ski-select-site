@@ -18,23 +18,41 @@ const textsOpinions = {
     "pl": "Centrum Opinii o Nartach – Odkrywaj Opinie Użytkowników na Temat Różnych Modeli Nart"
   },
   title: {
-    "en": "Share your opinions here!",
-    "nl": "Deel hier je mening!",
-    "ja": "ここであなたの意見を共有してください！",
-    "es": "¡Comparte tus opiniones aquí!",
-    "de": "Teilen Sie hier Ihre Meinungen!",
-    "pl": "Podziel się swoją opinią tutaj!",
-    "fr": "Partagez vos avis ici !"
+    "en": "Find and share honnest opinions",
+    "nl": "Vind en deel eerlijke meningen",
+    "ja": "正直な意見を見つけて共有する",
+    "es": "Encuentra y comparte opiniones honestas",
+    "de": "Ehrliche Meinungen finden und teilen",
+    "pl": "Znajdź i udostępnij szczere opinie",
+    "fr": "Trouvez et partagez des avis honnêtes"
   },
   body: {
-    "en": "Below you will find all skis that are currently in our database, click the link to share your opinion about the ski.",
-    "nl": "Hieronder vind je alle skis die voor nu in onze database zitten. Klik op de link om je mening te delen over de ski.",
-    "ja": "以下に、現在データベースにあるすべてのスキーが表示されています。リンクをクリックしてスキーについてのあなたの意見を共有してください。",
-    "es": "A continuación encontrarás todos los esquís que actualmente están en nuestra base de datos, haz clic en el enlace para compartir tu opinión sobre los esquís.",
-    "de": "Unten finden Sie alle Skier, die derzeit in unserer Datenbank sind. Klicken Sie auf den Link, um Ihre Meinung zu den Skiern zu teilen.",
-    "pl": "Poniżej znajdziesz wszystkie narty, które są obecnie w naszej bazie danych. Kliknij link, aby podzielić się swoją opinią na temat nart.",
-    "fr": "Ci-dessous, vous trouverez tous les skis qui sont actuellement dans notre base de données. Cliquez sur le lien pour partager votre avis sur le ski."
+    "en": "Finding honnest information about a ski can be hard, therefore we created this platform to help you find the right ski for your needs. We believe that the best information comes from the people who have actually used the ski. That's why we encourage you to share your opinion about the ski you have used. This way we can help each other find the right ski.",
+    "nl": "Eerlijke informatie over een ski vinden kan moeilijk zijn, daarom hebben we dit platform gemaakt om je te helpen de juiste ski voor jouw behoeften te vinden. Wij geloven dat de beste informatie komt van de mensen die de ski daadwerkelijk hebben gebruikt. Daarom moedigen we je aan om je mening over de ski die je hebt gebruikt te delen. Op deze manier kunnen we elkaar helpen de juiste ski te vinden.",
+    "ja": "スキーに関する正直な情報を見つけるのは難しいことがあります。そのため、このプラットフォームを作成しました。あなたのニーズに合ったスキーを見つけるのをお手伝いします。私たちは、最高の情報は、実際にスキーを使用した人々から得られると考えています。だからこそ、あなたが使用したスキーについて意見を共有することをお勧めします。このようにして、お互いに適切なスキーを見つけるのを助け合うことができます。",
+    "es": "Encontrar información honesta sobre un esquí puede ser difícil, por eso creamos esta plataforma para ayudarte a encontrar el esquí adecuado para tus necesidades. Creemos que la mejor información proviene de las personas que realmente han usado el esquí. Por eso te animamos a compartir tu opinión sobre el esquí que has usado. De esta manera podemos ayudarnos mutuamente a encontrar el esquí adecuado.",
+    "de": "Es kann schwierig sein, ehrliche Informationen über einen Ski zu finden. Deshalb haben wir diese Plattform geschaffen, um Ihnen bei der Suche nach dem richtigen Ski für Ihre Bedürfnisse zu helfen. Wir glauben, dass die beste Information von den Menschen kommt, die den Ski tatsächlich benutzt haben. Deshalb ermutigen wir Sie, Ihre Meinung über den Ski, den Sie benutzt haben, zu teilen. Auf diese Weise können wir uns gegenseitig helfen, den richtigen Ski zu finden.",
+    "pl": "Znalezienie szczerych informacji o nartach może być trudne, dlatego stworzyliśmy tę platformę, aby pomóc Ci znaleźć odpowiednie narty dla Twoich potrzeb. Uważamy, że najlepsze informacje pochodzą od ludzi, którzy faktycznie używali nart. Dlatego zachęcamy Cię do podzielenia się swoją opinią na temat używanych nart. W ten sposób możemy pomóc sobie nawzajem znaleźć odpowiednie narty.",
+    "fr": "Trouver des informations honnêtes sur un ski peut être difficile, c'est pourquoi nous avons créé cette plateforme pour vous aider à trouver le bon ski pour vos besoins. Nous pensons que les meilleures informations proviennent des personnes qui ont réellement utilisé le ski. C'est pourquoi nous vous encourageons à partager votre avis sur le ski que vous avez utilisé. De cette façon, nous pouvons nous aider les uns les autres à trouver le bon ski."
   },
+  skiName: {
+    "en": "Ski Name",
+    "nl": "Ski Naam",
+    "ja": "スキー名",
+    "es": "Nombre del Esquí",
+    "de": "Ski Name",
+    "pl": "Nazwa Nart",
+    "fr": "Nom du Ski"
+  },
+  opinions: {
+    "en": "Opinions",
+    "nl": "Meningen",
+    "ja": "意見",
+    "es": "Opiniones",
+    "de": "Meinungen",
+    "pl": "Opinie",
+    "fr": "Avis"
+  }
 }
 
 export default textsOpinions

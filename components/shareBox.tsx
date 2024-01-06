@@ -45,7 +45,7 @@ const ToolResults: React.FC<ToolResultsProps> = ({ url }) => {
   };
 
   return (
-    <div className="py-2 lg:py-4 px-2 lg:px-4 bg-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700">
+    <div className="py-2 lg:py-4 px-2 lg:px-4 bg-custom-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700">
         <p className="standard-text font-bold mx-2">{texts.share[locale]}</p>
         <div className=" flex justify-center my-3">
           <a 

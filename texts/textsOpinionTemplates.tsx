@@ -8,14 +8,41 @@ const textsSkiOpinions = {
       "es": "Participe en la conversación y comparte tu opinión sobre este modelo de esquí específico. Tus opiniones y experiencias ayudan a otros a tomar decisiones informadas y encontrar el esquí adecuado para sus necesidades.",
       "pl": "Dołącz do rozmowy i podziel się swoimi przemyśleniami na temat tego konkretnego modelu nart. Twoje opinie i doświadczenia pomagają innym w podejmowaniu świadomych decyzji i znalezieniu odpowiednich nart dla ich potrzeb."
     },
+    title: {
+      "en": "Find and share honnest opinions",
+      "nl": "Vind en deel eerlijke meningen",
+      "ja": "正直な意見を見つけて共有する",
+      "es": "Encuentra y comparte opiniones honestas",
+      "de": "Ehrliche Meinungen finden und teilen",
+      "pl": "Znajdź i udostępnij szczere opinie",
+      "fr": "Trouvez et partagez des avis honnêtes"
+    },
+    body1: {
+      "en": "Help out the community and drop your own opinion on the",
+      "nl": "Help de community en laat je eigen mening achter voor de",
+      "ja": "コミュニティを助けて、",
+      "es": "Ayuda a la comunidad y deja tu propia opinión en el",
+      "de": "Helfen Sie der Community und geben Sie Ihre eigene Meinung ab auf der",
+      "pl": "Pomóż społeczności i podziel się swoją opinią na",
+      "fr": "Aidez la communauté et donnez votre propre avis sur le"
+    },
+    body2: {
+      "en": "below, doesn't matter if you are a beginner or a pro, your opinion matters!",
+      "nl": "hieronder, het maakt niet uit of je een beginner of een pro bent, jouw mening telt!",
+      "ja": "下のスキーについてのあなた自身の意見を投稿してコミュニティを助けてください。初心者でもプロでもかまいません、あなたの意見は重要です！",
+      "es": "a continuación, no importa si eres un principiante o un profesional, ¡tu opinión importa!",
+      "de": "unten, egal ob Sie Anfänger oder Profi sind, Ihre Meinung zählt!",
+      "pl": "poniżej, nie ma znaczenia, czy jesteś początkujący, czy profesjonalistą, Twoja opinia się liczy!",
+      "fr": "ci-dessous, peu importe que vous soyez débutant ou professionnel, votre avis compte !"
+    },
     noOpinionsYet: {
-      "en": "No opinions yet, write the first one!",
-      "nl": "Nog geen meningen, schrijf de eerste!",
-      "ja": "まだ意見はありません、最初の意見を書いてください！",
-      "es": "Todavía no hay opiniones, ¡escribe la primera!",
-      "de": "Noch keine Meinungen vorhanden, schreiben Sie die erste!",
-      "pl": "Jeszcze nie ma opinii, napisz pierwszą!",
-      "fr": "Pas encore d'avis, écrivez le premier !"
+      "en": "No opinions yet, maybe you can help?",
+      "nl": "Nog geen meningen, kun je misschien helpen?",
+      "ja": "まだ意見はありませんが、手伝っていただけますか？",
+      "es": "Todavía no hay opiniones, ¿quizás puedas ayudar?",
+      "de": "Noch keine Meinungen, können Sie vielleicht helfen?",
+      "pl": "Jeszcze nie ma opinii, może możesz pomóc?",
+      "fr": "Pas encore d'opinions, peut-être pouvez-vous aider ?"
     },
     noOpinionsYetLogin: {
       "en": "No opinions yet, log in with your google account write the first one!",
@@ -70,7 +97,17 @@ const textsSkiOpinions = {
       "de": "Löschen",
       "pl": "Usuń",
       "fr": "Supprimer"
-    }
+    },
+    opinions: {
+      "en": "Opinions",
+      "nl": "Meningen",
+      "ja": "意見",
+      "es": "Opiniones",
+      "de": "Meinungen",
+      "pl": "Opinie",
+      "fr": "Avis"
+    },
+    
 }
 
 export default textsSkiOpinions

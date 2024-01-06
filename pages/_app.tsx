@@ -6,6 +6,7 @@ import CookieConsent from 'react-cookie-consent'
 import CookieText from '../texts/textsCookieBanner'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import Sidebar from '../components/sidebar'
 
 export default function App({ Component, pageProps, router }: AppProps) {
   initFirebase()
@@ -58,6 +59,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
     <Head>
       {generateHreflangTags()}
     </Head>
+    <Sidebar />
     <Component {...pageProps} />
     <CookieConsent
       location='bottom'

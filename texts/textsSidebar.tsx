@@ -71,6 +71,15 @@ const textsSidebar = {
     "pl": "Opinie",
     "fr": "Avis"
   },
+  shareOpinion: {
+    "en": "Rate your ski",
+    "nl": "Beoordeel je ski",
+    "ja": "スキーを評価する",
+    "es": "Califica tu esquí",
+    "de": "Bewerte deinen Ski",
+    "pl": "Oceń swoje narty",
+    "fr": "Évaluez votre ski"
+  }
 }
 
 export default textsSidebar
