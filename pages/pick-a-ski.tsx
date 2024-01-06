@@ -6,6 +6,7 @@ import ToolResults from '@/components/homepage/toolResults'
 import { useRouter } from 'next/router'
 import texts from '@/texts/textsPickaski'
 import Head from 'next/head'
+import { PlusIcon } from '@heroicons/react/20/solid'
 
 declare function gtag(...args: any[]): void;
 
@@ -210,11 +211,14 @@ export default function PickASki() {
                   onSelectionChange={setFieldToAdd}
                   
                 />
-                <button 
-                  onClick = {() => handleAddField(fieldToAdd.name)}
-                  className="mt-2 block text-sm font-semibold text-gray-900">
-                  {texts.addProperties[locale]}
-                </button>
+                  <button
+                    type="button"
+                    className="relative inline-flex items-center gap-x-1.5 mt-4 rounded-md bg-accent-color hover:bg-indigo-500 hover:shadow-xl px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    onClick = {() => handleAddField(fieldToAdd.name)}
+                  >
+                    <PlusIcon className="-ml-0.5 h-5 w-5" aria-hidden="true" />
+                    {texts.addProperties[locale]}
+                  </button>
               </div>
             }
 
