@@ -1,10 +1,12 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { ScaleIcon, HandThumbUpIcon } from '@heroicons/react/20/solid'
+import { ScaleIcon, HandThumbUpIcon, BuildingStorefrontIcon } from '@heroicons/react/20/solid'
 import texts from '@/texts/textsResults'
 import Link from 'next/link'
-
+import ski_data from '../allSkisFrontend.json'
+import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore'
+import { db } from '@/firebaseConfig';
 
 interface ToolResultsProps {
     scores: any[]; 
@@ -22,22 +24,75 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
   const [ski5, setSki5] = useState({})
   const [ski6, setSki6] = useState({})
   
+  const handleSubmit = async (event, skiName, shopUrl) => {
+    event.preventDefault();
 
+    const skiRef = doc(db, 'outdoorXlClicks', "payPerClick");
+
+    try {
+      await updateDoc(skiRef, {
+        clicks: arrayUnion({
+          skiName: skiName,
+          shopUrl: shopUrl,
+          createdAt: new Date(),
+          locale: locale
+        })
+      });
+      gtag('event', 'Click on webshop', {
+        'event_category': 'engagement',
+        'event_label': shopUrl + " clicked"
+      });
+      window.open(shopUrl, "_blank");
+      
+    } catch (error) {
+      console.error('Error adding opinion:', error);
+    }
+  };
 
   useEffect(() => {
-    
     try {
-      setSki1({name: scores[0].name, imageUrl: `/skis/${scores[0].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[0].name.replace(/[ /._-]/g, ''), score: scores[0].score, rank: 1})
-      setSki2({name: scores[1].name, imageUrl: `/skis/${scores[1].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[1].name.replace(/[ /._-]/g, ''), score: scores[1].score, rank: 2})
-      setSki3({name: scores[2].name, imageUrl: `/skis/${scores[2].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[2].name.replace(/[ /._-]/g, ''), score: scores[2].score, rank: 3})
-      setSki4({name: scores[3].name, imageUrl: `/skis/${scores[3].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[3].name.replace(/[ /._-]/g, ''), score: scores[3].score, rank: 4})
-      setSki5({name: scores[4].name, imageUrl: `/skis/${scores[4].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[4].name.replace(/[ /._-]/g, ''), score: scores[4].score, rank: 5})
-      setSki6({name: scores[5].name, imageUrl: `/skis/${scores[5].name.replace(/[/_]/g, '')}.png`, opinionsHref: "/opinions/"+scores[5].name.replace(/[ /._-]/g, ''), score: scores[5].score, rank: 6})
+      scores.forEach((score, index) => {
+        const skiData = ski_data.find((s) => s.name === score.name);
+        const skiState = {
+          name: score.name,
+          imageUrl: `/skis/${score.name.replace(/[/_]/g, '')}.png`,
+          opinionsHref: "/opinions/"+score.name.replace(/[ /._-]/g, ''),
+          score: score.score,
+          rank: index + 1,
+          shopUrl: skiData && skiData.shopUrls ? skiData.shopUrls.outdoorxlurl : undefined
+        };
+  
+        switch (index) {
+          case 0:
+            setSki1(skiState);
+            break;
+          case 1:
+            setSki2(skiState);
+            break;
+          case 2:
+            setSki3(skiState);
+            break;
+          case 3:
+            setSki4(skiState);
+            break;
+          case 4:
+            setSki5(skiState);
+            break;
+          case 5:
+            setSki6(skiState);
+            break;
+          default:
+            break;
+        }
+      });
+      console.log(ski1)
     } catch (error) {
+      console.error(error);
     }
-  }, [scores])
+  }, [scores]);
 
   const skis = [ski1, ski2, ski3, ski4, ski5, ski6]
+
   return (
     <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
       {skis.map((ski: any, index: number) => (
@@ -65,6 +120,19 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
                   {texts.opinions[locale]}
                 </a>
               </div>
+              
+            { ski.shopUrl ? (
+              <div className="-ml-px flex w-0 flex-1">
+                <Link
+                  className="relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-white bg-accent-color"
+                  href={ski.shopUrl}
+                  onClick={(e) => handleSubmit(e, ski.name, ski.shopUrl)}
+                >
+                  <BuildingStorefrontIcon className="h-5 w-5 text-white" aria-hidden="true" />
+                  {texts.toWebshop[locale]}
+                </Link>
+              </div>
+            ) : (
               <div className="-ml-px flex w-0 flex-1">
                 <Link
                   href="/reviews"
@@ -74,6 +142,8 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
                   {texts.reviews[locale]}
                 </Link>
               </div>
+            )}
+            
             </div>
           </div>
         </li>

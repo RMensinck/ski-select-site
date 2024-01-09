@@ -25,7 +25,17 @@ const textsResults = {
         "de": "Bewertungen",
         "pl": "Recenzje",
         "fr": "Avis"
-      }
+      },
+    toWebshop: {
+        "en": "To webshop",
+        "nl": "Naar webshop",
+        "ja": "ウェブショップへ",
+        "es": "A la tienda web",
+        "de": "Zum Webshop",
+        "pl": "Do sklepu webshop",
+        "fr": "À la webshop"
+      },
+    
 }
 
 export default textsResults

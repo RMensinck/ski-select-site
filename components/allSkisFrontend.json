@@ -1,426 +1,887 @@
 [
     {
         "name": "Armada ARG II UL",
-        "href": "/opinions/ArmadaARGIIUL"
+        "href": "/opinions/ArmadaARGIIUL",
+        "brand": "Armada",
+        "model": "ARG II UL",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/armada-arg-ii-ul.html"
+        }
     },
     {
         "name": "Armada Edollo",
-        "href": "/opinions/ArmadaEdollo"
+        "href": "/opinions/ArmadaEdollo",
+        "brand": "Armada",
+        "model": "Edollo",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/armada-edollo.html"
+        }
     },
     {
         "name": "Atomic Backland 100",
-        "href": "/opinions/AtomicBackland100"
+        "href": "/opinions/AtomicBackland100",
+        "brand": "Atomic",
+        "model": "Backland 100",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-100.html"
+        }
     },
     {
         "name": "Atomic Backland 107",
-        "href": "/opinions/AtomicBackland107"
+        "href": "/opinions/AtomicBackland107",
+        "brand": "Atomic",
+        "model": "Backland 107",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-107-petrol-black-orange-2022f.html"
+        }
     },
     {
         "name": "Atomic Backland 117",
-        "href": "/opinions/AtomicBackland117"
+        "href": "/opinions/AtomicBackland117",
+        "brand": "Atomic",
+        "model": "Backland 117",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-117.html"
+        }
     },
     {
         "name": "Atomic Backland 62 UL vert",
-        "href": "/opinions/AtomicBackland62ULvert"
+        "href": "/opinions/AtomicBackland62ULvert",
+        "brand": "Atomic",
+        "model": "Backland 62 UL vert"
     },
     {
         "name": "Atomic Backland 65 UL",
-        "href": "/opinions/AtomicBackland65UL"
+        "href": "/opinions/AtomicBackland65UL",
+        "brand": "Atomic",
+        "model": "Backland 65 UL"
     },
     {
         "name": "Atomic Backland 78",
-        "href": "/opinions/AtomicBackland78"
+        "href": "/opinions/AtomicBackland78",
+        "brand": "Atomic",
+        "model": "Backland 78",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-78.html"
+        }
     },
     {
         "name": "Atomic Backland 78 UL",
-        "href": "/opinions/AtomicBackland78UL"
+        "href": "/opinions/AtomicBackland78UL",
+        "brand": "Atomic",
+        "model": "Backland 78 UL"
     },
     {
         "name": "Atomic Backland 85",
-        "href": "/opinions/AtomicBackland85"
+        "href": "/opinions/AtomicBackland85",
+        "brand": "Atomic",
+        "model": "Backland 85",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-85-2022f.html"
+        }
     },
     {
         "name": "Atomic Backland 85 UL",
-        "href": "/opinions/AtomicBackland85UL"
+        "href": "/opinions/AtomicBackland85UL",
+        "brand": "Atomic",
+        "model": "Backland 85 UL",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-85-ul-299013.html"
+        }
     },
     {
         "name": "Atomic Backland 95",
-        "href": "/opinions/AtomicBackland95"
+        "href": "/opinions/AtomicBackland95",
+        "brand": "Atomic",
+        "model": "Backland 95",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-95.html"
+        }
     },
     {
         "name": "Atomic Bent 100",
-        "href": "/opinions/AtomicBent100"
+        "href": "/opinions/AtomicBent100",
+        "brand": "Atomic",
+        "model": "Bent 100",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-100.html"
+        }
     },
     {
         "name": "Atomic Bent 110",
-        "href": "/opinions/AtomicBent110"
+        "href": "/opinions/AtomicBent110",
+        "brand": "Atomic",
+        "model": "Bent 110",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-110.html"
+        }
     },
     {
         "name": "Atomic Bent 85",
-        "href": "/opinions/AtomicBent85"
+        "href": "/opinions/AtomicBent85",
+        "brand": "Atomic",
+        "model": "Bent 85",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-85.html"
+        }
     },
     {
         "name": "Atomic Bent 90",
-        "href": "/opinions/AtomicBent90"
+        "href": "/opinions/AtomicBent90",
+        "brand": "Atomic",
+        "model": "Bent 90",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-90.html"
+        }
     },
     {
         "name": "Atomic Bent chetler 120",
-        "href": "/opinions/AtomicBentchetler120"
+        "href": "/opinions/AtomicBentchetler120",
+        "brand": "Atomic",
+        "model": "Bent chetler 120",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-chetler-120.html"
+        }
     },
     {
         "name": "Atomic Maverick 100 TI",
-        "href": "/opinions/AtomicMaverick100TI"
+        "href": "/opinions/AtomicMaverick100TI",
+        "brand": "Atomic",
+        "model": "Maverick 100 TI",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-100-ti.html"
+        }
     },
     {
         "name": "Atomic Maverick 86 C",
-        "href": "/opinions/AtomicMaverick86C"
+        "href": "/opinions/AtomicMaverick86C",
+        "brand": "Atomic",
+        "model": "Maverick 86 C",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-86-c.html"
+        }
     },
     {
         "name": "Atomic Maverick 88 TI",
-        "href": "/opinions/AtomicMaverick88TI"
+        "href": "/opinions/AtomicMaverick88TI",
+        "brand": "Atomic",
+        "model": "Maverick 88 TI",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-88-ti.html"
+        }
     },
     {
         "name": "Atomic Maverick 95 TI",
-        "href": "/opinions/AtomicMaverick95TI"
+        "href": "/opinions/AtomicMaverick95TI",
+        "brand": "Atomic",
+        "model": "Maverick 95 TI",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-95-ti.html"
+        }
     },
     {
         "name": "Black crows Anima",
-        "href": "/opinions/BlackcrowsAnima"
+        "href": "/opinions/BlackcrowsAnima",
+        "brand": "Black crows",
+        "model": "Anima",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-anima.html"
+        }
     },
     {
         "name": "Black crows Atris",
-        "href": "/opinions/BlackcrowsAtris"
+        "href": "/opinions/BlackcrowsAtris",
+        "brand": "Black crows",
+        "model": "Atris",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris.html"
+        }
     },
     {
         "name": "Black crows Atris birdie",
-        "href": "/opinions/BlackcrowsAtrisbirdie"
+        "href": "/opinions/BlackcrowsAtrisbirdie",
+        "brand": "Black crows",
+        "model": "Atris birdie",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris-birdie.html"
+        }
     },
     {
         "name": "Black crows Camox",
-        "href": "/opinions/BlackcrowsCamox"
+        "href": "/opinions/BlackcrowsCamox",
+        "brand": "Black crows",
+        "model": "Camox",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-camox.html"
+        }
     },
     {
         "name": "Black crows Corvus",
-        "href": "/opinions/BlackcrowsCorvus"
+        "href": "/opinions/BlackcrowsCorvus",
+        "brand": "Black crows",
+        "model": "Corvus",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-corvus.html"
+        }
     },
     {
         "name": "Black crows Mirus Cor",
-        "href": "/opinions/BlackcrowsMirusCor"
+        "href": "/opinions/BlackcrowsMirusCor",
+        "brand": "Black crows",
+        "model": "Mirus Cor",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-mirus-cor.html"
+        }
     },
     {
         "name": "Black crows Navis Freebird",
-        "href": "/opinions/BlackcrowsNavisFreebird"
+        "href": "/opinions/BlackcrowsNavisFreebird",
+        "brand": "Black crows",
+        "model": "Navis Freebird",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-navis-freebird.html"
+        }
     },
     {
         "name": "Black crows Nocta",
-        "href": "/opinions/BlackcrowsNocta"
+        "href": "/opinions/BlackcrowsNocta",
+        "brand": "Black crows",
+        "model": "Nocta",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-nocta.html"
+        }
     },
     {
         "name": "Black crows Vertis",
-        "href": "/opinions/BlackcrowsVertis"
+        "href": "/opinions/BlackcrowsVertis",
+        "brand": "Black crows",
+        "model": "Vertis",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-vertis.html"
+        }
     },
     {
         "name": "Blizzard Rustler 9",
-        "href": "/opinions/BlizzardRustler9"
+        "href": "/opinions/BlizzardRustler9",
+        "brand": "Blizzard",
+        "model": "Rustler 9",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/blizzard-rustler-9-372771-depr.html"
+        }
     },
     {
         "name": "Blizzard Thunderbird SP 7.2",
-        "href": "/opinions/BlizzardThunderbirdSP72"
+        "href": "/opinions/BlizzardThunderbirdSP72",
+        "brand": "Blizzard",
+        "model": "Thunderbird SP 7.2"
     },
     {
         "name": "Dynastar M-Free 99",
-        "href": "/opinions/DynastarMFree99"
+        "href": "/opinions/DynastarMFree99",
+        "brand": "Dynastar",
+        "model": "M-Free 99",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/dynastar-m-free-99.html"
+        }
     },
     {
         "name": "Elan Ripstick 106",
-        "href": "/opinions/ElanRipstick106"
+        "href": "/opinions/ElanRipstick106",
+        "brand": "Elan",
+        "model": "Ripstick 106",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-106.html"
+        }
     },
     {
         "name": "Elan Ripstick 116",
-        "href": "/opinions/ElanRipstick116"
+        "href": "/opinions/ElanRipstick116",
+        "brand": "Elan",
+        "model": "Ripstick 116",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-116-401251.html"
+        }
     },
     {
         "name": "Elan Ripstick 88",
-        "href": "/opinions/ElanRipstick88"
+        "href": "/opinions/ElanRipstick88",
+        "brand": "Elan",
+        "model": "Ripstick 88",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-88.html"
+        }
     },
     {
         "name": "Elan Ripstick 96",
-        "href": "/opinions/ElanRipstick96"
+        "href": "/opinions/ElanRipstick96",
+        "brand": "Elan",
+        "model": "Ripstick 96",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-96.html"
+        }
     },
     {
         "name": "Elan Ripstick Tour 104",
-        "href": "/opinions/ElanRipstickTour104"
+        "href": "/opinions/ElanRipstickTour104",
+        "brand": "Elan",
+        "model": "Ripstick Tour 104",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-104-glenn-plake-special.html"
+        }
     },
     {
         "name": "Elan Ripstick Tour 88",
-        "href": "/opinions/ElanRipstickTour88"
+        "href": "/opinions/ElanRipstickTour88",
+        "brand": "Elan",
+        "model": "Ripstick Tour 88",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-88.html"
+        }
     },
     {
         "name": "Elan Ripstick Tour 94",
-        "href": "/opinions/ElanRipstickTour94"
+        "href": "/opinions/ElanRipstickTour94",
+        "brand": "Elan",
+        "model": "Ripstick Tour 94",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-94.html"
+        }
     },
     {
         "name": "Elan Wingman 78 C",
-        "href": "/opinions/ElanWingman78C"
+        "href": "/opinions/ElanWingman78C",
+        "brand": "Elan",
+        "model": "Wingman 78 C"
     },
     {
         "name": "Extrem Factory 112",
-        "href": "/opinions/ExtremFactory112"
+        "href": "/opinions/ExtremFactory112",
+        "brand": "Extrem",
+        "model": "Factory 112"
     },
     {
         "name": "Extrem Final opinion 118",
-        "href": "/opinions/ExtremFinalopinion118"
+        "href": "/opinions/ExtremFinalopinion118",
+        "brand": "Extrem",
+        "model": "Final opinion 118"
     },
     {
         "name": "Extrem Mothertree 105",
-        "href": "/opinions/ExtremMothertree105"
+        "href": "/opinions/ExtremMothertree105",
+        "brand": "Extrem",
+        "model": "Mothertree 105"
     },
     {
         "name": "Extrem Mothertree 95",
-        "href": "/opinions/ExtremMothertree95"
+        "href": "/opinions/ExtremMothertree95",
+        "brand": "Extrem",
+        "model": "Mothertree 95"
     },
     {
         "name": "Extrem Mothertree 95 carbon",
-        "href": "/opinions/ExtremMothertree95carbon"
+        "href": "/opinions/ExtremMothertree95carbon",
+        "brand": "Extrem",
+        "model": "Mothertree 95 carbon"
     },
     {
         "name": "Extrem Project 83",
-        "href": "/opinions/ExtremProject83"
+        "href": "/opinions/ExtremProject83",
+        "brand": "Extrem",
+        "model": "Project 83"
     },
     {
         "name": "Extrem Project 90",
-        "href": "/opinions/ExtremProject90"
+        "href": "/opinions/ExtremProject90",
+        "brand": "Extrem",
+        "model": "Project 90"
     },
     {
         "name": "Faction Prodigy 0",
-        "href": "/opinions/FactionProdigy0"
+        "href": "/opinions/FactionProdigy0",
+        "brand": "Faction",
+        "model": "Prodigy 0",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/faction-prodigy-0.html"
+        }
     },
     {
         "name": "K2 Disruption 78C",
-        "href": "/opinions/K2Disruption78C"
+        "href": "/opinions/K2Disruption78C",
+        "brand": "K2",
+        "model": "Disruption 78C",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-disruption-78c.html"
+        }
     },
     {
         "name": "K2 Mindbender 108ti",
-        "href": "/opinions/K2Mindbender108ti"
+        "href": "/opinions/K2Mindbender108ti",
+        "brand": "K2",
+        "model": "Mindbender 108ti",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-108ti.html"
+        }
     },
     {
         "name": "K2 Mindbender 89ti",
-        "href": "/opinions/K2Mindbender89ti"
+        "href": "/opinions/K2Mindbender89ti",
+        "brand": "K2",
+        "model": "Mindbender 89ti",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-89ti.html"
+        }
     },
     {
         "name": "K2 Mindbender 99ti",
-        "href": "/opinions/K2Mindbender99ti"
+        "href": "/opinions/K2Mindbender99ti",
+        "brand": "K2",
+        "model": "Mindbender 99ti",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-99ti.html"
+        }
     },
     {
         "name": "K2 Poacher",
-        "href": "/opinions/K2Poacher"
+        "href": "/opinions/K2Poacher",
+        "brand": "K2",
+        "model": "Poacher",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-poacher.html"
+        }
     },
     {
         "name": "K2 Reckoner 102",
-        "href": "/opinions/K2Reckoner102"
+        "href": "/opinions/K2Reckoner102",
+        "brand": "K2",
+        "model": "Reckoner 102",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-102.html"
+        }
     },
     {
         "name": "K2 Reckoner 112",
-        "href": "/opinions/K2Reckoner112"
+        "href": "/opinions/K2Reckoner112",
+        "brand": "K2",
+        "model": "Reckoner 112",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-112.html"
+        }
     },
     {
         "name": "K2 Reckoner 122",
-        "href": "/opinions/K2Reckoner122"
+        "href": "/opinions/K2Reckoner122",
+        "brand": "K2",
+        "model": "Reckoner 122",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-122.html"
+        }
     },
     {
         "name": "K2 Reckoner 92 men",
-        "href": "/opinions/K2Reckoner92men"
+        "href": "/opinions/K2Reckoner92men",
+        "brand": "K2",
+        "model": "Rockoner 92 men",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-92.html"
+        }
     },
     {
         "name": "K2 Reckoner 92 women",
-        "href": "/opinions/K2Reckoner92women"
+        "href": "/opinions/K2Reckoner92women",
+        "brand": "K2",
+        "model": "Reckoner 92 women"
     },
     {
         "name": "Line Blend",
-        "href": "/opinions/LineBlend"
+        "href": "/opinions/LineBlend",
+        "brand": "Line",
+        "model": "Blend",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/line-blend.html"
+        }
     },
     {
         "name": "Line Honey bee",
-        "href": "/opinions/LineHoneybee"
+        "href": "/opinions/LineHoneybee",
+        "brand": "Line",
+        "model": "Honey bee",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/line-honey-bee.html"
+        }
     },
     {
         "name": "Line Tom Wallisch Pro",
-        "href": "/opinions/LineTomWallischPro"
+        "href": "/opinions/LineTomWallischPro",
+        "brand": "Line",
+        "model": "Tom Wallisch Pro",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/line-tom-wallisch-pro.html"
+        }
     },
     {
         "name": "Movement Fly 115",
-        "href": "/opinions/MovementFly115"
+        "href": "/opinions/MovementFly115",
+        "brand": "Movement",
+        "model": "Fly 115"
     },
     {
         "name": "Movement Go 112",
-        "href": "/opinions/MovementGo112"
+        "href": "/opinions/MovementGo112",
+        "brand": "Movement",
+        "model": "Go 112"
     },
     {
         "name": "Nordica Enforcer 100",
-        "href": "/opinions/NordicaEnforcer100"
+        "href": "/opinions/NordicaEnforcer100",
+        "brand": "Nordica",
+        "model": "Enforcer 100",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-100.html"
+        }
     },
     {
         "name": "Nordica Enforcer 104 free",
-        "href": "/opinions/NordicaEnforcer104free"
+        "href": "/opinions/NordicaEnforcer104free",
+        "brand": "Nordica",
+        "model": "Enforcer 104 free",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-104-free.html"
+        }
     },
     {
         "name": "Nordica Enforcer 104 unlimited",
-        "href": "/opinions/NordicaEnforcer104unlimited"
+        "href": "/opinions/NordicaEnforcer104unlimited",
+        "brand": "Nordica",
+        "model": "Enforcer 104 unlimited",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-104-unlimited.html"
+        }
     },
     {
         "name": "Nordica Enforcer 110 free",
-        "href": "/opinions/NordicaEnforcer110free"
+        "href": "/opinions/NordicaEnforcer110free",
+        "brand": "Nordica",
+        "model": "Enforcer 110 free",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-110-free.html"
+        }
     },
     {
         "name": "Nordica Enforcer 88",
-        "href": "/opinions/NordicaEnforcer88"
+        "href": "/opinions/NordicaEnforcer88",
+        "brand": "Nordica",
+        "model": "Enforcer 88",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-88.html"
+        }
     },
     {
         "name": "Nordica Enforcer 88 unlimited",
-        "href": "/opinions/NordicaEnforcer88unlimited"
+        "href": "/opinions/NordicaEnforcer88unlimited",
+        "brand": "Nordica",
+        "model": "Enforcer 88 unlimited",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-88-unlimited.html"
+        }
     },
     {
         "name": "Nordica Enforcer 94",
-        "href": "/opinions/NordicaEnforcer94"
+        "href": "/opinions/NordicaEnforcer94",
+        "brand": "Nordica",
+        "model": "Enforcer 94",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-94.html"
+        }
     },
     {
         "name": "Nordica Enforcer 94 unlimited",
-        "href": "/opinions/NordicaEnforcer94unlimited"
+        "href": "/opinions/NordicaEnforcer94unlimited",
+        "brand": "Nordica",
+        "model": "Enforcer 94 unlimited",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-enforcer-94-unlimited.html"
+        }
     },
     {
         "name": "Nordica Santa ana 84",
-        "href": "/opinions/NordicaSantaana84"
+        "href": "/opinions/NordicaSantaana84",
+        "brand": "Nordica",
+        "model": "Santa ana 84",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-santa-ana-84.html"
+        }
     },
     {
         "name": "Nordica Santa ana 88",
-        "href": "/opinions/NordicaSantaana88"
+        "href": "/opinions/NordicaSantaana88",
+        "brand": "Nordica",
+        "model": "Santa ana 88",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-santa-ana-88.html"
+        }
     },
     {
         "name": "Nordica Santa ana 93",
-        "href": "/opinions/NordicaSantaana93"
+        "href": "/opinions/NordicaSantaana93",
+        "brand": "Nordica",
+        "model": "Santa ana 93",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-santa-ana-93.html"
+        }
     },
     {
         "name": "Nordica Santa ana 98",
-        "href": "/opinions/NordicaSantaana98"
+        "href": "/opinions/NordicaSantaana98",
+        "brand": "Nordica",
+        "model": "Santa ana 98",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/nordica-santa-ana-98-447707.html"
+        }
     },
     {
         "name": "ON3P Mango 100",
-        "href": "/opinions/ON3PMango100"
+        "href": "/opinions/ON3PMango100",
+        "brand": "ON3P",
+        "model": "Mango 100"
     },
     {
         "name": "Rossignol Experience 78 Ca",
-        "href": "/opinions/RossignolExperience78Ca"
+        "href": "/opinions/RossignolExperience78Ca",
+        "brand": "Rossignol",
+        "model": "Experience 78 Ca"
     },
     {
         "name": "Rossignol Sender 106Ti+",
-        "href": "/opinions/RossignolSender106Ti+"
+        "href": "/opinions/RossignolSender106Ti+",
+        "brand": "Rossignol",
+        "model": "Sender 106Ti+",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/rossignol-sender-106-ti-plus.html"
+        }
     },
     {
         "name": "Rossignol Sender 90 Pro",
-        "href": "/opinions/RossignolSender90Pro"
+        "href": "/opinions/RossignolSender90Pro",
+        "brand": "Rossignol",
+        "model": "Sender 90 Pro",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/rossignol-sender-90-pro.html"
+        }
     },
     {
         "name": "Salomon Addikt pro",
-        "href": "/opinions/SalomonAddiktpro"
+        "href": "/opinions/SalomonAddiktpro",
+        "brand": "Salomon",
+        "model": "Addikt pro",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-addikt-pro.html"
+        }
     },
     {
         "name": "Salomon Blank",
-        "href": "/opinions/SalomonBlank"
+        "href": "/opinions/SalomonBlank",
+        "brand": "Salomon",
+        "model": "Blank",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-blank-363105.html"
+        }
     },
     {
         "name": "Salomon Echo 106",
-        "href": "/opinions/SalomonEcho106"
+        "href": "/opinions/SalomonEcho106",
+        "brand": "Salomon",
+        "model": "Echo 106",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-echo-106.html"
+        }
     },
     {
         "name": "Salomon MTN 80 Carbon",
-        "href": "/opinions/SalomonMTN80Carbon"
+        "href": "/opinions/SalomonMTN80Carbon",
+        "brand": "Salomon",
+        "model": "MTN 80 Carbon",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-80-carbon.html"
+        }
     },
     {
         "name": "Salomon MTN 80 Pro",
-        "href": "/opinions/SalomonMTN80Pro"
+        "href": "/opinions/SalomonMTN80Pro",
+        "brand": "Salomon",
+        "model": "MTN 80 Pro",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-80-pro.html"
+        }
     },
     {
         "name": "Salomon MTN 86 Carbon",
-        "href": "/opinions/SalomonMTN86Carbon"
+        "href": "/opinions/SalomonMTN86Carbon",
+        "brand": "Salomon",
+        "model": "MTN 86 Carbon",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-86-carbon.html"
+        }
     },
     {
         "name": "Salomon MTN 86 Pro",
-        "href": "/opinions/SalomonMTN86Pro"
+        "href": "/opinions/SalomonMTN86Pro",
+        "brand": "Salomon",
+        "model": "MTN 86 Pro",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-86-pro.html"
+        }
     },
     {
         "name": "Salomon MTN 96 Carbon",
-        "href": "/opinions/SalomonMTN96Carbon"
+        "href": "/opinions/SalomonMTN96Carbon",
+        "brand": "Salomon",
+        "model": "MTN 96 Carbon",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-96-carbon.html"
+        }
     },
     {
         "name": "Salomon QST 106",
-        "href": "/opinions/SalomonQST106"
+        "href": "/opinions/SalomonQST106",
+        "brand": "Salomon",
+        "model": "QST 106",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-106.html"
+        }
     },
     {
         "name": "Salomon QST 92",
-        "href": "/opinions/SalomonQST92"
+        "href": "/opinions/SalomonQST92",
+        "brand": "Salomon",
+        "model": "QST 92",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-92.html"
+        }
     },
     {
         "name": "Salomon QST 98",
-        "href": "/opinions/SalomonQST98"
+        "href": "/opinions/SalomonQST98",
+        "brand": "Salomon",
+        "model": "QST 98",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-98.html"
+        }
     },
     {
         "name": "Salomon QST SPARK",
-        "href": "/opinions/SalomonQSTSPARK"
+        "href": "/opinions/SalomonQSTSPARK",
+        "brand": "Salomon",
+        "model": "QST SPARK",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-spark-410218.html"
+        }
     },
     {
         "name": "Salomon S/FORCE BOLD",
-        "href": "/opinions/SalomonSFORCEBOLD"
+        "href": "/opinions/SalomonSFORCEBOLD",
+        "brand": "Salomon",
+        "model": "S/FORCE BOLD"
     },
     {
         "name": "Salomon S/FORCE FX.76",
-        "href": "/opinions/SalomonSFORCEFX76"
+        "href": "/opinions/SalomonSFORCEFX76",
+        "brand": "Salomon",
+        "model": "S/FORCE FX.76"
     },
     {
         "name": "Salomon S/FORCE FX.80",
-        "href": "/opinions/SalomonSFORCEFX80"
+        "href": "/opinions/SalomonSFORCEFX80",
+        "brand": "Salomon",
+        "model": "S/FORCE FX.80"
     },
     {
         "name": "Salomon S/FORCE TI.76",
-        "href": "/opinions/SalomonSFORCETI76"
+        "href": "/opinions/SalomonSFORCETI76",
+        "brand": "Salomon",
+        "model": "S/FORCE TI.76"
     },
     {
         "name": "Salomon S/FORCE TI.80",
-        "href": "/opinions/SalomonSFORCETI80"
+        "href": "/opinions/SalomonSFORCETI80",
+        "brand": "Salomon",
+        "model": "S/FORCE TI.80"
     },
     {
         "name": "Salomon S/MAX 10",
-        "href": "/opinions/SalomonSMAX10"
+        "href": "/opinions/SalomonSMAX10",
+        "brand": "Salomon",
+        "model": "S/MAX 10",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-n10-xt.html"
+        }
     },
     {
         "name": "Salomon S/MAX 12",
-        "href": "/opinions/SalomonSMAX12"
+        "href": "/opinions/SalomonSMAX12",
+        "brand": "Salomon",
+        "model": "S/MAX 12"
     },
     {
         "name": "Salomon S/MAX 8",
-        "href": "/opinions/SalomonSMAX8"
+        "href": "/opinions/SalomonSMAX8",
+        "brand": "Salomon",
+        "model": "S/MAX 8",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-8-xt.html"
+        }
     },
     {
         "name": "Salomon Stance 102",
-        "href": "/opinions/SalomonStance102"
+        "href": "/opinions/SalomonStance102",
+        "brand": "Salomon",
+        "model": "Stance 102",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-102.html"
+        }
     },
     {
         "name": "Salomon Stance 84",
-        "href": "/opinions/SalomonStance84"
+        "href": "/opinions/SalomonStance84",
+        "brand": "Salomon",
+        "model": "Stance 84",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-84.html"
+        }
     },
     {
         "name": "Salomon Stance 90",
-        "href": "/opinions/SalomonStance90"
+        "href": "/opinions/SalomonStance90",
+        "brand": "Salomon",
+        "model": "Stance 90",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-90.html"
+        }
     },
     {
         "name": "Salomon Stance 96",
-        "href": "/opinions/SalomonStance96"
+        "href": "/opinions/SalomonStance96",
+        "brand": "Salomon",
+        "model": "Stance 96",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-96.html"
+        }
     },
     {
         "name": "Volkl Revolt 121",
-        "href": "/opinions/VolklRevolt121"
+        "href": "/opinions/VolklRevolt121",
+        "brand": "Volkl",
+        "model": "Revolt 121",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/volkl-revolt-121.html"
+        }
     },
     {
         "name": "Volkl Revolt 86",
-        "href": "/opinions/VolklRevolt86"
+        "href": "/opinions/VolklRevolt86",
+        "brand": "Volkl",
+        "model": "Revolt 86",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/volkl-revolt-86-crown.html"
+        }
     }
 ]

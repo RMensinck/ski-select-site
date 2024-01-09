@@ -13,9 +13,9 @@ declare function gtag(...args: any[]): void;
 export default function PickASki() {
   const router = useRouter()
   const { locale } = router
-  const [piste, setPiste] = useState(4)
-  const [level, setLevel] = useState(1)
-  const [playfull, setPlayfull] = useState(3)
+  const [piste, setPiste] = useState(7)
+  const [level, setLevel] = useState(3)
+  const [playfull, setPlayfull] = useState(5)
   const [freeride, setFreeride] = useState(1)
   const [powder, setPowder] = useState(1)
   const [park, setPark] = useState(1)
@@ -52,7 +52,7 @@ export default function PickASki() {
       description: texts.pisteExplainer[locale],
       icon: FaSkiing,
       setterFunction: setPiste,
-      defaultIndex: piste - 1,
+      defaultIndex: 3,
       options: [
         {id: 1, name: texts.pisteOptions[locale][1], value: 1},
         {id: 2, name: texts.pisteOptions[locale][2], value: 3},
@@ -67,7 +67,7 @@ export default function PickASki() {
       description: texts.levelExplainer[locale],
       icon: FaChartLine,
       setterFunction: setLevel,
-      defaultIndex: level - 1,
+      defaultIndex: 1,
       options: [
         {id: 1, name: texts.levelOptions[locale][1], value: 1},
         {id: 2, name: texts.levelOptions[locale][2], value: 3},
@@ -81,7 +81,7 @@ export default function PickASki() {
       description: texts.playfullExplainer[locale],
       icon: FaBalanceScale,
       setterFunction: setPlayfull,
-      defaultIndex: playfull - 1,
+      defaultIndex: 2,
       options: [
         {id: 1, name: texts.playfullOptions[locale][1], value: 1},
         {id: 2, name: texts.playfullOptions[locale][2], value: 3},
@@ -97,7 +97,7 @@ export default function PickASki() {
       description: texts.powderExplainer[locale],
       icon: FaSnowflake,
       setterFunction: setPowder,
-      defaultIndex: powder - 1,
+      defaultIndex: 1,
       options: [
         {id: 1, name: texts.powderOptions[locale][1], value: 1},
         {id: 2, name: texts.powderOptions[locale][2], value: 3},
@@ -111,7 +111,7 @@ export default function PickASki() {
       description: texts.freerideExplainer[locale],
       icon: FaSnowman,
       setterFunction: setFreeride,
-      defaultIndex: freeride - 1,
+      defaultIndex: 1,
       options: [
         {id: 1, name: texts.freerideOptions[locale][1], value: 1},
         {id: 2, name: texts.freerideOptions[locale][2], value: 3},
@@ -125,7 +125,7 @@ export default function PickASki() {
       description: texts.touringExplainer[locale],
       icon: FaSkiingNordic,
       setterFunction: setTouring,
-      defaultIndex: touring - 1,
+      defaultIndex: 1,
       options: [
         {id: 1, name: texts.touringOptions[locale][1], value: 1},
         {id: 2, name: texts.touringOptions[locale][2], value: 3},
@@ -139,7 +139,7 @@ export default function PickASki() {
       description: texts.parkExplainer[locale],
       icon: FaSnowplow,
       setterFunction: setPark,
-      defaultIndex: park - 1,
+      defaultIndex: 1,
       options: [
         {id: 1, name: texts.parkOptions[locale][1], value: 1},
         {id: 2, name: texts.parkOptions[locale][2], value: 3},
