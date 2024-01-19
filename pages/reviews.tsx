@@ -12,7 +12,7 @@ declare function gtag(...args: any[]): void;
 export default function Opinions() {
   const router = useRouter()
   const { locale } = router
-  const skiNames = Object.keys(reviews)
+  const skiNames = Object.keys(reviews).sort()
 
   useEffect(() => {
     gtag('event', 'reviews loaded')
