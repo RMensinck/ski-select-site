@@ -80,6 +80,7 @@ export default function Example(skiName: string) {
         };
       });
 
+      opinions.sort((a, b) => b.createdAt.toDate() - a.createdAt.toDate())
       setOpinions(opinions);
     } catch (error){
       console.error('Error getting opinions:', error);

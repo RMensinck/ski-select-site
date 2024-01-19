@@ -38,7 +38,7 @@ const textsNewHome = {
     body: {
         "en": "Ski preference is personal for everyone, but nowadays the ski world has become a large marketing jungle. Our tool helps you to find the ski that suits you quickly and for free, without losing sight of the forest for the trees.",
         "nl": "Ski voorkeur is voor iedereen persoonlijk, maar tegenwoordig is de ski wereld een grote marketing jungle geworden. Onze tool helpt je om gratis en snel de ski te vinden die bij je past, zonder dat je door de bomen het bos niet meer ziet.",
-        "ja": "スキーの好みは人それぞれですが、今日ではスキー界は大きなマーケティングのジャングルになっています。私たちのツールは、木が多すぎて森が見えなくなることなく、あなたに合ったスキーを迅速かつ無料で見つけるのに役立ちます。",
+        "ja": "スキーの好みは人それぞれ異なりますが、現在のスキー界は複雑で広範なマーケティングの渦中にあります。私たちのツールは、そんな混沌とした状況の中でも、迅速かつ無料であなたに合ったスキーを選ぶお手伝いをします。",
         "es": "La preferencia de esquí es personal para cada uno, pero hoy en día el mundo del esquí se ha convertido en una gran jungla de marketing. Nuestra herramienta te ayuda a encontrar de manera rápida y gratuita los esquís que se adaptan a ti, sin que pierdas de vista el bosque por los árboles.",
         "de": "Ski-Vorlieben sind für jeden persönlich, aber heutzutage ist die Ski-Welt zu einem großen Marketing-Dschungel geworden. Unser Tool hilft dir, schnell und kostenlos den Ski zu finden, der zu dir passt, ohne den Wald vor lauter Bäumen nicht mehr zu sehen.",
         "pl": "Preferencje narciarskie są dla każdego osobiste, ale obecnie świat narciarstwa stał się wielką dżunglą marketingową. Nasze narzędzie pomoże Ci szybko i za darmo znaleźć narty, które są dla Ciebie odpowiednie, bez tracenia z oczu lasu za drzewami.",
