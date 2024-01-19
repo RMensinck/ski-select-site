@@ -45,7 +45,7 @@ export default function Review(skiName: string) {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName + " " + texts.review[locale]}</h1>
                 { showLanguageDisclaimer &&
                   <p 
-                    className="mt-2 text-base leading-8 text-gray-700 underline"
+                    className="mt-2 text-base leading-8 text-gray-700 underline hover:cursor-pointer"
                     onClick={() => {
                       setShownParagraphs(review.paragraphs[review.originalLanguage ])
                       setShowLanguageDisclaimer(false)

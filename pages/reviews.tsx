@@ -42,13 +42,13 @@ export default function Opinions() {
                     {skiNames.map((skiName) => (
                       <React.Fragment key={skiName}>
                       <article className="flex max-w-xl flex-col items-start justify-between mx-4 sm:mx-0">
-                        <img src={reviews[skiName].picture} alt="" />
+                        <img src={reviews[skiName].picture} alt={skiName} />
                         <div className="flex items-center gap-x-4 text-xs">
                           <time dateTime={reviews[skiName].date} className="text-gray-500">
                             {reviews[skiName].date}
                           </time>
                           <a
-                            href={reviews[skiName].href}
+                            href={"/" + locale + reviews[skiName].href}
                             className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                           >
                             {texts.indepthReview[locale]}
@@ -56,7 +56,7 @@ export default function Opinions() {
                         </div>
                         <div className="group relative">
                           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                            <a href={reviews[skiName].href}>
+                            <a href={"/" + locale + reviews[skiName].href}>
                               <span className="absolute inset-0" />
                               {skiName}
                             </a>
@@ -67,7 +67,7 @@ export default function Opinions() {
                           <img src={reviews[skiName].authorPicture} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
                           <div className="text-sm leading-6">
                             <p className="font-semibold text-gray-900">
-                              <a href={reviews[skiName].href}>
+                              <a href={"/" + locale + reviews[skiName].href}>
                                 <span className="absolute inset-0" />
                                 {reviews[skiName].author}
                               </a>
