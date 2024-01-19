@@ -19,7 +19,7 @@ export default function Example() {
     <div className="bg-white h-screen">
       <div className="relative">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 sm:pt-14 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 sm:pt-14 lg:pt-14 lg:w-full lg:max-w-2xl">
             <svg
               className="absolute inset-y-0 right-8 hidden h-screen w-80 translate-x-1/2 transform fill-white lg:block"
               viewBox="0 0 100 100"
@@ -29,7 +29,7 @@ export default function Example() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-12 sm:py-40 lg:py-56 lg:px-8  lg:pr-0 2xl:py-96 ">
+            <div className="relative px-6 py-12 sm:py-16 lg:py-16 lg:px-8  lg:pr-0 2xl:py-96 ">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="mb-10 flex">
                   <div className="relative rounded-lg sm:rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

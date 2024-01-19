@@ -90,6 +90,20 @@ export default function PickASki() {
         {id: 5, name: texts.playfullOptions[locale][5], value: 10},
       ]
     },
+    {
+      name: texts.freeride[locale],
+      description: texts.freerideExplainer[locale],
+      icon: FaSnowman,
+      setterFunction: setFreeride,
+      defaultIndex: 1,
+      options: [
+        {id: 1, name: texts.freerideOptions[locale][1], value: 1},
+        {id: 2, name: texts.freerideOptions[locale][2], value: 3},
+        {id: 3, name: texts.freerideOptions[locale][3], value: 5},
+        {id: 4, name: texts.freerideOptions[locale][4], value: 7},
+        {id: 5, name: texts.freerideOptions[locale][5], value: 10},
+      ]
+    },
   ]
   const addableFields = [
     {
@@ -106,20 +120,7 @@ export default function PickASki() {
         {id: 5, name: texts.powderOptions[locale][5], value: 10},
       ]
     },
-    {
-      name: texts.freeride[locale],
-      description: texts.freerideExplainer[locale],
-      icon: FaSnowman,
-      setterFunction: setFreeride,
-      defaultIndex: 1,
-      options: [
-        {id: 1, name: texts.freerideOptions[locale][1], value: 1},
-        {id: 2, name: texts.freerideOptions[locale][2], value: 3},
-        {id: 3, name: texts.freerideOptions[locale][3], value: 5},
-        {id: 4, name: texts.freerideOptions[locale][4], value: 7},
-        {id: 5, name: texts.freerideOptions[locale][5], value: 10},
-      ]
-    },
+
     {
       name: texts.touring[locale],
       description: texts.touringExplainer[locale],
