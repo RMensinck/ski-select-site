@@ -23,27 +23,35 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
   const [ski4, setSki4] = useState({})
   const [ski5, setSki5] = useState({})
   const [ski6, setSki6] = useState({})
+  const [shopButtonClicked, setShopButtonClicked] = useState("")
   
   const handleSubmit = async (event, skiName, shopUrl) => {
     event.preventDefault();
+    if (shopButtonClicked != skiName) {
+      const skiRef = doc(db, 'outdoorXlClicks', "payPerClick");
+      try {
+        await updateDoc(skiRef, {
+          clicks: arrayUnion({
+            skiName: skiName,
+            shopUrl: shopUrl,
+            createdAt: new Date(),
+            locale: locale
+          })
+        });
+        gtag('event', 'Click on webshop', {
+          'event_category': 'engagement',
+          'event_label': shopUrl + " clicked"
+        });
+      } catch (error) {
+        console.error('Error adding opinion:', error);
+      }
+    }
+    setShopButtonClicked(skiName);
 
-    const skiRef = doc(db, 'outdoorXlClicks', "payPerClick");
 
     try {
-      await updateDoc(skiRef, {
-        clicks: arrayUnion({
-          skiName: skiName,
-          shopUrl: shopUrl,
-          createdAt: new Date(),
-          locale: locale
-        })
-      });
-      gtag('event', 'Click on webshop', {
-        'event_category': 'engagement',
-        'event_label': shopUrl + " clicked"
-      });
+      setShopButtonClicked(skiName);
       window.open(shopUrl, "_blank");
-      
     } catch (error) {
       console.error('Error adding opinion:', error);
     }
