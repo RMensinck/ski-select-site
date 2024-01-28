@@ -30,7 +30,7 @@ const textsMission = {
     "en": "\"50% of the people here are using the wrong skis, that needs to be improved!\"",
   },
   body2: {
-    "en": "Advice is readily available, but it rearly unbiased. K2 wont sell you that really nice pair of Black crows. Besides that the selection of skis to pick from is huge and most people just dont feel like spending a day or two doing the research.",
+    "en": "Advice is readily available, but it rarely unbiased. K2 wont sell you that really nice pair of Black crows. Besides that the selection of skis to pick from is huge and most people just dont feel like spending a day or two doing the research.",
     "nl": "Advies is overal te krijgen, maar zelden neutraal. K2 gaat nu eenmaal geen Black crows aanbevelen. Daarnaast is het aanbod enorm, en heeft de gemiddelde skier helemaal geen zin om twee dagen research te doen naar welke ski het beste bij diegene past.",
     "ja": "アドバイスは簡単に入手できますが、それはあまり偏っていません。K2はあなたに本当に素敵なブラッククロウズを売ることはありません。その他、選ぶスキーの選択肢は非常に多く、ほとんどの人は研究に1日か2日を費やすことを好みません。",
     "es": "El asesoramiento está fácilmente disponible, pero rara vez es imparcial, K2 no te venderá ese par realmente bonito de Black crows. Además, la selección de esquís para elegir es enorme y la mayoría de las personas simplemente no tienen ganas de pasar uno o dos días investigando.",
@@ -39,7 +39,7 @@ const textsMission = {
     "fr": "Les conseils sont facilement disponibles, mais ils sont rarement impartiaux, K2 ne vous vendra pas cette très belle paire de Black crows. En plus de cela, le choix des skis à choisir est énorme et la plupart des gens n'ont tout simplement pas envie de passer un jour ou deux à faire des recherches."
   },
   body3: {
-    "en": "Thats why i started Pick-a-ski.com, just to give a quick and simple advice as to which skis should be suitable in your situation!",
+    "en": "Thats why i started Pick-a-ski.com, just to give you quick and simple advice as to which skis should be suitable in your situation!",
     "nl": "Daarom ben ik begonnen met Pick-a-ski.com, om naar het beste van kunnen een neutraal en overzichtelijk ski advies te geven!",
     "ja": "だから私はPick-a-ski.comを始めました。あなたの状況に適したスキーを迅速かつ簡単にアドバイスするためです！",
     "es": "Por eso empecé Pick-a-ski.com, solo para dar un consejo rápido y simple sobre qué esquís serían adecuados en tu situación!",
