@@ -110,7 +110,9 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
           style={{ animationDelay: `${index * 0.3}s` }}
         >
           <div className="flex flex-1 flex-col p-8">
-            <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full object-contain rotate-90" src={ski.imageUrl} alt="" />
+            <a href={ski.opinionsHref}>
+              <img className="mx-auto h-32 w-32 flex-shrink-0 rounded-full object-contain rotate-90" src={ski.imageUrl} alt="" />
+            </a>
             <h3 className="mt-6 text-sm font-medium text-gray-900">{ski.name}</h3>
             <dl className="mt-1 flex flex-grow flex-col justify-between">
               <dt className="sr-only">{texts.score[locale]}</dt>

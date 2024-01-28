@@ -71,7 +71,7 @@ export default function Example() {
             <img
               className="aspect-[3/2] object-cover lg:aspect-auto sm:h-full lg:w-full"
               src="/homephoto.jpg"
-              alt=""
+              alt="Photo of a skier"
             />
           </div>
         </div>

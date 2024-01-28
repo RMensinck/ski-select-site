@@ -363,7 +363,7 @@ export default function Example(skiName: string) {
           </div>
           <div className="sm:px-6 lg:px-0 h-screen">
             <img
-              src={`/skis/${skiName}.png`}
+              src={`/skis/${skiName.replace(/[/_]/g, '')}.png`}
               alt="Product screenshot"
               className=" px-4 sm:mt-60 sm:rotate-90 object-contain h-64"
             />
