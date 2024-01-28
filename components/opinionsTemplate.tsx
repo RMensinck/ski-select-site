@@ -98,9 +98,18 @@ export default function Example(skiName: string) {
     if (!newOpinion.trim()) return;
 
     const skiRef = doc(db, 'skis', skiName);
-
+    const logRef = doc(db, 'allOpinions', 'allOpinions')
     try {
       await updateDoc(skiRef, {
+        opinions: arrayUnion({
+          text: newOpinion,
+          user: user.displayName,
+          uid: user.uid,
+          createdAt: new Date(),
+          icon: selectedMood.value
+        })
+      });
+      await updateDoc(logRef, {
         opinions: arrayUnion({
           text: newOpinion,
           user: user.displayName,

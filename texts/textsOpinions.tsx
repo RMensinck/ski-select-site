@@ -52,6 +52,24 @@ const textsOpinions = {
     "de": "Meinungen",
     "pl": "Opinie",
     "fr": "Avis"
+  },
+  quickSearch: {
+    "en": "Filter",
+    "nl": "Filter",
+    "ja": "フィルター",
+    "es": "Filtro",
+    "de": "Filter",
+    "pl": "Filtr",
+    "fr": "Filtre"
+  },
+  brandsTitle: {
+    "en": "Available brands",
+    "nl": "Beschikbare merken",
+    "ja": "利用可能なブランド",
+    "es": "Marcas Disponibles",
+    "de": "Verfügbare Marken",
+    "pl": "Dostępne Marki",
+    "fr": "Marques Disponibles"
   }
 }
 

@@ -41,7 +41,7 @@ export default function Contact() {
   useEffect(() => {
     gtag('event', 'Contact loaded')
   }, [])
-  
+
   return (
     <>
       <Head>
@@ -49,6 +49,8 @@ export default function Contact() {
         <meta name="description" content={texts.metaDescription[locale]}/>
       </Head>
     
+      
+
       <div className=" bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">

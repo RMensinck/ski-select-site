@@ -21,7 +21,7 @@ export default function PickASki() {
   const [park, setPark] = useState(1)
   const [touring, setTouring] = useState(1)
   const [scores, setScores] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false) 
 
   const handleAddField = (targetName: string) => {
     const newField = addable.find(feature => feature.name === targetName)

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Atomic",
+    "logo": "/brands/logos/atomic_logo.png",
+    "logoAlt": "Atomic logo"
+  },
+  {
+    "name": "Armada",
+    "logo": "/brands/logos/armada_logo.png",
+    "logoAlt": "Armada logo"
+  },
+  {
+    "name": "Black Crows",
+    "logo": "/brands/logos/black_crows_logo.png",
+    "logoAlt": "Black Crows logo"
+  },
+  {
+    "name": "Blizzard",
+    "logo": "/brands/logos/blizzard_logo.png",
+    "logoAlt": "Blizzard logo"
+  },
+  {
+    "name": "Dynastar",
+    "logo": "/brands/logos/dynastar_logo.png",
+    "logoAlt": "Dynastar logo"
+  },
+  {
+    "name": "Elan",
+    "logo": "/brands/logos/elan_logo.png",
+    "logoAlt": "Elan logo"
+  },
+  {
+    "name": "Extrem",
+    "logo": "/brands/logos/extrem_logo.png",
+    "logoAlt": "Extrem logo"
+  },
+  {
+    "name": "Faction",
+    "logo": "/brands/logos/faction_logo.png",
+    "logoAlt": "Faction logo"
+  },
+  {
+    "name": "K2",
+    "logo": "/brands/logos/k2_logo.png",
+    "logoAlt": "K2 logo"
+  },
+  {
+    "name": "Line",
+    "logo": "/brands/logos/line_logo.png",
+    "logoAlt": "Line logo"
+  },
+  {
+    "name": "Movement",
+    "logo": "/brands/logos/movement_logo.png",
+    "logoAlt": "Movement logo"
+  },
+  {
+    "name": "Nordica",
+    "logo": "/brands/logos/nordica_logo.png",
+    "logoAlt": "Nordica logo"
+  },
+  {
+    "name": "ON3P",
+    "logo": "/brands/logos/on3p_logo.png",
+    "logoAlt": "ON3P logo"
+  },
+  {
+    "name": "Rossignol",
+    "logo": "/brands/logos/rossignol_logo.png",
+    "logoAlt": "Rossignol logo"
+  },
+  {
+    "name": "Salomon",
+    "logo": "/brands/logos/salomon_logo.png",
+    "logoAlt": "Salomon logo"
+  },
+  {
+    "name": "Volkl",
+    "logo": "/brands/logos/volkl_logo.png",
+    "logoAlt": "Volkl logo"
+  }
+]
