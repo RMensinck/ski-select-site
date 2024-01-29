@@ -196,6 +196,20 @@ export default function Example(skiName: string) {
                   {texts.availableLengths[locale] + ": " + ski.availableLengths}
                 </p>
               }
+              { ski.recommendedMounting &&
+                <p className="text-lg leading-8 text-gray-600">
+                  {texts.recommendedMounting[locale] + ": " + ski.recommendedMounting}
+                </p>
+              }
+              {
+                ski.reviewHref && 
+                <button 
+                  className="relative mt-4 inline-flex items-center gap-x-1.5 rounded-md bg-accent-color hover:bg-indigo-500 hover:shadow-xl px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  onClick={() => window.open(ski.reviewHref, "_blank")}
+                >
+                  {texts.seeReview[locale]}
+                </button>
+              }
 
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {texts.body1[locale] + " " + skiName + " " + texts.body2[locale]}

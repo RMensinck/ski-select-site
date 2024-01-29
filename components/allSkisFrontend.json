@@ -7,10 +7,10 @@
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/armada-arg-ii-ul.html"
         },
-        "dimentions": "125-135-120mm",
-        "weight": "2250g",
-        "radius": "50m",
-        "availableLengths": "187cm"
+        "dimentions": "125-135-120",
+        "weight": "2250",
+        "radius": "50",
+        "availableLengths": "187"
     },
     {
         "name": "Armada Edollo",
@@ -145,7 +145,11 @@
         "model": "Bent chetler 120",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-chetler-120.html"
-        }
+        },
+        "dimentions": "143-120-134mm (184cm)",
+        "weight": "1800g (184cm)",
+        "radius": "19m (184cm)",
+        "availableLengths": "176cm, 184cm, 192cm"
     },
     {
         "name": "Atomic Maverick 100 TI",
@@ -190,7 +194,12 @@
         "model": "Anima",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-anima.html"
-        }
+        },
+        "dimentions": "145-115-13mm",
+        "weight": "2150g (176cm)",
+        "radius": "19m (176cm)",
+        "availableLengths": "176cm, 182cm, 189cm, 194cm",
+        "recommendedMounting": "-6cm"
     },
     {
         "name": "Black crows Atris",
@@ -199,7 +208,12 @@
         "model": "Atris",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris.html"
-        }
+        },
+        "dimentions": "136-105-122mm (184cm)",
+        "weight": "1800g (184cm)",
+        "radius": "19m (184cm)",
+        "availableLengths": "172cm, 178cm, 184cm, 190cm",
+        "recommendedMounting": "-8cm"
     },
     {
         "name": "Black crows Atris birdie",
@@ -208,7 +222,13 @@
         "model": "Atris birdie",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris-birdie.html"
-        }
+        },
+        "dimentions": "138-105-122cm (178cm)",
+        "weight": "1800g (178cm)",
+        "radius": "19m (178cm)",
+        "availableLengths": "160cm, 166cm 172cm, 178cm",
+        "recommendedMounting": "-8cm",
+        "reviewHref": "/reviews/blackcrowsatrisbirdie"
     },
     {
         "name": "Black crows Camox",
@@ -217,7 +237,12 @@
         "model": "Camox",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-camox.html"
-        }
+        },
+        "dimentions": "131-97-119mm (186cm)",
+        "weight": "2000g (186cm)",
+        "radius": "20m",
+        "availableLengths": "174cm, 180cm, 186cm",
+        "recommendedMounting": "-6cm"
     },
     {
         "name": "Black crows Corvus",
@@ -226,7 +251,12 @@
         "model": "Corvus",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-corvus.html"
-        }
+        },
+        "dimentions": "138-107-128mm (188cm)",
+        "weight": "2150g (188cm)",
+        "radius": "21m (188cm)",
+        "availableLengths": "176cm, 183cm, 188cm, 193cm",
+        "recommendedMounting": "-8cm"
     },
     {
         "name": "Black crows Mirus Cor",
@@ -235,7 +265,13 @@
         "model": "Mirus Cor",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-mirus-cor.html"
-        }
+        },
+        "dimentions": "135-87-125mm (184cm)",
+        "weight": "1925g (184cm)",
+        "radius": "13m (184cm)",
+        "availableLengths": "168cm, 173cm, 178cm, 184cm",
+        "recommendedMounting": "-3.5cm",
+        "reviewHref": "/reviews/blackcrowsmiruscor"
     },
     {
         "name": "Black crows Navis Freebird",
@@ -244,7 +280,12 @@
         "model": "Navis Freebird",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-navis-freebird.html"
-        }
+        },
+        "dimentions": "138-102-119cm (179cm)",
+        "weight": "1700g (179cm)",
+        "radius": "19m (179cm)",
+        "availableLengths": "167cm, 173cm, 179cm, 185cm",
+        "recommendedMounting": "-9cm"
     },
     {
         "name": "Black crows Nocta",
@@ -253,7 +294,12 @@
         "model": "Nocta",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-nocta.html"
-        }
+        },
+        "dimentions": "145-122-136mm (185cm)",
+        "weight": "2025g (185cm)",
+        "radius": "19m (185cm)",
+        "availableLengths": "177cm, 185cm",
+        "recommendedMounting": "-6cm"
     },
     {
         "name": "Black crows Vertis",
@@ -262,7 +308,13 @@
         "model": "Vertis",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-vertis.html"
-        }
+        },
+        "dimentions": "128-85-111mm (175cm)",
+        "weight": "1675g (175cm)",
+        "radius": "15m (175cm)",
+        "availableLengths": "165cm, 170cm, 175cm",
+        "recommendedMounting": "-8cm",
+        "reviewHref": "/reviews/blackcrowsvertis"
     },
     {
         "name": "Blizzard Rustler 9",

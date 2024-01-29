@@ -151,6 +151,24 @@ const textsSkiOpinions = {
       "de": "Verfügbare Längen",
       "pl": "Dostępne długości",
       "fr": "Longueurs disponibles"
+    },
+    recommendedMounting: {
+      "en": "Recommended mounting point",
+      "nl": "Aanbevolen montagepunt",
+      "ja": "推奨取り付けポイント",
+      "es": "Punto de montaje recomendado",
+      "de": "Empfohlener Montagepunkt",
+      "pl": "Zalecany punkt montażu",
+      "fr": "Point de montage recommandé"
+    },
+    seeReview: {
+      "en": "See in-depth review",
+      "nl": "Bekijk diepgaande review",
+      "ja": "詳細なレビューを見る",
+      "es": "Ver reseña en profundidad",
+      "de": "Ausführliche Bewertung anzeigen",
+      "pl": "Zobacz szczegółową recenzję",
+      "fr": "Voir l'avis détaillé"
     }
     
 }
