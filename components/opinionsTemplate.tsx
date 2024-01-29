@@ -18,6 +18,7 @@ import { getAuth, GoogleAuthProvider, signInWithRedirect, signInWithPopup } from
 import texts from '../texts/textsOpinionTemplates'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import skis from '../components/allSkisFrontend.json'
 
 declare function gtag(...args: any[]): void;
 
@@ -60,6 +61,7 @@ export default function Example(skiName: string) {
   const [newOpinion, setNewOpinion] = useState('');
   const router = useRouter()
   const { locale } = router 
+  const ski = skis.find(ski => ski.name === skiName)
 
   const signIn = async () => {
     const result = await signInWithPopup(auth, provider)
@@ -168,12 +170,39 @@ export default function Example(skiName: string) {
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-accent-color">{texts.opinions[locale]}</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName}</p>
+              
+              { ski.dimentions && ski.weight && ski.availableLengths && ski.radius &&
+                <p className="mt-6 font-bold text-lg leading-8 text-gray-600">
+                  {texts.details[locale]}
+                </p>
+              }
+              { ski.dimentions &&
+                <p className="text-lg leading-8 text-gray-600">
+                  {texts.dimentions[locale] + ": " + ski.dimentions}
+                </p>
+              }
+              { ski.radius &&
+                <p className="text-lg leading-8 text-gray-600">
+                  {texts.radius[locale] + ": " + ski.radius}
+                </p>
+              }
+              { ski.weight &&
+                <p className="text-lg leading-8 text-gray-600">
+                  {texts.weight[locale] + ": " + ski.weight}
+                </p>
+              }
+              { ski.availableLengths &&
+                <p className="text-lg leading-8 text-gray-600">
+                  {texts.availableLengths[locale] + ": " + ski.availableLengths}
+                </p>
+              }
+
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {texts.body1[locale] + " " + skiName + " " + texts.body2[locale]}
               </p>
               
               {opinions.length === 0 &&
-                <p className="mt-6 text-lg leading-8 text-gray-600">
+                <p className=" text-lg leading-8 text-gray-600">
                 {texts.noOpinionsYet[locale]}
               </p>
               }

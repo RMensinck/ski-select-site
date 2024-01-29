@@ -107,6 +107,51 @@ const textsSkiOpinions = {
       "pl": "Opinie",
       "fr": "Avis"
     },
+    details: {
+      "en": "Details",
+      "nl": "Details",
+      "ja": "詳細",
+      "es": "Detalles",
+      "de": "Details",
+      "pl": "Szczegóły",
+      "fr": "Détails"
+    },
+    dimentions: {
+      "en": "Dimentions",
+      "nl": "afmetingen",
+      "ja": "寸法",
+      "es": "Dimensiones",
+      "de": "Abmessungen",
+      "pl": "Wymiary",
+      "fr": "Dimensions"
+    },
+    weight: {
+      "en": "Weight",
+      "nl": "Gewicht",
+      "ja": "重量",
+      "es": "Peso",
+      "de": "Gewicht",
+      "pl": "Waga",
+      "fr": "Poids"
+    },
+    radius: {
+      "en": "Radius",
+      "nl": "Radius",
+      "ja": "半径",
+      "es": "Radio",
+      "de": "Radius",
+      "pl": "Promień",
+      "fr": "Rayon"
+    },
+    availableLengths: {
+      "en": "Available lengths",
+      "nl": "Beschikbare lengtes",
+      "ja": "利用可能な長さ",
+      "es": "Longitudes disponibles",
+      "de": "Verfügbare Längen",
+      "pl": "Dostępne długości",
+      "fr": "Longueurs disponibles"
+    }
     
 }
 

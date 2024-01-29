@@ -6,7 +6,11 @@
         "model": "ARG II UL",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/armada-arg-ii-ul.html"
-        }
+        },
+        "dimentions": "125-135-120mm",
+        "weight": "2250g",
+        "radius": "50m",
+        "availableLengths": "187cm"
     },
     {
         "name": "Armada Edollo",
@@ -819,7 +823,10 @@
         "name": "Salomon S/MAX 12",
         "href": "/opinions/SalomonSMAX12",
         "brand": "Salomon",
-        "model": "S/MAX 12"
+        "model": "S/MAX 12",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-n12-xt.html"
+        }
     },
     {
         "name": "Salomon S/MAX 8",
