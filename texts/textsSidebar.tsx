@@ -79,6 +79,15 @@ const textsSidebar = {
     "de": "Bewerte deinen Ski",
     "pl": "Oceń swoje narty",
     "fr": "Évaluez votre ski"
+  },
+  articles: {
+    "en": "Articles",
+    "nl": "Artikelen",
+    "ja": "記事",
+    "es": "Artículos",
+    "de": "Artikel",
+    "pl": "Artykuły",
+    "fr": "Articles"
   }
 }
 

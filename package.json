@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node generateReviewPages.js && node generateOpinionPages.js",
+    "prebuild": "node generateReviewPages.js && node generateOpinionPages.js && node generateArticlesPages.js",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
@@ -31,6 +31,8 @@
     "react-dom": "18.2.0",
     "react-firebase-hooks": "^5.1.1",
     "react-icons": "^4.8.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
     "typescript": "5.0.2"
   },
   "devDependencies": {

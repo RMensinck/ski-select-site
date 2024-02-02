@@ -8,7 +8,7 @@ skis.map((ski, index) => {
     let opinionsPage = ''
     if (ski.photo) {
         opinionsPage = 
-            `import opinionsTemplate from '../../components/opinionsTemplate'
+            `import opinionsTemplate from '../../components/articleTemplate.tsx'
 
             export default function Opinions() {
                 return opinionsTemplate("${ski.name}", "${ski.photo}")
