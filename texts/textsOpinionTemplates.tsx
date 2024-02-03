@@ -116,8 +116,8 @@ const textsSkiOpinions = {
       "pl": "Szczegóły",
       "fr": "Détails"
     },
-    dimentions: {
-      "en": "Dimentions",
+    dimensions: {
+      "en": "Dimensions",
       "nl": "afmetingen",
       "ja": "寸法",
       "es": "Dimensiones",

@@ -171,14 +171,14 @@ export default function Example(skiName: string) {
               <h2 className="text-base font-semibold leading-7 text-accent-color">{texts.opinions[locale]}</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName}</p>
               
-              { ski.dimentions && ski.weight && ski.availableLengths && ski.radius &&
+              { ski.dimensions && ski.weight && ski.availableLengths && ski.radius &&
                 <p className="mt-6 font-bold text-lg leading-8 text-gray-600">
                   {texts.details[locale]}
                 </p>
               }
-              { ski.dimentions &&
+              { ski.dimensions &&
                 <p className="text-lg leading-8 text-gray-600">
-                  {texts.dimentions[locale] + ": " + ski.dimentions}
+                  {texts.dimensions[locale] + ": " + ski.dimensions}
                 </p>
               }
               { ski.radius &&

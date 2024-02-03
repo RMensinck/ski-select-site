@@ -1,18 +1,23 @@
-[
+[  
+{
+    "name": "Armada",
+    "logo": "/brands/logos/armada_logo.png",
+    "logoAlt": "Armada logo"
+  },
   {
     "name": "Atomic",
     "logo": "/brands/logos/atomic_logo.png",
     "logoAlt": "Atomic logo"
   },
   {
-    "name": "Armada",
-    "logo": "/brands/logos/armada_logo.png",
-    "logoAlt": "Armada logo"
-  },
-  {
     "name": "Black Crows",
     "logo": "/brands/logos/black_crows_logo.png",
     "logoAlt": "Black Crows logo"
+  },
+  {
+    "name": "Black Diamond",
+    "logo": "/brands/logos/black_diamond_logo.png",
+    "logoAlt": "Black Diamond logo"
   },
   {
     "name": "Blizzard",
