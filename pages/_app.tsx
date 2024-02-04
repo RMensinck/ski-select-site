@@ -26,7 +26,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       "x-default": `https://www.pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`,
     };
   
-    const canonicalUrl = `https://www.pick-a-ski.com/en${currentPath === "/" ? "" : currentPath}`; 
+    const canonicalUrl = `https://www.pick-a-ski.com/${locale}${currentPath === "/" ? "" : currentPath}`; 
   
     return (
       <>
