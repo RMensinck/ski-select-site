@@ -8,6 +8,10 @@ import Head from 'next/head'
 
 declare function gtag(...args: any[]): void;
 
+export async function getStaticProps() {
+  return { props: {} }
+}
+
 export default function Example() {
   const router = useRouter()
   const { locale } = router
