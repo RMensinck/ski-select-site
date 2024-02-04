@@ -1,7 +1,7 @@
 
 import texts from '@/texts/textsHome'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Head from 'next/head'
@@ -68,10 +68,12 @@ export default function Example() {
             </div>
           </div>
           <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img
-              className="aspect-[3/2] object-cover lg:aspect-auto sm:h-full lg:w-full"
+            <Image
               src="/homephoto.jpg"
-              alt="Photo of a skier"
+              alt='A photo of a skier'
+              width="2813"
+              height="3516"
+              layout="responsive"
             />
           </div>
         </div>
