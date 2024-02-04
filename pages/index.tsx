@@ -71,7 +71,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className="hidden bg-gray-50 lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <Image
               src="/homephoto.jpg"
               alt='A photo of a skier'
