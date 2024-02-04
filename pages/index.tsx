@@ -78,7 +78,6 @@ export default function Example() {
               width="2813"
               height="3516"
               layout="responsive"
-              priority
             />
           </div>
         </div>
