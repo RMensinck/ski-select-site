@@ -171,6 +171,42 @@ const textsPickaski = {
         "pl": "Narty zorientowane na freeride to narty, które dobrze sprawdzają się poza oznaczonymi stokami. We wszystkich warunkach, więc nie tylko do jazdy w proszku.",
         "fr": "Un ski orienté freeride est un ski qui fonctionne bien en dehors des pistes balisées. Dans toutes les conditions, donc pas seulement pour le ski en poudreuse."
     },
+    weight: {
+        "en": "Weight (in kg)",
+        "nl": "Gewicht (in kg)",
+        "ja": "重量（kg）",
+        "es": "Peso (en kg)",
+        "de": "Gewicht (in kg)",
+        "pl": "Waga (w kg)",
+        "fr": "Poids (en kg)"
+    },
+    height: {
+        "en": "Height (in cm)",
+        "nl": "Lengte (in cm)",
+        "ja": "身長（cm）",
+        "es": "Altura (en cm)",
+        "de": "Größe (in cm)",
+        "pl": "Wzrost (w cm)",
+        "fr": "Taille (en cm)"
+    },
+    fitness: {
+        "en": "Fitness (from 1 to 10)",
+        "nl": "Fitheid (van 1 tot 10)",
+        "ja": "フィットネス（1から10まで）",
+        "es": "Forma física (de 1 a 10)",
+        "de": "Fitness (von 1 bis 10)",
+        "pl": "Forma (od 1 do 10)",
+        "fr": "Forme physique (de 1 à 10)"
+    },
+    getRecommendations: {
+        "en": "Load my recommendations",
+        "nl": "Laad mijn aanbevelingen",
+        "ja": "私のおすすめを読み込む",
+        "es": "Cargar mis recomendaciones",
+        "de": "Meine Empfehlungen laden",
+        "pl": "Załaduj moje rekomendacje",
+        "fr": "Charger mes recommandations"
+    },
     pisteOptions: {
         "en": {
             1: "1: Never on the slopes",
@@ -527,6 +563,7 @@ const textsPickaski = {
             4: "4: Souvent de freeride",
             5: "5: Toujours de freeride",
         },
+        
         
 
     },

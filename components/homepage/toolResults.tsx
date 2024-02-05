@@ -93,7 +93,6 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
             break;
         }
       });
-      console.log(ski1)
     } catch (error) {
       console.error(error);
     }
@@ -106,7 +105,7 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
       {skis.map((ski: any, index: number) => (
         <li
           key={Math.random().toString(36).substring(2, 15)}
-          className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow fade-in"
+          className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
           style={{ animationDelay: `${index * 0.3}s` }}
         >
           <div className="flex flex-1 flex-col p-8">

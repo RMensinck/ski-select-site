@@ -20,6 +20,9 @@ export default function PickASki() {
   const [powder, setPowder] = useState(1)
   const [park, setPark] = useState(1)
   const [touring, setTouring] = useState(1)
+  const [bodyHeight, setBodyHeight] = useState(175)
+  const [bodyWeight, setBodyWeight] = useState(75)
+  const [fitness, setFitness] = useState(6)
   const [scores, setScores] = useState([])
   const [loading, setLoading] = useState(false) 
 
@@ -37,7 +40,7 @@ export default function PickASki() {
   };
 
   const showScores = async () => {
-    await getScores(setLoading, level, playfull, piste, powder, freeride, park, touring).then((result) => {
+    await getScores(setLoading, level, playfull, piste, powder, freeride, park, touring, bodyHeight, bodyWeight, fitness).then((result) => {
     setScores(result)
     gtag('event', 'Tool results loaded', {
       'event_category': 'tool results',
@@ -155,13 +158,12 @@ export default function PickASki() {
   const [addable, setAddable] = useState(addableFields)
   const [fieldToAdd, setFieldToAdd] = useState(addable[0])
 
-  useEffect(() => {
-    showScores()
-  }, [piste, level, playfull, powder, freeride, park, touring])
+
 
   useEffect(() => {
     gtag('event', 'pick-a-ski loaded')
   }, [])
+
 
   return (
     <>
@@ -180,17 +182,98 @@ export default function PickASki() {
             {texts.explainer[locale]}
           </p>
         </div>
+
+        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 lg:max-w-2xl mx-auto">
+          <div className="sm:col-span-2 sm:col-start-1">
+            <label htmlFor="bodyHeight" className="block text-sm font-medium leading-6 text-gray-900">
+              {texts.height[locale]}
+            </label>
+            <div className="mt-2">
+              <input
+                type="number"
+                name="bodyHeight"
+                id="bodyHeight"
+                placeholder="175"
+                min="50"
+                max="250"
+                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-accent-color sm:text-sm sm:leading-6"
+                onChange={(e) => {
+                  let value = Number(e.target.value);
+                  if (value < 1) {
+                    value = 1;
+                  }
+                  e.target.value = Math.round(value).toString();
+                  setBodyHeight(value)
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="sm:col-span-2">
+            <label htmlFor="bodyWeight" className="block text-sm font-medium leading-6 text-gray-900">
+              {texts.weight[locale]}
+            </label>
+            <div className="mt-2">
+              <input
+                type="number"
+                name="bodyWeight"
+                id="bodyWeight"
+                placeholder='75'
+                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-accent-color sm:text-sm sm:leading-6"
+                min="20"
+                onChange={(e) => {
+                  let value = Number(e.target.value);
+                  if (value < 1) {
+                    value = 1;
+                  }
+                  e.target.value = Math.round(value).toString();
+                  setBodyWeight(value)
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="sm:col-span-2">
+            <label htmlFor="fitness" className="block text-sm font-medium leading-6 text-gray-900">
+              {texts.fitness[locale]}
+            </label>
+            <div className="mt-2">
+              <input
+                type="number"
+                name="fitness"
+                id="fitness"
+                placeholder="6"
+                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-accent-color sm:text-sm sm:leading-6"
+                min="1"
+                max="10"
+                onChange={(e) => {
+                  let value = Number(e.target.value);
+                  if (value < 1) {
+                    value = 1;
+                  }
+                  if (value > 10) {
+                    value = 10;
+                  }
+                  e.target.value = Math.round(value).toString();
+                  setFitness(value);
+                }}
+              />
+            </div>
+          </div>
+        </div>
+
+
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl ">
           <dl className=" grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16 mb-16 sm:mb-20 lg:mb-24">
             {fields.map((field) => (
               <div key={field.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-semibold leading-7 text-gray-900" title={field.description}>
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-accent-color">
                     <field.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {field.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">{field.description}</dd>
+
                 <InputSelectMenu
                   options={field.options}
                   onSelectionChange={(x) => {
@@ -205,7 +288,7 @@ export default function PickASki() {
             {
               addable.length > 0 &&
               <div
-                className="relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-12 text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-4 text-center hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 <InputSelectMenu
                   options={addable.map(field => ({id: field.name, name: field.name}))}
@@ -222,10 +305,15 @@ export default function PickASki() {
                   </button>
               </div>
             }
-
             {/* end add field button */}
 
           </dl>
+          <button 
+            className='mx-auto block rounded-md bg-accent-color px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+            onClick={showScores}
+          >
+            {texts.getRecommendations[locale]}
+          </button>
           {
             scores.length > 0 &&
             <ToolResults
