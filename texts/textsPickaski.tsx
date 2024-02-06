@@ -100,13 +100,13 @@ const textsPickaski = {
         "fr": "Funpark"
       },
     freeride: {
-        "en": "Freeride",
-        "nl": "Freeride",
-        "ja": "フリーライド",
-        "es": "Freeride",
-        "de": "Freeride",
-        "pl": "Freeride",
-        "fr": "Freeride"
+        "en": "Freeride (off-piste)",
+        "nl": "Freeride (buiten de piste)",
+        "ja": "フリーライド（オフピスト）",
+        "es": "Freeride (fuera de pista)",
+        "de": "Freeride (abseits der Piste)",
+        "pl": "Freeride (poza trasą)",
+        "fr": "Freeride (hors-piste)"
       },
     pisteExplainer: {
         "en": "Do you want a ski that is suitable for the slopes? The more you are on the slopes, the higher you fill this in.",
