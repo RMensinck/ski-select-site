@@ -117,7 +117,8 @@ export default function Example(skiName: string) {
           user: user.displayName,
           uid: user.uid,
           createdAt: new Date(),
-          icon: selectedMood.value
+          icon: selectedMood.value,
+          ski: skiName
         })
       });
       // setOpinions([...opinions, { text: newOpinion, user: user.displayName }]);
