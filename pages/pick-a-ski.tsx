@@ -70,7 +70,7 @@ export default function PickASki() {
       description: texts.levelExplainer[locale],
       icon: FaChartLine,
       setterFunction: setLevel,
-      defaultIndex: 1,
+      defaultIndex: 2,
       options: [
         {id: 1, name: texts.levelOptions[locale][1], value: 1},
         {id: 2, name: texts.levelOptions[locale][2], value: 3},
