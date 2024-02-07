@@ -120,7 +120,7 @@ export default function Example() {
                           <img
                           className="h-8 w-8 rounded-full"
                           src={user.photoURL}
-                          alt=""
+                          alt="Profile pictured of current user"
                           />
                           :
                           <UserCircleIcon className="h-8 w-8 rounded-full" aria-hidden="true" />

@@ -9,13 +9,13 @@ const textsReviews = {
     "pl": "Przeglądaj kompleksowe recenzje sprzętu narciarskiego na naszej stronie z recenzjami. Znajdź dogłębne analizy i opinie użytkowników na temat szerokiej gamy nart, aby podejmować świadome wybory dla swoich narciarskich przygód."
   },
   header: {
-    "en": "Ski reviews",
-    "nl": "Ski reviews",
-    "ja": "スキーレビュー",
-    "es": "Reseñas de esquí",
-    "de": "Ski Bewertungen",
-    "pl": "Recenzje nart",
-    "fr": "Critiques de ski"
+    "en": "All our ski reviews in one place, writen by experienced skiers",
+    "nl": "Al onze ski reviews op één plek, geschreven door ervaren skiërs",
+    "ja": "経験豊富なスキーヤーによるすべてのスキーレビューが1か所に",
+    "es": "Todas nuestras reseñas de esquí en un solo lugar, escritas por esquiadores experimentados",
+    "de": "Alle unsere Skibewertungen an einem Ort, geschrieben von erfahrenen Skifahrern",
+    "pl": "Wszystkie nasze recenzje nart w jednym miejscu, pisane przez doświadczonych narciarzy",
+    "fr": "Toutes nos critiques de ski en un seul endroit, écrites par des skieurs expérimentés"
   },
   title: {
     "en": "In-depth ski reviews writen by experienced skiers",

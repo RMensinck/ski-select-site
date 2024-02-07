@@ -168,7 +168,7 @@ export default function PickASki() {
   return (
     <>
       <Head>
-        <title>{texts.upperTitle[locale]}</title>
+        <title>{texts.upperTitle[locale] + " | " + texts.title[locale]}</title>
         <meta name="description" content={texts.metaDescription[locale]}/>
       </Head>
       <div className="bg-white py-24 sm:py-32">

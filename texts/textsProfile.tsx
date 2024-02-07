@@ -25,6 +25,24 @@ const textsProfile = {
         "de": "Zurück zur Homepage",
         "pl": "Wróć do strony głównej",
         "fr": "Retour à la page d'accueil"
+    },
+    pageTitle: {
+        "en": "Personal profile page",
+        "nl": "Persoonlijke profielpagina",
+        "ja": "個人プロフィールページ",
+        "es": "Página de perfil personal",
+        "de": "Persönliche Profilseite",
+        "pl": "Strona profilu osobistego",
+        "fr": "Page de profil personnel"
+    },
+    metaDescription: {
+        "en": "The page where you can edit your profile, share information so others can find out more about you as a skier. You can also see your own articles, reviews and opinions.",
+        "nl": "De pagina waar je je profiel kunt bewerken, informatie kunt delen zodat anderen meer over jou als skiër te weten kunnen komen. Je kunt ook je eigen artikelen, recensies en meningen bekijken.",
+        "ja": "プロフィールを編集し、他の人があなたのことをもっと知ることができるように情報を共有するページ。自分の記事、レビュー、意見も見ることができます。",
+        "es": "La página donde puedes editar tu perfil, compartir información para que otros puedan saber más sobre ti como esquiador. También puedes ver tus propios artículos, reseñas y opiniones.",
+        "de": "Die Seite, auf der Sie Ihr Profil bearbeiten, Informationen teilen können, damit andere mehr über Sie als Skifahrer erfahren können. Sie können auch Ihre eigenen Artikel, Bewertungen und Meinungen einsehen.",
+        "pl": "Strona, na której możesz edytować swój profil, udostępniać informacje, aby inni mogli dowiedzieć się o Tobie więcej jako narciarza. Możesz również zobaczyć swoje własne artykuły, recenzje i opinie.",
+        "fr": "La page où vous pouvez modifier votre profil, partager des informations pour que d'autres puissent en savoir plus sur vous en tant que skieur. Vous pouvez également voir vos propres articles, avis et opinions."
     }
 }
   
