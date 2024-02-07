@@ -282,7 +282,7 @@ export default function Example(skiName: string) {
                   <div className="mt-6 flex gap-x-3">
                     <img
                       src={user.photoURL}
-                      alt=""
+                      alt="Photo of the user"
                       className="h-6 w-6 flex-none rounded-full bg-gray-50"
                     />
                     <form onSubmit={handleSubmit} className="relative flex-auto">
@@ -407,7 +407,7 @@ export default function Example(skiName: string) {
           </div>
           <div className="sm:px-6 lg:px-0 h-screen">
             <img
-              src={`/skis/${skiName.replace(/[/_]/g, '')}.png`}
+              src={`/skis/${skiName.replace(/[/_+]/g, '')}.png`}
               alt="Product screenshot"
               className=" px-4 sm:mt-60 sm:rotate-90 object-contain h-64"
             />

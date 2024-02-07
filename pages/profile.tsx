@@ -25,7 +25,7 @@ export default function Example() {
       <main className="relative isolate min-h-full h-screen">
         <img
           src="/404background.jpg"
-          alt=""
+          alt="Background image of a ski area parkinglot"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-top"
         />
         <Transition.Root show={open} as={Fragment}>

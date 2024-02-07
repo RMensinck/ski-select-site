@@ -42,7 +42,7 @@ export default function Opinions() {
                     {skiNames.map((skiName) => (
                       <React.Fragment key={skiName}>
                       <article className="flex max-w-xl flex-col items-start justify-between mx-4 sm:mx-0">
-                        <img src={reviews[skiName].picture} alt={skiName} />
+                        <img src={reviews[skiName].picture} alt={"Picture of the " + skiName} />
                         <div className="flex items-center gap-x-4 text-xs">
                           <time dateTime={reviews[skiName].date} className="text-gray-500">
                             {reviews[skiName].date}
@@ -64,7 +64,7 @@ export default function Opinions() {
                           <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{reviews[skiName].paragraphs[locale][0] + " " + reviews[skiName].paragraphs[locale][1] + " " + reviews[skiName].paragraphs[locale][2]}</p>
                         </div>
                         <div className="relative mt-8 flex items-center gap-x-4">
-                          <img src={reviews[skiName].authorPicture} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
+                          <img src={reviews[skiName].authorPicture} alt="Picture of the review's author" className="h-10 w-10 rounded-full bg-gray-50" />
                           <div className="text-sm leading-6">
                             <p className="font-semibold text-gray-900">
                               <a href={"/" + locale + reviews[skiName].href}>

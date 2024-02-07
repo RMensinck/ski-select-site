@@ -52,7 +52,7 @@ export default function Home() {
                   <img
                     className="rounded-xl lg:rounded-3xl"
                     src="/authors/RemcoMensinck.jpeg"
-                    alt=""
+                    alt="Picture of Remco Mensinck"
                   />
                 </div>
                 <figcaption className="text-base lg:col-start-1 lg:row-start-3">

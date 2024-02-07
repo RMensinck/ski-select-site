@@ -63,7 +63,7 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
         const skiData = ski_data.find((s) => s.name === score.name);
         const skiState = {
           name: score.name,
-          imageUrl: `/skis/${score.name.replace(/[/_]/g, '')}.png`,
+          imageUrl: `/skis/${score.name.replace(/[/_+]/g, '')}.png`,
           opinionsHref: "/opinions/"+score.name.replace(/[ /._-]/g, ''),
           score: score.score,
           rank: index + 1,

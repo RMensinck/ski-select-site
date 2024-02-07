@@ -37,7 +37,7 @@ export default function Review(skiName: string) {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <div className="flex">
-                  <img src={reviews[skiName].authorPicture} alt="" className="mr-4 h-10 w-10 rounded-full bg-gray-50" />
+                  <img src={reviews[skiName].authorPicture} alt="Picture of the review author" className="mr-4 h-10 w-10 rounded-full bg-gray-50" />
                   <p className=" self-center text-base font-semibold leading-7 text-accent-color">{texts.by[locale] + " " + reviews[skiName].author}</p>
                   
                 </div>
@@ -61,7 +61,7 @@ export default function Review(skiName: string) {
             <img
               className=" rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:rotate-90 p-4 xl:scale-90"
               src={reviews[skiName].picture}
-              alt=""
+              alt="Picture of the ski that is being reviewed"
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
