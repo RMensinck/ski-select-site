@@ -5,6 +5,7 @@ import texts from '../texts/textsArticleTemplates'
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
+import Image from 'next/image';
 
 declare function gtag(...args: any[]): void;
 
@@ -37,7 +38,13 @@ export default function ArticleTemplate(articleHref) {
 
       <div className="bg-white px-6 py-8 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-          <img src="/images/banner-4.jpeg" alt="Beautiful ski area view" className=" object-cover mb-6 rounded-2xl w-full max-h-28 sm:hidden"/>
+          <Image 
+            src="/images/banner-4.jpeg" 
+            alt="Beautiful ski area view" 
+            width="486"
+            height="220"
+            className=" object-cover mb-6 rounded-2xl w-full max-h-28 sm:hidden"
+          />
           <div className="flex mb-6">
             <img src={article.author.imageUrl} alt={`A Photo of ${article.author.name}`} className="mr-4 h-10 w-10 rounded-full bg-gray-50" />
             <p className=" self-center text-base font-semibold leading-7 text-accent-color">{texts.writtenBy[locale] + " " + article.author.name}</p>

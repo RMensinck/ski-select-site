@@ -169,7 +169,16 @@ const textsSkiOpinions = {
       "de": "Ausführliche Bewertung anzeigen",
       "pl": "Zobacz szczegółową recenzję",
       "fr": "Voir l'avis détaillé"
-    }
+    },
+    informationAndOpinions: {
+      "en": "Information and opinions",
+      "nl": "Informatie en meningen",
+      "ja": "情報と意見",
+      "es": "Información y opiniones",
+      "de": "Informationen und Meinungen",
+      "pl": "Informacje i opinie",
+      "fr": "Informations et avis"
+    },
     
 }
 

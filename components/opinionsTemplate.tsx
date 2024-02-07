@@ -170,7 +170,7 @@ export default function Example(skiName: string) {
           <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-accent-color">{texts.opinions[locale]}</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName}</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName + " " + texts.informationAndOpinions[locale]}</h1>
               
               { ski.dimensions && ski.weight && ski.availableLengths && ski.radius &&
                 <p className="mt-6 font-bold text-lg leading-8 text-gray-600">
