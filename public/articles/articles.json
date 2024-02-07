@@ -187,5 +187,67 @@
       "pl": "ski-length-freeride/ski-length-freeride.pl.md",
       "fr": "ski-length-freeride/ski-length-freeride.fr.md"
     }
+  },
+  {
+    "id": "4",
+    "title": {
+        "en": "How to Find the Perfect Ski Length for You - Your Ultimate Guide",
+        "nl": "Hoe u de perfecte skilengte voor u kunt vinden - uw ultieme gids",
+        "ja": "自分にぴったりのスキー板の長さを見つける方法 - 究極のガイド",
+        "de": "So finden Sie die perfekte Skilänge für Sie – Ihr ultimativer Leitfaden",
+        "fr": "Comment trouver la longueur de ski parfaite pour vous – Votre guide ultime",
+        "es": "Cómo encontrar la longitud de esquí perfecta para usted: su guía definitiva",
+        "pl": "Jak znaleźć idealną długość nart dla siebie – Twój kompletny przewodnik"
+    },
+    "metaDescription": {
+        "en": "Discover the ultimate guide to finding the right ski length tailored to your skill level, height, and terrain preferences. Make your next ski trip unforgettable with our expert tips.",
+        "nl": "Ontdek de ultieme gids voor het vinden van de juiste skilengte, afgestemd op uw vaardigheidsniveau, lengte en terreinvoorkeuren. Maak uw volgende skireis onvergetelijk met onze deskundige tips.",
+        "ja": "あなたのスキルレベル、身長、地形の好みに合わせた適切なスキーの長さを見つけるための究極のガイドをご覧ください。私たちの専門家のアドバイスを参考に、次回のスキー旅行を忘れられないものにしましょう。",
+        "de": "Entdecken Sie den ultimativen Leitfaden, um die richtige Skilänge zu finden, die auf Ihr Können, Ihre Körpergröße und Ihre Geländepräferenzen zugeschnitten ist. Machen Sie Ihren nächsten Skiausflug mit unseren Expertentipps unvergesslich.",
+        "fr": "Découvrez le guide ultime pour trouver la bonne longueur de ski adaptée à votre niveau de compétence, votre taille et vos préférences de terrain. Rendez votre prochain séjour au ski inoubliable grâce à nos conseils d'experts.",
+        "es": "Descubra la guía definitiva para encontrar la longitud de esquí adecuada y adaptada a su nivel de habilidad, altura y preferencias de terreno. Haga que su próximo viaje de esquí sea inolvidable con los consejos de nuestros expertos.",
+        "pl": "Odkryj najlepszy przewodnik po znalezieniu odpowiedniej długości nart dostosowanej do Twojego poziomu umiejętności, wzrostu i preferencji terenowych. Dzięki naszym poradom ekspertów Twój kolejny wyjazd na narty będzie niezapomniany."
+    },
+    "href": "/articles/finding-the-right-ski-length",
+    "originalLanguage": "en",
+    "description": {
+        "en": "Struggling to find the right ski length? Look no further! Our comprehensive guide breaks down everything you need to consider, from height and weight to skiing style and terrain, ensuring you hit the slopes with confidence.",
+        "nl": "Heeft u moeite met het vinden van de juiste skilengte? Zoek niet verder! Onze uitgebreide gids geeft een overzicht van alles waar u rekening mee moet houden, van lengte en gewicht tot skistijl en terrein, zodat u met vertrouwen de piste op kunt.",
+        "ja": "適切なスキーの長さを見つけるのに苦労していませんか?これ以上探さない！当社の包括的なガイドでは、身長や体重からスキーのスタイルや地形に至るまで、考慮すべきすべてを詳しく説明しているので、自信を持ってゲレンデに臨むことができます。",
+        "de": "Fällt es Ihnen schwer, die richtige Skilänge zu finden? Suchen Sie nicht weiter! Unser umfassender Leitfaden erklärt alles, was Sie beachten müssen, von Größe und Gewicht bis hin zu Fahrstil und Gelände, damit Sie mit Zuversicht auf die Piste gehen.",
+        "fr": "Vous avez du mal à trouver la bonne longueur de ski ? Cherchez pas plus loin! Notre guide complet détaille tout ce dont vous devez tenir compte, de la taille et du poids au style de ski et au terrain, pour vous assurer de dévaler les pistes en toute confiance.",
+        "es": "¿Tiene dificultades para encontrar la longitud de esquí adecuada? ¡No busque más! Nuestra guía completa desglosa todo lo que necesita considerar, desde la altura y el peso hasta el estilo y el terreno de esquí, lo que garantiza que llegue a las pistas con confianza.",
+        "pl": "Masz problem ze znalezieniem odpowiedniej długości nart? Nie szukaj dalej! Nasz obszerny przewodnik opisuje wszystko, co należy wziąć pod uwagę, od wzrostu i wagi po styl jazdy na nartach i teren, dzięki czemu będziesz mieć pewność, że wyruszysz na stoki."
+    },
+    "imageUrl": "/images/banner-1.jpeg",
+    "date": "Feb 07, 2024",
+    "datetime": "2024-02-07",
+    "category": {
+        "href": "#",
+        "title": {
+          "en": "Ski properties",
+          "nl": "Ski eigenschappen",
+          "ja": "スキーの特性",
+          "es": "Propiedades del esquí",
+          "de": "Skieigenschaften",
+          "pl": "Właściwości nart",
+          "fr": "Propriétés de ski"
+        }
+    },
+    "author": {
+        "name": "Remco Mensinck",
+        "href": "#",
+        "role": "Pick-A-Ski Founder",
+        "imageUrl": "/authors/RemcoMensinck.jpeg"
+    },
+    "textFileName": {
+        "en": "finding-the-right-ski-length/finding-the-right-ski-length-en.md",
+        "nl": "finding-the-right-ski-length/finding-the-right-ski-length-nl.md",
+        "ja": "finding-the-right-ski-length/finding-the-right-ski-length-ja.md",
+        "de": "finding-the-right-ski-length/finding-the-right-ski-length-de.md",
+        "fr": "finding-the-right-ski-length/finding-the-right-ski-length-fr.md",
+        "es": "finding-the-right-ski-length/finding-the-right-ski-length-es.md",
+        "pl": "finding-the-right-ski-length/finding-the-right-ski-length-pl.md"
+    }
   }
 ]
