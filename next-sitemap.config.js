@@ -6,13 +6,14 @@ module.exports = {
   generateRobotsTxt: true, // Generate robots.txt
   sitemapSize: 7000, // Split sitemap into multiple files if you have more URLs
   outDir: './public', // Output directory for the generated sitemap files
-  // Specify how to generate alternate links (locales) for each URL
+
+/*
   transform: async (config, path) => {
     // Define your locales
     
     const locales = ['en', 'fr', 'de', 'es', 'nl', 'pl', 'ja'];
     let alternateRefs = locales.map(locale => ({
-      href: `${config.siteUrl}/${locale}${path}`,
+      href: `https://www.pick-a-ski.com/${locale}${path}`,
       hreflang: locale,
     }));
     if (["/nl", "/pl", "/ja", "/es", "/de", "/fr"].includes(path)) {
@@ -24,6 +25,7 @@ module.exports = {
       alternateRefs, // Alternate references for different locales
     };
   },
+*/
   // Additional options can be defined here, such as `exclude` to omit certain paths
   exclude: ['/404', '/404.html'], // Example of excluding specific paths
   robotsTxtOptions: {
