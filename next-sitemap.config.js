@@ -7,6 +7,57 @@ module.exports = {
   sitemapSize: 7000, // Split sitemap into multiple files if you have more URLs
   outDir: './public', // Output directory for the generated sitemap files
 
+  alternateRefs: [
+    {
+      href: `${siteUrl}/en`,
+      hreflang: 'en',
+    },
+    {
+      href: `${siteUrl}/fr`,
+      hreflang: 'fr',
+    },
+    {
+      href: `${siteUrl}/de`,
+      hreflang: 'de',
+    },
+    {
+      href: `${siteUrl}/es`,
+      hreflang: 'es',
+    },
+    {
+      href: `${siteUrl}/nl`,
+      hreflang: 'nl',
+    },
+    {
+      href: `${siteUrl}/pl`,
+      hreflang: 'pl',
+    },
+    {
+      href: `${siteUrl}/ja`,
+      hreflang: 'ja',
+    },
+  ],
+  transform: async (config, path) => {
+    // Exclude certain paths
+    if (["/nl", "/pl", "/ja", "/es", "/de", "/fr"].includes(path)) {
+      return null;
+    }
+    return {
+      loc: path, // => this will be exported as http(s)://<config.siteUrl>/<path>
+      changefreq: config.changefreq,
+      priority: config.priority,
+      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+      alternateRefs: config.alternateRefs ?? [],
+    }
+    // Rest of your transform function...
+  },
+
+
+
+
+
+
+
 /*
   transform: async (config, path) => {
     // Define your locales
