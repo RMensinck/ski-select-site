@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { FaWhatsapp, FaFacebookMessenger, FaLink } from 'react-icons/fa'
 import { doc, updateDoc, arrayUnion } from 'firebase/firestore'
 import { db } from '@/firebaseConfig';
+import Link from "next/link"
 
 interface ToolResultsProps {
     url: string;
@@ -48,7 +49,7 @@ const ToolResults: React.FC<ToolResultsProps> = ({ url }) => {
     <div className="py-2 lg:py-4 px-2 lg:px-4 bg-custom-grey rounded-xl bg-opacity-90 transition-all ease-in duration-700">
         <p className="standard-text font-bold mx-2">{texts.share[locale]}</p>
         <div className=" flex justify-center my-3">
-          <a 
+          <Link 
             href={"https://wa.me/?text=" + texts.whatsapp[locale] + " " + whatsappURL}
             className=" mx-2"
             onClick={(e) => {
@@ -58,7 +59,7 @@ const ToolResults: React.FC<ToolResultsProps> = ({ url }) => {
             }}
           >
             <FaWhatsapp size="28" className=" text-dark-blue"/>
-          </a>
+          </Link>
           <button 
             onClick={() => {
               navigator.clipboard.writeText(url)

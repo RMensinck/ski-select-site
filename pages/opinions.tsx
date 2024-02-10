@@ -5,6 +5,7 @@ import texts from '../texts/textsOpinions'
 import { useState, useEffect } from 'react'
 import { Combobox } from '@headlessui/react'
 import brands from '../public/brands/brands.json'
+import Link from 'next/link'
 
 declare function gtag(...args: any[]): void;
 interface Ski {
@@ -123,7 +124,7 @@ export default function Opinions() {
                       filteredSkis.map((ski) => (
                         <tr key={ski.name}>
                           <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                            <a href={ski.href}>{ski.name}</a>
+                            <Link href={ski.href}>{ski.name}</Link>
                           </td>
                         </tr>
                       ))
@@ -131,7 +132,7 @@ export default function Opinions() {
                       skis.map((ski) => (
                         <tr key={ski.name}>
                           <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                            <a href={ski.href}>{ski.name}</a>
+                            <Link href={ski.href}>{ski.name}</Link>
                           </td>
                         </tr>
                       ))

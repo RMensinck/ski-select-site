@@ -47,19 +47,19 @@ export default function Opinions() {
                           <time dateTime={reviews[skiName].date} className="text-gray-500">
                             {reviews[skiName].date}
                           </time>
-                          <a
-                            href={"/" + locale + reviews[skiName].href}
+                          <Link
+                            href={reviews[skiName].href}
                             className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                           >
                             {texts.indepthReview[locale]}
-                          </a>
+                          </Link>
                         </div>
                         <div className="group relative">
                           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                            <a href={"/" + locale + reviews[skiName].href}>
+                            <Link href={reviews[skiName].href}>
                               <span className="absolute inset-0" />
                               {skiName}
-                            </a>
+                            </Link>
                           </h3>
                           <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{reviews[skiName].paragraphs[locale][0] + " " + reviews[skiName].paragraphs[locale][1] + " " + reviews[skiName].paragraphs[locale][2]}</p>
                         </div>
@@ -67,10 +67,10 @@ export default function Opinions() {
                           <img src={reviews[skiName].authorPicture} alt="Picture of the review's author" className="h-10 w-10 rounded-full bg-gray-50" />
                           <div className="text-sm leading-6">
                             <p className="font-semibold text-gray-900">
-                              <a href={"/" + locale + reviews[skiName].href}>
+                              <Link href={reviews[skiName].href}>
                                 <span className="absolute inset-0" />
                                 {reviews[skiName].author}
-                              </a>
+                              </Link>
                             </p>
                             <p className="text-gray-600">{reviews[skiName].authorInfo}</p>
                           </div>
