@@ -192,7 +192,13 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.learnMore.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <Link 
+                        href={item.href} 
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        onClick={() => {
+                          gtag('event', `footer ${item.name} clicked`)
+                        }}
+                        >
                         {item.name}
                       </Link>
                     </li>
@@ -206,7 +212,13 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.skiInfo.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <Link 
+                        href={item.href} 
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        onClick={() => {
+                          gtag('event', `footer ${item.name} clicked`)
+                        }}
+                        >
                         {item.name}
                       </Link>
                     </li>
@@ -218,7 +230,13 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.aboutUs.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <Link 
+                        href={item.href} 
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        onClick={() => {
+                          gtag('event', `footer ${item.name} clicked`)
+                        }}
+                      >
                         {item.name}
                       </Link>
                     </li>
