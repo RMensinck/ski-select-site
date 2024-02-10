@@ -7,6 +7,7 @@ import CookieText from '../texts/textsCookieBanner'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Sidebar from '../components/sidebar'
+import Footer from '../components/Footer'
 
 export default function App({ Component, pageProps, router }: AppProps) {
   initFirebase()
@@ -75,6 +76,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
     </Head>
     <Sidebar />
     <Component {...pageProps} />
+    <Footer />
     <CookieConsent
       location='bottom'
       buttonText={CookieText.accept[locale]}

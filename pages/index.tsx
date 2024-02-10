@@ -26,7 +26,7 @@ export default function Example() {
         <title>{texts.header[locale]}</title>
         <meta name="description" content={texts.metaDescription[locale]}/>
       </Head>
-      <div className="bg-white h-screen">
+      <div className="bg-white sm:h-screen">
         <div className="relative">
           <div className="mx-auto max-w-7xl">
             <div className="relative z-10 sm:pt-14 lg:pt-14 lg:w-full lg:max-w-2xl">
@@ -79,6 +79,7 @@ export default function Example() {
               height="3516"
               layout="responsive"
               priority
+              className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
             />
           </div>
         </div>
