@@ -62,8 +62,8 @@ export default function Footer() {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
             <defs>
               <linearGradient id="instagram-gradient" x1="100%" y1="100%">
-                <stop offset="0%" stop-color="#f09433" />
-                <stop offset="100%" stop-color="#e6683c" />
+                <stop offset="0%" stopColor="#f09433" />
+                <stop offset="100%" stopColor="#e6683c" />
               </linearGradient>
             </defs>
             <path 
@@ -71,7 +71,6 @@ export default function Footer() {
               fill="url(#instagram-gradient)" 
               clipRule="evenodd"
               />
-              
           </svg>
         ),
       },
