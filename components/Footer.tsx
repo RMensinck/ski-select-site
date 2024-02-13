@@ -23,7 +23,8 @@ export default function Footer() {
     const formData = {
       email: (document.getElementById('email') as HTMLInputElement).value,
       createdAt: new Date(),
-      locale: locale
+      locale: locale,
+      prefLang: navigator.language,
     };
 
     try {

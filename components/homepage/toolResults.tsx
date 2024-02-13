@@ -47,9 +47,11 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
       'de-DE': '.de', // Specific for Germany
       'fr': '.fr', // French
       'fr-FR': '.fr', // Specific for France
+      'fr-CA': '.com', // French specific for Canada, TO CANADIAN DOMAIN?
       'es': '.es', // Spanish
       'es-ES': '.es', // Specific for Spain
       'en-GB': '.co.uk', // English specific for the UK
+      'en-CA': '.com', // English specific for Canada, TO CANADIAN DOMAIN?
       'nl-BE': '.be', 
       'fr-BE': '.be', // Dutch and French specific for Belgium
       'it': '.it', // Italian

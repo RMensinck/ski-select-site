@@ -5,6 +5,8 @@ import Image from 'next/legacy/image'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Head from 'next/head'
+import LogoCloud from '@/components/homepage/LogoCloud'
+
 
 declare function gtag(...args: any[]): void;
 
@@ -27,7 +29,7 @@ export default function Example() {
         <meta name="description" content={texts.metaDescription[locale]}/>
       </Head>
       <div className="bg-white sm:h-screen">
-        <div className="relative">
+        <div className="relative sm:h-screen">
           <div className="mx-auto max-w-7xl">
             <div className="relative z-10 sm:pt-14 lg:pt-14 lg:w-full lg:max-w-2xl">
               <svg
@@ -71,7 +73,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:max-h-full overflow-hidden">
             <Image
               src="/homephoto.jpg"
               alt='A photo of a skier'
