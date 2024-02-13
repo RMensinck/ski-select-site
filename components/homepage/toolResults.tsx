@@ -25,17 +25,63 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
   const [ski6, setSki6] = useState({})
   const [shopButtonClicked, setShopButtonClicked] = useState("")
   
+  function defaultDomainBasedOnLanguage(language: string): string {
+    // Here, you could add logic to differentiate between European languages and others
+    if (language.startsWith('en') && !language.includes('US')) {
+      return '.eu'; // English in Europe
+    } else if (language === 'en-US' || !language.startsWith('en')) {
+      return '.com'; // English in the US or other non-European languages
+    }
+    return '.eu'; // Fallback to European domain for any unexpected cases
+  }
+  
+  function getDomainExtension(language: string): string {
+    const languageToDomain = {
+      'nl': '.nl', // Default for Dutch
+      'nl-NL': '.nl', // Specific for the Netherlands
+      'sv': '.se', // Swedish
+      'sv-SE': '.se', // Specific for Sweden
+      'da': '.dk', // Danish
+      'da-DK': '.dk', // Specific for Denmark
+      'de': '.de', // German
+      'de-DE': '.de', // Specific for Germany
+      'fr': '.fr', // French
+      'fr-FR': '.fr', // Specific for France
+      'es': '.es', // Spanish
+      'es-ES': '.es', // Specific for Spain
+      'en-GB': '.co.uk', // English specific for the UK
+      'nl-BE': '.be', 
+      'fr-BE': '.be', // Dutch and French specific for Belgium
+      'it': '.it', // Italian
+      'it-IT': '.it', // Specific for Italy
+      'pl': '.pl', // Polish
+      'pl-PL': '.pl', // Specific for Poland
+      'de-AT': '.at', // German specific for Austria
+      'de-CH': '.ch', // German specific for Switzerland
+      'fr-CH': '.ch', // French specific for Switzerland
+      'it-CH': '.ch', // Italian specific for Switzerland
+      'en-US': '.com', // English for the USA
+      'en': '.eu', // Default for English in European countries
+    };
+  
+    // Direct match or default to .eu or .com based on region
+    return languageToDomain[language] || defaultDomainBasedOnLanguage(language);
+  }
+  
+
   const handleSubmit = async (event, skiName, shopUrl) => {
     event.preventDefault();
     if (shopButtonClicked != skiName) {
-      const skiRef = doc(db, 'outdoorXlClicks', "payPerClick");
+      const skiRef = doc(db, 'outdoorXlClicks', "from 13-2");
+
       try {
         await updateDoc(skiRef, {
           clicks: arrayUnion({
             skiName: skiName,
             shopUrl: shopUrl,
             createdAt: new Date(),
-            locale: locale
+            locale: locale,
+            prefLang: navigator.language,
           })
         });
         gtag('event', 'Click on webshop', {
@@ -61,13 +107,21 @@ const ToolResults: React.FC<ToolResultsProps> = ({ scores, shareURL="" }) => {
     try {
       scores.forEach((score, index) => {
         const skiData = ski_data.find((s) => s.name === score.name);
+        
+        let shopUrl = skiData && skiData.shopUrls ? skiData.shopUrls.outdoorxlurl : undefined;
+
+        if (shopUrl) {
+          const domainExtension = getDomainExtension(navigator.language);
+          shopUrl = shopUrl.replace('outdoorxl.nl', 'outdoorxl' + domainExtension);
+        }
+        
         const skiState = {
           name: score.name,
           imageUrl: `/skis/${score.name.replace(/[/_+]/g, '')}.png`,
           opinionsHref: "/opinions/"+score.name.replace(/[ /._-]/g, ''),
           score: score.score,
           rank: index + 1,
-          shopUrl: skiData && skiData.shopUrls ? skiData.shopUrls.outdoorxlurl : undefined
+          shopUrl: shopUrl
         };
   
         switch (index) {
