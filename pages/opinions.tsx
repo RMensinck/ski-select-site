@@ -58,7 +58,7 @@ export default function Opinions() {
           <div className="sm:flex sm:items-center">
             <div className="sm:flex-auto">
               <h2 className="text-base font-semibold leading-7 text-accent-color">{texts.opinions[locale]}</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{texts.title[locale]}</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{texts.title[locale]}</h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {texts.body[locale]}
               </p>

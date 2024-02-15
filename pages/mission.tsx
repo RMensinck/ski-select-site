@@ -20,9 +20,6 @@ export default function Home() {
           <title>{texts.header[locale]}</title>
           <meta name="description" content={texts.metaDescription[locale]}/>
         </Head>
-        
-
-
             <div className="relative sm:mx-auto py-24 sm:py-32 lg:max-w-4xl overflow-hidden px-6 lg:px-8">
               <div className="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 opacity-20 lg:left-36" />
               <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
@@ -40,10 +37,9 @@ export default function Home() {
                     <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x={86} />
                   </svg>
                   <h2 className="text-lg font-semibold leading-7 text-accent-color">{texts.mission[locale]}</h2>
+                  <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{texts.title[locale]}</h1>
                   <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                    <p>
-                      {texts.body1[locale]}
-                    </p>
+ 
                   </blockquote>
                   <p className="mt-6 text-lg leading-8 text-gray-600">{texts.body2[locale]}</p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">{texts.body3[locale]}</p>
@@ -66,3 +62,5 @@ export default function Home() {
       </>
     )
   }
+
+  

@@ -20,9 +20,9 @@ const texts = {
     title: {
         "en": "Blogs to learn more about ski's and wintersport in general",
         "nl": "Blogs om meer te leren over ski's en wintersport in het algemeen",
-        "ja": "スキーとウィンタースポーツについて学ぶためのブログ",
+        "ja": "スキーや冬のスポーツについてもっと学ぶためのブログ",
         "es": "Blogs para aprender más sobre esquís y deportes de invierno en general",
-        "de": "Blogs, um mehr über Skier und Wintersport im Allgemeinen zu erfahren",
+        "de": "Blogs, um mehr über Ski und Wintersport im Allgemeinen zu erfahren",
         "pl": "Blogi, aby dowiedzieć się więcej o nartach i sportach zimowych ogólnie",
         "fr": "Blogs pour en savoir plus sur les skis et les sports d'hiver en général"
     },

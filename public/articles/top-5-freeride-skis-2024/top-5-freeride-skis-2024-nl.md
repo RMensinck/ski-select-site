@@ -7,7 +7,7 @@ Hallo daar, wintersportliefhebbers en poederjagers! Nu het sneeuwseizoen snel na
 ## Inhoudsopgave
 - 1. Inleiding
 - 2. Black Crows Anima
-- 3. Bewegingsvlieg 115
+- 3. Movement Fly 115
 - 4. Salomon Blank 112
 - 5. K2 Mindbender 108ti
 - 6. Nordica Enforcer 110 Free

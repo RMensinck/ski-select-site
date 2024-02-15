@@ -9,21 +9,13 @@ import Image from 'next/image';
 
 declare function gtag(...args: any[]): void;
 
-export default function ArticleTemplate(articleHref) {
+
+
+export default function ArticleTemplate(articleHref, articleText) {
  
   const router = useRouter()
   const { locale } = router 
   const article = articles.find(x => x.href === articleHref)
-  const [markdownContent, setMarkdownContent] = useState('');
-
-  useEffect(() => {
-
-    fetch('/api/articles?articleFileName=' + article.textFileName[locale])
-      .then(response => response.json())
-      .then(data => {
-        setMarkdownContent(data.data)
-      });
-  }, []);
 
   useEffect(() => {
     gtag('event', `article ${articleHref} loaded`)
@@ -67,13 +59,10 @@ export default function ArticleTemplate(articleHref) {
               li: ({node, ...props}) => <li {...props} className="mt-2 text-lg leading-8 text-gray-600" />,
             }}
             >
-            {markdownContent}
+            {articleText}
           </ReactMarkdown>
         </div>
       </div>
-      
-
     </>
   )  
 }
-

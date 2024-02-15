@@ -18,13 +18,13 @@ const textsOpinions = {
     "pl": "Centrum Opinii o Nartach – Odkrywaj Opinie Użytkowników na Temat Różnych Modeli Nart"
   },
   title: {
-    "en": "Find and share honest opinions",
-    "nl": "Vind en deel eerlijke meningen",
-    "ja": "正直な意見を見つけて共有する",
-    "es": "Encuentra y comparte opiniones honestas",
-    "de": "Ehrliche Meinungen finden und teilen",
-    "pl": "Znajdź i udostępnij szczere opinie",
-    "fr": "Trouvez et partagez des avis honnêtes"
+    "en": "Find and share honest opinions about all available ski models",
+    "nl": "Vind en deel eerlijke meningen over alle beschikbare skimodellen",
+    "de": "Finden und teilen Sie ehrliche Meinungen zu allen verfügbaren Skimodellen",
+    "ja": "すべての利用可能なスキーモデルについての正直な意見を見つけて共有する",
+    "fr": "Trouvez et partagez des avis honnêtes sur tous les modèles de skis disponibles",
+    "es": "Encuentre y comparta opiniones honestas sobre todos los modelos de esquí disponibles",
+    "pl": "Znajdź i udostępnij szczere opinie na temat wszystkich dostępnych modeli nart"
   },
   body: {
     "en": "Finding honest information about a ski can be hard, therefore we created this platform to help you find the right ski for your needs. We believe that the best information comes from the people who have actually used the ski. That's why we encourage you to share your opinion about the ski you have used. This way we can help each other find the right ski.",

@@ -18,17 +18,15 @@ const textsMission = {
     "pl": "Nasza Misja – Wspieranie Wyboru Nart Niezależną Poradą"
   },
   title: {
-    "en": "The goal",
-    "nl": "Het doel",
-    "ja": "目標",
-    "es": "El objetivo",
-    "de": "Das Ziel",
-    "pl": "Cel",
-    "fr": "L'objectif"
+    "en": "Our mission is to help you find the perfect skis",
+    "nl": "Onze missie is om u te helpen de perfecte ski's te vinden",
+    "de": "Unsere Mission ist es, Ihnen zu helfen, die perfekten Skier zu finden",
+    "ja": "私たちの使命は、あなたが完璧なスキーを見つけるのを手伝うことです",
+    "fr": "Notre mission est de vous aider à trouver les skis parfaits",
+    "es": "Nuestra misión es ayudarle a encontrar los esquís perfectos",
+    "pl": "Nasza misja polega na pomocy w znalezieniu idealnych nart"
   },
-  body1: {
-    "en": "\"50% of the people here are using the wrong skis, that needs to be improved!\"",
-  },
+
   body2: {
     "en": "Advice is readily available, but it rarely unbiased. K2 wont sell you that really nice pair of Black crows. Besides that the selection of skis to pick from is huge and most people just dont feel like spending a day or two doing the research.",
     "nl": "Advies is overal te krijgen, maar zelden neutraal. K2 gaat nu eenmaal geen Black crows aanbevelen. Daarnaast is het aanbod enorm, en heeft de gemiddelde skier helemaal geen zin om twee dagen research te doen naar welke ski het beste bij diegene past.",

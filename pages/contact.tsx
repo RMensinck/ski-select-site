@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
 
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900">{texts.title[locale]}</h2>
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900">{texts.title[locale]}</h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {texts.body[locale]}
               </p>

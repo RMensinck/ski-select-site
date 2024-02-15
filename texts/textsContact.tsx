@@ -18,13 +18,13 @@ const textsContact = {
     "fr": "Contactez-nous – Contactez-nous pour obtenir de l'aide ou collaborer."
   },
   title: {
-    "en": "Get in touch",
-    "nl": "Neem contact op",
-    "ja": "お問い合わせ",
-    "es": "Póngase en contacto",
-    "de": "Kontakt aufnehmen",
-    "pl": "Skontaktuj się",
-    "fr": "Contactez-nous"
+    "en": "Contact information",
+    "nl": "Contact gegevens",
+    "ja": "連絡先情報",
+    "es": "Información de contacto",
+    "de": "Kontaktdaten",
+    "pl": "Dane kontaktowe",
+    "fr": "Coordonnées"
   },
   body: {
     "en": "If you have any questions about our tool, the website or anything else, please don't hesitate to contact us. We will get back to you as soon as possible.",
