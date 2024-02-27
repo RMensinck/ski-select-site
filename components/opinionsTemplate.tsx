@@ -19,6 +19,8 @@ import texts from '../texts/textsOpinionTemplates'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import skis from '../components/allSkisFrontend.json'
+import Image from 'next/image'
+import { Disclosure, RadioGroup, Tab } from '@headlessui/react'
 
 declare function gtag(...args: any[]): void;
 
@@ -50,6 +52,10 @@ const moods = [
   { name: 'Sad', value: 'sad', icon: FaceFrownIcon, iconColor: 'text-white', bgColor: 'bg-yellow-400' },
   { name: 'Thumbs up', value: 'thumbsup', icon: HandThumbUpIcon, iconColor: 'text-white', bgColor: 'bg-accent-color' },
   { name: 'I feel nothing', value: null, icon: XMarkIcon, iconColor: 'text-gray-400', bgColor: 'bg-transparent' },
+]
+
+const brandsWithScrapedPhotos = [
+  "Nordica"
 ]
 
 export default function Example(skiName: string) {
@@ -156,7 +162,37 @@ export default function Example(skiName: string) {
 
   useEffect(() => {
     gtag('event', `opinion ${skiName} loaded`)
-  })
+  }, [])
+
+  let images = null
+  if (brandsWithScrapedPhotos.includes(ski.brand)) {
+    images = [
+      {
+        id: 0,
+        name: 'Ski',
+        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-0.png`,
+        alt: `Picture of the ${ski.name} skis.`,
+      },
+      {
+        id: 1,
+        name: 'Ski',
+        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-1.png`,
+        alt: `Picture of the ${ski.name} skis.`,
+      },
+      {
+        id: 2,
+        name: 'Ski',
+        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-2.png`,
+        alt: `Picture of the ${ski.name} skis.`,
+      },
+      {
+        id: 3,
+        name: 'Ski',
+        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-3.png`,
+        alt: `Picture of the ${ski.name} skis.`,
+      },
+    ]
+  }
 
   return (
     <>
@@ -171,37 +207,70 @@ export default function Example(skiName: string) {
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-accent-color">{texts.opinions[locale]}</h2>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName + " " + texts.informationAndOpinions[locale]}</h1>
+              {
+                ski.specs && ski.specs.format && ski.specs.format === "perLength" ? (
+                  <>
+                    { 'availableLengths' in ski.specs &&
+                      <table className="mt-6 min-w-full divide-y divide-gray-300">
+                        <thead>
+                          <tr>
+                            <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">{texts.availableLengths[locale]}</th>
+                            {ski.specs.radiuses && <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">{texts.radius[locale]}</th>}
+                            {ski.specs.weights && <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">{texts.weight[locale]}</th>}
+                            {ski.specs.siteCuts && <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">{texts.dimensions[locale]}</th>}
+                            {ski.specs.recommendedMounting && <th className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">{texts.recommendedMounting[locale]}</th>}
+
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          {Array.isArray(ski.specs.availableLengths) && ski.specs.availableLengths.map((length, index) => (
+                            <tr key={index}>
+                              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{length}</td>
+                              {ski.specs.radiuses && <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{ski.specs.radiuses[index]}</td>}
+                              {ski.specs.weights && <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{ski.specs.weights[index]}</td>}
+                              {ski.specs.siteCuts && <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{ski.specs.siteCuts[index]}</td>}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    }
+                  </>
+                ) : (
+                  <>
+                    { Object.keys(ski.specs).length > 0 &&
+                      <p className="mt-6 font-bold text-lg leading-8 text-gray-600">
+                        {texts.details[locale]}
+                      </p>
+                    }
+                    { 'dimensions' in ski.specs &&
+                      <p className="text-lg leading-8 text-gray-600">
+                        {texts.dimensions[locale] + ": " + ski.specs.dimensions}
+                      </p>
+                    }
+                    { 'radius' in ski.specs &&
+                      <p className="text-lg leading-8 text-gray-600">
+                        {texts.radius[locale] + ": " + ski.specs.radius}
+                      </p>
+                    }
+                    { 'weight' in ski.specs &&
+                      <p className="text-lg leading-8 text-gray-600">
+                        {texts.weight[locale] + ": " + ski.specs.weight}
+                      </p>
+                    }
+                    { 'availableLengths' in ski.specs &&
+                      <p className="text-lg leading-8 text-gray-600">
+                        {texts.availableLengths[locale] + ": " + ski.specs.availableLengths}
+                      </p>
+                    }
+                    { 'recommendedMounting' in ski.specs &&
+                      <p className="text-lg leading-8 text-gray-600">
+                        {texts.recommendedMounting[locale] + ": " + ski.specs.recommendedMounting}
+                      </p>
+                    }
+                  </>
+                )
+              }
               
-              { ski.dimensions && ski.weight && ski.availableLengths && ski.radius &&
-                <p className="mt-6 font-bold text-lg leading-8 text-gray-600">
-                  {texts.details[locale]}
-                </p>
-              }
-              { ski.dimensions &&
-                <p className="text-lg leading-8 text-gray-600">
-                  {texts.dimensions[locale] + ": " + ski.dimensions}
-                </p>
-              }
-              { ski.radius &&
-                <p className="text-lg leading-8 text-gray-600">
-                  {texts.radius[locale] + ": " + ski.radius}
-                </p>
-              }
-              { ski.weight &&
-                <p className="text-lg leading-8 text-gray-600">
-                  {texts.weight[locale] + ": " + ski.weight}
-                </p>
-              }
-              { ski.availableLengths &&
-                <p className="text-lg leading-8 text-gray-600">
-                  {texts.availableLengths[locale] + ": " + ski.availableLengths}
-                </p>
-              }
-              { ski.recommendedMounting &&
-                <p className="text-lg leading-8 text-gray-600">
-                  {texts.recommendedMounting[locale] + ": " + ski.recommendedMounting}
-                </p>
-              }
               {
                 ski.reviewHref && 
                 <button 
@@ -250,7 +319,6 @@ export default function Example(skiName: string) {
                               />
                             </div>
                           </div>
-
                         }
 
                       <div className="flex-auto rounded-md p-3 ring-1 ring-inset ring-gray-200">
@@ -399,19 +467,72 @@ export default function Example(skiName: string) {
                     </div>
                   )
                 }
-
-
-
               </dl>
             </div>
           </div>
-          <div className="sm:px-6 lg:px-0 h-screen">
-            <img
-              src={`/skis/${skiName.replace(/[/_+]/g, '')}.png`}
-              alt="Product screenshot"
-              className=" px-4 sm:mt-60 sm:rotate-90 object-contain h-64"
-            />
-          </div>
+
+          {/* Image(s) */}
+          { 
+            brandsWithScrapedPhotos.includes(ski.brand) ? (
+
+            <Tab.Group as="div" className="flex flex-col-reverse">
+              {/* Image selector */}
+              <div className="mx-auto mt-6 w-full max-w-2xl block lg:max-w-none px-4">
+                <Tab.List className="grid grid-cols-4 gap-6">
+                  {images.map((image) => (
+                    <Tab
+                      key={image.id}
+                      className="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4"
+                    >
+                      {({ selected }) => (
+                        <>
+                          <span className="sr-only">{image.name}</span>
+                          <span className="absolute inset-0 overflow-hidden rounded-md">
+                            <img 
+                              src={image.src} 
+                              alt={image.alt} 
+                              className="h-full w-full object-contain object-center" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-accent-color' : 'ring-transparent',
+                              'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+                  ))}
+                </Tab.List>
+              </div>
+
+              <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
+                {images.map((image) => (
+                  <Tab.Panel key={image.id}>
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      className="h-full w-full object-contain object-center sm:rounded-lg"
+                      height={700}
+                      width={700}
+                    />
+                  </Tab.Panel>
+                ))}
+              </Tab.Panels>
+            </Tab.Group>
+            ) : (
+              <div className="sm:px-6 lg:px-0 h-screen">
+                <Image
+                  src={`/skis/${skiName.replace(/[/_+]/g, '')}.png`}
+                  alt="Product screenshot"
+                  className=" px-4 sm:mt-60 sm:rotate-90 object-contain h-64"
+                  height={500}
+                  width={500}
+                />
+              </div>
+            )
+          }
         </div>
       </div>
     </div>
