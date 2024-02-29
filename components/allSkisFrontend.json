@@ -738,7 +738,7 @@
         "name": "Nordica Belle 72 ca",
         "brand": "Nordica",
         "model": "Belle 72 ca",
-        "href": "/opinions/Belle72ca",
+        "href": "/opinions/NordicaBelle72ca",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -796,7 +796,7 @@
         "name": "Nordica Belle 73",
         "brand": "Nordica",
         "model": "Belle 73",
-        "href": "/opinions/Belle73",
+        "href": "/opinions/NordicaBelle73",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -854,7 +854,7 @@
         "name": "Nordica Belle 75",
         "brand": "Nordica",
         "model": "Belle 75",
-        "href": "/opinions/Belle75",
+        "href": "/opinions/NordicaBelle75",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -912,7 +912,7 @@
         "name": "Nordica Belle dc 72",
         "brand": "Nordica",
         "model": "Belle dc 72",
-        "href": "/opinions/Belledc72",
+        "href": "/opinions/NordicaBelledc72",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -970,7 +970,7 @@
         "name": "Nordica Belle dc 78",
         "brand": "Nordica",
         "model": "Belle dc 78",
-        "href": "/opinions/Belledc78",
+        "href": "/opinions/NordicaBelledc78",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1028,7 +1028,7 @@
         "name": "Nordica Belle sl dc fdt",
         "brand": "Nordica",
         "model": "Belle sl dc fdt",
-        "href": "/opinions/Bellesldcfdt",
+        "href": "/opinions/NordicaBellesldcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1078,7 +1078,7 @@
         "name": "Nordica Dob. dh wc dept edt plate",
         "brand": "Nordica",
         "model": "Dob. dh wc dept edt plate",
-        "href": "/opinions/Dobdhwcdeptedtplate",
+        "href": "/opinions/NordicaDobdhwcdeptedtplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1119,7 +1119,7 @@
         "name": "Nordica Dob. gs wc dept plate",
         "brand": "Nordica",
         "model": "Dob. gs wc dept plate",
-        "href": "/opinions/Dobgswcdeptplate",
+        "href": "/opinions/NordicaDobgswcdeptplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1160,7 +1160,7 @@
         "name": "Nordica Dob. sg wc dept edt plate",
         "brand": "Nordica",
         "model": "Dob. sg wc dept edt plate",
-        "href": "/opinions/Dobsgwcdeptedtplate",
+        "href": "/opinions/NordicaDobsgwcdeptedtplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1213,7 +1213,7 @@
         "name": "Nordica Dob. sl wc dept plate",
         "brand": "Nordica",
         "model": "Dob. sl wc dept plate",
-        "href": "/opinions/Dobslwcdeptplate",
+        "href": "/opinions/NordicaDobslwcdeptplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1254,7 +1254,7 @@
         "name": "Nordica Dobermann combi pro s (jr 4.5 fdt)",
         "brand": "Nordica",
         "model": "Dobermann combi pro s (jr 4.5 fdt)",
-        "href": "/opinions/Dobermanncombipros(jr45fdt)",
+        "href": "/opinions/NordicaDobermanncombipros(jr45fdt)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1304,7 +1304,7 @@
         "name": "Nordica Dobermann combi pro s (jr 7.0 fdt)",
         "brand": "Nordica",
         "model": "Dobermann combi pro s (jr 7.0 fdt)",
-        "href": "/opinions/Dobermanncombipros(jr70fdt)",
+        "href": "/opinions/NordicaDobermanncombipros(jr70fdt)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1366,7 +1366,7 @@
         "name": "Nordica Dobermann gs race plate",
         "brand": "Nordica",
         "model": "Dobermann gs race plate",
-        "href": "/opinions/Dobermanngsraceplate",
+        "href": "/opinions/NordicaDobermanngsraceplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1411,7 +1411,7 @@
         "name": "Nordica Dobermann gsc fdt",
         "brand": "Nordica",
         "model": "Dobermann gsc fdt",
-        "href": "/opinions/Dobermanngscfdt",
+        "href": "/opinions/NordicaDobermanngscfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1453,7 +1453,7 @@
         "name": "Nordica Dobermann gsj plate",
         "brand": "Nordica",
         "model": "Dobermann gsj plate",
-        "href": "/opinions/Dobermanngsjplate",
+        "href": "/opinions/NordicaDobermanngsjplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1510,7 +1510,7 @@
         "name": "Nordica Dobermann gsr dc fdt",
         "brand": "Nordica",
         "model": "Dobermann gsr dc fdt",
-        "href": "/opinions/Dobermanngsrdcfdt",
+        "href": "/opinions/NordicaDobermanngsrdcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1560,7 +1560,7 @@
         "name": "Nordica Dobermann multigara dc fdt",
         "brand": "Nordica",
         "model": "Dobermann multigara dc fdt",
-        "href": "/opinions/Dobermannmultigaradcfdt",
+        "href": "/opinions/NordicaDobermannmultigaradcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1614,7 +1614,7 @@
         "name": "Nordica Dobermann multigara dc race",
         "brand": "Nordica",
         "model": "Dobermann multigara dc race",
-        "href": "/opinions/Dobermannmultigaradcrace",
+        "href": "/opinions/NordicaDobermannmultigaradcrace",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1660,7 +1660,7 @@
         "name": "Nordica Dobermann sl race plate",
         "brand": "Nordica",
         "model": "Dobermann sl race plate",
-        "href": "/opinions/Dobermannslraceplate",
+        "href": "/opinions/NordicaDobermannslraceplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1697,7 +1697,7 @@
         "name": "Nordica Dobermann sl wc plate",
         "brand": "Nordica",
         "model": "Dobermann sl wc plate",
-        "href": "/opinions/Dobermannslwcplate",
+        "href": "/opinions/NordicaDobermannslwcplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1738,7 +1738,7 @@
         "name": "Nordica Dobermann slc fdt",
         "brand": "Nordica",
         "model": "Dobermann slc fdt",
-        "href": "/opinions/Dobermannslcfdt",
+        "href": "/opinions/NordicaDobermannslcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1783,7 +1783,7 @@
         "name": "Nordica Dobermann slj plate",
         "brand": "Nordica",
         "model": "Dobermann slj plate",
-        "href": "/opinions/Dobermannsljplate",
+        "href": "/opinions/NordicaDobermannsljplate",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1836,7 +1836,7 @@
         "name": "Nordica Dobermann slr dc fdt",
         "brand": "Nordica",
         "model": "Dobermann slr dc fdt",
-        "href": "/opinions/Dobermannslrdcfdt",
+        "href": "/opinions/NordicaDobermannslrdcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1886,7 +1886,7 @@
         "name": "Nordica Enforcer 100",
         "brand": "Nordica",
         "model": "Enforcer 100",
-        "href": "/opinions/Enforcer100",
+        "href": "/opinions/NordicaEnforcer100",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1938,7 +1938,7 @@
         "name": "Nordica Enforcer 104",
         "brand": "Nordica",
         "model": "Enforcer 104",
-        "href": "/opinions/Enforcer104",
+        "href": "/opinions/NordicaEnforcer104",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -1990,7 +1990,7 @@
         "name": "Nordica Enforcer 104 free",
         "brand": "Nordica",
         "model": "Enforcer 104 free",
-        "href": "/opinions/Enforcer104free",
+        "href": "/opinions/NordicaEnforcer104free",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2042,7 +2042,7 @@
         "name": "Nordica Enforcer 104 unlimited",
         "brand": "Nordica",
         "model": "Enforcer 104 unlimited",
-        "href": "/opinions/Enforcer104unlimited",
+        "href": "/opinions/NordicaEnforcer104unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2094,7 +2094,7 @@
         "name": "Nordica Enforcer 110 free",
         "brand": "Nordica",
         "model": "Enforcer 110 free",
-        "href": "/opinions/Enforcer110free",
+        "href": "/opinions/NordicaEnforcer110free",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2142,7 +2142,7 @@
         "name": "Nordica Enforcer 80 s",
         "brand": "Nordica",
         "model": "Enforcer 80 s",
-        "href": "/opinions/Enforcer80s",
+        "href": "/opinions/NordicaEnforcer80s",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2194,7 +2194,7 @@
         "name": "Nordica Enforcer 88",
         "brand": "Nordica",
         "model": "Enforcer 88",
-        "href": "/opinions/Enforcer88",
+        "href": "/opinions/NordicaEnforcer88",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2242,7 +2242,7 @@
         "name": "Nordica Enforcer 88 unlimited",
         "brand": "Nordica",
         "model": "Enforcer 88 unlimited",
-        "href": "/opinions/Enforcer88unlimited",
+        "href": "/opinions/NordicaEnforcer88unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2290,7 +2290,7 @@
         "name": "Nordica Enforcer 89",
         "brand": "Nordica",
         "model": "Enforcer 89",
-        "href": "/opinions/Enforcer89",
+        "href": "/opinions/NordicaEnforcer89",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2338,7 +2338,7 @@
         "name": "Nordica Enforcer 94",
         "brand": "Nordica",
         "model": "Enforcer 94",
-        "href": "/opinions/Enforcer94",
+        "href": "/opinions/NordicaEnforcer94",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2386,7 +2386,7 @@
         "name": "Nordica Enforcer 94 unlimited",
         "brand": "Nordica",
         "model": "Enforcer 94 unlimited",
-        "href": "/opinions/Enforcer94unlimited",
+        "href": "/opinions/NordicaEnforcer94unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2438,7 +2438,7 @@
         "name": "Nordica Enforcer 99",
         "brand": "Nordica",
         "model": "Enforcer 99",
-        "href": "/opinions/Enforcer99",
+        "href": "/opinions/NordicaEnforcer99",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2490,7 +2490,7 @@
         "name": "Nordica Santa ana 102",
         "brand": "Nordica",
         "model": "Santa ana 102",
-        "href": "/opinions/Santaana102",
+        "href": "/opinions/NordicaSantaana102",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2542,7 +2542,7 @@
         "name": "Nordica Santa ana 104 free",
         "brand": "Nordica",
         "model": "Santa ana 104 free",
-        "href": "/opinions/Santaana104free",
+        "href": "/opinions/NordicaSantaana104free",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2590,7 +2590,7 @@
         "name": "Nordica Santa ana 104 unlimited",
         "brand": "Nordica",
         "model": "Santa ana 104 unlimited",
-        "href": "/opinions/Santaana104unlimited",
+        "href": "/opinions/NordicaSantaana104unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2638,7 +2638,7 @@
         "name": "Nordica Santa ana 80 s",
         "brand": "Nordica",
         "model": "Santa ana 80 s",
-        "href": "/opinions/Santaana80s",
+        "href": "/opinions/NordicaSantaana80s",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2690,7 +2690,7 @@
         "name": "Nordica Santa ana 84",
         "brand": "Nordica",
         "model": "Santa ana 84",
-        "href": "/opinions/Santaana84",
+        "href": "/opinions/NordicaSantaana84",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2742,7 +2742,7 @@
         "name": "Nordica Santa ana 87",
         "brand": "Nordica",
         "model": "Santa ana 87",
-        "href": "/opinions/Santaana87",
+        "href": "/opinions/NordicaSantaana87",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2794,7 +2794,7 @@
         "name": "Nordica Santa ana 88",
         "brand": "Nordica",
         "model": "Santa ana 88",
-        "href": "/opinions/Santaana88",
+        "href": "/opinions/NordicaSantaana88",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2842,7 +2842,7 @@
         "name": "Nordica Santa ana 88 unlimited",
         "brand": "Nordica",
         "model": "Santa ana 88 unlimited",
-        "href": "/opinions/Santaana88unlimited",
+        "href": "/opinions/NordicaSantaana88unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2890,7 +2890,7 @@
         "name": "Nordica Santa ana 92",
         "brand": "Nordica",
         "model": "Santa ana 92",
-        "href": "/opinions/Santaana92",
+        "href": "/opinions/NordicaSantaana92",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2946,7 +2946,7 @@
         "name": "Nordica Santa ana 93",
         "brand": "Nordica",
         "model": "Santa ana 93",
-        "href": "/opinions/Santaana93",
+        "href": "/opinions/NordicaSantaana93",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -2998,7 +2998,7 @@
         "name": "Nordica Santa ana 93 unlimited",
         "brand": "Nordica",
         "model": "Santa ana 93 unlimited",
-        "href": "/opinions/Santaana93unlimited",
+        "href": "/opinions/NordicaSantaana93unlimited",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3046,7 +3046,7 @@
         "name": "Nordica Santa ana 97",
         "brand": "Nordica",
         "model": "Santa ana 97",
-        "href": "/opinions/Santaana97",
+        "href": "/opinions/NordicaSantaana97",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3102,7 +3102,7 @@
         "name": "Nordica Santa ana 98",
         "brand": "Nordica",
         "model": "Santa ana 98",
-        "href": "/opinions/Santaana98",
+        "href": "/opinions/NordicaSantaana98",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3154,7 +3154,7 @@
         "name": "Nordica Spitfire 68 dc fdt",
         "brand": "Nordica",
         "model": "Spitfire 68 dc fdt",
-        "href": "/opinions/Spitfire68dcfdt",
+        "href": "/opinions/NordicaSpitfire68dcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3204,7 +3204,7 @@
         "name": "Nordica Spitfire 73 fdt",
         "brand": "Nordica",
         "model": "Spitfire 73 fdt",
-        "href": "/opinions/Spitfire73fdt",
+        "href": "/opinions/NordicaSpitfire73fdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3262,7 +3262,7 @@
         "name": "Nordica Spitfire 74 dc fdt",
         "brand": "Nordica",
         "model": "Spitfire 74 dc fdt",
-        "href": "/opinions/Spitfire74dcfdt",
+        "href": "/opinions/NordicaSpitfire74dcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3312,7 +3312,7 @@
         "name": "Nordica Spitfire 75 fdt",
         "brand": "Nordica",
         "model": "Spitfire 75 fdt",
-        "href": "/opinions/Spitfire75fdt",
+        "href": "/opinions/NordicaSpitfire75fdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3370,7 +3370,7 @@
         "name": "Nordica Spitfire ca fdt",
         "brand": "Nordica",
         "model": "Spitfire ca fdt",
-        "href": "/opinions/Spitfirecafdt",
+        "href": "/opinions/NordicaSpitfirecafdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3424,7 +3424,7 @@
         "name": "Nordica Spitfire dc 68 pro fdt",
         "brand": "Nordica",
         "model": "Spitfire dc 68 pro fdt",
-        "href": "/opinions/Spitfiredc68profdt",
+        "href": "/opinions/NordicaSpitfiredc68profdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3478,7 +3478,7 @@
         "name": "Nordica Spitfire dc 74 pro fdt",
         "brand": "Nordica",
         "model": "Spitfire dc 74 pro fdt",
-        "href": "/opinions/Spitfiredc74profdt",
+        "href": "/opinions/NordicaSpitfiredc74profdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3532,7 +3532,7 @@
         "name": "Nordica Spitfire dc 80 pro fdt",
         "brand": "Nordica",
         "model": "Spitfire dc 80 pro fdt",
-        "href": "/opinions/Spitfiredc80profdt",
+        "href": "/opinions/NordicaSpitfiredc80profdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3582,7 +3582,7 @@
         "name": "Nordica Spitfire ti fdt",
         "brand": "Nordica",
         "model": "Spitfire ti fdt",
-        "href": "/opinions/Spitfiretifdt",
+        "href": "/opinions/NordicaSpitfiretifdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3636,7 +3636,7 @@
         "name": "Nordica Steadfast 75 ca fdt",
         "brand": "Nordica",
         "model": "Steadfast 75 ca fdt",
-        "href": "/opinions/Steadfast75cafdt",
+        "href": "/opinions/NordicaSteadfast75cafdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3690,7 +3690,7 @@
         "name": "Nordica Steadfast 80 ca fdt",
         "brand": "Nordica",
         "model": "Steadfast 80 ca fdt",
-        "href": "/opinions/Steadfast80cafdt",
+        "href": "/opinions/NordicaSteadfast80cafdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3740,7 +3740,7 @@
         "name": "Nordica Steadfast 85 dc fdt",
         "brand": "Nordica",
         "model": "Steadfast 85 dc fdt",
-        "href": "/opinions/Steadfast85dcfdt",
+        "href": "/opinions/NordicaSteadfast85dcfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3790,7 +3790,7 @@
         "name": "Nordica Team am fdt (100-140)",
         "brand": "Nordica",
         "model": "Team am fdt (100-140)",
-        "href": "/opinions/Teamamfdt(100140)",
+        "href": "/opinions/NordicaTeamamfdt(100140)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3838,7 +3838,7 @@
         "name": "Nordica Team am fdt (110-150)",
         "brand": "Nordica",
         "model": "Team am fdt (110-150)",
-        "href": "/opinions/Teamamfdt(110150)",
+        "href": "/opinions/NordicaTeamamfdt(110150)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3886,7 +3886,7 @@
         "name": "Nordica Team am fdt (70-90)",
         "brand": "Nordica",
         "model": "Team am fdt (70-90)",
-        "href": "/opinions/Teamamfdt(7090)",
+        "href": "/opinions/NordicaTeamamfdt(7090)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3928,7 +3928,7 @@
         "name": "Nordica Team g fdt (100-140)",
         "brand": "Nordica",
         "model": "Team g fdt (100-140)",
-        "href": "/opinions/Teamgfdt(100140)",
+        "href": "/opinions/NordicaTeamgfdt(100140)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -3976,7 +3976,7 @@
         "name": "Nordica Team g fdt (110-140)",
         "brand": "Nordica",
         "model": "Team g fdt (110-140)",
-        "href": "/opinions/Teamgfdt(110140)",
+        "href": "/opinions/NordicaTeamgfdt(110140)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4021,7 +4021,7 @@
         "name": "Nordica Team g fdt (70-90)",
         "brand": "Nordica",
         "model": "Team g fdt (70-90)",
-        "href": "/opinions/Teamgfdt(7090)",
+        "href": "/opinions/NordicaTeamgfdt(7090)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4063,7 +4063,7 @@
         "name": "Nordica Team j r fdt (100-140)",
         "brand": "Nordica",
         "model": "Team j r fdt (100-140)",
-        "href": "/opinions/Teamjrfdt(100140)",
+        "href": "/opinions/NordicaTeamjrfdt(100140)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4111,7 +4111,7 @@
         "name": "Nordica Team j r fdt (110-150)",
         "brand": "Nordica",
         "model": "Team j r fdt (110-150)",
-        "href": "/opinions/Teamjrfdt(110150)",
+        "href": "/opinions/NordicaTeamjrfdt(110150)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4159,7 +4159,7 @@
         "name": "Nordica Team j r fdt (70-90)",
         "brand": "Nordica",
         "model": "Team j r fdt (70-90)",
-        "href": "/opinions/Teamjrfdt(7090)",
+        "href": "/opinions/NordicaTeamjrfdt(7090)",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4201,7 +4201,7 @@
         "name": "Nordica Unleashed 108",
         "brand": "Nordica",
         "model": "Unleashed 108",
-        "href": "/opinions/Unleashed108",
+        "href": "/opinions/NordicaUnleashed108",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4249,7 +4249,7 @@
         "name": "Nordica Unleashed 114",
         "brand": "Nordica",
         "model": "Unleashed 114",
-        "href": "/opinions/Unleashed114",
+        "href": "/opinions/NordicaUnleashed114",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4297,7 +4297,7 @@
         "name": "Nordica Unleashed 90",
         "brand": "Nordica",
         "model": "Unleashed 90",
-        "href": "/opinions/Unleashed90",
+        "href": "/opinions/NordicaUnleashed90",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4349,7 +4349,7 @@
         "name": "Nordica Unleashed 98",
         "brand": "Nordica",
         "model": "Unleashed 98",
-        "href": "/opinions/Unleashed98",
+        "href": "/opinions/NordicaUnleashed98",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4397,7 +4397,7 @@
         "name": "Nordica Unleashed j fdt",
         "brand": "Nordica",
         "model": "Unleashed j fdt",
-        "href": "/opinions/Unleashedjfdt",
+        "href": "/opinions/NordicaUnleashedjfdt",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4445,7 +4445,7 @@
         "name": "Nordica Wild belle 74",
         "brand": "Nordica",
         "model": "Wild belle 74",
-        "href": "/opinions/Wildbelle74",
+        "href": "/opinions/NordicaWildbelle74",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4503,7 +4503,7 @@
         "name": "Nordica Wild belle 78 ca",
         "brand": "Nordica",
         "model": "Wild belle 78 ca",
-        "href": "/opinions/Wildbelle78ca",
+        "href": "/opinions/NordicaWildbelle78ca",
         "specs": {
             "format": "perLength",
             "availableLengths": [
@@ -4561,7 +4561,7 @@
         "name": "Nordica Wild belle dc 84",
         "brand": "Nordica",
         "model": "Wild belle dc 84",
-        "href": "/opinions/Wildbelledc84",
+        "href": "/opinions/NordicaWildbelledc84",
         "specs": {
             "format": "perLength",
             "availableLengths": [
