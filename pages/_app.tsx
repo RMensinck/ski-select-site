@@ -81,8 +81,8 @@ export default function App({ Component, pageProps, router }: AppProps) {
       location='bottom'
       buttonText={CookieText.accept[locale]}
       cookieName="AcceptCookies"
-      style={{ background: "#274c77" }}
-      buttonStyle={{ background: "#e7ecef", color: "#4e503b", fontSize: "13px" }}
+      style={{ background: "#63B995" }}
+      buttonStyle={{ background: "#e7ecef", color: "#63B995", fontSize: "13px" }}
       expires={150}
     >
       <p className=' text-xs'>{CookieText.main[locale]}</p>
