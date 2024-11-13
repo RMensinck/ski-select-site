@@ -27,8 +27,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", 
-    "components/LanguageMenu.tsx"  
+    "**/*.tsx" 
   ],
   "exclude": [
     "node_modules"
