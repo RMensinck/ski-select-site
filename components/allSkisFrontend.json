@@ -1,155 +1,320 @@
 [
     {
         "name": "Armada ARG II UL",
-        "href": "/opinions/ArmadaARGIIUL",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Armada",
         "model": "ARG II UL",
         "specs": {
-            "weight": "2250",
-            "radius": "50",
-            "availableLengths": "187"
+            "weight": 2250,
+            "radius": "50m",
+            "availableLengths": 187,
+            "dimensions": "125-135-120",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/armada-arg-ii-ul.html"
         }
     },
     {
         "name": "Armada Edollo",
-        "href": "/opinions/ArmadaEdollo",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Armada",
         "model": "Edollo",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/armada-edollo.html"
         }
     },
     {
         "name": "Atomic Backland 100",
-        "href": "/opinions/AtomicBackland100",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 100",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-100.html"
         }
     },
     {
         "name": "Atomic Backland 107",
-        "href": "/opinions/AtomicBackland107",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 107",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-107-petrol-black-orange-2022f.html"
         }
     },
     {
         "name": "Atomic Backland 117",
-        "href": "/opinions/AtomicBackland117",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 117",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-117.html"
         }
     },
     {
         "name": "Atomic Backland 62 UL vert",
-        "href": "/opinions/AtomicBackland62ULvert",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 62 UL vert",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Atomic Backland 65 UL",
-        "href": "/opinions/AtomicBackland65UL",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 65 UL",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Atomic Backland 78",
-        "href": "/opinions/AtomicBackland78",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 78",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-78.html"
         }
     },
     {
         "name": "Atomic Backland 78 UL",
-        "href": "/opinions/AtomicBackland78UL",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 78 UL",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Atomic Backland 85",
-        "href": "/opinions/AtomicBackland85",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 85",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-85-2022f.html"
         }
     },
     {
         "name": "Atomic Backland 85 UL",
-        "href": "/opinions/AtomicBackland85UL",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 85 UL",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-85-ul-299013.html"
         }
     },
     {
         "name": "Atomic Backland 95",
-        "href": "/opinions/AtomicBackland95",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Backland 95",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-backland-95.html"
         }
     },
     {
         "name": "Atomic Bent 100",
-        "href": "/opinions/AtomicBent100",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Bent 100",
-        "specs": {},
+        "specs": {
+            "weight": "1700g (179cm)",
+            "radius": "18m (172cm)",
+            "availableLengths": "158cm, 165cm, 172cm, 179cm, 186cm",
+            "dimensions": "127-100-118mm (172cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "20-65-15"
+        },
+        "horizontal_image_name": "Atomic Bent 100.png",
+        "imageName": "Atomic Bent 100.png",
+        "reviewHref": "/reviews/atomicbent100",
         "shopUrls": {
-            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-100.html"
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-100-490091.html"
         }
     },
     {
         "name": "Atomic Bent 110",
-        "href": "/opinions/AtomicBent110",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Bent 110",
-        "specs": {},
+        "specs": {
+            "weight": "1750g (180cm)",
+            "radius": "18m (180cm)",
+            "availableLengths": "164cm, 172cm, 180cm, 188cm",
+            "dimensions": "133-110-124mm (180cm)",
+            "recommendedMounting": "-3cm",
+            "rockerCamberProfile": "25-50-25"
+        },
+        "horizontal_image_name": "Atomic Bent 110.png",
+        "imageName": "Atomic Bent 110.png",
+        "reviewHref": "/reviews/atomicbent110",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-110.html"
         }
     },
     {
         "name": "Atomic Bent 85",
-        "href": "/opinions/AtomicBent85",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Bent 85",
-        "specs": {},
+        "specs": {
+            "weight": "1750g (170cm)",
+            "radius": "17m (170cm)",
+            "availableLengths": "150cm, 160cm, 165cm, 170cm, 175cm",
+            "dimensions": "119-85-109mm (170cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "20-65-15"
+        },
+        "horizontal_image_name": "Atomic Bent 85.png",
+        "imageName": "Atomic Bent 85.png",
+        "reviewHref": "/reviews/atomicbent85",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-85.html"
         }
     },
     {
         "name": "Atomic Bent 90",
-        "href": "/opinions/AtomicBent90",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Bent 90",
-        "specs": {},
+        "specs": {
+            "weight": "1600g (175cm)",
+            "radius": "19m (175cm)",
+            "availableLengths": "157cm, 166cm, 175cm, 184cm",
+            "dimensions": "119-90-109mm (175cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "20-70-10"
+        },
+        "horizontal_image_name": "Atomic Bent 90.png",
+        "imageName": "Atomic Bent 90.png",
+        "reviewHref": "/reviews/atomicbent90",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-90.html"
         }
@@ -162,577 +327,1097 @@
         "specs": {
             "weight": "1800g (184cm)",
             "radius": "19m (184cm)",
-            "availableLengths": "176cm, 184cm, 192cm"
+            "availableLengths": "176cm, 184cm, 192cm",
+            "dimensions": "143-120-134mm (184cm)",
+            "recommendedMounting": "-3cm",
+            "rockerCamberProfile": "30-40-30"
         },
+        "horizontal_image_name": "Atomic Bent Chetler 120.png",
+        "imageName": "Atomic Bent Chetler 120.png",
+        "reviewHref": "/reviews/atomicbentchetler120",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-chetler-120.html"
         }
     },
     {
         "name": "Atomic Maverick 100 TI",
-        "href": "/opinions/AtomicMaverick100TI",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Maverick 100 TI",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-100-ti.html"
         }
     },
     {
         "name": "Atomic Maverick 86 C",
-        "href": "/opinions/AtomicMaverick86C",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Maverick 86 C",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-86-c.html"
         }
     },
     {
         "name": "Atomic Maverick 88 TI",
-        "href": "/opinions/AtomicMaverick88TI",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Maverick 88 TI",
-        "specs": {},
+        "specs": {
+            "weight": "1800g (180cm)",
+            "radius": "18m (172cm)",
+            "availableLengths": "164cm, 172cm, 180cm, 188cm",
+            "dimensions": "128-94-112mm (172cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "20-70-10"
+        },
+        "horizontal_image_name": "Atomic Maverick 88 TI.png",
+        "imageName": "Atomic Maverick 88 TI.png",
+        "reviewHref": "/reviews/atomicmaverick88ti",
         "shopUrls": {
-            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-88-ti.html"
+            "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-88-ti-489550.html"
         }
     },
     {
         "name": "Atomic Maverick 95 TI",
-        "href": "/opinions/AtomicMaverick95TI",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Atomic",
         "model": "Maverick 95 TI",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-maverick-95-ti.html"
         }
     },
     {
         "name": "Black crows Anima",
-        "href": "/opinions/BlackcrowsAnima",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Anima",
         "specs": {
             "weight": "2150g (176cm)",
             "radius": "19m (176cm)",
             "availableLengths": "176cm, 182cm, 189cm, 194cm",
-            "recommendedMounting": "-6cm"
+            "dimensions": "145-115-13mm",
+            "recommendedMounting": "-6cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-anima.html"
         }
     },
     {
         "name": "Black crows Atris",
-        "href": "/opinions/BlackcrowsAtris",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Atris",
         "specs": {
             "weight": "1800g (184cm)",
             "radius": "19m (184cm)",
             "availableLengths": "172cm, 178cm, 184cm, 190cm",
-            "recommendedMounting": "-8cm"
+            "dimensions": "136-105-122mm (184cm)",
+            "recommendedMounting": "-8cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris.html"
         }
     },
     {
         "name": "Black crows Atris birdie",
-        "href": "/opinions/BlackcrowsAtrisbirdie",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Atris birdie",
         "specs": {
             "weight": "1800g (178cm)",
             "radius": "19m (178cm)",
             "availableLengths": "160cm, 166cm 172cm, 178cm",
-            "recommendedMounting": "-8cm"
+            "dimensions": "138-105-122cm (178cm)",
+            "recommendedMounting": "-8cm",
+            "rockerCamberProfile": ""
         },
-        "reviewHref": "/reviews/blackcrowsatrisbirdie",
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris-birdie.html"
         }
     },
     {
         "name": "Black crows Camox",
-        "href": "/opinions/BlackcrowsCamox",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Camox",
         "specs": {
             "weight": "2000g (186cm)",
             "radius": "20m",
             "availableLengths": "174cm, 180cm, 186cm",
-            "recommendedMounting": "-6cm"
+            "dimensions": "131-97-119mm (186cm)",
+            "recommendedMounting": "-6cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-camox.html"
         }
     },
     {
         "name": "Black crows Corvus",
-        "href": "/opinions/BlackcrowsCorvus",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Corvus",
         "specs": {
             "weight": "2150g (188cm)",
             "radius": "21m (188cm)",
             "availableLengths": "176cm, 183cm, 188cm, 193cm",
-            "recommendedMounting": "-8cm"
+            "dimensions": "138-107-128mm (188cm)",
+            "recommendedMounting": "-8cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-corvus.html"
         }
     },
     {
         "name": "Black crows Mirus Cor",
-        "href": "/opinions/BlackcrowsMirusCor",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Mirus Cor",
         "specs": {
             "weight": "1925g (184cm)",
             "radius": "13m (184cm)",
             "availableLengths": "168cm, 173cm, 178cm, 184cm",
-            "recommendedMounting": "-3.5cm"
+            "dimensions": "135-87-125mm (184cm)",
+            "recommendedMounting": "-3.5cm",
+            "rockerCamberProfile": ""
         },
-        "reviewHref": "/reviews/blackcrowsmiruscor",
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-mirus-cor.html"
         }
     },
     {
         "name": "Black crows Navis Freebird",
-        "href": "/opinions/BlackcrowsNavisFreebird",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Navis Freebird",
         "specs": {
             "weight": "1700g (179cm)",
             "radius": "19m (179cm)",
             "availableLengths": "167cm, 173cm, 179cm, 185cm",
-            "recommendedMounting": "-9cm"
+            "dimensions": "138-102-119cm (179cm)",
+            "recommendedMounting": "-9cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-navis-freebird.html"
         }
     },
     {
         "name": "Black crows Nocta",
-        "href": "/opinions/BlackcrowsNocta",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Nocta",
         "specs": {
             "weight": "2025g (185cm)",
             "radius": "19m (185cm)",
             "availableLengths": "177cm, 185cm",
-            "recommendedMounting": "-6cm"
+            "dimensions": "145-122-136mm (185cm)",
+            "recommendedMounting": "-6cm",
+            "rockerCamberProfile": ""
         },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-nocta.html"
         }
     },
     {
         "name": "Black crows Vertis",
-        "href": "/opinions/BlackcrowsVertis",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black crows",
         "model": "Vertis",
         "specs": {
             "weight": "1675g (175cm)",
             "radius": "15m (175cm)",
             "availableLengths": "165cm, 170cm, 175cm",
-            "recommendedMounting": "-8cm"
+            "dimensions": "128-85-111mm (175cm)",
+            "recommendedMounting": "-8cm",
+            "rockerCamberProfile": ""
         },
-        "reviewHref": "/reviews/blackcrowsvertis",
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-vertis.html"
         }
     },
     {
-        "name": "Black diamond Helio Carbon 88",
-        "href": "/opinions/BlackdiamondHelioCarbon88",
+        "name": "Black diamond Helio carbon 88",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
-        "model": "Helio Carbon 88",
+        "model": "Helio carbon 88",
         "specs": {
-            "dimensions": "120-88-110mm (170cm)",
             "weight": "1290g (170cm)",
             "radius": "18m (170cm)",
-            "availableLengths": "152cm, 161cm, 170cm, 179cm "
+            "availableLengths": "152cm, 161cm, 170cm, 179cm",
+            "dimensions": "120-88-110mm (170cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Small tip rocker, mostly camber."
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
-        "name": "Black diamond Helio Carbon 95",
-        "href": "/opinions/BlackdiamondHelioCarbon95",
+        "name": "Black diamond Helio carbon 95",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
-        "model": "Helio Carbon 95",
+        "model": "Helio carbon 95",
         "specs": {
-            "dimensions": "124-95-113mm (176cm)",
             "weight": "1400g (176cm)",
             "radius": "19m (176cm)",
-            "availableLengths": "155cm, 162cm, 169cm, 176cm, 183cm"
+            "availableLengths": "155cm, 162cm, 169cm, 176cm, 183cm",
+            "dimensions": "124-95-113mm (176cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Small tip rocker, mostly camber."
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Black diamond Helio carbon 104",
-        "href": "/opinions/BlackdiamondHeliocarbon104",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
         "model": "Helio carbon 104",
         "specs": {
-            "dimensions": "131-104-118mm (178cm)",
             "weight": "1450g (178cm)",
             "radius": "22m (178cm)",
-            "availableLengths": "160cm, 166cm, 172cm, 178cm, 184cm"
+            "availableLengths": "160cm, 166cm, 172cm, 178cm, 184cm",
+            "dimensions": "131-104-118mm (178cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "rocker-camber."
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Black diamond Helio carbon 115",
-        "href": "/opinions/BlackdiamondHeliocarbon115",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
         "model": "Helio carbon 115",
         "specs": {
-            "dimensions": "143-115-125mm (177cm)",
             "weight": "1575g (177cm)",
             "radius": "25m (177cm)",
-            "availableLengths": "177cm, 185cm"
+            "availableLengths": "177cm, 185cm",
+            "dimensions": "143-115-125mm (177cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "rocker-camber-rocker"
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Black diamond Impulse 104",
-        "href": "/opinions/BlackdiamondImpulse104",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
         "model": "Impulse 104",
         "specs": {
-            "dimensions": "136-104-123mm (179cm)",
             "weight": "1900g (179cm)",
             "radius": "18m (179cm)",
-            "availableLengths": "165cm, 172cm, 179cm, 186cm"
+            "availableLengths": "165cm, 172cm, 179cm, 186cm",
+            "dimensions": "136-104-123mm (179cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Black diamond Impulse 112",
-        "href": "/opinions/BlackdiamondImpulse112",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
         "model": "Impulse 112",
         "specs": {
-            "dimensions": "139-112-126mm (181cm)",
             "weight": "2050g (181cm)",
             "radius": "20m (181cm)",
-            "availableLengths": "181cm - 186cm"
+            "availableLengths": "181cm - 186cm",
+            "dimensions": "139-112-126mm (181cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Black diamond Impulse 98",
-        "href": "/opinions/BlackdiamondImpulse98",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Black diamond",
         "model": "Impulse 98",
         "specs": {
-            "dimensions": "131-98-119mm (175cm)",
             "weight": "1820g (175cm)",
             "radius": "17m (175cm)",
-            "availableLengths": "161cm, 168cm, 175cm, 182cm, 189cm"
+            "availableLengths": "161cm, 168cm, 175cm, 182cm, 189cm",
+            "dimensions": "131-98-119mm (175cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
         "name": "Blizzard Rustler 9",
-        "href": "/opinions/BlizzardRustler9",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Blizzard",
         "model": "Rustler 9",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/blizzard-rustler-9-372771-depr.html"
         }
     },
     {
         "name": "Blizzard Thunderbird SP 7.2",
-        "href": "/opinions/BlizzardThunderbirdSP72",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Blizzard",
         "model": "Thunderbird SP 7.2",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Dynastar M-Free 99",
-        "href": "/opinions/DynastarMFree99",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Dynastar",
         "model": "M-Free 99",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/dynastar-m-free-99.html"
         }
     },
     {
         "name": "Elan Ripstick 106",
-        "href": "/opinions/ElanRipstick106",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick 106",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-106.html"
         }
     },
     {
         "name": "Elan Ripstick 116",
-        "href": "/opinions/ElanRipstick116",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick 116",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-116-401251.html"
         }
     },
     {
         "name": "Elan Ripstick 88",
-        "href": "/opinions/ElanRipstick88",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick 88",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-88.html"
         }
     },
     {
         "name": "Elan Ripstick 96",
-        "href": "/opinions/ElanRipstick96",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick 96",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-96.html"
         }
     },
     {
         "name": "Elan Ripstick Tour 104",
-        "href": "/opinions/ElanRipstickTour104",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick Tour 104",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-104-glenn-plake-special.html"
         }
     },
     {
         "name": "Elan Ripstick Tour 88",
-        "href": "/opinions/ElanRipstickTour88",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick Tour 88",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-88.html"
         }
     },
     {
         "name": "Elan Ripstick Tour 94",
-        "href": "/opinions/ElanRipstickTour94",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Ripstick Tour 94",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/elan-ripstick-tour-94.html"
         }
     },
     {
         "name": "Elan Wingman 78 C",
-        "href": "/opinions/ElanWingman78C",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Elan",
         "model": "Wingman 78 C",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Factory 112",
-        "href": "/opinions/ExtremFactory112",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Factory 112",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Final opinion 118",
-        "href": "/opinions/ExtremFinalopinion118",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Final opinion 118",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Mothertree 105",
-        "href": "/opinions/ExtremMothertree105",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Mothertree 105",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Mothertree 95",
-        "href": "/opinions/ExtremMothertree95",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Mothertree 95",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Mothertree 95 carbon",
-        "href": "/opinions/ExtremMothertree95carbon",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Mothertree 95 carbon",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Project 83",
-        "href": "/opinions/ExtremProject83",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Project 83",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Extrem Project 90",
-        "href": "/opinions/ExtremProject90",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Extrem",
         "model": "Project 90",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Faction Prodigy 0",
-        "href": "/opinions/FactionProdigy0",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Faction",
         "model": "Prodigy 0",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/faction-prodigy-0.html"
         }
     },
     {
         "name": "K2 Disruption 78C",
-        "href": "/opinions/K2Disruption78C",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Disruption 78C",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-disruption-78c.html"
         }
     },
     {
         "name": "K2 Mindbender 108ti",
-        "href": "/opinions/K2Mindbender108ti",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Mindbender 108ti",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-108ti.html"
         }
     },
     {
         "name": "K2 Mindbender 89ti",
-        "href": "/opinions/K2Mindbender89ti",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Mindbender 89ti",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-89ti.html"
         }
     },
     {
         "name": "K2 Mindbender 99ti",
-        "href": "/opinions/K2Mindbender99ti",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Mindbender 99ti",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-99ti.html"
         }
     },
     {
         "name": "K2 Poacher",
-        "href": "/opinions/K2Poacher",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Poacher",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-poacher.html"
         }
     },
     {
         "name": "K2 Reckoner 102",
-        "href": "/opinions/K2Reckoner102",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Reckoner 102",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-102.html"
         }
     },
     {
         "name": "K2 Reckoner 112",
-        "href": "/opinions/K2Reckoner112",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Reckoner 112",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-112.html"
         }
     },
     {
         "name": "K2 Reckoner 122",
-        "href": "/opinions/K2Reckoner122",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Reckoner 122",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-122.html"
         }
     },
     {
         "name": "K2 Reckoner 92 men",
-        "href": "/opinions/K2Reckoner92men",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Rockoner 92 men",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-reckoner-92.html"
         }
     },
     {
         "name": "K2 Reckoner 92 women",
-        "href": "/opinions/K2Reckoner92women",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "K2",
         "model": "Reckoner 92 women",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Line Blend",
-        "href": "/opinions/LineBlend",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Line",
         "model": "Blend",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/line-blend.html"
         }
     },
     {
         "name": "Line Honey bee",
-        "href": "/opinions/LineHoneybee",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Line",
         "model": "Honey bee",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/line-honey-bee.html"
         }
     },
     {
         "name": "Line Tom Wallisch Pro",
-        "href": "/opinions/LineTomWallischPro",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Line",
         "model": "Tom Wallisch Pro",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/line-tom-wallisch-pro.html"
         }
     },
     {
         "name": "Movement Fly 115",
-        "href": "/opinions/MovementFly115",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Movement",
         "model": "Fly 115",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Movement Go 112",
-        "href": "/opinions/MovementGo112",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Movement",
         "model": "Go 112",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Nordica Belle 72 ca",
@@ -4613,279 +5298,600 @@
     },
     {
         "name": "ON3P Mango 100",
-        "href": "/opinions/ON3PMango100",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "ON3P",
         "model": "Mango 100",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Rossignol Experience 78 Ca",
-        "href": "/opinions/RossignolExperience78Ca",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Rossignol",
         "model": "Experience 78 Ca",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Rossignol Sender 106Ti+",
-        "href": "/opinions/RossignolSender106Ti+",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Rossignol",
         "model": "Sender 106Ti+",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/rossignol-sender-106-ti-plus.html"
         }
     },
     {
         "name": "Rossignol Sender 90 Pro",
-        "href": "/opinions/RossignolSender90Pro",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Rossignol",
         "model": "Sender 90 Pro",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/rossignol-sender-90-pro.html"
         }
     },
     {
         "name": "Salomon Addikt pro",
-        "href": "/opinions/SalomonAddiktpro",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Addikt pro",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-addikt-pro.html"
         }
     },
     {
         "name": "Salomon Blank",
-        "href": "/opinions/SalomonBlank",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Blank",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-blank-363105.html"
         }
     },
     {
         "name": "Salomon Echo 106",
-        "href": "/opinions/SalomonEcho106",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Echo 106",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-echo-106.html"
         }
     },
     {
         "name": "Salomon MTN 80 Carbon",
-        "href": "/opinions/SalomonMTN80Carbon",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "MTN 80 Carbon",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-80-carbon.html"
         }
     },
     {
         "name": "Salomon MTN 80 Pro",
-        "href": "/opinions/SalomonMTN80Pro",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "MTN 80 Pro",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-80-pro.html"
         }
     },
     {
         "name": "Salomon MTN 86 Carbon",
-        "href": "/opinions/SalomonMTN86Carbon",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "MTN 86 Carbon",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-86-carbon.html"
         }
     },
     {
         "name": "Salomon MTN 86 Pro",
-        "href": "/opinions/SalomonMTN86Pro",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "MTN 86 Pro",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-86-pro.html"
         }
     },
     {
         "name": "Salomon MTN 96 Carbon",
-        "href": "/opinions/SalomonMTN96Carbon",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "MTN 96 Carbon",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-mtn-96-carbon.html"
         }
     },
     {
         "name": "Salomon QST 106",
-        "href": "/opinions/SalomonQST106",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "QST 106",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-106.html"
         }
     },
     {
         "name": "Salomon QST 92",
-        "href": "/opinions/SalomonQST92",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "QST 92",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-92.html"
         }
     },
     {
         "name": "Salomon QST 98",
-        "href": "/opinions/SalomonQST98",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "QST 98",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-98.html"
         }
     },
     {
         "name": "Salomon QST SPARK",
-        "href": "/opinions/SalomonQSTSPARK",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "QST SPARK",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-qst-spark-410218.html"
         }
     },
     {
         "name": "Salomon S/FORCE BOLD",
-        "href": "/opinions/SalomonSFORCEBOLD",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/FORCE BOLD",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Salomon S/FORCE FX.76",
-        "href": "/opinions/SalomonSFORCEFX76",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/FORCE FX.76",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Salomon S/FORCE FX.80",
-        "href": "/opinions/SalomonSFORCEFX80",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/FORCE FX.80",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Salomon S/FORCE TI.76",
-        "href": "/opinions/SalomonSFORCETI76",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/FORCE TI.76",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Salomon S/FORCE TI.80",
-        "href": "/opinions/SalomonSFORCETI80",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/FORCE TI.80",
-        "specs": {}
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
     },
     {
         "name": "Salomon S/MAX 10",
-        "href": "/opinions/SalomonSMAX10",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/MAX 10",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-n10-xt.html"
         }
     },
     {
         "name": "Salomon S/MAX 12",
-        "href": "/opinions/SalomonSMAX12",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/MAX 12",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-n12-xt.html"
         }
     },
     {
         "name": "Salomon S/MAX 8",
-        "href": "/opinions/SalomonSMAX8",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "S/MAX 8",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-s-max-8-xt.html"
         }
     },
     {
         "name": "Salomon Stance 102",
-        "href": "/opinions/SalomonStance102",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Stance 102",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-102.html"
         }
     },
     {
         "name": "Salomon Stance 84",
-        "href": "/opinions/SalomonStance84",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Stance 84",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-84.html"
         }
     },
     {
         "name": "Salomon Stance 90",
-        "href": "/opinions/SalomonStance90",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Stance 90",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-90.html"
         }
     },
     {
         "name": "Salomon Stance 96",
-        "href": "/opinions/SalomonStance96",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Salomon",
         "model": "Stance 96",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/salomon-stance-96.html"
         }
     },
     {
         "name": "Volkl Revolt 121",
-        "href": "/opinions/VolklRevolt121",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Volkl",
         "model": "Revolt 121",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/volkl-revolt-121.html"
         }
     },
     {
         "name": "Volkl Revolt 86",
-        "href": "/opinions/VolklRevolt86",
+        "href": "/opinions/AtomicBentchetler120",
         "brand": "Volkl",
         "model": "Revolt 86",
-        "specs": {},
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "",
+        "imageName": "",
+        "reviewHref": "/reviews/",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/volkl-revolt-86-crown.html"
         }

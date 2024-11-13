@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure, Menu, Transition, MenuButton, MenuItem, MenuItems, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, UserCircleIcon } from '@heroicons/react/24/outline'
 import { PlusIcon } from '@heroicons/react/20/solid'
 import texts from '../texts/textsSidebar'
@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/auth'
 import Link from 'next/link'
+import LanguageMenu from './LanguageMenu'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -32,7 +33,7 @@ export default function Example() {
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-accent-color">
+                  <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-accent-color">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -40,7 +41,7 @@ export default function Example() {
                     ) : (
                       <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                     )}
-                  </Disclosure.Button>
+                  </DisclosureButton>
                 </div>
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/">
@@ -98,6 +99,11 @@ export default function Example() {
                 </div>
               </div>
               <div className="flex items-center">
+                <div
+                  className=" z-50 inline-flex items-center border-b-2 border-transparent px-3 pt-1 text-sm font-medium text-gray-500"
+                >
+                  < LanguageMenu />
+                </div>
                 <div className="flex-shrink-0">
                   <button
                     type="button"
@@ -113,7 +119,7 @@ export default function Example() {
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative ml-3">
                     <div>
-                      <Menu.Button className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                      <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
                         {user ?
@@ -125,7 +131,7 @@ export default function Example() {
                           :
                           <UserCircleIcon className="h-8 w-8 rounded-full" aria-hidden="true" />
                         }
-                      </Menu.Button>
+                      </MenuButton>
                     </div>
                     <Transition
                       as={Fragment}
@@ -137,10 +143,10 @@ export default function Example() {
                       leaveTo="transform opacity-0 scale-95"
                     >
 
-                      <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <MenuItems className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         { user ? 
                           <>
-                          <Menu.Item>
+                          <MenuItem>
                             {({ active }) => (
                               <Link
                                 href="/profile"
@@ -152,8 +158,8 @@ export default function Example() {
                                 {texts.profile[locale]}
                               </Link>
                             )}
-                          </Menu.Item>
-                          <Menu.Item>
+                          </MenuItem>
+                          <MenuItem>
                             {({ active }) => (
                               <Link
                                 href="#"
@@ -166,10 +172,10 @@ export default function Example() {
                                 {texts.logout[locale]}
                               </Link>
                             )}
-                          </Menu.Item> 
+                          </MenuItem> 
                           </>
                           :
-                          <Menu.Item>
+                          <MenuItem>
                             {({ active }) => (
                               <Link
                                 href="#"
@@ -182,10 +188,10 @@ export default function Example() {
                                 {texts.login[locale]}
                               </Link>
                             )}                  
-                          </Menu.Item>
+                          </MenuItem>
                         }                        
 
-                      </Menu.Items>
+                      </MenuItems>
                     </Transition>
                   </Menu>
                 </div>
@@ -193,58 +199,58 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden">
+          <DisclosurePanel className="md:hidden">
             <div className="space-y-1 pb-3 pt-2">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
-              <Disclosure.Button
+              <DisclosureButton
                 as="a"
                 href={`/${locale}`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.home[locale]}
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/pick-a-ski`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 Pick-a-ski
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/opinions`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.opinions[locale]}
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/reviews`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.reviews[locale]}
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/articles`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.articles[locale]}
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/mission`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.mission[locale]}
-              </Disclosure.Button>
-              <Disclosure.Button
+              </DisclosureButton>
+              <DisclosureButton
                 as="a"
                 href={`/${locale}/contact`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
                 {texts.contact[locale]}
-              </Disclosure.Button>
+              </DisclosureButton>
             </div>
             { user ?            
             <div className="border-t border-gray-200 pb-3 pt-4">
@@ -262,38 +268,38 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-3 space-y-1">
-                <Disclosure.Button
+                <DisclosureButton
                   as="a"
                   href="/profile"
                   className="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800 sm:px-6"
                 >
                   {texts.profile[locale]}
-                </Disclosure.Button>
-                <Disclosure.Button
+                </DisclosureButton>
+                <DisclosureButton
                   as="a"
                   href="#"
                   onClick={() => signOut(auth)}
                   className="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800 sm:px-6"
                 >
                   {texts.logout[locale]}
-                </Disclosure.Button>
+                </DisclosureButton>
               </div>
             </div>
             :
             <div className="border-t border-gray-200 pb-3 pt-4">
               <div className="mt-3 space-y-1">
-                <Disclosure.Button
+                <DisclosureButton
                   as="a"
                   href="#"
                   onClick={() => signInWithPopup(auth, provider)}
                   className="block px-4 py-2 text-base font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-800 sm:px-6"
                 >
                   {texts.login[locale]}
-                </Disclosure.Button>
+                </DisclosureButton>
               </div>
             </div>
             }
-          </Disclosure.Panel>
+          </DisclosurePanel>
         </>
       )}
     </Disclosure>
