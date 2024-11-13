@@ -48,7 +48,7 @@ export default function Example() {
         className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
       >
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem>
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('en')}
@@ -59,7 +59,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('nl')}
@@ -70,7 +70,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('de')}
@@ -81,7 +81,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('fr')}
@@ -92,7 +92,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('es')}
@@ -103,7 +103,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('pl')}
@@ -114,7 +114,7 @@ export default function Example() {
           </MenuItem>
         </div>
         <div className="py-1">
-          <MenuItem className="group">
+          <MenuItem >
             <Button
               className="w-full group flex items-center px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
               onClick={() => changeLanguage('ja')}
