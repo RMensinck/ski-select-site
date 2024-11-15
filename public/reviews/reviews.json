@@ -2,6 +2,8 @@
 {
     "Atomic Maverick 88 TI": {
         "picture": "/skis/Atomic Maverick 88 TI.png",
+        "brand": "Atomic",
+        "model": "Maverick 88 TI",
         "author": "Harry Morris",
         "authorInfo": "Certified Shredder",
         "authorPicture": "/authors/HarryMorris.jpeg",
@@ -71,6 +73,8 @@
     },   
     "Black crows Atris birdie": {
         "picture": "/skis/Black crows Atris birdie.png",
+        "brand": "Black crows",
+        "model": "Atris birdie",
         "author": "Heleen de Jong",
         "authorInfo": "OG Granolagirl",
         "authorPicture": "/authors/HeleendeJong.jpeg",
@@ -153,6 +157,8 @@
     },
     "Black crows Mirus cor": {
         "picture": "/skis/Black crows Mirus Cor.png",
+        "brand": "Black crows",
+        "model": "Mirus cor",
         "author": "Harry Morris",
         "authorInfo": "Certified Shredder",
         "authorPicture": "/authors/HarryMorris.jpeg",
@@ -221,6 +227,8 @@
     },
     "Head WC Rebels e-SL SW RP EVO 14": {
         "picture": "/skis/Head WC Rebels e-SL SW RP EVO 14.png",
+        "brand": "Head",
+        "model": "WC Rebels e-SL SW RP EVO 14",
         "author": "Harry Morris",
         "authorInfo": "Certified Shredder",
         "authorPicture": "/authors/HarryMorris.jpeg",
@@ -296,6 +304,8 @@
     },
     "Armada Bdog": {
         "picture": "/skis/Armada Bdog.png",
+        "brand": "Armada",
+        "model": "Bdog",
         "author": "Silas Damkjaer",
         "authorInfo": "Stylemeister",
         "authorPicture": "/authors/SilasDamkjaer.png",
@@ -357,6 +367,8 @@
     },
     "Armada Edollo": {
         "picture": "/skis/Armada Edollo.png",
+        "brand": "Armada",
+        "model": "Edollo",
         "author": "Silas Damkjaer",
         "authorInfo": "Stylemeister",
         "authorPicture": "/authors/SilasDamkjaer.png",
@@ -425,6 +437,8 @@
     },
     "Black crows Vertis": {
         "picture": "/skis/Black crows Vertis.png",
+        "brand": "Black crows",
+        "model": "Vertis",
         "author": "Heleen de Jong",
         "authorInfo": "OG Granolagirl",
         "authorPicture": "/authors/HeleendeJong.jpeg",
@@ -486,6 +500,8 @@
     },
     "Atomic Bent 100": {
         "picture": "/skis/Atomic Bent 100.png",
+        "brand": "Atomic",
+        "model": "Bent 100",
         "author": "Alice Ivey",
         "authorInfo": "Ultimate ski nerd",
         "authorPicture": "/authors/AliceIvey.jpeg",
@@ -547,6 +563,8 @@
     },
     "Atomic Bent 90": {
         "picture": "/skis/Atomic Bent 90.png",
+        "brand": "Atomic",
+        "model": "Bent 90",
         "author": "Alice Ivey",
         "authorInfo": "Ultimate ski nerd",
         "authorPicture": "/authors/AliceIvey.jpeg",
@@ -608,6 +626,8 @@
     },
     "Atomic Bent 85": {
         "picture": "/skis/Atomic Bent 85.png",
+        "brand": "Atomic",
+        "model": "Bent 85",
         "author": "Alice Ivey",
         "authorInfo": "Ultimate ski nerd",
         "authorPicture": "/authors/AliceIvey.jpeg",
@@ -669,6 +689,8 @@
     },
     "Atomic Bent 110": {
         "picture": "/skis/Atomic Bent 110.png",
+        "brand": "Atomic",
+        "model": "Bent 110",
         "author": "Alice Ivey",
         "authorInfo": "Ultimate ski nerd",
         "authorPicture": "/authors/AliceIvey.jpeg",
@@ -730,6 +752,8 @@
     },
     "Atomic Bent Chetler 120": {
         "picture": "/skis/Atomic Bent Chetler 120.png",
+        "brand": "Atomic",
+        "model": "Bent chetler 120",
         "author": "Alice Ivey",
         "authorInfo": "Ultimate ski nerd",
         "authorPicture": "/authors/AliceIvey.jpeg",
@@ -788,7 +812,274 @@
                 "En resumen, el Atomic Bent Chetler 120 es una opción fantástica para los amantes del powder que buscan un esquí que destaque en nieve profunda y ofrezca una experiencia lúdica y divertida. Para esquiadores que desean aprovechar al máximo los días de powder y disfrutar de un esquí ágil y receptivo, el Bent Chetler 120 es una opción excelente."
             ]
         }
+    },
+    "Black Crows Atris": {
+        "picture": "/skis/Black crows Atris.png",
+        "brand": "Black crows",
+        "model": "Atris",
+        "author": "Alice Ivey",
+        "authorInfo": "Ultimate ski nerd",
+        "authorPicture": "/authors/AliceIvey.jpeg",
+        "href": "/reviews/blackcrowsatris",
+        "originalLanguage": "en",
+        "originalLanguageFull": "english",
+        "date": "2024-11-09",
+        "paragraphs": {
+            "en": [
+                "The Black Crows Atris is a big mountain ski that has earned a reputation for versatility and reliability in varied conditions. Originally introduced in 2014 and refined over the years, the Atris combines floatation, stability, and maneuverability, making it a top choice for skiers who enjoy a mix of deep powder and groomed runs.",
+                "One of the key features of the Atris is its 105 mm waist width, which strikes a balance between float in powder and agility on firmer snow. This width, combined with the double rocker profile, allows the ski to perform well in deeper snow without sacrificing control on harder surfaces. The Atris handles powder effectively while remaining versatile enough for mixed terrain, providing skiers with confidence in a range of conditions.",
+                "The double rocker design enhances maneuverability, making it easy for skiers to pivot and control their turns, especially in variable snow. With a 20-meter sidecut radius, the Atris allows for smooth, stable turns even at higher speeds, and the medium camber underfoot provides additional edge grip and stability on groomed trails. This combination of features makes the Atris adaptable to both freeride terrain and more controlled descents.",
+                "Constructed with a poplar wood core and fiberglass laminate, the Atris is responsive and durable, ensuring it holds up well under regular use in challenging conditions. The firm flex pattern contributes to stability at high speeds, giving skiers the control they need on steep or fast descents. This durability and stability make the Atris a reliable choice for advanced skiers looking to push their limits on the mountain.",
+                "Overall, the Black Crows Atris is a well-rounded big mountain ski that performs well across a variety of conditions. It’s an excellent choice for skiers who value a ski that can handle deep powder days with ease while also offering strong performance on groomed runs. For those seeking a reliable and versatile ski for diverse mountain adventures, the Atris stands out as a top option."
+            ],
+            "nl": [
+                "De Black Crows Atris is een big mountain ski die bekend staat om zijn veelzijdigheid en betrouwbaarheid onder verschillende omstandigheden. Oorspronkelijk geïntroduceerd in 2014 en door de jaren heen verfijnd, combineert de Atris drijfvermogen, stabiliteit en wendbaarheid, wat het een topkeuze maakt voor skiërs die houden van een mix van diepe poeder en geprepareerde paden.",
+                "Een van de belangrijkste kenmerken van de Atris is de taillebreedte van 105 mm, die een balans biedt tussen drijfvermogen in poeder en wendbaarheid op harder sneeuw. Deze breedte, in combinatie met het double rocker-profiel, stelt de ski in staat goed te presteren in diepe sneeuw zonder in te boeten aan controle op hardere ondergronden. De Atris kan effectief omgaan met poeder, terwijl hij veelzijdig genoeg blijft voor gemengd terrein, wat skiërs vertrouwen geeft in verschillende omstandigheden.",
+                "Het double rocker-ontwerp verbetert de wendbaarheid, waardoor skiërs gemakkelijk kunnen draaien en hun bochten kunnen controleren, vooral in variabele sneeuw. Met een radius van 20 meter laat de Atris soepele, stabiele bochten toe, zelfs bij hogere snelheden, en de medium camber onder de voet biedt extra grip en stabiliteit op geprepareerde pistes. Deze combinatie van eigenschappen maakt de Atris aanpasbaar aan zowel freeride-terrein als gecontroleerde afdalingen.",
+                "De Atris is gebouwd met een kern van populierenhout en een glasvezellaminaat, wat de ski responsief en duurzaam maakt, en garandeert dat hij goed standhoudt bij regelmatig gebruik in uitdagende omstandigheden. Het stevige flexpatroon draagt bij aan de stabiliteit bij hoge snelheden, wat skiërs de controle geeft die ze nodig hebben bij steile of snelle afdalingen. Deze duurzaamheid en stabiliteit maken de Atris een betrouwbare keuze voor gevorderde skiërs die hun grenzen op de berg willen verleggen.",
+                "Al met al is de Black Crows Atris een goed afgeronde big mountain ski die goed presteert onder verschillende omstandigheden. Het is een uitstekende keuze voor skiërs die waarde hechten aan een ski die gemakkelijk omgaat met diepe poederdagen, maar ook sterke prestaties biedt op geprepareerde pistes. Voor degenen die op zoek zijn naar een betrouwbare en veelzijdige ski voor diverse bergavonturen, onderscheidt de Atris zich als een topoptie."
+            ],
+            "fr": [
+                "Le Black Crows Atris est un ski de montagne reconnu pour sa polyvalence et sa fiabilité dans des conditions variées. Lancé en 2014 et perfectionné au fil des ans, l'Atris combine flottabilité, stabilité et maniabilité, en faisant un excellent choix pour les skieurs qui apprécient une combinaison de poudreuse profonde et de pistes damées.",
+                "L'une des principales caractéristiques de l'Atris est sa largeur de patin de 105 mm, qui offre un équilibre entre flottabilité dans la poudreuse et agilité sur la neige plus dure. Cette largeur, combinée avec le profil double rocker, permet au ski de bien performer dans la neige profonde sans sacrifier le contrôle sur les surfaces dures. L'Atris gère efficacement la poudreuse tout en restant suffisamment polyvalent pour les terrains mixtes, offrant aux skieurs confiance dans une gamme de conditions.",
+                "Le design double rocker améliore la maniabilité, facilitant les virages et le contrôle, notamment dans la neige variable. Avec un rayon de courbe de 20 mètres, l'Atris permet des virages fluides et stables même à grande vitesse, et le cambre moyen sous le pied fournit une meilleure accroche et stabilité sur les pistes damées. Cette combinaison de caractéristiques rend l'Atris adaptable tant au freeride qu'aux descentes plus contrôlées.",
+                "Construit avec un noyau en bois de peuplier et un laminé en fibre de verre, l'Atris est réactif et durable, garantissant qu'il résiste bien à une utilisation régulière dans des conditions exigeantes. Le flex ferme contribue à la stabilité à grande vitesse, offrant aux skieurs le contrôle nécessaire dans les descentes raides ou rapides. Cette durabilité et cette stabilité font de l'Atris un choix fiable pour les skieurs avancés cherchant à repousser leurs limites sur la montagne.",
+                "Dans l'ensemble, le Black Crows Atris est un ski de montagne bien équilibré qui excelle dans une variété de conditions. C'est un excellent choix pour les skieurs qui recherchent un ski performant dans la poudreuse profonde, tout en offrant une bonne performance sur les pistes damées. Pour ceux qui recherchent un ski fiable et polyvalent pour des aventures variées en montagne, l'Atris se distingue comme une option de premier plan."
+            ],
+            "de": [
+                "Der Black Crows Atris ist ein Big-Mountain-Ski, der für seine Vielseitigkeit und Zuverlässigkeit bei unterschiedlichsten Bedingungen bekannt ist. Ursprünglich 2014 eingeführt und im Laufe der Jahre weiterentwickelt, kombiniert der Atris Auftrieb, Stabilität und Manövrierfähigkeit und ist eine Top-Wahl für Skifahrer, die sowohl tiefen Pulverschnee als auch präparierte Pisten lieben.",
+                "Eine der wichtigsten Eigenschaften des Atris ist seine 105 mm breite Taille, die einen guten Kompromiss zwischen Auftrieb im Pulverschnee und Agilität auf festem Schnee bietet. Diese Breite, kombiniert mit dem Double-Rocker-Profil, ermöglicht es dem Ski, in tiefem Schnee gut zu performen, ohne dabei die Kontrolle auf härteren Oberflächen zu opfern. Der Atris bewältigt Pulverschnee effektiv und bleibt gleichzeitig vielseitig genug für gemischtes Gelände, was den Skifahrern Vertrauen in verschiedenen Bedingungen gibt.",
+                "Das Double-Rocker-Design erhöht die Manövrierfähigkeit und erleichtert es den Skifahrern, insbesondere bei wechselnden Schneeverhältnissen, ihre Schwünge zu kontrollieren. Mit einem Radius von 20 Metern ermöglicht der Atris selbst bei höheren Geschwindigkeiten glatte, stabile Kurven, und der mittlere Camber unter dem Fuß bietet zusätzliche Kantenhalt und Stabilität auf präparierten Pisten. Diese Kombination macht den Atris sowohl für Freeride-Gelände als auch für kontrolliertere Abfahrten anpassungsfähig.",
+                "Mit einem Kern aus Pappelholz und Glasfaserlaminat konstruiert, ist der Atris reaktionsschnell und langlebig, was sicherstellt, dass er auch bei regelmäßiger Beanspruchung in herausfordernden Bedingungen gut hält. Das feste Flexmuster trägt zur Stabilität bei hohen Geschwindigkeiten bei und gibt Skifahrern die Kontrolle, die sie bei steilen oder schnellen Abfahrten benötigen. Diese Langlebigkeit und Stabilität machen den Atris zu einer zuverlässigen Wahl für fortgeschrittene Skifahrer, die ihre Grenzen am Berg austesten wollen.",
+                "Insgesamt ist der Black Crows Atris ein gut abgerundeter Big-Mountain-Ski, der sich unter unterschiedlichsten Bedingungen bewährt. Er ist eine ausgezeichnete Wahl für Skifahrer, die einen Ski suchen, der an Tagen mit viel Pulverschnee genauso überzeugt wie auf präparierten Pisten. Für diejenigen, die einen zuverlässigen und vielseitigen Ski für unterschiedliche Bergabenteuer suchen, ist der Atris eine Spitzenoption."
+            ],
+            "pl": [
+                "Black Crows Atris to narta typu big mountain, która zdobyła reputację dzięki swojej wszechstronności i niezawodności w różnych warunkach. Pierwotnie wprowadzona w 2014 roku i udoskonalana przez lata, Atris łączy w sobie wyporność, stabilność i zwrotność, co czyni ją idealnym wyborem dla narciarzy, którzy lubią mieszaninę głębokiego puchu i przygotowanych tras.",
+                "Jedną z kluczowych cech Atrisa jest szerokość talii 105 mm, która oferuje równowagę między wypornością w puchu a zwrotnością na twardszym śniegu. Ta szerokość, w połączeniu z podwójnym rockerem, umożliwia narcie dobrą wydajność w głębokim śniegu bez utraty kontroli na twardszych powierzchniach. Atris radzi sobie skutecznie w puchu, pozostając wystarczająco wszechstronną na zmienny teren, zapewniając narciarzom pewność w różnych warunkach.",
+                "Podwójny rocker zwiększa manewrowość, co ułatwia narciarzom kontrolę nad zakrętami, szczególnie w zmiennych warunkach śniegowych. Dzięki promieniowi 20 metrów Atris umożliwia płynne, stabilne skręty nawet przy większych prędkościach, a średni camber pod stopą zapewnia dodatkowy chwyt krawędzi i stabilność na przygotowanych trasach. Ta kombinacja cech sprawia, że Atris jest przystosowany zarówno do freeride'u, jak i bardziej kontrolowanych zjazdów.",
+                "Zbudowany na rdzeniu z drewna topoli z laminatem z włókna szklanego, Atris jest responsywny i trwały, co zapewnia jego dobrą wytrzymałość przy regularnym użytkowaniu w wymagających warunkach. Twardy wzór flexu przyczynia się do stabilności przy dużych prędkościach, dając narciarzom kontrolę, której potrzebują na stromych lub szybkich zjazdach. Ta trwałość i stabilność czynią Atris niezawodnym wyborem dla zaawansowanych narciarzy, którzy chcą poszerzyć swoje granice na górze.",
+                "Ogólnie rzecz biorąc, Black Crows Atris to wszechstronna narta big mountain, która sprawdza się w różnorodnych warunkach. To doskonały wybór dla narciarzy, którzy cenią narty radzące sobie z łatwością na głębokim puchu, oferując jednocześnie silną wydajność na przygotowanych trasach. Dla tych, którzy szukają niezawodnej i wszechstronnej narty do różnorodnych przygód górskich, Atris wyróżnia się jako czołowa opcja."
+            ],
+            "ja": [
+                "ブラッククロウズ アトリスは、さまざまな条件での多用途性と信頼性で評価されているビッグマウンテンスキーです。2014年に最初に導入され、その後改良を重ねてきたアトリスは、浮力、安定性、機動性を兼ね備えており、深雪と整備されたコースの両方を楽しむスキーヤーにとって最適な選択肢となっています。",
+                "アトリスの主な特徴の一つは105mmのウエスト幅で、深雪での浮力と硬い雪での機動性のバランスを取っています。この幅とダブルロッカープロファイルの組み合わせにより、深雪でも優れたパフォーマンスを発揮し、硬い地面でもコントロールが損なわれることはありません。アトリスは深雪での操作性が高く、混合地形でも多用途に使えるため、さまざまな状況でスキーヤーに安心感を提供します。",
+                "ダブルロッカーデザインにより機動性が向上し、変化する雪質の中でもスキーヤーが容易にピボット操作やターンをコントロールできるようになっています。20mのサイドカット半径で、アトリスは高速でもスムーズで安定したターンが可能で、足元のミディアムキャンバーが整地されたトレイルでのエッジグリップと安定性を提供します。この特性の組み合わせにより、アトリスはフリーライドとよりコントロールされた滑走の両方に適応します。",
+                "ポプラ材のウッドコアとファイバーグラスのラミネートで構成されたアトリスは、反応が良く耐久性があり、厳しい条件下での定期的な使用にも十分耐えられます。しっかりとしたフレックスパターンにより、高速での安定性が向上し、急斜面や高速の滑走でのコントロールが可能になります。この耐久性と安定性により、アトリスは山で自分の限界を試したい上級者のための信頼できる選択肢となっています。",
+                "総合的に見て、ブラッククロウズ アトリスはさまざまな条件で優れた性能を発揮する、バランスの取れたビッグマウンテンスキーです。深雪の日に優れた操作性を発揮し、整地されたコースでも優れたパフォーマンスを提供するスキーを探している方に最適な選択です。多様な山の冒険に適した信頼性と多用途性を求めるスキーヤーには、アトリスがトップオプションとして際立っています。"
+            ],
+            "es": [
+                "El Black Crows Atris es un esquí de montaña conocido por su versatilidad y confiabilidad en diversas condiciones. Introducido originalmente en 2014 y perfeccionado con el tiempo, el Atris combina flotación, estabilidad y maniobrabilidad, lo que lo convierte en una excelente opción para esquiadores que disfrutan de una mezcla de nieve profunda y pistas preparadas.",
+                "Una de las características clave del Atris es su patín de 105 mm, que ofrece un equilibrio entre flotación en nieve polvo y agilidad en nieve dura. Esta anchura, combinada con el perfil doble rocker, permite que el esquí tenga un buen rendimiento en nieve profunda sin sacrificar el control en superficies más duras. El Atris maneja bien el polvo mientras se mantiene versátil para terrenos mixtos, proporcionando confianza a los esquiadores en una variedad de condiciones.",
+                "El diseño de doble rocker mejora la maniobrabilidad, facilitando el giro y control, especialmente en nieve variable. Con un radio de giro de 20 metros, el Atris permite giros suaves y estables incluso a altas velocidades, y el camber medio bajo el pie proporciona agarre adicional y estabilidad en pistas preparadas. Esta combinación de características hace que el Atris se adapte tanto a terrenos de freeride como a descensos más controlados.",
+                "Construido con un núcleo de madera de álamo y laminado de fibra de vidrio, el Atris es reactivo y duradero, asegurando que se mantenga bien con el uso regular en condiciones difíciles. Su patrón de flexión firme contribuye a la estabilidad a altas velocidades, dando a los esquiadores el control que necesitan en descensos empinados o rápidos. Esta durabilidad y estabilidad hacen del Atris una elección confiable para esquiadores avanzados que buscan superar sus límites en la montaña.",
+                "En resumen, el Black Crows Atris es un esquí de montaña equilibrado que se desempeña bien en una variedad de condiciones. Es una excelente opción para esquiadores que valoran un esquí que pueda manejar días de nieve profunda con facilidad, al mismo tiempo que ofrece un buen rendimiento en pistas preparadas. Para aquellos que buscan un esquí confiable y versátil para aventuras diversas en la montaña, el Atris destaca como una opción de primera categoría."
+            ]
+        }
+    },
+    "Black crows Nocta": {
+        "picture": "/skis/Black crows Nocta.png",
+        "brand": "Black crows",
+        "model": "Nocta",
+        "author": "Alice Ivey",
+        "authorInfo": "Ultimate ski nerd",
+        "authorPicture": "/authors/AliceIvey.jpeg",
+        "href": "/reviews/blackcrowsnocta",
+        "originalLanguage": "en",
+        "originalLanguageFull": "english",
+        "date": "2024-11-14",
+        "paragraphs": {
+            "en": [
+                "The Black Crows Nocta is a powder ski built for deep snow and backcountry adventures. With a full rocker profile and an extra-wide 122 mm waist, the Nocta is designed for optimal floatation and maneuverability in soft snow, making it a top choice for powder enthusiasts.",
+                "One of the standout features of the Nocta is its unique tip and tail shape, inspired by Black Crows' signature chevron design. This full rocker profile gives the ski a surfy, playful feel in deep powder, allowing easy pivoting and smooth turns without the need for camber underfoot. This design makes the Nocta highly maneuverable, even in tight tree runs or variable snow conditions.",
+                "The Nocta is constructed with a lightweight poplar and paulownia wood core, reinforced with fiberglass for added durability. This construction provides a balance of responsiveness and strength, allowing the ski to hold up well in challenging conditions while remaining playful and agile. Its semi-cap construction with ABS sidewalls enhances its durability, making it a reliable option for aggressive skiing.",
+                "Available in lengths of 177.6 cm, 185.5 cm, and 190.6 cm, the Nocta caters to different skier preferences. With a 19-meter sidecut radius, it offers stability at higher speeds, and its full rocker profile ensures easy maneuverability in tight spaces. The weight varies by length, with the 185.5 cm model weighing approximately 4,050 grams per pair.",
+                "Overall, the Black Crows Nocta is a well-rounded powder ski that excels in deep snow conditions. Its combination of full rocker floatation, maneuverability, and stability makes it a go-to for skiers seeking a playful and reliable ride in backcountry settings or on powder days at the resort."
+            ],
+            "nl": [
+                "De Black Crows Nocta is een poederski ontworpen voor diepe sneeuw en backcountry avonturen. Met een full rocker-profiel en een extra brede taille van 122 mm, is de Nocta ontworpen voor optimaal drijfvermogen en wendbaarheid in zachte sneeuw, wat hem tot een topkeuze maakt voor poederliefhebbers.",
+                "Een van de opvallende kenmerken van de Nocta is de unieke vorm van de tip en tail, geïnspireerd op het kenmerkende chevron-ontwerp van Black Crows. Dit full rocker-profiel geeft de ski een speels en surfend gevoel in diepe poeder, waardoor gemakkelijk draaien en soepele bochten mogelijk zijn zonder camber onder de voet. Dit ontwerp maakt de Nocta zeer wendbaar, zelfs in smalle bosrijke paden of variabele sneeuwcondities.",
+                "De Nocta is gemaakt met een lichte kern van populieren- en paulowniahout, versterkt met glasvezel voor extra duurzaamheid. Deze constructie biedt een balans tussen responsiviteit en sterkte, waardoor de ski goed standhoudt in uitdagende omstandigheden en tegelijkertijd speels en wendbaar blijft. De semi-cap constructie met ABS zijwanden verhoogt de duurzaamheid, wat hem een betrouwbare optie maakt voor agressief skiën.",
+                "Verkrijgbaar in lengtes van 177,6 cm, 185,5 cm en 190,6 cm, biedt de Nocta verschillende opties voor de voorkeuren van skiërs. Met een radius van 19 meter biedt hij stabiliteit bij hogere snelheden, en het full rocker-profiel zorgt voor gemakkelijke wendbaarheid in krappe ruimtes. Het gewicht varieert per lengte, waarbij het 185,5 cm-model ongeveer 4.050 gram per paar weegt.",
+                "Al met al is de Black Crows Nocta een veelzijdige poederski die uitblinkt in diepe sneeuwcondities. De combinatie van full rocker drijfvermogen, wendbaarheid en stabiliteit maakt het een ideale keuze voor skiërs die op zoek zijn naar een speelse en betrouwbare rit in de backcountry of tijdens poederdagen op de piste."
+            ],
+            "fr": [
+                "Le Black Crows Nocta est un ski de poudreuse conçu pour les aventures en neige profonde et hors-piste. Avec un profil full rocker et un patin extra-large de 122 mm, le Nocta est conçu pour une flottabilité et une maniabilité optimales dans la neige douce, en faisant un choix de premier ordre pour les amateurs de poudreuse.",
+                "L'une des caractéristiques marquantes du Nocta est sa forme unique de spatule et de talon, inspirée du design en chevrons de Black Crows. Ce profil full rocker donne au ski une sensation ludique et fluide dans la poudreuse profonde, permettant des pivots faciles et des virages en douceur sans besoin de cambre sous le pied. Ce design rend le Nocta très maniable, même dans les passages étroits ou les conditions de neige variable.",
+                "Le Nocta est construit avec un noyau léger en bois de peuplier et de paulownia, renforcé de fibre de verre pour une durabilité accrue. Cette construction offre un équilibre entre réactivité et solidité, permettant au ski de bien résister dans des conditions difficiles tout en restant ludique et agile. Sa construction semi-cap avec chants en ABS renforce encore sa durabilité, en faisant une option fiable pour un ski agressif.",
+                "Disponible en longueurs de 177,6 cm, 185,5 cm et 190,6 cm, le Nocta propose différentes options pour répondre aux préférences des skieurs. Avec un rayon de courbe de 19 mètres, il offre de la stabilité à haute vitesse, et son profil full rocker garantit une grande maniabilité dans les espaces restreints. Le poids varie selon la longueur, le modèle de 185,5 cm pesant environ 4 050 grammes par paire.",
+                "Dans l'ensemble, le Black Crows Nocta est un ski de poudreuse bien équilibré qui excelle dans les conditions de neige profonde. Sa combinaison de flottabilité, de maniabilité et de stabilité en fait une option incontournable pour les skieurs recherchant une glisse ludique et fiable en hors-piste ou lors des journées de poudreuse en station."
+            ],
+            "de": [
+                "Der Black Crows Nocta ist ein Powder-Ski, der für tiefen Schnee und Backcountry-Abenteuer entwickelt wurde. Mit einem Full-Rocker-Profil und einer extra breiten Taille von 122 mm bietet der Nocta optimales Auftriebsvermögen und Manövrierfähigkeit im weichen Schnee, was ihn zur idealen Wahl für Powder-Fans macht.",
+                "Eines der herausragenden Merkmale des Nocta ist die einzigartige Form von Spitze und Ende, inspiriert durch das Chevron-Design von Black Crows. Dieses Full-Rocker-Profil verleiht dem Ski ein surfiges, spielerisches Gefühl im tiefen Powder, was einfache Drehungen und sanfte Schwünge ohne Bedarf an Vorspannung unter dem Fuß ermöglicht. Dieses Design macht den Nocta auch in engen Waldabfahrten oder bei wechselnden Schneeverhältnissen äußerst wendig.",
+                "Der Nocta ist mit einem leichten Kern aus Pappel- und Paulowniaholz konstruiert, verstärkt durch Fiberglas, was die Haltbarkeit erhöht. Diese Konstruktion bietet ein ausgewogenes Verhältnis von Reaktionsfähigkeit und Stärke, was dem Ski auch bei anspruchsvollen Bedingungen Standfestigkeit verleiht und ihn gleichzeitig verspielt und agil hält. Die Semi-Cap-Konstruktion mit ABS-Seitenwangen trägt zur Haltbarkeit bei, was ihn zu einer zuverlässigen Option für aggressives Skifahren macht.",
+                "Der Nocta ist in den Längen 177,6 cm, 185,5 cm und 190,6 cm erhältlich und bietet Optionen für verschiedene Vorlieben der Skifahrer. Mit einem Radius von 19 Metern bietet er Stabilität bei höheren Geschwindigkeiten, und sein Full-Rocker-Profil sorgt für einfache Manövrierbarkeit in engen Passagen. Das Gewicht variiert je nach Länge; das 185,5-cm-Modell wiegt etwa 4.050 Gramm pro Paar.",
+                "Insgesamt ist der Black Crows Nocta ein gut abgerundeter Powder-Ski, der sich in tiefem Schnee bestens bewährt. Die Kombination aus Full-Rocker-Auftrieb, Wendigkeit und Stabilität macht ihn zur Top-Wahl für Skifahrer, die eine spielerische und zuverlässige Abfahrt im Backcountry oder an Powder-Tagen im Skigebiet suchen."
+            ],
+            "pl": [
+                "Black Crows Nocta to narta typu powder, stworzona do głębokiego śniegu i przygód w terenie. Z pełnym rockerem i szerokością pod butem 122 mm, Nocta zapewnia optymalną wyporność i zwrotność w miękkim śniegu, czyniąc go doskonałym wyborem dla miłośników puchu.",
+                "Jednym z wyróżniających się elementów Nocta jest jego unikalny kształt dziobu i ogona, inspirowany charakterystycznym wzorem Black Crows. Ten pełen rocker daje narcie lekkość i zabawność w głębokim śniegu, umożliwiając łatwe obracanie i płynne skręty, bez potrzeby cambera pod stopą. Dzięki temu Nocta jest bardzo zwrotna, nawet w ciasnych zalesionych zjazdach lub zmiennych warunkach śniegowych.",
+                "Nocta jest zbudowana na lekkim rdzeniu z drewna topoli i paulownii, wzmocnionym włóknem szklanym dla zwiększenia trwałości. Ta konstrukcja zapewnia równowagę pomiędzy reakcją a wytrzymałością, pozwalając narcie na wytrzymałość w trudnych warunkach, jednocześnie zachowując zabawność i zwrotność. Semi-cap konstrukcja z bocznymi ściankami ABS zwiększa trwałość, czyniąc ją niezawodnym wyborem do agresywnego narciarstwa.",
+                "Dostępna w długościach 177,6 cm, 185,5 cm i 190,6 cm, Nocta spełnia różne preferencje narciarzy. Promień skrętu 19 metrów zapewnia stabilność przy większych prędkościach, a pełen rocker zapewnia łatwą manewrowość w ciasnych miejscach. Waga różni się w zależności od długości, a model 185,5 cm waży około 4050 gramów na parę.",
+                "Ogólnie rzecz biorąc, Black Crows Nocta to wszechstronna narta powder, która doskonale sprawdza się w głębokim śniegu. Połączenie pełnego rockera, zwrotności i stabilności sprawia, że jest to doskonały wybór dla narciarzy poszukujących zabawnej i niezawodnej jazdy w terenie lub podczas dni z obfitym śniegiem w kurorcie."
+            ],
+            "ja": [
+                "ブラッククロウズ ノクタは、深雪とバックカントリーでの冒険を追求するために設計されたパウダースキーです。フルロッカープロファイルと122mmのワイドなウエストにより、ノクタは柔らかい雪の中での優れた浮力と操作性を提供し、パウダー愛好家にとって最適な選択肢となっています。",
+                "ノクタの特徴の1つは、ブラッククロウズのシェブロンデザインにインスパイアされた独特な先端とテールの形状です。このフルロッカープロファイルは、深雪でのサーフィンのような感覚を与え、足元にキャンバーを必要とせずに滑らかなターンとピボット操作を可能にします。この設計により、狭い林間コースや不安定な雪面でも高い操作性を発揮します。",
+                "ノクタは、ポプラとパウロニアの木材コアにグラスファイバーで強化された軽量構造を採用しており、応答性と耐久性のバランスがとれています。この構造は、厳しい条件下でも耐久性を保ちながら、遊び心と敏捷性を備えています。また、ABSサイドウォールを備えたセミキャップ構造が耐久性を向上させ、アグレッシブなスキーに適した信頼性の高い選択肢となっています。",
+                "177.6cm、185.5cm、190.6cmの長さで利用可能なノクタは、さまざまなスキーヤーの好みに対応しています。19メートルのサイドカット半径により、高速での安定性が確保され、フルロッカーのプロファイルが狭いスペースでの簡単な操作性を保証します。重量は長さによって異なり、185.5cmモデルはペアで約4,050グラムです。",
+                "全体として、ブラッククロウズ ノクタは、深雪の条件で優れた性能を発揮するバランスの取れたパウダースキーです。フルロッカーの浮力、操作性、安定性を兼ね備え、バックカントリーでの冒険やリゾートでのパウダーデイに最適な選択肢となっています。"
+            ],
+            "es": [
+                "El Black Crows Nocta es un esquí de powder diseñado para nieve profunda y aventuras en el backcountry. Con un perfil full rocker y un ancho extra de 122 mm bajo el pie, el Nocta está diseñado para ofrecer flotación y maniobrabilidad óptimas en nieve blanda, convirtiéndolo en una opción ideal para los amantes del powder.",
+                "Una de las características destacadas del Nocta es su forma única de espátula y cola, inspirada en el diseño de chevron de Black Crows. Este perfil full rocker proporciona una sensación de surf y diversión en nieve profunda, permitiendo giros suaves y pivoteo sin necesidad de camber bajo el pie. Este diseño hace que el Nocta sea muy maniobrable, incluso en zonas estrechas o condiciones de nieve variable.",
+                "El Nocta está construido con un núcleo de madera de álamo y paulownia, reforzado con fibra de vidrio para mayor durabilidad. Esta construcción proporciona un equilibrio entre reactividad y resistencia, permitiendo que el esquí soporte bien las condiciones desafiantes mientras sigue siendo juguetón y ágil. Su construcción semi-cap con paredes laterales de ABS mejora aún más su durabilidad, convirtiéndolo en una opción confiable para esquiar de forma agresiva.",
+                "Disponible en longitudes de 177,6 cm, 185,5 cm y 190,6 cm, el Nocta se adapta a diferentes preferencias de esquiadores. Con un radio de giro de 19 metros, ofrece estabilidad a altas velocidades, y su perfil full rocker garantiza una maniobrabilidad fácil en espacios reducidos. El peso varía según la longitud, y el modelo de 185,5 cm pesa aproximadamente 4.050 gramos por par.",
+                "En resumen, el Black Crows Nocta es un esquí de powder equilibrado que sobresale en condiciones de nieve profunda. Su combinación de flotación, maniobrabilidad y estabilidad lo convierte en una elección destacada para esquiadores que buscan una experiencia divertida y confiable en el backcountry o en días de powder en la estación."
+            ]
+        }
+    },
+    "Black crows Draco freebird": {
+        "picture": "/skis/Black crows Draco freebird.png",
+        "author": "Alice Ivey",
+        "brand": "Black crows",
+        "model": "Draco freebird",
+        "authorInfo": "Ultimate ski nerd",
+        "authorPicture": "/authors/AliceIvey.jpeg",
+        "href": "/reviews/blackcrowsdracofreebird",
+        "originalLanguage": "en",
+        "originalLanguageFull": "english",
+        "date": "2024-11-14",
+        "titles": {
+            "en": [
+                "Why the Draco freebird?",
+                "Construction and Performance",
+                "Materials",
+                "Technical details",
+                "Pro's and Con's",
+                "Alternative Options",
+                "Final Verdict"
+            ],
+            "nl": [
+                "Waarom de Draco freebird?",
+                "Constructie en Prestaties",
+                "Materialen",
+                "Technische details",
+                "Voor- en nadelen",
+                "Alternatieve opties",
+                "Eindoordeel"
+            ],
+            "fr": [
+                "Pourquoi le Draco freebird ?",
+                "Construction et Performance",
+                "Matériaux",
+                "Détails Techniques",
+                "Avantages et Inconvénients",
+                "Options Alternatives",
+                "Verdict Final"
+            ],
+            "de": [
+                "Warum der Draco freebird?",
+                "Konstruktion und Leistung",
+                "Materialien",
+                "Technische Details",
+                "Pro und Kontra",
+                "Alternative Optionen",
+                "Endgültiges Urteil"
+            ],
+            "pl": [
+                "Dlaczego Draco freebird?",
+                "Konstrukcja i Wydajność",
+                "Materiały",
+                "Szczegóły Techniczne",
+                "Zalety i Wady",
+                "Alternatywne Opcje",
+                "Ostateczny Werdykt"
+            ],
+            "ja": [
+                "なぜドラコフリーバード？",
+                "構造とパフォーマンス",
+                "材料",
+                "技術的な詳細",
+                "利点と欠点",
+                "代替オプション",
+                "最終的な判定"
+            ],
+            "es": [
+                "¿Por qué el Draco freebird?",
+                "Construcción y Rendimiento",
+                "Materiales",
+                "Detalles Técnicos",
+                "Pros y Contras",
+                "Opciones Alternativas",
+                "Veredicto Final"
+            ]
+        },
+        "paragraphs": {
+            "en": [
+                "The Black Crows Draco Freebird is a versatile touring ski crafted for skiers who seek a balance between uphill efficiency and downhill playfulness. As the only twin-tip ski in Black Crows' touring lineup, it offers a unique, playful experience ideal for those who enjoy freestyle elements in the backcountry.",
+                "With a width of 110 mm underfoot, the Draco Freebird provides substantial floatation in powder, making it a top choice for deep snow enthusiasts. The ski is available in three lengths—176.2 cm, 181.5 cm, and 189.2 cm—catering to various skier preferences. Its 21-meter turning radius (23 meters for the longest length) combines stability and maneuverability, while a weight of 1,800 grams per ski (for the 176 cm) keeps it relatively lightweight for a ski in this category.",
+                "The construction of the Draco Freebird features a core made of paulownia and poplar wood, reinforced with fiberglass and carbon fibers. This combination creates a balance between responsiveness and strength, ensuring durability in challenging conditions without sacrificing a playful feel. The ski's semi-cap construction with ABS sidewalls underfoot further enhances its durability, providing a reliable edge hold during technical descents.",
+                "The Draco Freebird sports a full double rocker profile with a classic camber underfoot, which allows for excellent control in various snow conditions. This rocker-camber-rocker combination makes it easy to navigate variable terrain, providing smooth pivots and turns, even in tight tree runs or choppy snow. The full rocker design also ensures that the Draco Freebird floats effortlessly in powder, making it an ideal choice for powder days and soft snow conditions.",
+                "While the Draco Freebird performs exceptionally well in soft snow and powder, it may not be the lightest option for those prioritizing uphill efficiency. Although relatively lightweight, some dedicated uphill touring skis may be easier for long ascents. Additionally, the firm flex pattern of the Draco Freebird offers stability at speed but may be less forgiving for intermediate skiers or those who prefer a softer ski.",
+                "For skiers interested in alternative models, the Black Crows Navis Freebird offers a lighter, narrower choice with a 102 mm waist, enhancing uphill efficiency while maintaining solid downhill capability. Alternatively, the Black Crows Corvus Freebird provides a stiffer, more directional feel with a flat tail, ideal for skiers who want high-speed stability in mixed conditions.",
+                "In summary, the Black Crows Draco Freebird is a well-rounded, playful touring ski that shines in deep snow and soft conditions. Its combination of floatation, maneuverability, and strength makes it a standout choice for adventurous skiers seeking a reliable and fun ride in the backcountry or on powder days at the resort."
+            ],
+            "nl": [
+                "De Black Crows Draco Freebird is een veelzijdige tourski, ontworpen voor skiërs die een balans zoeken tussen klim-efficiëntie en speelsheid in de afdaling. Als de enige twin-tip ski in het Black Crows tour-assortiment biedt hij een unieke, speelse ervaring die ideaal is voor degenen die van freestyle-elementen houden in de backcountry.",
+                "Met een breedte van 110 mm onder de voet biedt de Draco Freebird aanzienlijk drijfvermogen in poeder, waardoor het een topkeuze is voor liefhebbers van diepe sneeuw. De ski is verkrijgbaar in drie lengtes - 176,2 cm, 181,5 cm en 189,2 cm - om aan verschillende skiërs voorkeuren te voldoen. De draaicirkel van 21 meter (23 meter voor de langste lengte) combineert stabiliteit en wendbaarheid, terwijl het gewicht van 1.800 gram per ski (voor de 176 cm) relatief licht is voor een ski in deze categorie.",
+                "De constructie van de Draco Freebird bevat een kern van paulownia en populierenhout, versterkt met glasvezel en koolstofvezels. Deze combinatie creëert een balans tussen responsiviteit en kracht, waardoor duurzaamheid wordt gegarandeerd in uitdagende omstandigheden zonder dat het speelse karakter verloren gaat. De semi-cap constructie met ABS zijwanden onder de voet verhoogt de duurzaamheid en zorgt voor een betrouwbare grip tijdens technische afdalingen.",
+                "De Draco Freebird heeft een volledig double rocker-profiel met klassieke camber onder de voet, wat zorgt voor uitstekende controle in verschillende sneeuwomstandigheden. Deze rocker-camber-rocker combinatie maakt het gemakkelijk om over gevarieerd terrein te navigeren en biedt soepele draaibewegingen, zelfs in krappe bosafdalingen of hobbelige sneeuw. Het full rocker-ontwerp zorgt er ook voor dat de Draco Freebird moeiteloos drijft in poeder, waardoor hij een ideale keuze is voor poederdagen en zachte sneeuwcondities.",
+                "Hoewel de Draco Freebird buitengewoon goed presteert in zachte sneeuw en poeder, is het mogelijk niet de lichtste optie voor degenen die de nadruk leggen op klim-efficiëntie. Hoewel hij relatief licht is, kunnen enkele speciale klimski's gemakkelijker zijn voor lange beklimmingen. Bovendien biedt het stevige flexpatroon van de Draco Freebird stabiliteit op snelheid, maar kan het minder vergevingsgezind zijn voor intermediate skiërs of degenen die de voorkeur geven aan een zachtere ski.",
+                "Voor skiërs die geïnteresseerd zijn in alternatieve modellen, biedt de Black Crows Navis Freebird een lichtere, smalere optie met een breedte van 102 mm, wat de klim-efficiëntie verhoogt en toch goede downhill-prestaties behoudt. Als alternatief biedt de Black Crows Corvus Freebird een stijver, meer directioneel gevoel met een platte staart, ideaal voor skiërs die stabiliteit op hoge snelheid willen in gemengde omstandigheden.",
+                "Samenvattend, de Black Crows Draco Freebird is een goed afgeronde, speelse tourski die schittert in diepe sneeuw en zachte omstandigheden. De combinatie van drijfvermogen, wendbaarheid en kracht maakt het een uitstekende keuze voor avontuurlijke skiërs die op zoek zijn naar een betrouwbare en leuke rit in de backcountry of tijdens poederdagen op de piste."
+            ],
+            "fr": [
+                "Le Black Crows Draco Freebird est un ski de randonnée polyvalent, conçu pour les skieurs recherchant un équilibre entre l'efficacité en montée et le plaisir en descente. Unique modèle twin-tip dans la gamme de randonnée de Black Crows, il offre une expérience ludique idéale pour ceux qui apprécient les éléments de freestyle en hors-piste.",
+                "Avec une largeur de 110 mm sous le pied, le Draco Freebird offre une excellente flottabilité dans la poudreuse, ce qui en fait un choix privilégié pour les amateurs de neige profonde. Le ski est disponible en trois longueurs — 176,2 cm, 181,5 cm et 189,2 cm — pour s'adapter aux préférences des différents skieurs. Son rayon de courbe de 21 mètres (23 mètres pour la plus grande longueur) combine stabilité et maniabilité, tandis que son poids de 1 800 grammes par ski (pour la longueur de 176 cm) reste relativement léger pour cette catégorie de skis.",
+                "La construction du Draco Freebird comprend un noyau en bois de paulownia et peuplier, renforcé de fibres de verre et de carbone. Cette combinaison assure un équilibre entre réactivité et solidité, garantissant une durabilité dans des conditions difficiles tout en conservant un caractère ludique. Sa construction semi-cap avec des chants en ABS renforce encore sa durabilité, offrant une accroche fiable lors des descentes techniques.",
+                "Le Draco Freebird est doté d'un profil full double rocker avec un cambre classique sous le pied, permettant un excellent contrôle dans diverses conditions de neige. Ce profil rocker-cambre-rocker facilite les pivots et les virages en douceur, même dans les passages étroits ou les conditions de neige variable. Le design full rocker assure également une flottabilité optimale dans la poudreuse, en faisant un choix idéal pour les journées de poudreuse et les conditions de neige douce.",
+                "Bien que le Draco Freebird soit extrêmement performant dans la neige douce et poudreuse, il n'est peut-être pas l'option la plus légère pour ceux qui privilégient l'efficacité en montée. Bien qu'il soit relativement léger, certains skis spécifiquement conçus pour la montée peuvent être plus adaptés pour de longues ascensions. De plus, le flex ferme du Draco Freebird offre de la stabilité à haute vitesse, mais peut être moins indulgent pour les skieurs intermédiaires ou ceux qui préfèrent un ski plus souple.",
+                "Pour les skieurs intéressés par des modèles alternatifs, le Black Crows Navis Freebird propose une option plus légère et plus étroite avec un patin de 102 mm, améliorant l'efficacité en montée tout en conservant une bonne capacité de descente. En alternative, le Black Crows Corvus Freebird offre une sensation plus directionnelle et rigide avec un talon plat, idéal pour les skieurs cherchant de la stabilité à haute vitesse dans des conditions mixtes.",
+                "En résumé, le Black Crows Draco Freebird est un ski de randonnée bien équilibré et ludique qui excelle dans la neige profonde et les conditions douces. Sa combinaison de flottabilité, maniabilité et solidité en fait un choix de premier ordre pour les skieurs aventureux cherchant une descente fiable et amusante en backcountry ou lors des journées de poudreuse en station."
+            ],
+            "de": [
+                "Der Black Crows Draco Freebird ist ein vielseitiger Tourenski, der für Skifahrer entwickelt wurde, die ein Gleichgewicht zwischen Aufstiegs-Effizienz und Abfahrts-Spielspaß suchen. Als einziges Twin-Tip-Modell in der Tourenlinie von Black Crows bietet er eine einzigartige, spielerische Erfahrung, ideal für diejenigen, die Freestyle-Elemente im Backcountry genießen.",
+                "Mit einer Breite von 110 mm unter dem Fuß bietet der Draco Freebird erheblichen Auftrieb im Powder und ist damit eine Top-Wahl für Tiefschnee-Enthusiasten. Der Ski ist in drei Längen erhältlich - 176,2 cm, 181,5 cm und 189,2 cm - und damit an die Vorlieben unterschiedlicher Skifahrer anpassbar. Der Radius von 21 Metern (23 Meter für die längste Länge) kombiniert Stabilität und Wendigkeit, während das Gewicht von 1.800 Gramm pro Ski (für die 176 cm) ihn relativ leicht für diese Kategorie macht.",
+                "Die Konstruktion des Draco Freebird enthält einen Kern aus Paulownia- und Pappelholz, verstärkt mit Fiberglas und Kohlefasern. Diese Kombination schafft ein Gleichgewicht zwischen Reaktionsfähigkeit und Stärke, was in anspruchsvollen Bedingungen für Langlebigkeit sorgt, ohne dabei das spielerische Gefühl zu verlieren. Die Semi-Cap-Konstruktion mit ABS-Seitenwangen erhöht die Langlebigkeit und sorgt für zuverlässigen Kantengriff bei technischen Abfahrten.",
+                "Der Draco Freebird verfügt über ein vollständiges Double-Rocker-Profil mit klassischer Vorspannung unter dem Fuß, was eine hervorragende Kontrolle bei verschiedenen Schneebedingungen ermöglicht. Diese Rocker-Camber-Rocker-Kombination erleichtert das Navigieren in abwechslungsreichem Gelände und bietet sanfte Drehbewegungen, selbst in engen Waldabfahrten oder unebenem Schnee. Das Full-Rocker-Design sorgt zudem für mühelosen Auftrieb im Powder und macht den Draco Freebird zur idealen Wahl für Powder-Tage und weiche Schneebedingungen.",
+                "Obwohl der Draco Freebird außergewöhnlich gut in weichem Schnee und Powder funktioniert, ist er möglicherweise nicht die leichteste Option für diejenigen, die Wert auf Aufstiegseffizienz legen. Obwohl er relativ leicht ist, können einige speziell für den Aufstieg konzipierte Tourenski für lange Anstiege einfacher sein. Zudem bietet das feste Flexmuster des Draco Freebird Stabilität bei Geschwindigkeit, kann aber für intermediate Skifahrer oder diejenigen, die einen weicheren Ski bevorzugen, weniger verzeihend sein.",
+                "Für Skifahrer, die an alternativen Modellen interessiert sind, bietet der Black Crows Navis Freebird eine leichtere, schmalere Wahl mit einer Breite von 102 mm, was die Aufstiegseffizienz erhöht und dennoch eine gute Abfahrtsleistung bietet. Alternativ bietet der Black Crows Corvus Freebird ein steiferes, direktionales Gefühl mit flachem Ende, ideal für Skifahrer, die Stabilität bei hoher Geschwindigkeit in gemischten Bedingungen suchen.",
+                "Zusammenfassend ist der Black Crows Draco Freebird ein gut abgerundeter, spielerischer Tourenski, der in tiefem Schnee und weichen Bedingungen glänzt. Die Kombination aus Auftrieb, Wendigkeit und Stärke macht ihn zur Top-Wahl für abenteuerlustige Skifahrer, die eine zuverlässige und spaßige Abfahrt im Backcountry oder an Powder-Tagen im Skigebiet suchen."
+            ],
+            "pl": [
+                "Black Crows Draco Freebird to wszechstronna narta turystyczna zaprojektowana dla narciarzy szukających równowagi między efektywnością podjazdu a zabawą przy zjeździe. Jako jedyna narta twin-tip w linii turystycznej Black Crows, oferuje unikalne, zabawne doświadczenie, idealne dla tych, którzy lubią freestyle w terenie.",
+                "Z szerokością 110 mm pod stopą, Draco Freebird zapewnia znaczne unoszenie w puchu, co czyni go najlepszym wyborem dla entuzjastów głębokiego śniegu. Narta dostępna jest w trzech długościach - 176,2 cm, 181,5 cm i 189,2 cm - aby zaspokoić różne preferencje narciarzy. Jej promień skrętu wynosi 21 metrów (23 metry dla najdłuższej długości), łącząc stabilność i zwrotność, podczas gdy waga 1800 gramów na nartę (dla 176 cm) jest stosunkowo lekka jak na tę kategorię nart.",
+                "Konstrukcja Draco Freebird obejmuje rdzeń wykonany z drewna paulownii i topoli, wzmocniony włóknem szklanym i węglowym. Ta kombinacja tworzy równowagę między reakcją a wytrzymałością, zapewniając trwałość w trudnych warunkach bez utraty zabawnego charakteru. Półkapowa konstrukcja z bocznymi ściankami ABS dodatkowo zwiększa trwałość narty, zapewniając niezawodną przyczepność podczas technicznych zjazdów.",
+                "Draco Freebird ma pełny podwójny rocker z klasycznym camberem pod stopą, co zapewnia doskonałą kontrolę w różnych warunkach śniegowych. Ta kombinacja rocker-camber-rocker ułatwia nawigację w zróżnicowanym terenie, oferując płynne zwroty i skręty, nawet w wąskich lasach lub nierównym śniegu. Pełny rocker zapewnia również łatwe unoszenie w puchu, czyniąc Draco Freebird idealnym wyborem na dni z obfitym śniegiem.",
+                "Chociaż Draco Freebird radzi sobie wyjątkowo dobrze w miękkim śniegu i puchu, nie jest najlżejszą opcją dla tych, którzy priorytetem mają efektywność podjazdu. Mimo że jest stosunkowo lekki, niektóre dedykowane narty do podjazdów mogą być łatwiejsze na długie podejścia. Dodatkowo, sztywny wzór flexu Draco Freebird oferuje stabilność przy dużych prędkościach, ale może być mniej wyrozumiały dla średniozaawansowanych narciarzy lub tych, którzy preferują bardziej miękką nartę.",
+                "Dla narciarzy zainteresowanych alternatywnymi modelami, Black Crows Navis Freebird oferuje lżejszy, węższy wybór o szerokości 102 mm, co zwiększa efektywność podjazdu, zachowując przy tym solidne możliwości zjazdu. Alternatywnie, Black Crows Corvus Freebird oferuje sztywniejsze, bardziej kierunkowe odczucie z płaskim ogonem, idealne dla narciarzy, którzy szukają stabilności przy dużych prędkościach w mieszanych warunkach.",
+                "Podsumowując, Black Crows Draco Freebird to dobrze wyważona, zabawna narta turystyczna, która błyszczy w głębokim śniegu i miękkich warunkach. Kombinacja wyporności, zwrotności i wytrzymałości sprawia, że jest to doskonały wybór dla narciarzy poszukujących niezawodnej i zabawnej jazdy w terenie lub na puchowe dni w kurorcie."
+            ],
+            "ja": [
+                "ブラッククロウズ ドラコ フリーバードは、登山効率と滑降時の遊び心を兼ね備えたツーリングスキーです。ブラッククロウズのツーリングラインナップで唯一のツインティップモデルとして、バックカントリーでフリースタイルの要素を楽しむ人々に理想的な、ユニークで遊び心のある体験を提供します。",
+                "幅110mmのウエストを持つドラコ フリーバードは、パウダーでの浮力が抜群で、深雪愛好者にとって最高の選択肢です。スキーは176.2cm、181.5cm、189.2cmの3つの長さで提供され、さまざまなスキーヤーの好みに対応しています。最も長い長さで23メートル（他は21メートル）の回転半径は、安定性と機動性を兼ね備え、176cmの場合1本あたり1,800グラムと、このカテゴリのスキーとしては比較的軽量です。",
+                "ドラコ フリーバードの構造は、グラスファイバーとカーボンファイバーで補強されたポプラとポールウッドの軽量コアで、挑戦的な条件での耐久性を確保しながら反応性と強度のバランスを保ちます。ABSサイドウォールを備えたセミキャップ構造により、技術的な滑降時にも確実なエッジグリップを提供し、耐久性が向上しています。",
+                "ドラコ フリーバードは、足元にクラシックなキャンバーを備えたフルダブルロッカープロファイルを持ち、さまざまな雪の状態で優れたコントロールを発揮します。このロッカー-キャンバー-ロッカーの組み合わせにより、変動する地形でのピボットやターンが容易になり、狭いツリースキーや不安定な雪面でも滑らかな操作が可能です。フルロッカー設計はパウダーでの浮力を確保し、柔らかい雪やパウダーデイに最適です。",
+                "ドラコ フリーバードは柔らかい雪やパウダーでは非常に優れた性能を発揮しますが、登山効率を優先するスキーヤーには最軽量の選択肢ではないかもしれません。比較的軽量ですが、長距離登山には、専用の登山スキーが適しています。また、硬めのフレックスパターンはスピードでの安定性を提供しますが、中級者や柔らかいスキーを好むスキーヤーには少し扱いにくいかもしれません。",
+                "代替モデルに興味のあるスキーヤーには、Black Crows Navis Freebirdがあり、102mm幅の軽量かつ狭めの選択肢で、登山効率を向上させつつ、優れた滑降性能を保持します。また、Black Crows Corvus Freebirdは、フラットテールの硬めで方向性のあるフィーリングを提供し、混合条件での高速安定性を求めるスキーヤーに最適です。",
+                "総括すると、ブラッククロウズ ドラコ フリーバードは、柔らかい雪や深雪条件で優れた性能を発揮するバランスの取れた遊び心のあるツーリングスキーです。浮力、機動性、強度の組み合わせにより、バックカントリーやリゾートでのパウダーデイで信頼できる楽しさを提供する選択肢として注目されています。"
+            ],
+            "es": [
+                "El Black Crows Draco Freebird es un esquí de travesía versátil diseñado para esquiadores que buscan un equilibrio entre eficiencia en la subida y diversión en la bajada. Como el único modelo twin-tip en la línea de esquí de travesía de Black Crows, ofrece una experiencia única y lúdica, ideal para quienes disfrutan de elementos de freestyle en el backcountry.",
+                "Con una anchura de 110 mm bajo el pie, el Draco Freebird ofrece una gran flotación en polvo, lo que lo convierte en una excelente opción para los amantes de la nieve profunda. El esquí está disponible en tres longitudes: 176,2 cm, 181,5 cm y 189,2 cm, adaptándose a diversas preferencias de esquiadores. Su radio de giro de 21 metros (23 metros para la longitud más larga) combina estabilidad y maniobrabilidad, mientras que su peso de 1.800 gramos por esquí (para el de 176 cm) lo hace relativamente ligero para su categoría.",
+                "La construcción del Draco Freebird incluye un núcleo de madera de paulownia y álamo, reforzado con fibra de vidrio y carbono. Esta combinación crea un equilibrio entre reactividad y fuerza, garantizando durabilidad en condiciones exigentes sin sacrificar su carácter juguetón. La construcción semi-cap con paredes laterales de ABS bajo el pie aumenta aún más su durabilidad, proporcionando una sujeción confiable durante los descensos técnicos.",
+                "El Draco Freebird cuenta con un perfil de doble rocker completo con camber clásico bajo el pie, lo que permite un excelente control en diversas condiciones de nieve. Esta combinación rocker-camber-rocker facilita la navegación en terrenos variables, ofreciendo pivotes y giros suaves, incluso en zonas de árboles o nieve irregular. El diseño full rocker asegura que el Draco Freebird flote sin esfuerzo en el polvo, siendo una opción ideal para días de nieve polvo y condiciones de nieve blanda.",
+                "Si bien el Draco Freebird ofrece un rendimiento excepcional en nieve blanda y polvo, puede que no sea la opción más ligera para quienes priorizan la eficiencia en la subida. Aunque es relativamente ligero, algunos esquís de travesía dedicados a la subida pueden ser más fáciles para ascensos largos. Además, el patrón de flexión firme del Draco Freebird ofrece estabilidad a gran velocidad, pero puede ser menos indulgente para esquiadores intermedios o aquellos que prefieren un esquí más suave.",
+                "Para esquiadores interesados en modelos alternativos, el Black Crows Navis Freebird ofrece una opción más ligera y estrecha con una anchura de 102 mm, aumentando la eficiencia en la subida sin sacrificar el rendimiento en la bajada. Alternativamente, el Black Crows Corvus Freebird proporciona una sensación más rígida y direccional con una cola plana, ideal para esquiadores que buscan estabilidad a alta velocidad en condiciones mixtas.",
+                "En resumen, el Black Crows Draco Freebird es un esquí de travesía bien equilibrado y lúdico que brilla en condiciones de nieve profunda y blanda. Su combinación de flotación, maniobrabilidad y resistencia lo convierte en una opción destacada para esquiadores aventureros que buscan una experiencia confiable y divertida en el backcountry o en días de nieve polvo en la estación."
+            ]
+        }
     }
-
 }
 

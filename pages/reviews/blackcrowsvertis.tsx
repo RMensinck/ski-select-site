@@ -1,5 +1,24 @@
 import ReviewTemplate from '../../components/reviewTemplate'
+import { GetServerSideProps } from 'next';
+import { checkFolderExists } from '../../utils/checkFolderExists';
+import reviews from '../../public/reviews/reviews.json'
 
-    export default function Review() {
-        return ReviewTemplate("Black crows Vertis")
-    }
+export const getServerSideProps: GetServerSideProps = async (context) => {
+
+    const photoFolderExists = checkFolderExists(reviews["Black crows Vertis"].brand, reviews["Black crows Vertis"].model);
+
+    return {
+        props: {
+        photoFolderExists,
+        },
+    };
+    };
+
+interface ReviewProps {
+  skiName: string;
+  photoFolderExists: boolean;
+}
+
+export default function Review({ photoFolderExists }: ReviewProps) {
+    return ReviewTemplate("Black crows Vertis", photoFolderExists)
+}
