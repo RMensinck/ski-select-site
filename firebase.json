@@ -1,0 +1,9 @@
+{
+  "storage": {
+    "rules": "storage.rules",
+    "ski_images": {
+      "rules": "storage.rules",
+      "source": "public/skis"
+    }
+  }
+}
