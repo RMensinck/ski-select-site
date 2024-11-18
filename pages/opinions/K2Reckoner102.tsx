@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
             export default function Opinions() {
-                return opinionsTemplate("Atomic Bent chetler 120")
+                return opinionsTemplate("K2 Reckoner 102")
             }
