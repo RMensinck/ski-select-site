@@ -1,7 +1,7 @@
 [
     {
         "name": "Armada ARG II UL",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ArmadaARGIIUL",
         "brand": "Armada",
         "model": "ARG II UL",
         "specs": {
@@ -21,7 +21,7 @@
     },
     {
         "name": "Armada Edollo",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ArmadaEdollo",
         "brand": "Armada",
         "model": "Edollo",
         "specs": {
@@ -34,14 +34,14 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/armadaedollo",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/armada-edollo.html"
         }
     },
     {
         "name": "Atomic Backland 100",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland100",
         "brand": "Atomic",
         "model": "Backland 100",
         "specs": {
@@ -61,7 +61,7 @@
     },
     {
         "name": "Atomic Backland 107",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland107",
         "brand": "Atomic",
         "model": "Backland 107",
         "specs": {
@@ -81,7 +81,7 @@
     },
     {
         "name": "Atomic Backland 117",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland117",
         "brand": "Atomic",
         "model": "Backland 117",
         "specs": {
@@ -101,7 +101,7 @@
     },
     {
         "name": "Atomic Backland 62 UL vert",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland62ULvert",
         "brand": "Atomic",
         "model": "Backland 62 UL vert",
         "specs": {
@@ -121,7 +121,7 @@
     },
     {
         "name": "Atomic Backland 65 UL",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland65UL",
         "brand": "Atomic",
         "model": "Backland 65 UL",
         "specs": {
@@ -141,7 +141,7 @@
     },
     {
         "name": "Atomic Backland 78",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland78",
         "brand": "Atomic",
         "model": "Backland 78",
         "specs": {
@@ -161,7 +161,7 @@
     },
     {
         "name": "Atomic Backland 78 UL",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland78UL",
         "brand": "Atomic",
         "model": "Backland 78 UL",
         "specs": {
@@ -181,7 +181,7 @@
     },
     {
         "name": "Atomic Backland 85",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland85",
         "brand": "Atomic",
         "model": "Backland 85",
         "specs": {
@@ -201,7 +201,7 @@
     },
     {
         "name": "Atomic Backland 85 UL",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland85UL",
         "brand": "Atomic",
         "model": "Backland 85 UL",
         "specs": {
@@ -221,7 +221,7 @@
     },
     {
         "name": "Atomic Backland 95",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBackland95",
         "brand": "Atomic",
         "model": "Backland 95",
         "specs": {
@@ -241,7 +241,7 @@
     },
     {
         "name": "Atomic Bent 100",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBent100",
         "brand": "Atomic",
         "model": "Bent 100",
         "specs": {
@@ -261,7 +261,7 @@
     },
     {
         "name": "Atomic Bent 110",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBent110",
         "brand": "Atomic",
         "model": "Bent 110",
         "specs": {
@@ -281,7 +281,7 @@
     },
     {
         "name": "Atomic Bent 85",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBent85",
         "brand": "Atomic",
         "model": "Bent 85",
         "specs": {
@@ -301,7 +301,7 @@
     },
     {
         "name": "Atomic Bent 90",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicBent90",
         "brand": "Atomic",
         "model": "Bent 90",
         "specs": {
@@ -333,7 +333,7 @@
             "rockerCamberProfile": "30-40-30"
         },
         "horizontal_image_name": "Atomic Bent Chetler 120.png",
-        "imageName": "Atomic Bent chetler 120.png",
+        "imageName": "Atomic Bent Chetler 120.png",
         "reviewHref": "/reviews/atomicbentchetler120",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/atomic-bent-chetler-120.html"
@@ -341,7 +341,7 @@
     },
     {
         "name": "Atomic Maverick 100 TI",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicMaverick100TI",
         "brand": "Atomic",
         "model": "Maverick 100 TI",
         "specs": {
@@ -361,7 +361,7 @@
     },
     {
         "name": "Atomic Maverick 86 C",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicMaverick86C",
         "brand": "Atomic",
         "model": "Maverick 86 C",
         "specs": {
@@ -381,7 +381,7 @@
     },
     {
         "name": "Atomic Maverick 88 TI",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicMaverick88TI",
         "brand": "Atomic",
         "model": "Maverick 88 TI",
         "specs": {
@@ -401,7 +401,7 @@
     },
     {
         "name": "Atomic Maverick 95 TI",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/AtomicMaverick95TI",
         "brand": "Atomic",
         "model": "Maverick 95 TI",
         "specs": {
@@ -421,7 +421,7 @@
     },
     {
         "name": "Black crows Anima",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsAnima",
         "brand": "Black crows",
         "model": "Anima",
         "specs": {
@@ -441,11 +441,11 @@
     },
     {
         "name": "Black crows Atris",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsAtris",
         "brand": "Black crows",
         "model": "Atris",
         "specs": {
-            "weight": "1800g (184cm)",
+            "weight": "2150g (184cm)",
             "radius": "19m (184cm)",
             "availableLengths": "172cm, 178cm, 184cm, 190cm",
             "dimensions": "136-105-122mm (184cm)",
@@ -461,7 +461,7 @@
     },
     {
         "name": "Black crows Atris birdie",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsAtrisbirdie",
         "brand": "Black crows",
         "model": "Atris birdie",
         "specs": {
@@ -474,14 +474,14 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsatrisbirdie",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris-birdie.html"
         }
     },
     {
         "name": "Black crows Camox",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsCamox",
         "brand": "Black crows",
         "model": "Camox",
         "specs": {
@@ -501,7 +501,7 @@
     },
     {
         "name": "Black crows Corvus",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsCorvus",
         "brand": "Black crows",
         "model": "Corvus",
         "specs": {
@@ -521,7 +521,7 @@
     },
     {
         "name": "Black crows Mirus Cor",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsMirusCor",
         "brand": "Black crows",
         "model": "Mirus Cor",
         "specs": {
@@ -534,14 +534,14 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsmiruscor",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-mirus-cor.html"
         }
     },
     {
         "name": "Black crows Navis Freebird",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsNavisFreebird",
         "brand": "Black crows",
         "model": "Navis Freebird",
         "specs": {
@@ -561,7 +561,7 @@
     },
     {
         "name": "Black crows Nocta",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsNocta",
         "brand": "Black crows",
         "model": "Nocta",
         "specs": {
@@ -581,7 +581,7 @@
     },
     {
         "name": "Black crows Vertis",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackcrowsVertis",
         "brand": "Black crows",
         "model": "Vertis",
         "specs": {
@@ -594,14 +594,14 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsvertis",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-vertis.html"
         }
     },
     {
         "name": "Black diamond Helio carbon 88",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondHeliocarbon88",
         "brand": "Black diamond",
         "model": "Helio carbon 88",
         "specs": {
@@ -621,7 +621,7 @@
     },
     {
         "name": "Black diamond Helio carbon 95",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondHeliocarbon95",
         "brand": "Black diamond",
         "model": "Helio carbon 95",
         "specs": {
@@ -641,7 +641,7 @@
     },
     {
         "name": "Black diamond Helio carbon 104",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondHeliocarbon104",
         "brand": "Black diamond",
         "model": "Helio carbon 104",
         "specs": {
@@ -661,7 +661,7 @@
     },
     {
         "name": "Black diamond Helio carbon 115",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondHeliocarbon115",
         "brand": "Black diamond",
         "model": "Helio carbon 115",
         "specs": {
@@ -681,7 +681,7 @@
     },
     {
         "name": "Black diamond Impulse 104",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondImpulse104",
         "brand": "Black diamond",
         "model": "Impulse 104",
         "specs": {
@@ -701,7 +701,7 @@
     },
     {
         "name": "Black diamond Impulse 112",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondImpulse112",
         "brand": "Black diamond",
         "model": "Impulse 112",
         "specs": {
@@ -721,7 +721,7 @@
     },
     {
         "name": "Black diamond Impulse 98",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlackdiamondImpulse98",
         "brand": "Black diamond",
         "model": "Impulse 98",
         "specs": {
@@ -741,7 +741,7 @@
     },
     {
         "name": "Blizzard Rustler 9",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlizzardRustler9",
         "brand": "Blizzard",
         "model": "Rustler 9",
         "specs": {
@@ -761,7 +761,7 @@
     },
     {
         "name": "Blizzard Thunderbird SP 7.2",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/BlizzardThunderbirdSP72",
         "brand": "Blizzard",
         "model": "Thunderbird SP 7.2",
         "specs": {
@@ -781,7 +781,7 @@
     },
     {
         "name": "Dynastar M-Free 99",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/DynastarMFree99",
         "brand": "Dynastar",
         "model": "M-Free 99",
         "specs": {
@@ -801,7 +801,7 @@
     },
     {
         "name": "Elan Ripstick 106",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstick106",
         "brand": "Elan",
         "model": "Ripstick 106",
         "specs": {
@@ -821,7 +821,7 @@
     },
     {
         "name": "Elan Ripstick 116",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstick116",
         "brand": "Elan",
         "model": "Ripstick 116",
         "specs": {
@@ -841,7 +841,7 @@
     },
     {
         "name": "Elan Ripstick 88",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstick88",
         "brand": "Elan",
         "model": "Ripstick 88",
         "specs": {
@@ -861,7 +861,7 @@
     },
     {
         "name": "Elan Ripstick 96",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstick96",
         "brand": "Elan",
         "model": "Ripstick 96",
         "specs": {
@@ -881,7 +881,7 @@
     },
     {
         "name": "Elan Ripstick Tour 104",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstickTour104",
         "brand": "Elan",
         "model": "Ripstick Tour 104",
         "specs": {
@@ -901,7 +901,7 @@
     },
     {
         "name": "Elan Ripstick Tour 88",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstickTour88",
         "brand": "Elan",
         "model": "Ripstick Tour 88",
         "specs": {
@@ -921,7 +921,7 @@
     },
     {
         "name": "Elan Ripstick Tour 94",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanRipstickTour94",
         "brand": "Elan",
         "model": "Ripstick Tour 94",
         "specs": {
@@ -941,7 +941,7 @@
     },
     {
         "name": "Elan Wingman 78 C",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ElanWingman78C",
         "brand": "Elan",
         "model": "Wingman 78 C",
         "specs": {
@@ -961,7 +961,7 @@
     },
     {
         "name": "Extrem Factory 112",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremFactory112",
         "brand": "Extrem",
         "model": "Factory 112",
         "specs": {
@@ -981,7 +981,7 @@
     },
     {
         "name": "Extrem Final opinion 118",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremFinalopinion118",
         "brand": "Extrem",
         "model": "Final opinion 118",
         "specs": {
@@ -1001,7 +1001,7 @@
     },
     {
         "name": "Extrem Mothertree 105",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremMothertree105",
         "brand": "Extrem",
         "model": "Mothertree 105",
         "specs": {
@@ -1021,7 +1021,7 @@
     },
     {
         "name": "Extrem Mothertree 95",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremMothertree95",
         "brand": "Extrem",
         "model": "Mothertree 95",
         "specs": {
@@ -1041,7 +1041,7 @@
     },
     {
         "name": "Extrem Mothertree 95 carbon",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremMothertree95carbon",
         "brand": "Extrem",
         "model": "Mothertree 95 carbon",
         "specs": {
@@ -1061,7 +1061,7 @@
     },
     {
         "name": "Extrem Project 83",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremProject83",
         "brand": "Extrem",
         "model": "Project 83",
         "specs": {
@@ -1081,7 +1081,7 @@
     },
     {
         "name": "Extrem Project 90",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ExtremProject90",
         "brand": "Extrem",
         "model": "Project 90",
         "specs": {
@@ -1101,7 +1101,7 @@
     },
     {
         "name": "Faction Prodigy 0",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/FactionProdigy0",
         "brand": "Faction",
         "model": "Prodigy 0",
         "specs": {
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "K2 Disruption 78C",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Disruption78C",
         "brand": "K2",
         "model": "Disruption 78C",
         "specs": {
@@ -1141,7 +1141,7 @@
     },
     {
         "name": "K2 Mindbender 108ti",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Mindbender108ti",
         "brand": "K2",
         "model": "Mindbender 108ti",
         "specs": {
@@ -1161,7 +1161,7 @@
     },
     {
         "name": "K2 Mindbender 89ti",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Mindbender89ti",
         "brand": "K2",
         "model": "Mindbender 89ti",
         "specs": {
@@ -1181,7 +1181,7 @@
     },
     {
         "name": "K2 Mindbender 99ti",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Mindbender99ti",
         "brand": "K2",
         "model": "Mindbender 99ti",
         "specs": {
@@ -1201,7 +1201,7 @@
     },
     {
         "name": "K2 Poacher",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Poacher",
         "brand": "K2",
         "model": "Poacher",
         "specs": {
@@ -1221,7 +1221,7 @@
     },
     {
         "name": "K2 Reckoner 102",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Reckoner102",
         "brand": "K2",
         "model": "Reckoner 102",
         "specs": {
@@ -1241,7 +1241,7 @@
     },
     {
         "name": "K2 Reckoner 112",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Reckoner112",
         "brand": "K2",
         "model": "Reckoner 112",
         "specs": {
@@ -1261,7 +1261,7 @@
     },
     {
         "name": "K2 Reckoner 122",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Reckoner122",
         "brand": "K2",
         "model": "Reckoner 122",
         "specs": {
@@ -1281,7 +1281,7 @@
     },
     {
         "name": "K2 Reckoner 92 men",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Reckoner92men",
         "brand": "K2",
         "model": "Rockoner 92 men",
         "specs": {
@@ -1301,7 +1301,7 @@
     },
     {
         "name": "K2 Reckoner 92 women",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/K2Reckoner92women",
         "brand": "K2",
         "model": "Reckoner 92 women",
         "specs": {
@@ -1321,7 +1321,7 @@
     },
     {
         "name": "Line Blend",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/LineBlend",
         "brand": "Line",
         "model": "Blend",
         "specs": {
@@ -1341,7 +1341,7 @@
     },
     {
         "name": "Line Honey bee",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/LineHoneybee",
         "brand": "Line",
         "model": "Honey bee",
         "specs": {
@@ -1361,7 +1361,7 @@
     },
     {
         "name": "Line Tom Wallisch Pro",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/LineTomWallischPro",
         "brand": "Line",
         "model": "Tom Wallisch Pro",
         "specs": {
@@ -1381,7 +1381,7 @@
     },
     {
         "name": "Movement Fly 115",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/MovementFly115",
         "brand": "Movement",
         "model": "Fly 115",
         "specs": {
@@ -1401,7 +1401,7 @@
     },
     {
         "name": "Movement Go 112",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/MovementGo112",
         "brand": "Movement",
         "model": "Go 112",
         "specs": {
@@ -5298,7 +5298,7 @@
     },
     {
         "name": "ON3P Mango 100",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/ON3PMango100",
         "brand": "ON3P",
         "model": "Mango 100",
         "specs": {
@@ -5318,7 +5318,7 @@
     },
     {
         "name": "Rossignol Experience 78 Ca",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/RossignolExperience78Ca",
         "brand": "Rossignol",
         "model": "Experience 78 Ca",
         "specs": {
@@ -5338,7 +5338,7 @@
     },
     {
         "name": "Rossignol Sender 106Ti+",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/RossignolSender106Ti+",
         "brand": "Rossignol",
         "model": "Sender 106Ti+",
         "specs": {
@@ -5358,7 +5358,7 @@
     },
     {
         "name": "Rossignol Sender 90 Pro",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/RossignolSender90Pro",
         "brand": "Rossignol",
         "model": "Sender 90 Pro",
         "specs": {
@@ -5378,7 +5378,7 @@
     },
     {
         "name": "Salomon Addikt pro",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonAddiktpro",
         "brand": "Salomon",
         "model": "Addikt pro",
         "specs": {
@@ -5398,7 +5398,7 @@
     },
     {
         "name": "Salomon Blank",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonBlank",
         "brand": "Salomon",
         "model": "Blank",
         "specs": {
@@ -5418,7 +5418,7 @@
     },
     {
         "name": "Salomon Echo 106",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonEcho106",
         "brand": "Salomon",
         "model": "Echo 106",
         "specs": {
@@ -5438,7 +5438,7 @@
     },
     {
         "name": "Salomon MTN 80 Carbon",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonMTN80Carbon",
         "brand": "Salomon",
         "model": "MTN 80 Carbon",
         "specs": {
@@ -5458,7 +5458,7 @@
     },
     {
         "name": "Salomon MTN 80 Pro",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonMTN80Pro",
         "brand": "Salomon",
         "model": "MTN 80 Pro",
         "specs": {
@@ -5478,7 +5478,7 @@
     },
     {
         "name": "Salomon MTN 86 Carbon",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonMTN86Carbon",
         "brand": "Salomon",
         "model": "MTN 86 Carbon",
         "specs": {
@@ -5498,7 +5498,7 @@
     },
     {
         "name": "Salomon MTN 86 Pro",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonMTN86Pro",
         "brand": "Salomon",
         "model": "MTN 86 Pro",
         "specs": {
@@ -5518,7 +5518,7 @@
     },
     {
         "name": "Salomon MTN 96 Carbon",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonMTN96Carbon",
         "brand": "Salomon",
         "model": "MTN 96 Carbon",
         "specs": {
@@ -5538,7 +5538,7 @@
     },
     {
         "name": "Salomon QST 106",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonQST106",
         "brand": "Salomon",
         "model": "QST 106",
         "specs": {
@@ -5558,7 +5558,7 @@
     },
     {
         "name": "Salomon QST 92",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonQST92",
         "brand": "Salomon",
         "model": "QST 92",
         "specs": {
@@ -5578,7 +5578,7 @@
     },
     {
         "name": "Salomon QST 98",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonQST98",
         "brand": "Salomon",
         "model": "QST 98",
         "specs": {
@@ -5598,7 +5598,7 @@
     },
     {
         "name": "Salomon QST SPARK",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonQSTSPARK",
         "brand": "Salomon",
         "model": "QST SPARK",
         "specs": {
@@ -5618,7 +5618,7 @@
     },
     {
         "name": "Salomon S/FORCE BOLD",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSFORCEBOLD",
         "brand": "Salomon",
         "model": "S/FORCE BOLD",
         "specs": {
@@ -5638,7 +5638,7 @@
     },
     {
         "name": "Salomon S/FORCE FX.76",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSFORCEFX76",
         "brand": "Salomon",
         "model": "S/FORCE FX.76",
         "specs": {
@@ -5658,7 +5658,7 @@
     },
     {
         "name": "Salomon S/FORCE FX.80",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSFORCEFX80",
         "brand": "Salomon",
         "model": "S/FORCE FX.80",
         "specs": {
@@ -5678,7 +5678,7 @@
     },
     {
         "name": "Salomon S/FORCE TI.76",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSFORCETI76",
         "brand": "Salomon",
         "model": "S/FORCE TI.76",
         "specs": {
@@ -5698,7 +5698,7 @@
     },
     {
         "name": "Salomon S/FORCE TI.80",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSFORCETI80",
         "brand": "Salomon",
         "model": "S/FORCE TI.80",
         "specs": {
@@ -5718,7 +5718,7 @@
     },
     {
         "name": "Salomon S/MAX 10",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSMAX10",
         "brand": "Salomon",
         "model": "S/MAX 10",
         "specs": {
@@ -5738,7 +5738,7 @@
     },
     {
         "name": "Salomon S/MAX 12",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSMAX12",
         "brand": "Salomon",
         "model": "S/MAX 12",
         "specs": {
@@ -5758,7 +5758,7 @@
     },
     {
         "name": "Salomon S/MAX 8",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonSMAX8",
         "brand": "Salomon",
         "model": "S/MAX 8",
         "specs": {
@@ -5778,7 +5778,7 @@
     },
     {
         "name": "Salomon Stance 102",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonStance102",
         "brand": "Salomon",
         "model": "Stance 102",
         "specs": {
@@ -5798,7 +5798,7 @@
     },
     {
         "name": "Salomon Stance 84",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonStance84",
         "brand": "Salomon",
         "model": "Stance 84",
         "specs": {
@@ -5818,7 +5818,7 @@
     },
     {
         "name": "Salomon Stance 90",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonStance90",
         "brand": "Salomon",
         "model": "Stance 90",
         "specs": {
@@ -5838,7 +5838,7 @@
     },
     {
         "name": "Salomon Stance 96",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/SalomonStance96",
         "brand": "Salomon",
         "model": "Stance 96",
         "specs": {
@@ -5858,7 +5858,7 @@
     },
     {
         "name": "Volkl Revolt 121",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/VolklRevolt121",
         "brand": "Volkl",
         "model": "Revolt 121",
         "specs": {
@@ -5878,7 +5878,7 @@
     },
     {
         "name": "Volkl Revolt 86",
-        "href": "/opinions/AtomicBentchetler120",
+        "href": "/opinions/VolklRevolt86",
         "brand": "Volkl",
         "model": "Revolt 86",
         "specs": {
