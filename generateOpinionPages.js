@@ -21,7 +21,6 @@ skis.map((ski, index) => {
                 return opinionsTemplate("${ski.name}")
             }`
     }
-
     
 
     fs.writeFile(`./pages${ski.href}.tsx`, opinionsPage, function(error) {

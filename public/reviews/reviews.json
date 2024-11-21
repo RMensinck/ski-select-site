@@ -1082,7 +1082,7 @@
         }
     },
     "Black Crows Navis Freebird": {
-        "picture": "/skis/Black crows Navis freebird.png",
+        "picture": "/skis/Black crows Navis Freebird.png",
         "author": "Alice Ivey",
         "brand": "Black crows",
         "model": "Navis freebird",
@@ -1220,6 +1220,290 @@
                 "Las fortalezas de este esquí radican en su flexión equilibrada, construcción ligera y capacidad para manejar una variedad de condiciones de nieve. Sin embargo, no es la opción ideal para especialistas en polvo profundo, ya que su cintura de 102 mm no puede igualar la flotación de esquís más anchos. Además, su diseño orientado a la estabilidad puede sentirse menos juguetón en comparación con modelos de travesía más suaves y indulgentes.",
                 "Los esquiadores que buscan alternativas pueden considerar el Black Crows Corvus Freebird, que ofrece una flexión más rígida y una cintura más ancha para mejorar la estabilidad en condiciones de nieve desafiantes. Alternativamente, el Black Crows Camox Freebird ofrece una experiencia de conducción más juguetona, con una cintura ligeramente más estrecha y una flexión más suave, lo que lo hace más maniobrable.",
                 "En resumen, el Black Crows Navis Freebird es un esquí de travesía bien equilibrado que atiende a los entusiastas del backcountry que valoran la versatilidad y el rendimiento equilibrado. Ya sea que estés enfrentando campos de polvo o nieve variable, el Navis Freebird asegura una experiencia de conducción confiable y agradable."
+            ]
+        }
+    },
+    "Black Crows Corvus": {
+        "picture": "/skis/Black crows Corvus.png",
+        "author": "Alice Ivey",
+        "brand": "Black crows",
+        "model": "Corvus",
+        "authorInfo": "Ultimate ski nerd",
+        "authorPicture": "/authors/AliceIvey.jpeg",
+        "href": "/reviews/blackcrowscorvus",
+        "originalLanguage": "en",
+        "originalLanguageFull": "english",
+        "date": "2024-11-14",
+        "titles": {
+            "en": [
+                "Why Choose the Corvus?",
+                "Construction and Design",
+                "On-Snow Performance",
+                "Technical Details",
+                "Strengths and Limitations",
+                "Alternative Options",
+                "Final Thoughts"
+            ],
+            "nl": [
+                "Waarom kiezen voor de Corvus?",
+                "Constructie en Ontwerp",
+                "Prestaties op de Sneeuw",
+                "Technische Details",
+                "Sterktes en Beperkingen",
+                "Alternatieve Opties",
+                "Laatste Gedachten"
+            ],
+            "fr": [
+                "Pourquoi choisir le Corvus ?",
+                "Construction et Design",
+                "Performances sur Neige",
+                "Détails Techniques",
+                "Forces et Limites",
+                "Options Alternatives",
+                "Dernières Réflexions"
+            ],
+            "de": [
+                "Warum der Corvus?",
+                "Konstruktion und Design",
+                "Leistung auf Schnee",
+                "Technische Details",
+                "Stärken und Schwächen",
+                "Alternative Optionen",
+                "Abschließende Gedanken"
+            ],
+            "pl": [
+                "Dlaczego wybrać Corvus?",
+                "Konstrukcja i Projekt",
+                "Wydajność na Śniegu",
+                "Szczegóły Techniczne",
+                "Zalety i Ograniczenia",
+                "Alternatywne Opcje",
+                "Ostateczne Przemyślenia"
+            ],
+            "ja": [
+                "なぜコルヴスなのか？",
+                "構造とデザイン",
+                "雪上での性能",
+                "技術的な詳細",
+                "強みと制限",
+                "代替オプション",
+                "最終的な考察"
+            ],
+            "es": [
+                "¿Por qué elegir el Corvus?",
+                "Construcción y Diseño",
+                "Rendimiento en la Nieve",
+                "Detalles Técnicos",
+                "Fortalezas y Limitaciones",
+                "Opciones Alternativas",
+                "Reflexiones Finales"
+            ]
+        },
+        "paragraphs": {
+            "en": [
+                "The Black Crows Corvus is a high-performance ski designed for advanced to expert skiers seeking stability and power in big mountain and freeride terrains. Its robust construction and reliable design make it a go-to choice for skiers looking for a dependable ride in challenging conditions.",
+                "Constructed with a poplar and beech wood core, reinforced with a partial titanal layer and fiberglass laminate, the Corvus is built to handle demanding terrain. The ski also features a sintered base for optimal glide and durability.",
+                "On snow, the Corvus excels in high-speed descents and variable snow conditions. Its progressive rocker in the tip and tail enhances maneuverability, while the traditional camber underfoot ensures edge hold and stability on firm surfaces. The 110 mm waist provides solid floatation in powder while maintaining versatility for all-mountain use.",
+                "The ski has a turn radius of 25 meters, which contributes to its stability at speed but may require more effort to maneuver in tight spaces. Weighing approximately 2,075 grams per ski (186 cm length), the Corvus is not the lightest option but delivers exceptional power and control.",
+                "The strengths of the Corvus lie in its stability, durability, and ability to handle mixed snow conditions with ease. However, its longer turn radius and stiffer flex may limit its performance in tight trees or moguls. Additionally, the weight might be a drawback for prolonged tours or ascents.",
+                "Skiers seeking alternatives might consider the Black Crows Camox for a more playful and maneuverable ride or the Navis Freebird for a lighter and more touring-friendly option. Both models cater to skiers with different priorities, offering flexibility based on specific needs.",
+                "Overall, the Black Crows Corvus is a solid choice for big mountain and freeride enthusiasts. Its construction and design provide confidence and control in demanding conditions, making it a reliable companion for advanced and expert skiers tackling challenging terrains."
+            ],
+            "nl": [
+                "De Black Crows Corvus is een high-performance ski, ontworpen voor gevorderde en ervaren skiërs die stabiliteit en kracht zoeken op groot berg- en freeride-terrein. De robuuste constructie en betrouwbare ontwerp maken het een favoriet voor skiërs die een stabiele rit willen in uitdagende omstandigheden.",
+                "De ski is gebouwd met een kern van populieren- en beukenhout, versterkt met een gedeeltelijke titanal-laag en een glasvezellaminaat. De Corvus beschikt ook over een gesinterde basis voor optimale glijprestaties en duurzaamheid.",
+                "Op de sneeuw blinkt de Corvus uit bij hoge snelheid en in variabele sneeuwcondities. De progressieve rocker in de punt en staart verhoogt de wendbaarheid, terwijl de traditionele camber onder de voet stabiliteit en grip biedt op stevige ondergronden. De taille van 110 mm zorgt voor solide drijfvermogen in poeder terwijl de veelzijdigheid voor all-mountain gebruik behouden blijft.",
+                "De ski heeft een draaicirkel van 25 meter, wat bijdraagt aan de stabiliteit bij hoge snelheid, maar meer inspanning kan vergen bij het manoeuvreren in krappe ruimtes. Met een gewicht van ongeveer 2.075 gram per ski (186 cm lengte), is de Corvus niet de lichtste optie, maar levert hij uitzonderlijke kracht en controle.",
+                "De sterke punten van de Corvus liggen in zijn stabiliteit, duurzaamheid en vermogen om gemengde sneeuwcondities met gemak aan te pakken. De langere draaicirkel en stijve flex kunnen echter beperkingen opleveren in smalle bosgebieden of buckels. Bovendien kan het gewicht een nadeel zijn voor lange tochten of beklimmingen.",
+                "Skiërs die alternatieven zoeken, kunnen de Black Crows Camox overwegen voor een speelsere en wendbare rit, of de Navis Freebird voor een lichtere en meer toervriendelijke optie. Beide modellen richten zich op skiërs met verschillende prioriteiten en bieden flexibiliteit afhankelijk van specifieke behoeften.",
+                "Al met al is de Black Crows Corvus een solide keuze voor groot berg- en freeride-liefhebbers. De constructie en het ontwerp bieden vertrouwen en controle in veeleisende omstandigheden, waardoor het een betrouwbare partner is voor gevorderde en ervaren skiërs die uitdagend terrein aanpakken."
+            ],
+            "fr": [
+                "Le Black Crows Corvus est un ski haute performance conçu pour les skieurs avancés et experts recherchant stabilité et puissance sur les grands terrains de montagne et en freeride. Sa construction robuste et son design fiable en font un choix incontournable pour ceux qui affrontent des conditions exigeantes.",
+                "Construit avec un noyau en bois de peuplier et de hêtre, renforcé par une couche partielle de titanal et un laminé en fibre de verre, le Corvus est conçu pour résister aux terrains les plus exigeants. Le ski dispose également d'une semelle frittée pour une glisse optimale et une grande durabilité.",
+                "Sur la neige, le Corvus excelle dans les descentes à grande vitesse et les conditions de neige variable. Son rocker progressif en spatule et talon améliore la maniabilité, tandis que le cambre traditionnel sous le pied assure une tenue de carre et une stabilité sur les surfaces dures. Avec une largeur de patin de 110 mm, il offre une bonne flottabilité en poudreuse tout en restant polyvalent pour une utilisation tout-terrain.",
+                "Avec un rayon de courbe de 25 mètres, le Corvus favorise la stabilité à grande vitesse, mais peut nécessiter plus d'efforts pour les manœuvres dans des espaces restreints. Pesant environ 2 075 grammes par ski (longueur 186 cm), le Corvus n'est pas l'option la plus légère mais offre une puissance et un contrôle exceptionnels.",
+                "Les points forts du Corvus résident dans sa stabilité, sa durabilité et sa capacité à gérer facilement les conditions de neige mixtes. Cependant, son rayon de courbe long et sa flexibilité rigide peuvent limiter ses performances dans les espaces étroits ou les bosses. De plus, son poids peut être un inconvénient pour les longues randonnées ou ascensions.",
+                "Les skieurs recherchant des alternatives pourraient envisager le Black Crows Camox pour une conduite plus ludique et maniable, ou le Navis Freebird pour une option plus légère et adaptée à la randonnée. Ces deux modèles répondent à des priorités différentes, offrant une flexibilité selon les besoins spécifiques.",
+                "Dans l'ensemble, le Black Crows Corvus est un choix solide pour les amateurs de grande montagne et de freeride. Sa construction et son design offrent confiance et contrôle dans des conditions exigeantes, en faisant un compagnon fiable pour les skieurs avancés et experts affrontant des terrains difficiles."
+            ],
+            "de": [
+                "Der Black Crows Corvus ist ein Hochleistungsski, der für fortgeschrittene und erfahrene Skifahrer entwickelt wurde, die Stabilität und Kraft im Gebirge und beim Freeriden suchen. Seine robuste Konstruktion und sein zuverlässiges Design machen ihn zu einer ausgezeichneten Wahl für Skifahrer, die eine stabile Fahrt in anspruchsvollen Bedingungen suchen.",
+                "Der Ski verfügt über einen Kern aus Pappel- und Buchenholz, verstärkt durch eine teilweise Titanalschicht und eine Glasfaserlaminierung. Eine gesinterte Basis sorgt für optimalen Gleitkomfort und Langlebigkeit.",
+                "Im Schnee glänzt der Corvus bei hohen Geschwindigkeiten und in wechselhaften Schneeverhältnissen. Der progressive Rocker in Spitze und Tail erhöht die Wendigkeit, während der traditionelle Camber unter dem Fuß Stabilität und Kantengriff auf harten Oberflächen gewährleistet. Die Taillenbreite von 110 mm bietet eine gute Auftriebskraft im Pulverschnee und bleibt dabei vielseitig einsetzbar.",
+                "Der Ski hat einen Radius von 25 Metern, was zur Stabilität bei hohen Geschwindigkeiten beiträgt, aber in engen Passagen mehr Einsatz erfordert. Mit einem Gewicht von etwa 2.075 Gramm pro Ski (bei einer Länge von 186 cm) ist der Corvus nicht die leichteste Option, bietet jedoch außergewöhnliche Kraft und Kontrolle.",
+                "Die Stärken des Corvus liegen in seiner Stabilität, Langlebigkeit und seiner Fähigkeit, gemischte Schneeverhältnisse mühelos zu bewältigen. Der lange Radius und die steife Flexibilität können jedoch seine Leistung in engen Wäldern oder Buckelpisten einschränken. Außerdem könnte das Gewicht für längere Touren oder Aufstiege ein Nachteil sein.",
+                "Alternativen wie der Black Crows Camox bieten eine spielerischere und wendigere Fahrt, während der Navis Freebird eine leichtere und tourenfreundlichere Option darstellt. Beide Modelle richten sich an Skifahrer mit unterschiedlichen Bedürfnissen.",
+                "Zusammenfassend ist der Black Crows Corvus eine solide Wahl für Freerider und Gebirgsenthusiasten. Seine Konstruktion und sein Design vermitteln Vertrauen und Kontrolle in schwierigen Bedingungen und machen ihn zu einem zuverlässigen Begleiter für erfahrene Skifahrer."
+            ],
+            "pl": [
+                "Black Crows Corvus to wysokiej klasy narty zaprojektowane dla zaawansowanych i ekspertów, którzy cenią stabilność i siłę w trudnych warunkach górskich i freeridowych. Jego solidna konstrukcja i niezawodny design sprawiają, że jest to doskonały wybór dla wymagających narciarzy.",
+                "Narty mają rdzeń z drewna topoli i buku, wzmocniony częściową warstwą tytanalową oraz laminatem z włókna szklanego. Sinterowana baza zapewnia doskonały ślizg i trwałość.",
+                "Na śniegu Corvus błyszczy przy dużych prędkościach i w zróżnicowanych warunkach. Progresywny rocker na dziobie i pięcie zwiększa zwrotność, podczas gdy klasyczny camber pod stopą zapewnia stabilność i przyczepność na twardych powierzchniach. Szerokość talii 110 mm oferuje dobre unoszenie w puchu i uniwersalność w użytkowaniu all-mountain.",
+                "Narty mają promień skrętu wynoszący 25 metrów, co przekłada się na stabilność przy dużych prędkościach, ale może wymagać większego wysiłku w wąskich przejściach. Przy wadze około 2 075 gramów na nartę (przy długości 186 cm) Corvus nie jest najlżejszą opcją, ale zapewnia wyjątkową siłę i kontrolę.",
+                "Mocne strony Corvusa to stabilność, trwałość i zdolność do radzenia sobie z mieszanymi warunkami śniegowymi. Dłuższy promień skrętu i sztywniejszy flex mogą jednak ograniczać jego wydajność w wąskich lasach czy na muldach. Ponadto waga może być wadą przy dłuższych podejściach.",
+                "Alternatywy takie jak Black Crows Camox oferują bardziej zabawną i zwrotną jazdę, a Navis Freebird to lżejsza i bardziej przyjazna dla tur opcja. Oba modele skierowane są do narciarzy o różnych potrzebach.",
+                "Podsumowując, Black Crows Corvus to solidny wybór dla miłośników freeride'u i gór. Jego konstrukcja i design zapewniają pewność siebie i kontrolę w trudnych warunkach, czyniąc go niezawodnym towarzyszem dla doświadczonych narciarzy."
+            ],
+            "ja": [
+                "ブラッククロウズ コルヴスは、ビッグマウンテンやフリーライド地形での安定性とパワーを求める上級からエキスパートのスキーヤー向けに設計された高性能スキーです。その堅牢な構造と信頼性のあるデザインにより、困難な条件下で頼れる選択肢となっています。",
+                "ポプラとブナの木材で構成されたコアに、部分的なチタナル層とグラスファイバーのラミネートを組み合わせた構造により、コルヴスは要求の厳しい地形にも対応します。また、シンタードベースにより最適な滑走性と耐久性が実現されています。",
+                "雪上では、コルヴスは高速の滑降と多様な雪の状態で卓越した性能を発揮します。先端とテールのプログレッシブロッカーは操作性を高め、足元の従来型キャンバーは固い地表でのエッジ保持と安定性を確保します。110mmのウエスト幅は、パウダーでの浮力を確保しつつ、オールマウンテンの用途に対応する汎用性を維持します。",
+                "このスキーは25メートルのターン半径を持ち、高速での安定性を提供する一方、狭いスペースでの操作にはやや労力を要するかもしれません。186cmモデルで約2,075グラムの重量を持つコルヴスは、最軽量のオプションではありませんが、優れたパワーとコントロールを提供します。",
+                "コルヴスの強みは、その安定性、耐久性、および多様な雪の条件に対応する能力にあります。しかし、その長いターン半径と硬めのフレックスは、狭い樹林地帯やモーグルでの性能を制限する可能性があります。また、重量は長距離ツアーや登山において短所となる可能性があります。",
+                "代替モデルとして、より遊び心のある操作性を求めるスキーヤーにはブラッククロウズ カモックスを、より軽量でツアー向けのオプションを求める場合にはナビス フリーバードが考えられます。どちらのモデルも、スキーヤーの異なるニーズに応じた柔軟性を提供します。",
+                "総括すると、ブラッククロウズ コルヴスはビッグマウンテンやフリーライド愛好家にとって堅実な選択肢です。その構造とデザインは、困難な条件下での信頼性とコントロールを提供し、挑戦的な地形に挑む上級およびエキスパートスキーヤーにとって信頼できるパートナーです。"
+            ],
+            "es": [
+                "El Black Crows Corvus es un esquí de alto rendimiento diseñado para esquiadores avanzados y expertos que buscan estabilidad y potencia en terrenos de alta montaña y freeride. Su construcción robusta y diseño fiable lo convierten en una elección predilecta para quienes enfrentan condiciones desafiantes.",
+                "Construido con un núcleo de madera de álamo y haya, reforzado con una capa parcial de titanal y un laminado de fibra de vidrio, el Corvus está diseñado para manejar terrenos exigentes. También cuenta con una base sinterizada para un deslizamiento óptimo y durabilidad.",
+                "En la nieve, el Corvus destaca en descensos a alta velocidad y en condiciones variables. Su rocker progresivo en la punta y la cola mejora la maniobrabilidad, mientras que el camber tradicional bajo el pie asegura estabilidad y agarre en superficies duras. Su ancho de cintura de 110 mm proporciona una buena flotación en polvo, manteniendo a la vez la versatilidad para uso all-mountain.",
+                "El esquí tiene un radio de giro de 25 metros, lo que contribuye a su estabilidad a altas velocidades, aunque puede requerir más esfuerzo para maniobrar en espacios reducidos. Con un peso aproximado de 2.075 gramos por esquí (longitud de 186 cm), el Corvus no es la opción más ligera, pero ofrece una potencia y control excepcionales.",
+                "Las fortalezas del Corvus residen en su estabilidad, durabilidad y capacidad para manejar fácilmente condiciones mixtas de nieve. Sin embargo, su radio de giro largo y su flexión rígida pueden limitar su rendimiento en zonas boscosas estrechas o en baches. Además, su peso puede ser un inconveniente para ascensos o travesías prolongadas.",
+                "Los esquiadores que busquen alternativas podrían considerar el Black Crows Camox para un manejo más divertido y maniobrable, o el Navis Freebird para una opción más ligera y orientada al esquí de travesía. Ambos modelos están diseñados para satisfacer prioridades específicas, ofreciendo flexibilidad según las necesidades del usuario.",
+                "En resumen, el Black Crows Corvus es una elección sólida para los entusiastas de la alta montaña y el freeride. Su construcción y diseño ofrecen confianza y control en condiciones exigentes, convirtiéndolo en un compañero fiable para esquiadores avanzados y expertos que se enfrentan a terrenos desafiantes."
+            ]
+        }
+    },
+    "Black Crows Camox": {
+        "picture": "/skis/Black crows Camox.png",
+        "author": "Alice Ivey",
+        "brand": "Black crows",
+        "model": "Camox",
+        "authorInfo": "Ultimate ski nerd",
+        "authorPicture": "/authors/AliceIvey.jpeg",
+        "href": "/reviews/blackcrowscamox",
+        "originalLanguage": "en",
+        "originalLanguageFull": "english",
+        "date": "2024-11-14",
+        "titles": {
+            "en": [
+                "Why Choose the Camox?",
+                "Construction and Design",
+                "On-Snow Performance",
+                "Technical Details",
+                "Strengths and Limitations",
+                "Alternative Options",
+                "Final Thoughts"
+            ],
+            "nl": [
+                "Waarom kiezen voor de Camox?",
+                "Constructie en Ontwerp",
+                "Prestaties op de Sneeuw",
+                "Technische Details",
+                "Sterktes en Beperkingen",
+                "Alternatieve Opties",
+                "Laatste Gedachten"
+            ],
+            "fr": [
+                "Pourquoi choisir le Camox ?",
+                "Construction et Design",
+                "Performances sur Neige",
+                "Détails Techniques",
+                "Forces et Limites",
+                "Options Alternatives",
+                "Dernières Réflexions"
+            ],
+            "de": [
+                "Warum der Camox?",
+                "Konstruktion und Design",
+                "Leistung auf Schnee",
+                "Technische Details",
+                "Stärken und Schwächen",
+                "Alternative Optionen",
+                "Abschließende Gedanken"
+            ],
+            "pl": [
+                "Dlaczego wybrać Camox?",
+                "Konstrukcja i Projekt",
+                "Wydajność na Śniegu",
+                "Szczegóły Techniczne",
+                "Zalety i Ograniczenia",
+                "Alternatywne Opcje",
+                "Ostateczne Przemyślenia"
+            ],
+            "ja": [
+                "なぜカモックスなのか？",
+                "構造とデザイン",
+                "雪上での性能",
+                "技術的な詳細",
+                "強みと制限",
+                "代替オプション",
+                "最終的な考察"
+            ],
+            "es": [
+                "¿Por qué elegir el Camox?",
+                "Construcción y Diseño",
+                "Rendimiento en la Nieve",
+                "Detalles Técnicos",
+                "Fortalezas y Limitaciones",
+                "Opciones Alternativas",
+                "Reflexiones Finales"
+            ]
+        },
+        "paragraphs": {
+            "en": [
+                "The Black Crows Camox is a versatile all-mountain ski designed to balance playfulness with stability, catering to a wide range of skiing conditions. Its moderate rocker profile and 97 mm waist make it an excellent choice for exploring diverse terrains.",
+                "Constructed with a poplar wood core and fiberglass laminate, the Camox is both durable and lightweight. This construction provides a responsive feel while maintaining enough strength to tackle variable snow conditions.",
+                "On snow, the Camox shines in mixed terrain, delivering a lively and agile performance. Its traditional camber underfoot ensures solid edge hold on firmer snow, while the tip and tail rocker enhance maneuverability in softer conditions.",
+                "With a turn radius of 20 meters and a weight of approximately 1,925 grams per ski (for the 186.5 cm length), the Camox offers a balanced ride that caters to intermediate and advanced skiers. Its mount point of -6 cm from true center allows for a playful yet stable stance.",
+                "The Camox's strengths lie in its versatility, playful nature, and ability to handle diverse conditions. However, it may not perform as well in very icy or deep powder conditions, where more specialized skis excel. Additionally, it might lack the stability of heavier skis at very high speeds.",
+                "Skiers seeking alternatives might consider the Black Crows Atris for a wider and more powder-friendly option, or the Corvus for a stiffer and more aggressive ride suited to high-speed descents. Each offers unique strengths for specific preferences.",
+                "Overall, the Black Crows Camox is an excellent choice for skiers seeking a do-it-all ski that offers a harmonious blend of playfulness and stability. Whether you're carving on groomers or exploring off-piste, the Camox delivers a fun and reliable experience."
+            ],
+            "nl": [
+                "De Black Crows Camox is een veelzijdige all-mountain ski die speelsheid en stabiliteit combineert, en geschikt is voor diverse skiomstandigheden. Het gematigde rockerprofiel en de taille van 97 mm maken het een uitstekende keuze voor uiteenlopende terreinen.",
+                "De ski is gebouwd met een populierenhoutkern en glasvezellaminaat, waardoor de Camox duurzaam en lichtgewicht is. Deze constructie zorgt voor een responsief gevoel en biedt tegelijkertijd voldoende sterkte om gevarieerde sneeuwcondities aan te kunnen.",
+                "Op de sneeuw blinkt de Camox uit in gemengd terrein en levert een levendige en wendbare prestatie. De traditionele camber onder de voet biedt solide grip op stevigere sneeuw, terwijl de rocker in de punt en staart de wendbaarheid in zachtere omstandigheden verbetert.",
+                "Met een draaicirkel van 20 meter en een gewicht van ongeveer 1.925 gram per ski (voor de lengte van 186,5 cm), biedt de Camox een gebalanceerde rit die geschikt is voor intermediate en gevorderde skiërs. Het montagepunt van -6 cm vanaf het centrum zorgt voor een speelse maar stabiele houding.",
+                "De sterke punten van de Camox liggen in zijn veelzijdigheid, speelse aard en het vermogen om verschillende omstandigheden aan te kunnen. Echter, in zeer ijzige of diepe poedersneeuw kan de prestatie minder zijn, waar meer gespecialiseerde ski's beter presteren. Daarnaast kan het bij zeer hoge snelheden wat stabiliteit missen ten opzichte van zwaardere ski's.",
+                "Skiërs die alternatieven zoeken, kunnen de Black Crows Atris overwegen voor een bredere en poedervriendelijke optie, of de Corvus voor een stijvere en agressievere ski die geschikt is voor hoge snelheden. Elk model biedt unieke voordelen voor specifieke voorkeuren.",
+                "Al met al is de Black Crows Camox een uitstekende keuze voor skiërs die op zoek zijn naar een allround ski die speelsheid en stabiliteit harmonieus combineert. Of je nu carveert op geprepareerde pistes of off-piste verkent, de Camox levert een leuke en betrouwbare ervaring."
+            ],
+            "fr": [
+                "Le Black Crows Camox est un ski all-mountain polyvalent conçu pour équilibrer jeu et stabilité, s'adaptant à une large gamme de conditions de ski. Son profil rocker modéré et sa largeur au patin de 97 mm en font un excellent choix pour explorer divers terrains.",
+                "Construit avec un noyau en bois de peuplier et un laminé en fibre de verre, le Camox est à la fois durable et léger. Cette construction offre une sensation réactive tout en maintenant une solidité suffisante pour affronter des conditions de neige variées.",
+                "Sur la neige, le Camox brille dans les terrains mixtes, offrant une performance vive et agile. Son cambre traditionnel sous le pied assure une bonne tenue de carre sur neige dure, tandis que le rocker en spatule et talon améliore la maniabilité dans des conditions plus douces.",
+                "Avec un rayon de courbe de 20 mètres et un poids d'environ 1 925 grammes par ski (pour la longueur de 186,5 cm), le Camox offre une glisse équilibrée qui s'adresse aux skieurs intermédiaires et avancés. Son point de montage de -6 cm par rapport au centre vrai permet une posture à la fois ludique et stable.",
+                "Les points forts du Camox résident dans sa polyvalence, sa nature ludique et sa capacité à gérer des conditions variées. Cependant, il peut être moins performant dans des conditions très glacées ou en poudreuse profonde, où des skis plus spécialisés excellent. De plus, il peut manquer de stabilité à très haute vitesse par rapport à des skis plus lourds.",
+                "Les skieurs à la recherche d'alternatives pourraient envisager le Black Crows Atris pour une option plus large et adaptée à la poudreuse, ou le Corvus pour un ski plus rigide et agressif adapté aux descentes à haute vitesse. Chaque modèle offre des atouts uniques pour des préférences spécifiques.",
+                "Dans l'ensemble, le Black Crows Camox est un excellent choix pour les skieurs à la recherche d'un ski polyvalent offrant un mélange harmonieux de ludisme et de stabilité. Que vous carve sur des pistes damées ou explorez le hors-piste, le Camox offre une expérience amusante et fiable."
+            ],
+            "de": [
+                "Der Black Crows Camox ist ein vielseitiger All-Mountain-Ski, der Verspieltheit mit Stabilität kombiniert und für eine Vielzahl von Skibedingungen geeignet ist. Sein moderates Rocker-Profil und eine Taillenbreite von 97 mm machen ihn zu einer ausgezeichneten Wahl für abwechslungsreiche Geländefahrten.",
+                "Der Ski ist mit einem Kern aus Pappelholz und Glasfaserlaminat konstruiert, wodurch er sowohl langlebig als auch leicht ist. Diese Konstruktion sorgt für ein reaktionsfreudiges Fahrgefühl und bietet gleichzeitig ausreichend Stabilität, um wechselnden Schneebedingungen standzuhalten.",
+                "Im Schnee glänzt der Camox auf gemischtem Terrain und liefert eine lebendige und agile Leistung. Sein traditioneller Camber unter dem Fuß sorgt für guten Kantenhalt auf härterem Schnee, während der Rocker an Spitze und Tail die Manövrierfähigkeit in weicherem Schnee verbessert.",
+                "Mit einem Radius von 20 Metern und einem Gewicht von etwa 1.925 Gramm pro Ski (bei einer Länge von 186,5 cm) bietet der Camox eine ausgewogene Fahrt, die sich an fortgeschrittene und erfahrene Skifahrer richtet. Sein Montagepunkt bei -6 cm vom True Center ermöglicht eine spielerische und dennoch stabile Haltung.",
+                "Die Stärken des Camox liegen in seiner Vielseitigkeit, seiner spielerischen Natur und seiner Fähigkeit, verschiedene Bedingungen zu bewältigen. Bei sehr eisigen oder tiefen Pulverschnee-Bedingungen kann seine Leistung jedoch hinter spezialisierteren Ski zurückbleiben. Außerdem fehlt ihm bei sehr hohen Geschwindigkeiten möglicherweise die Stabilität schwererer Ski.",
+                "Skifahrer, die nach Alternativen suchen, könnten den Black Crows Atris in Betracht ziehen, der eine breitere und pulverschneetauglichere Option bietet, oder den Corvus für eine steifere und aggressivere Fahrt, die für schnelle Abfahrten geeignet ist. Beide Modelle bieten einzigartige Stärken für spezifische Vorlieben.",
+                "Insgesamt ist der Black Crows Camox eine ausgezeichnete Wahl für Skifahrer, die einen vielseitigen Ski suchen, der Verspieltheit und Stabilität harmonisch verbindet. Ob auf präparierten Pisten oder im Gelände, der Camox liefert ein spaßiges und zuverlässiges Erlebnis."
+            ],
+            "pl": [
+                "Black Crows Camox to wszechstronna narta all-mountain, która łączy zabawę ze stabilnością, dostosowując się do różnych warunków narciarskich. Jego umiarkowany profil rocker i szerokość talii wynosząca 97 mm czynią go doskonałym wyborem do eksploracji różnorodnego terenu.",
+                "Narty zbudowane są z rdzenia z drewna topoli i laminatu z włókna szklanego, dzięki czemu są trwałe i lekkie. Ta konstrukcja zapewnia responsywne czucie, jednocześnie utrzymując wystarczającą wytrzymałość do radzenia sobie z różnymi warunkami śniegowymi.",
+                "Na śniegu Camox doskonale sprawdza się w zmiennym terenie, oferując żywą i zwinną jazdę. Tradycyjny camber pod stopą zapewnia dobrą przyczepność na twardszym śniegu, podczas gdy rocker w dziobie i ogonie poprawia zwrotność w miększych warunkach.",
+                "Z promieniem skrętu wynoszącym 20 metrów i wagą około 1.925 gramów na nartę (dla długości 186,5 cm), Camox oferuje zrównoważoną jazdę, która zadowoli średniozaawansowanych i zaawansowanych narciarzy. Punkt montażu na -6 cm od prawdziwego centrum zapewnia zabawną, ale stabilną postawę.",
+                "Mocne strony Camox to wszechstronność, zabawowy charakter i zdolność do radzenia sobie z różnymi warunkami. Jednak w bardzo lodowych lub głębokich warunkach puchu jego wydajność może być niższa niż w przypadku bardziej wyspecjalizowanych nart. Ponadto może brakować mu stabilności przy bardzo dużych prędkościach w porównaniu do cięższych modeli.",
+                "Narciarze szukający alternatyw mogą rozważyć Black Crows Atris jako szerszą i bardziej przyjazną puchowi opcję lub Corvus jako sztywniejszą i bardziej agresywną nartę do szybkich zjazdów. Oba modele oferują unikalne zalety dostosowane do specyficznych preferencji.",
+                "Podsumowując, Black Crows Camox to doskonały wybór dla narciarzy szukających uniwersalnej narty, która harmonijnie łączy zabawę i stabilność. Niezależnie od tego, czy jeździsz po przygotowanych trasach, czy eksplorujesz off-piste, Camox zapewnia przyjemne i niezawodne doświadczenie."
+            ],
+            "ja": [
+                "ブラッククロウズ カモックスは、多様なスキー条件に対応する、遊び心と安定性を兼ね備えたオールマウンテンスキーです。その適度なロッカープロファイルと97mmのウエスト幅により、多様な地形での探索に最適です。",
+                "ポプラ材の木芯とグラスファイバーラミネート構造で作られており、耐久性と軽量性を両立させています。この構造により、応答性が高く、変化する雪質に対応できる十分な強度を提供します。",
+                "雪上では、カモックスは混合地形で輝きを放ち、生き生きとした機敏なパフォーマンスを発揮します。足元のトラディショナルキャンバーが硬い雪上での確実なエッジホールドを保証し、先端とテールのロッカーが柔らかい条件下での操作性を向上させます。",
+                "ターン半径20m、186.5cmモデルの重量約1,925gという仕様により、カモックスは中級から上級スキーヤーに適したバランスの取れた滑りを提供します。トゥルーセンターから-6cmのマウントポイントにより、遊び心のある安定した姿勢が可能になります。",
+                "カモックスの強みは、その多用途性、遊び心、そして多様な条件に対応する能力です。しかし、非常に氷のような条件や深いパウダーでは、専門性の高いスキーに比べてパフォーマンスが劣る場合があります。また、非常に高速での滑降では、重いスキーに比べて安定性がやや不足することがあります。",
+                "代替モデルとしては、より広くパウダーに適したブラッククロウズ アトリスや、高速滑降に適したより硬く攻撃的なブラッククロウズ コルヴスを検討することができます。それぞれが特定の好みに応じた独自の強みを提供します。",
+                "総括すると、ブラッククロウズ カモックスは、遊び心と安定性を調和させたオールラウンドスキーを求めるスキーヤーにとって優れた選択肢です。整地されたコースやオフピステの探索を問わず、カモックスは楽しく信頼性の高い体験を提供します。"
+            ],
+            "es": [
+                "El Black Crows Camox es un esquí all-mountain versátil diseñado para equilibrar diversión y estabilidad, adaptándose a una amplia variedad de condiciones. Su perfil rocker moderado y su cintura de 97 mm lo convierten en una excelente opción para explorar terrenos diversos.",
+                "Construido con un núcleo de madera de álamo y un laminado de fibra de vidrio, el Camox es duradero y ligero. Esta construcción proporciona una sensación de respuesta al tiempo que mantiene la suficiente resistencia para enfrentar condiciones variables de nieve.",
+                "En la nieve, el Camox destaca en terrenos mixtos, ofreciendo un rendimiento ágil y vivaz. Su camber tradicional bajo los pies asegura un buen agarre en nieve dura, mientras que el rocker en la punta y la cola mejora la maniobrabilidad en condiciones más blandas.",
+                "Con un radio de giro de 20 metros y un peso de aproximadamente 1,925 gramos por esquí (para la longitud de 186,5 cm), el Camox ofrece una experiencia equilibrada dirigida a esquiadores intermedios y avanzados. Su punto de montaje de -6 cm desde el centro verdadero permite una postura lúdica y estable.",
+                "Las fortalezas del Camox residen en su versatilidad, carácter juguetón y capacidad para manejar diversas condiciones. Sin embargo, puede no rendir tan bien en condiciones muy heladas o en polvo profundo, donde esquís más especializados sobresalen. Además, podría carecer de estabilidad en descensos a muy alta velocidad en comparación con esquís más pesados.",
+                "Los esquiadores que busquen alternativas pueden considerar el Black Crows Atris como una opción más ancha y adecuada para el polvo, o el Corvus para una experiencia más rígida y agresiva apta para descensos rápidos. Ambos modelos ofrecen fortalezas únicas para preferencias específicas.",
+                "En resumen, el Black Crows Camox es una excelente opción para esquiadores que buscan un esquí versátil que combine armoniosamente diversión y estabilidad. Ya sea que estés esquiando en pistas preparadas o explorando fuera de pista, el Camox ofrece una experiencia divertida y confiable."
             ]
         }
     }
