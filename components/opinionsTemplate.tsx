@@ -170,25 +170,25 @@ export default function Example(skiName: string) {
       {
         id: 0,
         name: 'Ski',
-        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-0.png`,
+        src: `/skis/${ski.brand}/${ski.model}/${ski.model.replace(/[/_+]/g, '')}-0.png`,
         alt: `Picture of the ${ski.name} skis.`,
       },
       {
         id: 1,
         name: 'Ski',
-        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-1.png`,
+        src: `/skis/${ski.brand}/${ski.model}/${ski.model.replace(/[/_+]/g, '')}-1.png`,
         alt: `Picture of the ${ski.name} skis.`,
       },
       {
         id: 2,
         name: 'Ski',
-        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-2.png`,
+        src: `/skis/${ski.brand}/${ski.model}/${ski.model.replace(/[/_+]/g, '')}-2.png`,
         alt: `Picture of the ${ski.name} skis.`,
       },
       {
         id: 3,
         name: 'Ski',
-        src: `/skis/${ski.brand}/${ski.name}/${ski.name.replace(/[/_+]/g, '')}-3.png`,
+        src: `/skis/${ski.brand}/${ski.model}/${ski.model.replace(/[/_+]/g, '')}-3.png`,
         alt: `Picture of the ${ski.name} skis.`,
       },
     ]
