@@ -1,5 +1,5 @@
 import opinionsTemplate from '../../components/opinionsTemplate'
 
             export default function Opinions() {
-                return opinionsTemplate("Black diamond Impulse 104")
+                return opinionsTemplate("Extrem Factory 102")
             }

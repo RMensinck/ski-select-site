@@ -434,7 +434,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsanima",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-anima.html"
         }
@@ -454,7 +454,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsatris",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-atris.html"
         }
@@ -494,7 +494,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowscamox",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-camox.html"
         }
@@ -514,9 +514,29 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowscorvus",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-corvus.html"
+        }
+    },
+    {
+        "name": "Black crows Draco freebird",
+        "href": "/opinions/BlackcrowsDracofreebird",
+        "brand": "Black crows",
+        "model": "Draco freebird",
+        "specs": {
+            "weight": "",
+            "radius": "",
+            "availableLengths": "",
+            "dimensions": "",
+            "recommendedMounting": "",
+            "rockerCamberProfile": ""
+        },
+        "horizontal_image_name": "Black crows Draco freebird.png",
+        "imageName": "Black crows Draco freebird.png",
+        "reviewHref": "/reviews/blackcrowsdracofreebird",
+        "shopUrls": {
+            "outdoorxlurl": ""
         }
     },
     {
@@ -554,7 +574,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsnavisfreebird",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-navis-freebird.html"
         }
@@ -574,7 +594,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/blackcrowsnocta",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/black-crows-nocta.html"
         }
@@ -600,6 +620,46 @@
         }
     },
     {
+        "name": "Black diamond Helio carbon 104",
+        "href": "/opinions/BlackdiamondHeliocarbon104",
+        "brand": "Black diamond",
+        "model": "Helio carbon 104",
+        "specs": {
+            "weight": "1450g (178cm)",
+            "radius": "22m (178cm)",
+            "availableLengths": "160cm, 166cm, 172cm, 178cm, 184cm",
+            "dimensions": "131-104-118mm (178cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Tip rocker"
+        },
+        "horizontal_image_name": "Black diamond Helio carbon 104.png",
+        "imageName": "Black diamond Helio carbon 104.png",
+        "reviewHref": "/reviews/blackdiamondheliocarbon104",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
+    },
+    {
+        "name": "Black diamond Helio carbon 115",
+        "href": "/opinions/BlackdiamondHeliocarbon115",
+        "brand": "Black diamond",
+        "model": "Helio carbon 115",
+        "specs": {
+            "weight": "1575g (177cm)",
+            "radius": "25m (177cm)",
+            "availableLengths": "177cm, 185cm",
+            "dimensions": "144-115-126mm (177cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Tip rocker"
+        },
+        "horizontal_image_name": "Black diamond Helio carbon 115.png",
+        "imageName": "Black diamond Helio carbon 115.png",
+        "reviewHref": "/reviews/blackdiamondheliocarbon115",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
+    },
+    {
         "name": "Black diamond Helio carbon 88",
         "href": "/opinions/BlackdiamondHeliocarbon88",
         "brand": "Black diamond",
@@ -608,13 +668,13 @@
             "weight": "1290g (170cm)",
             "radius": "18m (170cm)",
             "availableLengths": "152cm, 161cm, 170cm, 179cm",
-            "dimensions": "120-88-110mm (170cm)",
+            "dimensions": "120-88-111mm (170cm)",
             "recommendedMounting": "",
-            "rockerCamberProfile": "Small tip rocker, mostly camber."
+            "rockerCamberProfile": "Tip rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Helio carbon 88.png",
+        "imageName": "Black diamond Helio carbon 88.png",
+        "reviewHref": "/reviews/blackdiamondheliocarbon88",
         "shopUrls": {
             "outdoorxlurl": ""
         }
@@ -630,111 +690,131 @@
             "availableLengths": "155cm, 162cm, 169cm, 176cm, 183cm",
             "dimensions": "124-95-113mm (176cm)",
             "recommendedMounting": "",
-            "rockerCamberProfile": "Small tip rocker, mostly camber."
+            "rockerCamberProfile": "Tip rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Helio carbon 95.png",
+        "imageName": "Black diamond Helio carbon 95.png",
+        "reviewHref": "/reviews/blackdiamondheliocarbon95",
         "shopUrls": {
             "outdoorxlurl": ""
         }
     },
     {
-        "name": "Black diamond Helio carbon 104",
-        "href": "/opinions/BlackdiamondHeliocarbon104",
+        "name": "Black diamond Impulse pro Ti 114",
+        "href": "/opinions/BlackdiamondImpulseproTi114",
         "brand": "Black diamond",
-        "model": "Helio carbon 104",
+        "model": "Impulse pro Ti 114",
         "specs": {
-            "weight": "1450g (178cm)",
-            "radius": "22m (178cm)",
-            "availableLengths": "160cm, 166cm, 172cm, 178cm, 184cm",
-            "dimensions": "131-104-118mm (178cm)",
+            "weight": "2225g",
+            "radius": "21.5m",
+            "availableLengths": "191cm",
+            "dimensions": "142-114-130mm",
             "recommendedMounting": "",
-            "rockerCamberProfile": "rocker-camber."
+            "rockerCamberProfile": "Rocker-camber-rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Impulse pro Ti 114.png",
+        "imageName": "Black diamond Impulse pro Ti 114.png",
+        "reviewHref": "/reviews/blackdiamondimpulseproti114",
         "shopUrls": {
             "outdoorxlurl": ""
         }
     },
     {
-        "name": "Black diamond Helio carbon 115",
-        "href": "/opinions/BlackdiamondHeliocarbon115",
+        "name": "Black diamond Impulse Ti 104",
+        "href": "/opinions/BlackdiamondImpulseTi104",
         "brand": "Black diamond",
-        "model": "Helio carbon 115",
+        "model": "Impulse Ti 104",
         "specs": {
-            "weight": "1575g (177cm)",
-            "radius": "25m (177cm)",
-            "availableLengths": "177cm, 185cm",
-            "dimensions": "143-115-125mm (177cm)",
-            "recommendedMounting": "",
-            "rockerCamberProfile": "rocker-camber-rocker"
-        },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
-        "shopUrls": {
-            "outdoorxlurl": ""
-        }
-    },
-    {
-        "name": "Black diamond Impulse 104",
-        "href": "/opinions/BlackdiamondImpulse104",
-        "brand": "Black diamond",
-        "model": "Impulse 104",
-        "specs": {
-            "weight": "1900g (179cm)",
+            "weight": "1880g (179cm)",
             "radius": "18m (179cm)",
-            "availableLengths": "165cm, 172cm, 179cm, 186cm",
+            "availableLengths": "172cm, 179cm, 186cm",
             "dimensions": "136-104-123mm (179cm)",
             "recommendedMounting": "",
             "rockerCamberProfile": "Rocker-camber-rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Impulse Ti 104.png",
+        "imageName": "Black diamond Impulse Ti 104.png",
+        "reviewHref": "/reviews/blackdiamondimpulseti104",
         "shopUrls": {
             "outdoorxlurl": ""
         }
     },
     {
-        "name": "Black diamond Impulse 112",
-        "href": "/opinions/BlackdiamondImpulse112",
+        "name": "Black diamond Impulse Ti 112",
+        "href": "/opinions/BlackdiamondImpulseTi112",
         "brand": "Black diamond",
-        "model": "Impulse 112",
+        "model": "Impulse Ti 112",
         "specs": {
-            "weight": "2050g (181cm)",
+            "weight": "2030g (181cm)",
             "radius": "20m (181cm)",
-            "availableLengths": "181cm - 186cm",
+            "availableLengths": "181cm, 186cm",
             "dimensions": "139-112-126mm (181cm)",
             "recommendedMounting": "",
             "rockerCamberProfile": "Rocker-camber-rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Impulse Ti 112.png",
+        "imageName": "Black diamond Impulse Ti 112.png",
+        "reviewHref": "/reviews/blackdiamondimpulseti112",
         "shopUrls": {
             "outdoorxlurl": ""
         }
     },
     {
-        "name": "Black diamond Impulse 98",
-        "href": "/opinions/BlackdiamondImpulse98",
+        "name": "Black diamond Impulse Ti 98",
+        "href": "/opinions/BlackdiamondImpulseTi98",
         "brand": "Black diamond",
-        "model": "Impulse 98",
+        "model": "Impulse Ti 98",
         "specs": {
-            "weight": "1820g (175cm)",
+            "weight": "1740g (175cm)",
             "radius": "17m (175cm)",
-            "availableLengths": "161cm, 168cm, 175cm, 182cm, 189cm",
+            "availableLengths": "175cm, 182cm, 189cm",
             "dimensions": "131-98-119mm (175cm)",
             "recommendedMounting": "",
             "rockerCamberProfile": "Rocker-camber-rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Black diamond Impulse Ti 98.png",
+        "imageName": "Black diamond Impulse Ti 98.png",
+        "reviewHref": "/reviews/blackdiamondimpulseti98",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
+    },
+    {
+        "name": "Black diamond Womens impulse Ti 104",
+        "href": "/opinions/BlackdiamondWomensimpulseTi104",
+        "brand": "Black diamond",
+        "model": "Womens impulse Ti 104",
+        "specs": {
+            "weight": "1830g (172cm)",
+            "radius": "17m (172cm)",
+            "availableLengths": "158cm, 165cm, 172cm",
+            "dimensions": "135-104-123mm (172cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "Black diamond Womens impulse Ti 104.png",
+        "imageName": "Black diamond Womens impulse Ti 104.png",
+        "reviewHref": "/reviews/blackdiamondwomensimpulseti104",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
+    },
+    {
+        "name": "Black diamond Womens Impulse Ti 98",
+        "href": "/opinions/BlackdiamondWomensImpulseTi98",
+        "brand": "Black diamond",
+        "model": "Womens impulse Ti 98",
+        "specs": {
+            "weight": "1740g (175cm)",
+            "radius": "17m (175cm)",
+            "availableLengths": "161cm, 168cm, 175cm",
+            "dimensions": "131-98-119mm (175cm)",
+            "recommendedMounting": "",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "Black diamond Womens Impulse Ti 98.png",
+        "imageName": "Black diamond Womens Impulse Ti 98.png",
+        "reviewHref": "/reviews/blackdiamondwomensimpulseti98",
         "shopUrls": {
             "outdoorxlurl": ""
         }
@@ -960,21 +1040,41 @@
         }
     },
     {
+        "name": "Extrem Factory 102",
+        "href": "/opinions/ExtremFactory102",
+        "brand": "Extrem",
+        "model": "Factory 102",
+        "specs": {
+            "weight": "1910 | 2000 | 2090 g",
+            "radius": "20 | 21 | 22 m",
+            "availableLengths": "176 | 184 | 190 cm",
+            "dimensions": "132-102-121mm (184cm)",
+            "recommendedMounting": "-8cm (184cm)",
+            "rockerCamberProfile": "Rocker-camber-rocker"
+        },
+        "horizontal_image_name": "Extrem Factory 102.png",
+        "imageName": "Extrem Factory 102.png",
+        "reviewHref": "/reviews/extremfactory102",
+        "shopUrls": {
+            "outdoorxlurl": ""
+        }
+    },
+    {
         "name": "Extrem Factory 112",
         "href": "/opinions/ExtremFactory112",
         "brand": "Extrem",
         "model": "Factory 112",
         "specs": {
-            "weight": "",
-            "radius": "",
-            "availableLengths": "",
-            "dimensions": "",
-            "recommendedMounting": "",
-            "rockerCamberProfile": ""
+            "weight": "2125 | 2325 g",
+            "radius": "20,5 | 22 m",
+            "availableLengths": "176 | 184 | 190 cm",
+            "dimensions": "142-111-131mm (185cm)",
+            "recommendedMounting": "-8cm (185cm)",
+            "rockerCamberProfile": "Rocker-camber-rocker"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "Extrem Factory 112.png",
+        "imageName": "Extrem Factory 112.png",
+        "reviewHref": "/reviews/extremfactory112",
         "shopUrls": {
             "outdoorxlurl": ""
         }
@@ -1125,18 +1225,38 @@
         "brand": "K2",
         "model": "Disruption 78C",
         "specs": {
-            "weight": "",
-            "radius": "",
-            "availableLengths": "",
-            "dimensions": "",
-            "recommendedMounting": "",
-            "rockerCamberProfile": ""
+            "weight": "1671g (170cm)",
+            "radius": "15.6 (170 cm)",
+            "availableLengths": "156, 163, 170, 177cm",
+            "dimensions": "125-78-111",
+            "recommendedMounting": "Factory mounted",
+            "rockerCamberProfile": "Mainly camber"
         },
-        "horizontal_image_name": "",
-        "imageName": "",
-        "reviewHref": "/reviews/",
+        "horizontal_image_name": "K2 Disruption 78C.png",
+        "imageName": "K2 Disruption 78C.png",
+        "reviewHref": "/reviews/k2disruption78c",
         "shopUrls": {
-            "outdoorxlurl": "https://www.outdoorxl.nl/k2-disruption-78c.html"
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-disruption-78c-quikclik.html"
+        }
+    },
+    {
+        "name": "K2 Disruption 78Ti",
+        "href": "/opinions/K2Disruption78Ti",
+        "brand": "K2",
+        "model": "Disruption 78Ti",
+        "specs": {
+            "weight": "1886g (177 cm)",
+            "radius": "17.8 (177 cm)",
+            "availableLengths": "156, 163, 170, 177, 184cm",
+            "dimensions": "123-78-109",
+            "recommendedMounting": "Factory mounted",
+            "rockerCamberProfile": "Mainly camber"
+        },
+        "horizontal_image_name": "K2 Disruption 78Ti.png",
+        "imageName": "K2 Disruption 78Ti.png",
+        "reviewHref": "/reviews/k2disruption78ti",
+        "shopUrls": {
+            "outdoorxlurl": "https://www.outdoorxl.nl/k2-disruption-78ti-quikclik.html"
         }
     },
     {
@@ -1154,7 +1274,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/k2mindbender108ti",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-108ti.html"
         }
@@ -1174,7 +1294,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/k2mindbender89ti",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-89ti.html"
         }
@@ -1194,7 +1314,7 @@
         },
         "horizontal_image_name": "",
         "imageName": "",
-        "reviewHref": "/reviews/",
+        "reviewHref": "/reviews/k2mindbender99ti",
         "shopUrls": {
             "outdoorxlurl": "https://www.outdoorxl.nl/k2-mindbender-99ti.html"
         }
