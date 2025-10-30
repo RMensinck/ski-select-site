@@ -4,12 +4,13 @@ import { useRouter } from 'next/router'
 import reviews from '../public/reviews/reviews.json'
 import titles from '../texts/textsSingleReview'
 import texts from '../texts/textsSingleReview'
-import { useEffect, useState } from 'react';
+import { use, useEffect, useState } from 'react';
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { Tab } from '@headlessui/react'
 import Image from 'next/image';
-
-
+import { useFirebaseImage } from '../hooks/useFirebaseImage';
+import { ref, getDownloadURL } from 'firebase/storage';
+import { storage } from '../firebaseConfig';
 
 declare function gtag(...args: any[]): void;
 
@@ -18,26 +19,76 @@ function classNames(...classes) {
 }
 
 export default function Review(skiName: string, folderExists: boolean) {
- 
   const router = useRouter()
   const { locale } = router 
   const review = reviews[skiName]
   const [shownParagraphs, setShownParagraphs] = useState(review.paragraphs[locale])
   const [showLanguageDisclaimer, setShowLanguageDisclaimer] = useState(false)
-  
+  const [firebaseImages, setFirebaseImages] = useState([])
+  const [firebaseImagesLoading, setFirebaseImagesLoading] = useState(false) // Add loading state
+
+  if (review["picture"] === "firestore") {
+    const { imageUrl, loading, error } = useFirebaseImage('skis/' + review["brand"] + '/' + review["model"] + '-1.webp');
+    const finalImageUrl = error ? '/images/placeholder-ski.jpg' : imageUrl;
+
+    console.log("Firebase image URL inside component:", imageUrl);
+  }
+
   useEffect(() => {
     if (locale != review.originalLanguage) {
       setShowLanguageDisclaimer(true)
     }
     gtag('event', `review ${skiName} loaded`)
-  }, [])
+  }, [locale, review.originalLanguage, skiName])
 
+  if (review["picture"] === "firestore") {
+    useEffect(() => {
+      const loadFirebaseImages = async () => {
+        setFirebaseImagesLoading(true) // Set loading to true when starting
+        const imagePromises = []
+        
+        // Create promises for first 10 images using Firebase SDK
+        for (let i = 1; i <= 10; i++) {
+          const imagePath = `skis/${review["brand"]}/${review["model"]}-${i}.webp`
+          
+          imagePromises.push(
+            (async () => {
+              try {
+                const imageRef = ref(storage, imagePath);
+                const url = await getDownloadURL(imageRef);
+                return {
+                  id: i - 1,
+                  name: 'Ski',
+                  src: url,
+                  alt: `Picture of the ${review["brand"]} ${review["model"]} skis.`,
+                };
+              } catch (error) {
+                console.log(`Image not found: ${imagePath}`);
+                return null;
+              }
+            })()
+          );
+        }
+
+        const results = await Promise.all(imagePromises)
+        const validImages = results.filter(img => img !== null)
+        console.log("Loaded Firebase images:", validImages);
+        setFirebaseImages(validImages)
+        setFirebaseImagesLoading(false) // Set loading to false when done
+      }
+
+      loadFirebaseImages()
+      
+    }, [review])
+  }
+  
   const brand = review.brand
   const model = review.model
 
-
-  let images = null
-  if (folderExists) {
+  let images = []
+  
+  if (review["picture"] != "firestore" && folderExists) {
+    console.log("Folder exists, loading images from folder@@@@")
     images = [
       {
         id: 0,
@@ -64,14 +115,16 @@ export default function Review(skiName: string, folderExists: boolean) {
         alt: `Picture of the ${brand} ${model} skis.`,
       },
     ]
+  } else if (review["picture"] === "firestore") {
+    images = firebaseImages
   }
 
   return (
     <>
       <Head>
-        <title>{skiName + " " + texts.review[locale]}</title>
-        <meta name="description" content={texts.metaDescription[locale]}/>
-      </Head>   
+        {review.meta_title ? <meta name="title" content={review.meta_title} /> : <title>{skiName + " " + texts.review[locale]}</title>}
+        {review.meta_description ? <meta name="description" content={review.meta_description} /> : <meta name="description" content={texts.metaDescription[locale]}/>}
+      </Head>
 
       <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-6 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
@@ -100,7 +153,17 @@ export default function Review(skiName: string, folderExists: boolean) {
             </div>
           </div>
 
-          { folderExists === true ? (
+          {/* Show loading text for Firebase images */}
+          {review["picture"] === "firestore" && firebaseImagesLoading ? (
+            <div className="lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">
+              <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
+                <div className="text-center">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-accent-color mx-auto mb-4"></div>
+                  <p className="text-gray-600">Loading images...</p>
+                </div>
+              </div>
+            </div>
+          ) : (folderExists === true || images.length > 0) ? (
           <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">  
             <Tab.Group as="div" className="flex flex-col-reverse">
               {/* Image selector */}
@@ -151,6 +214,7 @@ export default function Review(skiName: string, folderExists: boolean) {
           </div>
           ) : (
           <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60">
+            {/* Use the Firebase image with fallback here if needed */}
             <img
               className=" rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:rotate-90 p-4 xl:scale-90"
               src={reviews[skiName].picture}
@@ -178,7 +242,6 @@ export default function Review(skiName: string, folderExists: boolean) {
                 ))}
               </div>
             </div>
-          
           </div>
         </div>
       </div>

@@ -42,7 +42,9 @@ export default function Opinions() {
                     {skiNames.map((skiName) => (
                       <React.Fragment key={skiName}>
                       <article className="flex max-w-xl flex-col items-start justify-between mx-4 sm:mx-0">
-                        <img src={reviews[skiName].picture} alt={"Picture of the " + skiName} />
+                        {reviews[skiName]["picture"] === "firestore" ? (<></>) : (
+                          <img src={reviews[skiName].picture} alt={"Picture of the " + skiName} />
+                        )}
                         <div className="flex items-center gap-x-4 text-xs">
                           <time dateTime={reviews[skiName].date} className="text-gray-500">
                             {reviews[skiName].date}

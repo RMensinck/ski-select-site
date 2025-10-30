@@ -3,6 +3,8 @@ import Head from 'next/head'
 import texts from '../texts/textsMission'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react';
+import { useFirebaseImage } from '../hooks/useFirebaseImage';
+import Image from 'next/image';
 
 declare function gtag(...args: any[]): void;
 
@@ -57,8 +59,6 @@ export default function Home() {
                 </figcaption>
               </figure>
             </div>
-
-
       </>
     )
   }
