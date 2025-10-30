@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import reviews from '../public/reviews/reviews.json'
 import titles from '../texts/textsSingleReview'
 import texts from '../texts/textsSingleReview'
-import { use, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { Tab } from '@headlessui/react'
 import Image from 'next/image';
@@ -25,14 +25,14 @@ export default function Review(skiName: string, folderExists: boolean) {
   const [shownParagraphs, setShownParagraphs] = useState(review.paragraphs[locale])
   const [showLanguageDisclaimer, setShowLanguageDisclaimer] = useState(false)
   const [firebaseImages, setFirebaseImages] = useState([])
-  const [firebaseImagesLoading, setFirebaseImagesLoading] = useState(false) // Add loading state
+  const [firebaseImagesLoading, setFirebaseImagesLoading] = useState(false)
 
-  if (review["picture"] === "firestore") {
-    const { imageUrl, loading, error } = useFirebaseImage('skis/' + review["brand"] + '/' + review["model"] + '-1.webp');
-    const finalImageUrl = error ? '/images/placeholder-ski.jpg' : imageUrl;
+  // ✅ ALWAYS call hooks - use conditional logic inside them
+  const shouldUseFirestore = review["picture"] === "firestore";
+  const imagePath = shouldUseFirestore ? `skis/${review["brand"]}/${review["model"]}-1.webp` : null;
+  const { imageUrl, loading, error } = useFirebaseImage(imagePath);
 
-    console.log("Firebase image URL inside component:", imageUrl);
-  }
+  console.log("Firebase image URL inside component:", imageUrl);
 
   useEffect(() => {
     if (locale != review.originalLanguage) {
@@ -41,47 +41,50 @@ export default function Review(skiName: string, folderExists: boolean) {
     gtag('event', `review ${skiName} loaded`)
   }, [locale, review.originalLanguage, skiName])
 
-  if (review["picture"] === "firestore") {
-    useEffect(() => {
-      const loadFirebaseImages = async () => {
-        setFirebaseImagesLoading(true) // Set loading to true when starting
-        const imagePromises = []
-        
-        // Create promises for first 10 images using Firebase SDK
-        for (let i = 1; i <= 10; i++) {
-          const imagePath = `skis/${review["brand"]}/${review["model"]}-${i}.webp`
-          
-          imagePromises.push(
-            (async () => {
-              try {
-                const imageRef = ref(storage, imagePath);
-                const url = await getDownloadURL(imageRef);
-                return {
-                  id: i - 1,
-                  name: 'Ski',
-                  src: url,
-                  alt: `Picture of the ${review["brand"]} ${review["model"]} skis.`,
-                };
-              } catch (error) {
-                console.log(`Image not found: ${imagePath}`);
-                return null;
-              }
-            })()
-          );
-        }
+  // ✅ ALWAYS call useEffect - use conditional logic inside it
+  useEffect(() => {
+    // Only run Firebase logic if needed
+    if (!shouldUseFirestore) {
+      return;
+    }
 
-        const results = await Promise.all(imagePromises)
-        const validImages = results.filter(img => img !== null)
-        console.log("Loaded Firebase images:", validImages);
-        setFirebaseImages(validImages)
-        setFirebaseImagesLoading(false) // Set loading to false when done
+    const loadFirebaseImages = async () => {
+      setFirebaseImagesLoading(true)
+      const imagePromises = []
+      
+      // Create promises for first 10 images using Firebase SDK
+      for (let i = 1; i <= 10; i++) {
+        const imagePath = `skis/${review["brand"]}/${review["model"]}-${i}.webp`
+        
+        imagePromises.push(
+          (async () => {
+            try {
+              const imageRef = ref(storage, imagePath);
+              const url = await getDownloadURL(imageRef);
+              return {
+                id: i - 1,
+                name: 'Ski',
+                src: url,
+                alt: `Picture of the ${review["brand"]} ${review["model"]} skis.`,
+              };
+            } catch (error) {
+              console.log(`Image not found: ${imagePath}`);
+              return null;
+            }
+          })()
+        );
       }
 
-      loadFirebaseImages()
-      
-    }, [review])
-  }
-  
+      const results = await Promise.all(imagePromises)
+      const validImages = results.filter(img => img !== null)
+      console.log("Loaded Firebase images:", validImages);
+      setFirebaseImages(validImages)
+      setFirebaseImagesLoading(false)
+    }
+
+    loadFirebaseImages()
+  }, [review, shouldUseFirestore]) // Added shouldUseFirestore to dependencies
+
   const brand = review.brand
   const model = review.model
 
@@ -132,9 +135,14 @@ export default function Review(skiName: string, folderExists: boolean) {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <div className="flex">
-                  <img src={reviews[skiName].authorPicture} alt="Picture of the review author" className="mr-4 h-10 w-10 rounded-full bg-gray-50" />
+                  <Image 
+                    src={reviews[skiName].authorPicture} 
+                    alt="Picture of the review author" 
+                    className="mr-4 h-10 w-10 rounded-full bg-gray-50"
+                    width={40}
+                    height={40}
+                  />
                   <p className=" self-center text-base font-semibold leading-7 text-accent-color">{texts.by[locale] + " " + reviews[skiName].author}</p>
-                  
                 </div>
                 
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{skiName + " " + texts.review[locale]}</h1>
@@ -154,7 +162,7 @@ export default function Review(skiName: string, folderExists: boolean) {
           </div>
 
           {/* Show loading text for Firebase images */}
-          {review["picture"] === "firestore" && firebaseImagesLoading ? (
+          {shouldUseFirestore && firebaseImagesLoading ? (
             <div className="lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">
               <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
                 <div className="text-center">
@@ -164,64 +172,78 @@ export default function Review(skiName: string, folderExists: boolean) {
               </div>
             </div>
           ) : (folderExists === true || images.length > 0) ? (
-          <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">  
-            <Tab.Group as="div" className="flex flex-col-reverse">
-              {/* Image selector */}
-              <div className="mx-auto mt-6 w-full max-w-2xl block lg:max-w-none px-4">
-                <Tab.List className="grid grid-cols-4 gap-6">
-                  {images.map((image) => (
-                    <Tab
-                      key={image.id}
-                      className="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4"
-                    >
-                      {({ selected }) => (
-                        <>
-                          <span className="sr-only">{image.name}</span>
-                          <span className="absolute inset-0 overflow-hidden rounded-md">
-                            <img 
-                              src={image.src} 
-                              alt={image.alt} 
-                              className="h-full w-full object-contain object-center" />
-                          </span>
-                          <span
-                            className={classNames(
-                              selected ? 'ring-accent-color' : 'ring-transparent',
-                              'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
-                            )}
-                            aria-hidden="true"
-                          />
-                        </>
-                      )}
-                    </Tab>
-                  ))}
-                </Tab.List>
-              </div>
+            <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">  
+              <Tab.Group as="div" className="flex flex-col-reverse">
+                {/* Image selector */}
+                <div className="mx-auto mt-6 w-full max-w-2xl block lg:max-w-none px-4">
+                  <Tab.List className="grid grid-cols-4 gap-6">
+                    {images.map((image) => (
+                      <Tab
+                        key={image.id}
+                        className="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-offset-4"
+                      >
+                        {({ selected }) => (
+                          <>
+                            <span className="sr-only">{image.name}</span>
+                            <span className="absolute inset-0 overflow-hidden rounded-md">
+                              <Image 
+                                src={image.src} 
+                                alt={image.alt} 
+                                className="h-full w-full object-contain object-center"
+                                fill
+                                sizes="96px"
+                              />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-accent-color' : 'ring-transparent',
+                                'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+                    ))}
+                  </Tab.List>
+                </div>
 
-              <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
-                {images.map((image) => (
-                  <Tab.Panel key={image.id}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      className="h-full w-full object-contain object-center sm:rounded-lg"
-                      height={700}
-                      width={700}
-                    />
-                  </Tab.Panel>
-                ))}
-              </Tab.Panels>
-            </Tab.Group>
-          </div>
+                <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
+                  {images.map((image) => (
+                    <Tab.Panel key={image.id}>
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        className="h-full w-full object-contain object-center sm:rounded-lg"
+                        height={700}
+                        width={700}
+                      />
+                    </Tab.Panel>
+                  ))}
+                </Tab.Panels>
+              </Tab.Group>
+            </div>
           ) : (
-          <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60">
-            {/* Use the Firebase image with fallback here if needed */}
-            <img
-              className=" rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:rotate-90 p-4 xl:scale-90"
-              src={reviews[skiName].picture}
-              alt="Picture of the ski that is being reviewed"
-            />
-          </div>
+            <div className=" lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60">
+              {/* Only show fallback image if it's NOT firestore and we have a valid URL */}
+              {review["picture"] !== "firestore" ? (
+                <Image
+                  className=" rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:rotate-90 p-4 xl:scale-90"
+                  src={reviews[skiName].picture}
+                  alt="Picture of the ski that is being reviewed"
+                  width={600}
+                  height={400}
+                  style={{ width: 'auto', height: 'auto' }}
+                />
+              ) : (
+                // Show placeholder for firestore case when no images loaded
+                <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
+                  <p className="text-gray-600">No images available</p>
+                </div>
+              )}
+            </div>
           )}
+          
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">

@@ -8,8 +8,10 @@ export const useFirebaseImage = (imagePath) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // Handle null/undefined imagePath
     if (!imagePath) {
       setLoading(false);
+      setError(new Error('No image path provided'));
       return;
     }
 

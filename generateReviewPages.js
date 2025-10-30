@@ -39,7 +39,6 @@ export default function Review({ photoFolderExists }: ReviewProps) {
 
     fs.writeFile(`./pages${reviews[skiName].href}.tsx`, reviewPage, function(error) {
         if (error) throw error
-        console.log("created")
     }, )
 })
 
