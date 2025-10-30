@@ -125,8 +125,8 @@ export default function Review(skiName: string, folderExists: boolean) {
   return (
     <>
       <Head>
-        {review.meta_title ? <meta name="title" content={review.meta_title} /> : <title>{skiName + " " + texts.review[locale]}</title>}
-        {review.meta_description ? <meta name="description" content={review.meta_description} /> : <meta name="description" content={texts.metaDescription[locale]}/>}
+        {review.meta_titles ? <meta name="title" content={review.meta_titles[locale]} /> : <title>{skiName + " " + texts.review[locale]}</title>}
+        {review.meta_descriptions ? <meta name="description" content={review.meta_descriptions[locale]} /> : <meta name="description" content={texts.metaDescription[locale]}/>}
       </Head>
 
       <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
