@@ -5,7 +5,7 @@ import reviews from '../../public/reviews/reviews.json'
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
-    const photoFolderExists = checkFolderExists(reviews["Head Head Kore 106 Ti"].brand, reviews["Head Head Kore 106 Ti"].model);
+    const photoFolderExists = checkFolderExists(reviews["Head WCR e gs rebel team junior"].brand, reviews["Head WCR e gs rebel team junior"].model);
 
     return {
         props: {
@@ -20,5 +20,5 @@ interface ReviewProps {
 }
 
 export default function Review({ photoFolderExists }: ReviewProps) {
-    return ReviewTemplate("Head Head Kore 106 Ti", photoFolderExists)
+    return ReviewTemplate("Head WCR e gs rebel team junior", photoFolderExists)
 }
