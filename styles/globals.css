@@ -3,36 +3,4 @@
 @tailwind utilities;
 
 @layer components {
-
-    .review-submit-input {
-        @apply bg-custom-grey text-center bg-opacity-0 text-dark-blue 
-        mb-6 w-full mx-6 px-8
-    }
-
-    .standard-button {
-        @apply bg-dark-blue text-custom-white py-2 px-4 rounded-full 
-        mt-6 transition max-w-[100px] duration-500 shadow-lg mx-auto
-    }
-
-    .standard-background {
-        @apply bg-[url('../public/background.svg')] bg-cover w-screen 
-        min-h-screen absolute flex flex-col justify-center items-center 
-        bg-fixed 
-    }
-
-    .standard-text {
-        @apply text-center text-dark-blue mx-6
-    }
-
-    .fade-in {
-        opacity: 0;
-        animation: fadeIn ease 1s;
-        animation-fill-mode: forwards;
-      }
-      
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
 }

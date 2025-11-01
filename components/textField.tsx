@@ -1,3 +1,5 @@
+/*
+
 import React from 'react'
 import Link from 'next/link'
 import FeedbackForm from './feedbackForm';
@@ -35,3 +37,4 @@ const TextField: React.FC<TextInputs> = ({ texts, links, feedbackBox=false }) =>
 }
 
 export default TextField
+*/
