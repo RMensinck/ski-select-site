@@ -80,6 +80,34 @@ const textsReviews = {
     "pl": "Dogłębna recenzja",
     "fr": "Critique approfondie"
   },
+  reviewsFound: {
+    "en": "reviews found",
+    "nl": "reviews gevonden",
+    "ja": "レビューが見つかりました",
+    "es": "reseñas encontradas",
+    "de": "Bewertungen gefunden",
+    "pl": "znaleziono recenzje",
+    "fr": "critiques trouvées"
+  },
+  featuredReviewsFound: {
+    "en": "featured reviews • Total number of searchable reviews:",
+    "nl": "uitgelichte reviews • Totaal aantal doorzoekbare reviews:",
+    "ja": "特集レビュー • 検索可能なレビューの総数:",
+    "es": "reseñas destacadas • Total de reseñas buscables:",
+    "de": "ausgewählte Bewertungen • Gesamtzahl der durchsuchbaren Bewertungen:",
+    "pl": "wyróżnione recenzje • Łączna liczba przeszukiwanych recenzji:",
+    "fr": "avis en vedette • Recherchez pour explorer tout"
+  },
+  wantMore: {
+    "en": "Want to see more? Use the search bar above to explore all reviews.",
+    "nl": "Wilt u meer zien? Gebruik de zoekbalk hierboven om alle beoordelingen te verkennen.",
+    "ja": "もっと見たいですか？上の検索バーを使ってすべてのレビューを探索してください。",
+    "es": "¿Quieres ver más? Usa la barra de búsqueda de arriba para explorar todas las reseñas.",
+    "de": "Möchten Sie mehr sehen? Verwenden Sie die Suchleiste oben, um alle Bewertungen zu durchsuchen.",
+    "pl": "Chcesz zobaczyć więcej? Użyj paska wyszukiwania powyżej, aby przeszukać wszystkie recenzje.",
+    "fr": "Vous voulez en voir plus ? Utilisez la barre de recherche ci-dessus pour explorer toutes les critiques."
+  },
+  
 }
 
 export default textsReviews

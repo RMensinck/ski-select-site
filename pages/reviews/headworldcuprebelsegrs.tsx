@@ -1,5 +1,5 @@
 import ReviewTemplate from '../../components/reviewTemplate'
 
 export default function Review() {
-    return ReviewTemplate("Black diamond Helio carbon 88")
+    return ReviewTemplate("Head worldcup rebels e gsr")
 }

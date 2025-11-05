@@ -71,7 +71,6 @@ export default function App({ Component, pageProps, router }: AppProps) {
       }} 
     />
     <Head>
-
       {generateHreflangTags()}
     </Head>
     <Sidebar />

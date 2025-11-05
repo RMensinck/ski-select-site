@@ -113,11 +113,11 @@ export default function Footer() {
     ],
   }
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="bg-bg shadow-sm md:rounded-xl md:mx-4 md:my-4 lg:max-w-5xl lg:mx-auto 2xl:max-w-7xl" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-7xl px-6 pb-8 pt-8 lg:px-8 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <div className="flex space-x-6">
@@ -125,7 +125,7 @@ export default function Footer() {
                 <Link 
                   key={item.name} 
                   href={item.href} 
-                  className="text-gray-400 hover:text-gray-500"
+                  className="text-gray-400 hover:text-gray-500 bg-bg-light p-2 rounded-full shadow-md hover:shadow-lg"
                   onClick={() => {
                     gtag('event', `social media ${item.name} clicked`)
                     if (item.href === '#') {
@@ -140,8 +140,8 @@ export default function Footer() {
               ))}
             </div>
             <div className="mt-10 xl:mt-0">
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">{texts.subscribeToNewsletter[locale]}</h3>
-              <p className="mt-2 text-sm leading-6 text-gray-600">
+              <h3 className="text-sm font-semibold leading-6 text-text">{texts.subscribeToNewsletter[locale]}</h3>
+              <p className="mt-2 text-sm leading-6 text-text-muted">
                 {texts.newsletterDescription[locale]}
               </p>
               <form 
@@ -158,13 +158,13 @@ export default function Footer() {
                   id="email"
                   autoComplete="email"
                   required
-                  className="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-gray-600 shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                  className="w-full min-w-0 appearance-none rounded-md border-0 bg-bg px-3 py-1.5 text-base text-muted shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-muted focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-64 sm:text-sm sm:leading-6 xl:w-full bg-bg-light shadow-md"
                   placeholder="Enter your email"
                 />
                 <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
                   <button
                     type="submit"
-                    className="flex w-full items-center justify-center rounded-md bg-accent-color px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                    className="flex w-full items-center justify-center rounded-md bg-accent-color px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 shadow-md hover:shadow-lg"
                   >
                     {texts.subscribe[locale]}
                   </button>
@@ -176,11 +176,11 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">{texts.topPicks[locale]}</h3>
+                <h3 className="text-sm font-semibold leading-6 text-text">{texts.topPicks[locale]}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.topPicks.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <Link href={item.href} className="text-sm leading-6 text-text-muted hover:text-text">
                         {item.name}
                       </Link>
                     </li>
@@ -188,13 +188,13 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">{texts.learnMore[locale]}</h3>
+                <h3 className="text-sm font-semibold leading-6 text-text">{texts.learnMore[locale]}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.learnMore.map((item) => (
                     <li key={item.name}>
                       <Link 
                         href={item.href} 
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-text-muted hover:text-text"
                         onClick={() => {
                           gtag('event', `footer ${item.name} clicked`)
                         }}
@@ -208,13 +208,13 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">{texts.skiInfo[locale]}</h3>
+                <h3 className="text-sm font-semibold leading-6 text-text">{texts.skiInfo[locale]}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.skiInfo.map((item) => (
                     <li key={item.name}>
                       <Link 
                         href={item.href} 
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-text-muted hover:text-text"
                         onClick={() => {
                           gtag('event', `footer ${item.name} clicked`)
                         }}
@@ -226,13 +226,13 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">{texts.aboutUs[locale]}</h3>
+                <h3 className="text-sm font-semibold leading-6 text-text">{texts.aboutUs[locale]}</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.aboutUs.map((item) => (
                     <li key={item.name}>
                       <Link 
                         href={item.href} 
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                        className="text-sm leading-6 text-text-muted hover:text-text"
                         onClick={() => {
                           gtag('event', `footer ${item.name} clicked`)
                         }}
@@ -247,7 +247,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">&copy; 2024 Pick-a-ski.com. All rights reserved.</p>
+          <p className="text-xs leading-5 text-text-muted">&copy; 2024 Pick-a-ski.com. All rights reserved.</p>
         </div>
       </div>
     </footer>

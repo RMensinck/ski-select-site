@@ -25,7 +25,7 @@ export default function Example() {
   }
 
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-bg shadow-sm md:rounded-full md:mx-4 md:my-4 lg:max-w-6xl lg:mx-auto 2xl:max-w-7xl">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -56,43 +56,43 @@ export default function Example() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <Link
                     href="/"
-                    className={router.asPath === "/" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.home[locale]}
                   </Link>
                   <Link
                     href="/pick-a-ski"
-                    className={router.asPath === "/pick-a-ski" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/pick-a-ski" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     Pick-a-ski
                   </Link>
                   <Link
                     href="/opinions"
-                    className={router.asPath === "/opinions" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/opinions" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.opinions[locale]}
                   </Link>
                   <Link
                     href="/reviews"
-                    className={router.asPath === "/reviews" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/reviews" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.reviews[locale]}
                   </Link>
                   <Link
                     href="/articles"
-                    className={router.asPath === "/articles" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/articles" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.articles[locale]}
                   </Link>
                   <Link
                     href="/mission"
-                    className={router.asPath === "/mission" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/mission" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.mission[locale]}
                   </Link>
                   <Link
                     href="/contact"
-                    className={router.asPath === "/contact" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-gray-900" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"}
+                    className={router.asPath === "/contact" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.contact[locale]}
                   </Link>
@@ -100,7 +100,7 @@ export default function Example() {
               </div>
               <div className="flex items-center">
                 <div
-                  className=" z-50 inline-flex items-center border-b-2 border-transparent px-3 pt-1 text-sm font-medium text-gray-500"
+                  className=" z-50 inline-flex items-center border-b-2 border-transparent px-3 pt-1 text-sm font-medium"
                 >
                   < LanguageMenu />
                 </div>
@@ -119,7 +119,7 @@ export default function Example() {
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative ml-3">
                     <div>
-                      <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                      <MenuButton className="relative flex rounded-full bg-bg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
                         {user ?
@@ -143,7 +143,7 @@ export default function Example() {
                       leaveTo="transform opacity-0 scale-95"
                     >
 
-                      <MenuItems className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <MenuItems className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-bg py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         { user ? 
                           <>
                           <MenuItem>
@@ -151,8 +151,8 @@ export default function Example() {
                               <Link
                                 href="/profile"
                                 className={classNames(
-                                  active ? 'bg-gray-100' : '',
-                                  'block px-4 py-2 text-sm text-gray-700'
+                                  active ? 'bg-bg-dark' : '',
+                                  'block px-4 py-2 text-sm text-text'
                                 )}
                               >
                                 {texts.profile[locale]}
@@ -165,8 +165,8 @@ export default function Example() {
                                 href="#"
                                 onClick={() => signOut(auth)}
                                 className={classNames(
-                                  active ? 'bg-gray-100' : '',
-                                  'block px-4 py-2 text-sm text-gray-700'
+                                  active ? 'bg-bg-dark' : '',
+                                  'block px-4 py-2 text-sm text-text'
                                 )}
                               >
                                 {texts.logout[locale]}

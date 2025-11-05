@@ -8,6 +8,11 @@ module.exports = {
   theme: {
     
     colors: {
+      "bg-dark": 'hsl(0, 0%, 90%)',
+      "bg": 'hsl(0, 0%, 95%)', 
+      "bg-light": 'hsl(0, 0%, 100%)',
+      "text": 'hsl(0, 0%, 5%)',
+      "text-muted": 'hsl(0, 0%, 30%)',
       "custom-red": "#ff3333",
       "dark-red": "#ff1a1a",
       "accent-color": "#63B995",

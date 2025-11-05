@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: hsl(0, 0%, 90%); /* Your bg-bg-dark color */
+}
+
 @layer components {
 }

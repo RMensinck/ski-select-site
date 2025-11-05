@@ -1,7 +1,6 @@
-
 import texts from '@/texts/textsHome'
 import Link from 'next/link'
-import Image from 'next/legacy/image'
+import Image from 'next/image' // Use modern Next.js Image component
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Head from 'next/head'
@@ -28,23 +27,14 @@ export default function Example() {
         <title>{texts.header[locale]}</title>
         <meta name="description" content={texts.metaDescription[locale]}/>
       </Head>
-      <div className="bg-white sm:h-screen">
-        <div className="relative sm:h-screen">
-          <div className="mx-auto max-w-7xl">
+      <div className="">
+        <div className="relative mx-auto max-w-7xl">
+          <div className="mx-auto">
             <div className="relative z-10 sm:pt-14 lg:pt-14 lg:w-full lg:max-w-2xl">
-              <svg
-                className="absolute inset-y-0 right-8 hidden h-screen w-80 translate-x-1/2 transform fill-white lg:block"
-                viewBox="0 0 100 100"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-                <polygon points="0,0 90,0 50,100 0,100" />
-              </svg>
-
               <div className="relative px-6 py-12 sm:py-16 lg:py-16 lg:px-8 2xl:py-64 lg:pr-0">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                   <div className="mb-10 flex">
-                    <div className="relative rounded-lg sm:rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    <div className="relative rounded-lg sm:rounded-full px-3 py-1 text-sm leading-6 text-text-muted ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                       {texts.upperTextbox[locale]}{' '}
                       <Link href="/opinions" className="whitespace-nowrap font-semibold text-accent-color">
                         <span className="absolute inset-0" aria-hidden="true" />
@@ -52,10 +42,10 @@ export default function Example() {
                       </Link>
                     </div>
                   </div>
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                  <h1 className="text-4xl font-bold tracking-tight text-text sm:text-6xl">
                     {texts.title[locale]}
                   </h1>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <p className="mt-6 text-lg leading-8 text-text-muted">
                     {texts.body[locale]}
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
@@ -65,7 +55,7 @@ export default function Example() {
                     >
                       {texts.startNow[locale]}
                     </Link>
-                    <Link href="/mission" className="text-sm font-semibold leading-6 text-gray-900">
+                    <Link href="/mission" className="text-sm font-semibold leading-6 text-text">
                       {texts.readMore[locale]} <span aria-hidden="true">→</span>
                     </Link>
                   </div>
@@ -73,16 +63,19 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:max-h-full overflow-hidden">
-            <Image
-              src="/homephoto.jpg"
-              alt='A photo of a skier'
-              width="2813"
-              height="3516"
-              layout="responsive"
-              priority
-              className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            />
+          {/* Mobile and Desktop Image Container */}
+          <div className="px-6 py-8 h-64 sm:h-80 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:p-8 xl:p-16 2xl:p-24 lg:h-full flex items-center">
+            <div className="w-full h-full relative">
+              <Image
+                src="/homephoto.jpg"
+                alt='A photo of a skier'
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                style={{ objectFit: 'cover' }}
+                priority
+                className="rounded-2xl"
+              />
+            </div>
           </div>
         </div>
       </div>
