@@ -102,8 +102,8 @@ export default function Opinions() {
     // Get preview text based on format
     const getPreviewText = () => {
       if (isV3Format) {
-        // For v3 format, use markdown field and strip markdown formatting for preview
-        const markdownText = review.markdown?.[locale] || review.markdown?.[review.originalLanguage] || '';
+        // For v3 format, use reviews field and strip markdown formatting for preview
+        const markdownText = review.reviews?.[locale] || review.reviews?.[review.originalLanguage] || '';
         return markdownText.replace(/[#*_`]/g, '').substring(0, 300) + '...';
       } else {
         // For old format, use paragraphs
