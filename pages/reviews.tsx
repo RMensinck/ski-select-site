@@ -95,65 +95,88 @@ export default function Opinions() {
     })
   }
 
-  const renderSkiCard = (skiName) => (
-    <Card key={skiName} className="my-6 !p-0 bg-bg-light transition-all duration-300 hover:scale-105 hover:shadow-xl">
-      <article className="mx-4 sm:mx-0">
-        <div className="grid grid-cols-3 gap-4 w-full p-4">
-          <div className="col-span-1 flex justify-center items-center">
-            {loadingImages[skiName] ? (
-              <div className="flex items-center justify-center h-24 w-24">
-                <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-accent-color"></div>
-              </div>
-            ) : firebaseImages[skiName] ? (
-              <img 
-                src={firebaseImages[skiName]} 
-                alt={`Picture of the ${skiName}`} 
-                className="max-w-full h-auto object-contain"
-              />
-            ) : (
-              <div className="bg-gray-200 rounded-lg w-24 h-24 flex items-center justify-center">
-                <p className="text-gray-500 text-xs">No image</p>
-              </div>
-            )}
-          </div>
-          <div className="col-span-2">
-            <div className="flex items-center gap-x-4 text-xs">
-              <time dateTime={reviews[skiName].date} className="text-text-muted">
-                {reviews[skiName].date}
-              </time>
+  const renderSkiCard = (skiName) => {
+    const review = reviews[skiName];
+    const isV3Format = review.format_version === "v3";
+    
+    // Get preview text based on format
+    const getPreviewText = () => {
+      if (isV3Format) {
+        // For v3 format, use markdown field and strip markdown formatting for preview
+        const markdownText = review.markdown?.[locale] || review.markdown?.[review.originalLanguage] || '';
+        return markdownText.replace(/[#*_`]/g, '').substring(0, 300) + '...';
+      } else {
+        // For old format, use paragraphs
+        const paragraphs = review.paragraphs?.[locale] || review.paragraphs?.[review.originalLanguage] || [];
+        if (Array.isArray(paragraphs) && paragraphs.length >= 3) {
+          return paragraphs[0] + " " + paragraphs[1] + " " + paragraphs[2];
+        } else if (Array.isArray(paragraphs) && paragraphs.length > 0) {
+          return paragraphs.join(" ");
+        }
+        return "No preview available";
+      }
+    };
+
+    return (
+      <Card key={skiName} className="my-6 !p-0 bg-bg-light transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        <article className="mx-4 sm:mx-0">
+          <div className="grid grid-cols-3 gap-4 w-full p-4">
+            <div className="col-span-1 flex justify-center items-center">
+              {loadingImages[skiName] ? (
+                <div className="flex items-center justify-center h-24 w-24">
+                  <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-accent-color"></div>
+                </div>
+              ) : firebaseImages[skiName] ? (
+                <img 
+                  src={firebaseImages[skiName]} 
+                  alt={`Picture of the ${skiName}`} 
+                  className="max-w-full h-auto object-contain"
+                />
+              ) : (
+                <div className="bg-gray-200 rounded-lg w-24 h-24 flex items-center justify-center">
+                  <p className="text-gray-500 text-xs">No image</p>
+                </div>
+              )}
             </div>
-            <div className="group relative">
-              <h3 className="text-lg font-semibold leading-6 text-text group-hover:text-text-muted">
-                <Link href={reviews[skiName].href}>
-                  <span className="absolute inset-0" />
-                  {skiName}
-                </Link>
-              </h3>
-              <p className="mt-5 line-clamp-3 text-sm leading-2 text-text-muted">
-                {reviews[skiName].paragraphs[locale][0] + " " + reviews[skiName].paragraphs[locale][1] + " " + reviews[skiName].paragraphs[locale][2]}
-              </p>
-            </div>
-            <div className="relative mt-8 flex items-center gap-x-4">
-              <img 
-                src={reviews[skiName].authorPicture} 
-                alt="Picture of the review's author" 
-                className="h-10 w-10 rounded-full bg-gray-50" 
-              />
-              <div className="text-sm leading-6">
-                <p className="font-semibold text-text">
-                  <Link href={reviews[skiName].href}>
+            <div className="col-span-2">
+              <div className="flex items-center gap-x-4 text-xs">
+                <time dateTime={review.date} className="text-text-muted">
+                  {review.date}
+                </time>
+              </div>
+              <div className="group relative">
+                <h3 className="text-lg font-semibold leading-6 text-text group-hover:text-text-muted">
+                  <Link href={review.href}>
                     <span className="absolute inset-0" />
-                    {reviews[skiName].author}
+                    {skiName}
                   </Link>
+                </h3>
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-text-muted">
+                  {getPreviewText()}
                 </p>
-                <p className="text-text-muted">{reviews[skiName].authorInfo}</p>
+              </div>
+              <div className="relative mt-8 flex items-center gap-x-4">
+                <img 
+                  src={review.authorPicture} 
+                  alt="Picture of the review's author" 
+                  className="h-10 w-10 rounded-full bg-gray-50" 
+                />
+                <div className="text-sm leading-6">
+                  <p className="font-semibold text-text">
+                    <Link href={review.href}>
+                      <span className="absolute inset-0" />
+                      {review.author}
+                    </Link>
+                  </p>
+                  <p className="text-text-muted">{review.authorInfo}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
-    </Card>
-  )
+        </article>
+      </Card>
+    )
+  }
 
   return (
     <>

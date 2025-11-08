@@ -1,5 +1,5 @@
 import ReviewTemplate from '../../components/reviewTemplate'
 
 export default function Review() {
-    return ReviewTemplate("Black Crows Anima")
+    return ReviewTemplate("Black crows Anima test")
 }

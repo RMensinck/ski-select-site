@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '../firebaseConfig';
 import Card from '@/components/Card';
+import ReactMarkdown from 'react-markdown';
 
 declare function gtag(...args: any[]): void;
 
@@ -19,10 +20,22 @@ export default function Review(skiName: string) {
   const router = useRouter()
   const { locale } = router 
   const review = reviews[skiName]
-  const [shownParagraphs, setShownParagraphs] = useState(review.paragraphs[locale])
-  const [showLanguageDisclaimer, setShowLanguageDisclaimer] = useState(false)
   const [firebaseImages, setFirebaseImages] = useState([])
   const [firebaseImagesLoading, setFirebaseImagesLoading] = useState(true)
+
+  // Check if this is the new v3 format
+  const isV3Format = review.format_version === "v3"
+  
+  // Initialize content based on format
+  const [shownContent, setShownContent] = useState(() => {
+    if (isV3Format) {
+      return review.reviews?.[locale] || review.markdown?.[review.originalLanguage]
+    } else {
+      return review.paragraphs?.[locale] || review.paragraphs?.[review.originalLanguage] || []
+    }
+  })
+  
+  const [showLanguageDisclaimer, setShowLanguageDisclaimer] = useState(false)
 
   useEffect(() => {
     if (locale != review.originalLanguage) {
@@ -69,6 +82,47 @@ export default function Review(skiName: string) {
     loadFirebaseImages()
   }, [review])
 
+  const renderContent = () => {
+    if (isV3Format) {
+      // Render markdown for v3 format
+      return (
+        <div className="max-w-xl text-base leading-7 text-text-muted lg:max-w-lg prose prose-lg max-w-none">
+          <ReactMarkdown
+            components={{
+              h1: ({node, ...props}) => <h1 className="text-xl font-semibold text-text mt-6" {...props} />,
+              h2: ({node, ...props}) => <h2 className="text-xl font-semibold text-text mt-6" {...props} />,
+              h3: ({node, ...props}) => <h3 className="text-lg font-semibold text-text mt-4" {...props} />,
+              p: ({node, ...props}) => <p className="mt-6 first:mt-0" {...props} />,
+            }}
+          >
+            {typeof shownContent === 'string' ? shownContent : ''}
+          </ReactMarkdown>
+        </div>
+      )
+    } else {
+      // Render old format with titles and paragraphs
+      return (
+        <div className="max-w-xl text-base leading-7 text-text-muted lg:max-w-lg">
+          {Array.isArray(shownContent) && shownContent.map((paragraph: string, index: number) => (
+            <div key={index}>
+              {review.titles && review.titles[locale] && review.titles[locale][index] && (
+                <h2 className="mt-6 text-xl font-semibold text-text">
+                  {review.titles[locale][index]}
+                </h2>
+              )}
+              <p
+                className={index === 0 ? "mt-0" : "mt-6"}
+                key={index}
+              >
+                {paragraph}
+              </p>
+            </div>
+          ))}
+        </div>
+      )
+    }
+  }
+
   return (
     <>
       <Head>
@@ -98,7 +152,11 @@ export default function Review(skiName: string) {
                     <p
                       className="mt-2 text-base leading-8 text-text-muted underline hover:cursor-pointer"
                       onClick={() => {
-                        setShownParagraphs(review.paragraphs[review.originalLanguage ])
+                        if (isV3Format) {
+                          setShownContent(review.markdown?.[review.originalLanguage] || '')
+                        } else {
+                          setShownContent(review.paragraphs[review.originalLanguage])
+                        }
                         setShowLanguageDisclaimer(false)
                       }}
                       >
@@ -108,6 +166,7 @@ export default function Review(skiName: string) {
                 </div>
               </div>
             </div>
+            
             {/* Firebase images with loading state */}
             {firebaseImagesLoading ? (
               <div className="lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">
@@ -179,23 +238,7 @@ export default function Review(skiName: string) {
           
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
               <div className="lg:pr-4">
-                <div className="max-w-xl text-base leading-7 text-text-muted lg:max-w-lg">
-                  { shownParagraphs.map((paragraph: string, index:number) => (
-                    <div key={index}>
-                      {review.titles && review.titles[locale] && review.titles[locale][index] && (
-                        <h2 className="mt-6 text-xl font-semibold text-text">
-                          {review.titles[locale][index]}
-                        </h2>
-                      )}
-                      <p
-                        className={index === 0 ? "mt-0" : "mt-6"}
-                        key={index}
-                      >
-                          {paragraph}
-                      </p>
-                    </div>
-                  ))}
-                </div>
+                {renderContent()}
               </div>
             </div>
           </div>
