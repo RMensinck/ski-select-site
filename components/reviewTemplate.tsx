@@ -84,12 +84,20 @@ export default function Review(skiName: string) {
 
   const renderContent = () => {
     if (isV3Format) {
-      // Render markdown for v3 format
+      // Check if markdown contains H1
+      const hasH1 = typeof shownContent === 'string' && shownContent.includes('# ')
+      
       return (
         <div className="max-w-xl text-base leading-7 text-text-muted lg:max-w-lg prose prose-lg max-w-none">
+          {/* Render H1 title if markdown doesn't have one */}
+          {!hasH1 && (
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-text sm:text-4xl mb-6">
+              {review.brand} {review.model}
+            </h1>
+          )}
           <ReactMarkdown
             components={{
-              h1: ({node, ...props}) => <h1 className="text-xl font-semibold text-text mt-6" {...props} />,
+              h1: ({node, ...props}) => <h1 className="text-3xl font-bold tracking-tight text-text sm:text-4xl mt-6 mb-6" {...props} />,
               h2: ({node, ...props}) => <h2 className="text-xl font-semibold text-text mt-6" {...props} />,
               h3: ({node, ...props}) => <h3 className="text-lg font-semibold text-text mt-4" {...props} />,
               p: ({node, ...props}) => <p className="mt-6 first:mt-0" {...props} />,
@@ -103,6 +111,10 @@ export default function Review(skiName: string) {
       // Render old format with titles and paragraphs
       return (
         <div className="max-w-xl text-base leading-7 text-text-muted lg:max-w-lg">
+          {/* Always show H1 for old format */}
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-text sm:text-4xl mb-6">
+            {review.brand} {review.model}
+          </h1>
           {Array.isArray(shownContent) && shownContent.map((paragraph: string, index: number) => (
             <div key={index}>
               {review.titles && review.titles[locale] && review.titles[locale][index] && (
