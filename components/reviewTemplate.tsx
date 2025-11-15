@@ -148,16 +148,18 @@ export default function Review(skiName: string) {
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
               <div className="">
                 <div className="lg:max-w-lg">
-                  <div className="flex">
-                    <Image
-                      src={reviews[skiName].authorPicture}
-                      alt="Picture of the review author"
-                      className="mr-4 h-10 w-10 rounded-full bg-bg-light"
-                      width={40}
-                      height={40}
-                    />
-                    <p className=" self-center text-base font-semibold leading-7 text-accent-color">{texts.by[locale] + " " + reviews[skiName].author}</p>
-                  </div>
+                    <div className="flex">
+                      <div className="mr-4 h-10 w-10 rounded-full bg-bg-light overflow-hidden flex-shrink-0">
+                        <Image
+                          src={reviews[skiName].authorPicture}
+                          alt="Picture of the review author"
+                          className="h-full w-full object-cover"
+                          width={40}
+                          height={40}
+                        />
+                      </div>
+                      <p className="self-center text-base font-semibold leading-7 text-accent-color">{texts.by[locale] + " " + reviews[skiName].author}</p>
+                    </div>
 
                   { showLanguageDisclaimer &&
                     <p

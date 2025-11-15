@@ -9,6 +9,7 @@ import React from 'react';
 import Card from '@/components/Card';
 import { ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '../firebaseConfig';
+import Image from 'next/image';
 
 declare function gtag(...args: any[]): void;
 
@@ -156,11 +157,15 @@ export default function Opinions() {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <img 
-                  src={review.authorPicture} 
-                  alt="Picture of the review's author" 
-                  className="h-10 w-10 rounded-full bg-gray-50" 
-                />
+                <div className="mr-4 h-10 w-10 rounded-full bg-bg-light overflow-hidden flex-shrink-0">
+                  <Image
+                    src={reviews[skiName].authorPicture}
+                    alt="Picture of the review author"
+                    className="h-full w-full object-cover"
+                    width={40}
+                    height={40}
+                  />
+                </div>
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-text">
                     <Link href={review.href}>
