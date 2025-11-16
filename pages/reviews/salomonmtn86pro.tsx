@@ -1,0 +1,5 @@
+import ReviewTemplate from '../../components/reviewTemplate'
+
+export default function Review() {
+    return ReviewTemplate("Salomon Mtn 86 pro")
+}
