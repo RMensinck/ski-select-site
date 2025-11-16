@@ -61,6 +61,33 @@ const texts = {
     "de": "niederländisch",
     "pl": "holenderski",
     "fr": "néerlandais"
+  },
+  imagesHelp: {
+    "en": "Help us get an image!",
+    "nl": "Help ons aan een afbeelding!",
+    "ja": "画像の提供にご協力ください！",
+    "es": "¡Ayúdanos a conseguir una imagen!",
+    "de": "Helfen Sie uns, ein Bild zu bekommen!",
+    "pl": "Pomóż nam zdobyć obraz!",
+    "fr": "Aidez-nous à obtenir une image!"
+  },
+  imagesHelpBody: {
+    "en": "Because we are not commercial, we cannot use the images created by the brands themselves for the",
+    "nl": "Omdat we niet commercieel zijn, kunnen we de afbeeldingen die door de merken zelf zijn gemaakt niet gebruiken voor de",
+    "ja": "私たちは商業的な団体ではないため、ブランド自身が作成した画像を使用することはできません。",
+    "es": "Debido a que no somos comerciales, no podemos usar las imágenes creadas por las propias marcas para el",
+    "de": "Da wir nicht kommerziell sind, können wir die von den Marken selbst erstellten Bilder nicht für den",
+    "pl": "Ponieważ nie jesteśmy komercyjni, nie możemy używać obrazów stworzonych przez same marki do",
+    "fr": "Parce que nous ne sommes pas commerciaux, nous ne pouvons pas utiliser les images créées par les marques elles-mêmes pour le"
+  },
+  imagesHelpDisclaimer: {
+    "en": "By uploading, you agree that your image may be used to help other skiers learn about this product.",
+    "nl": "Door te uploaden gaat u ermee akkoord dat uw afbeelding kan worden gebruikt om andere skiërs te helpen meer te weten te komen over dit product.",
+    "ja": "アップロードすることにより、あなたの画像が他のスキーヤーがこの製品について学ぶのを助けるために使用されることに同意したことになります。",
+    "es": "Al subir, usted acepta que su imagen puede ser utilizada para ayudar a otros esquiadores a aprender sobre este producto.",
+    "de": "Durch das Hochladen stimmen Sie zu, dass Ihr Bild verwendet werden kann, um anderen Skifahrern zu helfen, mehr über dieses Produkt zu erfahren.",
+    "pl": "Przesyłając, zgadzasz się, że Twój obraz może być używany, aby pomóc innym narciarzom dowiedzieć się o tym produkcie.",
+    "fr": "En téléchargeant, vous acceptez que votre image puisse être utilisée pour aider d'autres skieurs à en savoir plus sur ce produit."
   }
 }
 

@@ -5,10 +5,11 @@ import texts from '../texts/textsSingleReview'
 import { useEffect, useState } from 'react';
 import { Tab, TabGroup, TabList, TabPanels, TabPanel } from '@headlessui/react'
 import Image from 'next/image';
-import { ref, getDownloadURL } from 'firebase/storage';
+import { ref, getDownloadURL, uploadBytes } from 'firebase/storage';
 import { storage } from '../firebaseConfig';
 import Card from '@/components/Card';
 import ReactMarkdown from 'react-markdown';
+import Particles from './Particles';
 
 declare function gtag(...args: any[]): void;
 
@@ -22,6 +23,8 @@ export default function Review(skiName: string) {
   const review = reviews[skiName]
   const [firebaseImages, setFirebaseImages] = useState([])
   const [firebaseImagesLoading, setFirebaseImagesLoading] = useState(true)
+  const [uploading, setUploading] = useState(false)
+  const [uploadSuccess, setUploadSuccess] = useState(false)
 
   // Check if this is the new v3 format
   const isV3Format = review.format_version === "v3"
@@ -81,6 +84,51 @@ export default function Review(skiName: string) {
 
     loadFirebaseImages()
   }, [review])
+
+  const handleImageUpload = async (event) => {
+    const file = event.target.files[0]
+    if (!file) return
+
+    // Validate file type
+    if (!file.type.startsWith('image/')) {
+      alert('Please select an image file')
+      return
+    }
+
+    // Validate file size (max 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      alert('File size must be less than 5MB')
+      return
+    }
+
+    setUploading(true)
+    
+    try {
+      // Create a unique filename
+      const timestamp = Date.now()
+      const fileName = `${review.brand}-${review.model}-user-${timestamp}.webp`
+      const uploadPath = `user_uploads/${fileName}`
+      
+      // Create storage reference
+      const storageRef = ref(storage, uploadPath)
+      
+      // Upload file
+      await uploadBytes(storageRef, file)
+      
+      setUploadSuccess(true)
+      setUploading(false)
+      
+      // Show success message
+      setTimeout(() => {
+        setUploadSuccess(false)
+      }, 3000)
+      
+    } catch (error) {
+      console.error('Upload failed:', error)
+      alert('Upload failed. Please try again.')
+      setUploading(false)
+    }
+  }
 
   const renderContent = () => {
     if (isV3Format) {
@@ -245,11 +293,87 @@ export default function Review(skiName: string) {
               </div>
             ) : (
               <div className="lg:p-12 lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 sticky lg:translate-y-60 xl:translate-y-40 2xl:translate-y-20 max-w-[900px]">
-                <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
-                  <p className="text-text-muted">No images available</p>
+                <Card className="bg-bg-light relative overflow-hidden">
+      {/* Particles as background */}
+      <div className="absolute inset-0 w-full h-full">
+        <Particles
+          particleColors={['#ffffff', '#ffffff']}
+          particleCount={200}
+          particleSpread={10}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+          className="w-full h-full"
+        />
+      </div>
+      
+      {/* Content overlay */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-96 p-8 text-center bg-white/10">
+        {uploadSuccess ? (
+          // Success state
+          <div className="text-center">
+            <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-4">
+              <svg className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-medium text-text mb-2">Upload Successful!</h3>
+            <p className="text-text-muted">Thank you for contributing an image of the {review.brand} {review.model}.</p>
+          </div>
+        ) : (
+          // Upload prompt
+          <>
+            <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-gray-100 mb-4">
+              <svg className="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-medium text-text mb-2">{texts.imagesHelp[locale]}</h3>
+            <p className="text-text-muted mb-6 max-w-sm">
+              {texts.imagesHelpBody[locale]} {review.brand} {review.model} skis.
+            </p>
+            
+            <div className="w-full max-w-xs">
+              <label className="block">
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageUpload}
+                  disabled={uploading}
+                  className="sr-only"
+                />
+                <div className={`cursor-pointer rounded-md border-2 border-dashed border-gray-300 p-6 text-center hover:border-gray-400 transition-colors backdrop-blur-sm bg-white/50 ${
+                  uploading ? 'opacity-50 cursor-not-allowed' : ''
+                }`}>
+                  {uploading ? (
+                    <div className="flex flex-col items-center">
+                      <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-accent-color mb-2"></div>
+                      <span className="text-sm text-text-muted">Uploading...</span>
+                    </div>
+                  ) : (
+                    <>
+                      <svg className="mx-auto h-8 w-8 text-gray-400 mb-2" stroke="currentColor" fill="none" viewBox="0 0 48 48">
+                        <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                      <span className="text-sm font-medium text-accent-color">Upload Image</span>
+                      <span className="block text-xs text-text-muted mt-1">PNG, JPG, WEBP up to 5MB</span>
+                    </>
+                  )}
                 </div>
-              </div>
-            )}
+              </label>
+            </div>
+            
+            <p className="text-xs text-text-muted mt-4 max-w-sm">
+              {texts.imagesHelpDisclaimer[locale]}
+            </p>
+          </>
+        )}
+      </div>
+    </Card>
+  </div>
+)}
           
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
               <div className="lg:pr-4">
