@@ -70,13 +70,13 @@ export default function App({ Component, pageProps, router }: AppProps) {
         `,
       }} 
     />
+    <Script 
+      id='contentsquare'
+      strategy="afterInteractive"
+      src="https://t.contentsquare.net/uxa/f39fe7c03de3a.js"
+    />
     <Head>
       {generateHreflangTags()}
-        <Script 
-        id='contentsquare'
-        strategy="afterInteractive"
-        src="https://t.contentsquare.net/uxa/f39fe7c03de3a.js"
-      />
     </Head>
     <Sidebar />
     <Component {...pageProps} />
