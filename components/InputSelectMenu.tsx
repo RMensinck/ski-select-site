@@ -1,49 +1,27 @@
-import { Fragment, useState, useEffect } from 'react'
+import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function InputSelectMenu({options, onSelectionChange, defaultIndex=0}) {
+export default function InputSelectMenu({ options, onSelectionChange, defaultIndex = 0 }) {
+  const [selected, setSelected] = useState(options[defaultIndex])
 
-  if (!Array.isArray(options) || options.some(option => !option.name || !option.id)) {
-    throw new Error('Invalid options prop');
+  const handleSelectionChange = (value) => {
+    setSelected(value)
+    onSelectionChange(value)
   }
 
-  const [selected, setSelected] = useState(options.length > 0 ? options[defaultIndex] : null);
-
-  const handleSelectChange = (option) => {
-    setSelected(option);
-    if (onSelectionChange) {
-      onSelectionChange(option);
-    }
-  };
-
-  useEffect(() => {
-    setSelected(options.length > 0 ? options[0] : null);
-  }, [options.length])
-
-  useEffect(() => {
-    onSelectionChange(selected);
-  }, [selected])
-
-  useEffect(() => {
-    setSelected(options[defaultIndex])
-  }, [])
-
   return (
-    <Listbox value={selected} onChange={handleSelectChange}>
+    <Listbox value={selected} onChange={handleSelectionChange}>
       {({ open }) => (
         <>
-          
           <div className="relative mt-2">
-            <Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-color sm:text-sm sm:leading-6">
+            <Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6 min-h-[2.5rem]">
               <span className="block truncate">{selected.name}</span>
-              <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+              <span className="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center pr-2">
                 <ChevronUpDownIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
               </span>
             </Listbox.Button>
@@ -55,23 +33,30 @@ export default function InputSelectMenu({options, onSelectionChange, defaultInde
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <Listbox.Options className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                {options.map((person) => (
+              <Listbox.Options className="absolute z-10 mt-1 max-h-56 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                {options.map((option) => (
                   <Listbox.Option
-                    key={person.id}
+                    key={option.id}
                     className={({ active }) =>
                       classNames(
-                        active ? 'bg-accent-color text-white' : 'text-gray-900',
-                        'relative cursor-default select-none py-2 pl-3 pr-9'
+                        active ? 'bg-indigo-600 text-white' : 'text-gray-900',
+                        'relative cursor-default select-none py-2 pl-3 pr-9 min-h-[2.5rem] flex items-start'
                       )
                     }
-                    value={person}
+                    value={option}
                   >
                     {({ selected, active }) => (
                       <>
-                        <span className={classNames(selected ? 'font-semibold' : 'font-normal', 'block truncate')}>
-                          {person.name}
-                        </span>
+                        <div className="flex items-start w-full">
+                          <span
+                            className={classNames(
+                              selected ? 'font-semibold' : 'font-normal',
+                              'block whitespace-normal leading-tight break-words flex-1'
+                            )}
+                          >
+                            {option.name}
+                          </span>
+                        </div>
 
                         {selected ? (
                           <span
