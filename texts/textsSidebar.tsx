@@ -88,6 +88,15 @@ const textsSidebar = {
     "de": "Artikel",
     "pl": "Artykuły",
     "fr": "Articles"
+  },
+  skiSelector: {
+    "en": "Ski selector",
+    "nl": "Skikeuzehulp",
+    "ja": "スキーセレクター",
+    "es": "Selector de esquís",
+    "de": "Ski-Auswahlhilfe",
+    "pl": "Selektor nart",
+    "fr": "Sélecteur de skis"
   }
 }
 

@@ -66,12 +66,14 @@ export default function Example() {
                   >
                     Pick-a-ski
                   </Link>
+                  {/* disable opinions}
                   <Link
                     href="/opinions"
                     className={router.asPath === "/opinions" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
                   >
                     {texts.opinions[locale]}
                   </Link>
+                  */}
                   <Link
                     href="/reviews"
                     className={router.asPath === "/reviews" ? "inline-flex items-center border-b-2 border-accent-color px-1 pt-1 text-sm font-medium text-text" : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-text-muted hover:border-gray-300 hover:text-text"}
@@ -214,8 +216,9 @@ export default function Example() {
                 href={`/${locale}/pick-a-ski`}
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6"
               >
-                Pick-a-ski
+                {texts.skiSelector[locale]}
               </DisclosureButton>
+              {/* disable opinions
               <DisclosureButton
                 as="a"
                 href={`/${locale}/opinions`}
@@ -223,6 +226,7 @@ export default function Example() {
               >
                 {texts.opinions[locale]}
               </DisclosureButton>
+              */}
               <DisclosureButton
                 as="a"
                 href={`/${locale}/reviews`}
