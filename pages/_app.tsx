@@ -72,6 +72,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
     />
     <Head>
       {generateHreflangTags()}
+      <script src="https://t.contentsquare.net/uxa/f39fe7c03de3a.js"></script>
     </Head>
     <Sidebar />
     <Component {...pageProps} />
