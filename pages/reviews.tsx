@@ -7,8 +7,6 @@ import reviews from '../public/reviews/reviews.json'
 import { useEffect, useState } from 'react';
 import React from 'react';
 import Card from '@/components/Card';
-import { ref, getDownloadURL } from 'firebase/storage';
-import { storage } from '../firebaseConfig';
 import Image from 'next/image';
 
 declare function gtag(...args: any[]): void;
@@ -17,13 +15,11 @@ export default function Opinions() {
   const router = useRouter()
   const { locale } = router
   const skiNames = Object.keys(reviews).sort()
-  const [firebaseImages, setFirebaseImages] = useState({})
-  const [loadingImages, setLoadingImages] = useState({}) // Track which images are loading
   const [searchQuery, setSearchQuery] = useState('')
 
   // Featured reviews (first 6 skis)
   const featuredSkis = skiNames.slice(0, 6)
-  
+
   // Filtered skis for search
   const filteredSkis = skiNames.filter((skiName) =>
     skiName.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -37,69 +33,12 @@ export default function Opinions() {
 
   useEffect(() => {
     gtag('event', 'reviews loaded')
-    // Only load featured images on initial load
-    loadImagesForSkis(featuredSkis)
   }, [])
-
-  // Load images when search results change
-  useEffect(() => {
-    if (isSearching) {
-      loadImagesForSkis(filteredSkis)
-    }
-  }, [filteredSkis, isSearching])
-
-  const loadImagesForSkis = async (skisToLoad) => {
-    const skisNeedingImages = skisToLoad.filter(skiName => 
-      !firebaseImages[skiName] && !loadingImages[skiName]
-    )
-
-    if (skisNeedingImages.length === 0) return
-
-    // Mark images as loading
-    const newLoadingState = { ...loadingImages }
-    skisNeedingImages.forEach(skiName => {
-      newLoadingState[skiName] = true
-    })
-    setLoadingImages(newLoadingState)
-
-    const imagePromises = skisNeedingImages.map(async (skiName) => {
-      const review = reviews[skiName]
-      const imagePath = `skis/${review.brand}/${review.model}-1.webp`
-      
-      try {
-        const imageRef = ref(storage, imagePath);
-        const url = await getDownloadURL(imageRef);
-        return { skiName, url };
-      } catch (error) {
-        console.log(`Image not found: ${imagePath}`);
-        return { skiName, url: null };
-      }
-    });
-
-    const results = await Promise.all(imagePromises);
-    
-    // Update images and loading states
-    setFirebaseImages(prev => {
-      const newImages = { ...prev }
-      results.forEach(({ skiName, url }) => {
-        if (url) newImages[skiName] = url;
-      })
-      return newImages
-    })
-
-    setLoadingImages(prev => {
-      const newLoading = { ...prev }
-      results.forEach(({ skiName }) => {
-        delete newLoading[skiName]
-      })
-      return newLoading
-    })
-  }
 
   const renderSkiCard = (skiName) => {
     const review = reviews[skiName];
     const isV3Format = review.format_version === "v3";
-    
+
     // Get preview text based on format
     const getPreviewText = () => {
       if (isV3Format) {
@@ -119,67 +58,51 @@ export default function Opinions() {
     };
 
     return (
-      <Card key={skiName} className="my-6 !p-0 bg-bg-light transition-all duration-300 hover:scale-105 hover:shadow-xl">
-        <article className="mx-4 sm:mx-0">
-          <div className="grid grid-cols-3 gap-4 w-full p-4">
-            <div className="col-span-1 flex justify-center items-center">
-              {loadingImages[skiName] ? (
-                <div className="flex items-center justify-center h-24 w-24">
-                  <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-accent-color"></div>
-                </div>
-              ) : firebaseImages[skiName] ? (
-                <img 
-                  src={firebaseImages[skiName]} 
-                  alt={`Picture of the ${skiName}`} 
-                  className="max-w-full h-auto object-contain"
-                />
-              ) : (
+      <Link href={review.href} key={skiName} className="block my-6 group">
+        <Card className="!p-0 bg-bg-light transition-all duration-300 hover:scale-105 hover:shadow-xl">
+          <article className="mx-4 sm:mx-0">
+            <div className="grid grid-cols-3 gap-4 w-full p-4">
+              <div className="col-span-1 flex justify-center items-center">
                 <div className="bg-gray-200 rounded-lg w-24 h-24 flex items-center justify-center">
                   <p className="text-gray-500 text-xs">No image</p>
                 </div>
-              )}
-            </div>
-            <div className="col-span-2">
-              <div className="flex items-center gap-x-4 text-xs">
-                <time dateTime={review.date} className="text-text-muted">
-                  {review.date}
-                </time>
               </div>
-              <div className="group relative">
-                <h3 className="text-lg font-semibold leading-6 text-text group-hover:text-text-muted">
-                  <Link href={review.href}>
-                    <span className="absolute inset-0" />
+              <div className="col-span-2">
+                <div className="flex items-center gap-x-4 text-xs">
+                  <time dateTime={review.date} className="text-text-muted">
+                    {review.date}
+                  </time>
+                </div>
+                <div className="relative">
+                  <h3 className="text-lg font-semibold leading-6 text-text group-hover:text-text-muted">
                     {skiName}
-                  </Link>
-                </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-text-muted">
-                  {getPreviewText()}
-                </p>
-              </div>
-              <div className="relative mt-8 flex items-center gap-x-4">
-                <div className="mr-4 h-10 w-10 rounded-full bg-bg-light overflow-hidden flex-shrink-0">
-                  <Image
-                    src={reviews[skiName].authorPicture}
-                    alt="Picture of the review author"
-                    className="h-full w-full object-cover"
-                    width={40}
-                    height={40}
-                  />
-                </div>
-                <div className="text-sm leading-6">
-                  <p className="font-semibold text-text">
-                    <Link href={review.href}>
-                      <span className="absolute inset-0" />
-                      {review.author}
-                    </Link>
+                  </h3>
+                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-text-muted">
+                    {getPreviewText()}
                   </p>
-                  <p className="text-text-muted">{review.authorInfo}</p>
+                </div>
+                <div className="relative mt-8 flex items-center gap-x-4">
+                  <div className="mr-4 h-10 w-10 rounded-full bg-bg-light overflow-hidden flex-shrink-0">
+                    <Image
+                      src={reviews[skiName].authorPicture}
+                      alt="Picture of the review author"
+                      className="h-full w-full object-cover"
+                      width={40}
+                      height={40}
+                    />
+                  </div>
+                  <div className="text-sm leading-6">
+                    <p className="font-semibold text-text">
+                      {review.author}
+                    </p>
+                    <p className="text-text-muted">{review.authorInfo}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </article>
-      </Card>
+          </article>
+        </Card>
+      </Link>
     )
   }
 
@@ -187,7 +110,7 @@ export default function Opinions() {
     <>
       <Head>
         <title>{texts.header[locale]}</title>
-        <meta name="description" content={texts.metaDescription[locale]}/>
+        <meta name="description" content={texts.metaDescription[locale]} />
       </Head>
       <div className="flex justify-center items-center bg-bg-dark">
         <Card>
@@ -209,7 +132,7 @@ export default function Opinions() {
                   {isSearching ? 'Search Results' : 'Featured Reviews'}
                 </h3>
               </div>
-              
+
               <input
                 type="text"
                 placeholder="Search by ski name, brand, or model..."
@@ -217,7 +140,7 @@ export default function Opinions() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent-color focus:border-transparent"
               />
-              
+
               <p className="mt-2 text-sm text-text-muted">
                 {isSearching ? (
                   <>{filteredSkis.length} {texts.reviewsFound[locale]}</>
