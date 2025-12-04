@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import reviews from '../public/reviews/reviews.json'
 import texts from '../texts/textsSingleReview'
+import affiliateTexts from '../texts/textsAffiliateCard'
 import { useEffect, useState, Fragment } from 'react';
 import { Tab, TabGroup, TabList, TabPanels, TabPanel } from '@headlessui/react'
 import Image from 'next/image';
@@ -22,6 +23,7 @@ import {
   HeartIcon,
   XMarkIcon,
 } from '@heroicons/react/20/solid'
+import AffiliateCard from './AffiliateCard';
 
 declare function gtag(...args: any[]): void;
 
@@ -308,6 +310,31 @@ export default function Review(skiName: string) {
           ))}
         </div>
       )
+    }
+  }
+
+  const trackAffiliateClick = async () => {
+    try {
+      const clickData = {
+        timestamp: new Date(),
+        path: router.asPath,
+        locale: locale,
+        referrer: document.referrer || 'direct',
+        userAgent: navigator.userAgent
+      }
+
+      const affiliateRef = doc(db, 'affiliate clicks', 'clipstic')
+      await updateDoc(affiliateRef, {
+        clicks: arrayUnion(clickData)
+      })
+
+      gtag('event', 'affiliate_click', {
+        'event_category': 'affiliate',
+        'event_label': 'clipstic',
+        'value': 1
+      })
+    } catch (error) {
+      console.error('Error tracking affiliate click:', error)
     }
   }
 
@@ -682,9 +709,23 @@ export default function Review(skiName: string) {
                     )
                   }
                 </div>
+
               </Card>
             </div>
 
+          </div>
+          {/* Affiliate Product Promotion */}
+          <div className="lg:mx-20">
+            <AffiliateCard
+              productName={affiliateTexts.productName[locale]}
+              description={affiliateTexts.description[locale]}
+              affiliateUrl="https://25553a.myshopify.com?ref=4Io7TnpszTD5&mid=205&d=UE9QRkxZQkZBOEMyQUY="
+              imageUrl="/brands/affiliates/clipstic2.webp"
+              ctaText={affiliateTexts.ctaText[locale]}
+              badgeText={affiliateTexts.badgeText[locale]}
+              disclaimer=""
+              onClick={trackAffiliateClick}
+            />
           </div>
         </Card>
       </div>

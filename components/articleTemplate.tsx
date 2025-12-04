@@ -2,13 +2,18 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import articles from '../public/articles/articles.json'
 import texts from '../texts/textsArticleTemplates'
+import affiliateTexts from '../texts/textsAffiliateCard'
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 import Image from 'next/image';
 import Card from '@/components/Card';
+import AffiliateCard from '@/components/AffiliateCard';
 
 declare function gtag(...args: any[]): void;
+
+import { doc, updateDoc, arrayUnion } from 'firebase/firestore'
+import { db } from '../firebaseConfig'
 
 export default function ArticleTemplate(articleSlug: string) {
   const router = useRouter()
@@ -27,6 +32,31 @@ export default function ArticleTemplate(articleSlug: string) {
   useEffect(() => {
     gtag('event', `article ${articleSlug} loaded`)
   }, [])
+
+  const trackAffiliateClick = async () => {
+    try {
+      const clickData = {
+        timestamp: new Date(),
+        path: router.asPath,
+        locale: locale,
+        referrer: document.referrer || 'direct',
+        userAgent: navigator.userAgent
+      }
+
+      const affiliateRef = doc(db, 'affiliate clicks', 'clipstic')
+      await updateDoc(affiliateRef, {
+        clicks: arrayUnion(clickData)
+      })
+
+      gtag('event', 'affiliate_click', {
+        'event_category': 'affiliate',
+        'event_label': 'clipstic',
+        'value': 1
+      })
+    } catch (error) {
+      console.error('Error tracking affiliate click:', error)
+    }
+  }
 
   return (
     <>
@@ -76,6 +106,18 @@ export default function ArticleTemplate(articleSlug: string) {
             >
               {shownContent}
             </ReactMarkdown>
+
+            {/* Affiliate Product Promotion */}
+            <AffiliateCard
+              productName={affiliateTexts.productName[locale]}
+              description={affiliateTexts.description[locale]}
+              affiliateUrl="https://25553a.myshopify.com?ref=4Io7TnpszTD5&mid=205&d=UE9QRkxZQkZBOEMyQUY="
+              imageUrl="/brands/affiliates/clipstic2.webp"
+              ctaText={affiliateTexts.ctaText[locale]}
+              badgeText={affiliateTexts.badgeText[locale]}
+              disclaimer=""
+              onClick={trackAffiliateClick}
+            />
           </div>
         </Card>
       </div>
