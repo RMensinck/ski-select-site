@@ -22,12 +22,8 @@ export default function ArticleTemplate(articleSlug: string) {
 
   // Initialize content
   const [shownContent, setShownContent] = useState(() => {
-    return article.reviews?.[locale] || article.reviews?.[article.originalLanguage]
+    return article.articles?.[locale] || article?.articles[article.originalLanguage]
   })
-
-  const [showLanguageDisclaimer, setShowLanguageDisclaimer] = useState(
-    !article.reviews?.[locale] && locale !== article.originalLanguage
-  )
 
   useEffect(() => {
     gtag('event', `article ${articleSlug} loaded`)
@@ -61,31 +57,25 @@ export default function ArticleTemplate(articleSlug: string) {
   return (
     <>
       <Head>
-        <title>{article.meta_titles[locale] || article.meta_titles[article.originalLanguage]}</title>
-        <meta name="description" content={article.meta_descriptions[locale] || article.meta_descriptions[article.originalLanguage]} />
+        <title>{article.meta_titles[locale]}</title>
+        <meta name="description" content={article.meta_descriptions[locale]} />
       </Head>
 
       <div className="px-6 py-8 sm:py-32 lg:px-8">
         <Card className="mx-auto maw-w-6xl">
           <div className="mx-auto max-w-3xl text-base leading-7 text-text-muted">
-            <Image
-              src="/images/banner-4.jpeg"
-              alt="Beautiful ski area view"
-              width="486"
-              height="220"
-              className=" object-cover mb-6 rounded-2xl w-full max-h-28 sm:hidden"
-            />
             <div className="flex mb-6">
-              <img src={article.authorPicture} alt={`A Photo of ${article.author}`} className="mr-4 h-10 w-10 rounded-full bg-bg" />
+              <div className="mr-4 h-10 w-10 rounded-full bg-bg-light overflow-hidden flex-shrink-0">
+                <Image
+                  src={article.authorPicture}
+                  alt={`A Photo of ${article.author}`}
+                  className="h-full w-full object-cover"
+                  width={40}
+                  height={40}
+                />
+              </div>
               <p className=" self-center text-base font-semibold leading-7 text-accent-color">{texts.writtenBy[locale] + " " + article.author}</p>
             </div>
-            {showLanguageDisclaimer && (
-              <div className="mb-4 rounded-md bg-yellow-50 p-4">
-                <p className="text-sm text-yellow-700">
-                  This article is not available in your language. Showing original version.
-                </p>
-              </div>
-            )}
             <ReactMarkdown
               remarkPlugins={[gfm]}
               components={{
